@@ -1347,7 +1347,7 @@
 		<text>Knife wounds</text>
 	</string>
 	<string id="st_dyn_news_wpn_cls_6_2">
-		<text>some melee</text>
+		<text>some scuffle</text>
 	</string>
 	<string id="st_dyn_news_wpn_cls_6_3">
 		<text>knife</text>
@@ -2678,7 +2678,7 @@
     <text>There's talk that</text>
 </string>
 <string id="st_dyn_news_builder_hear_19">
-    <text>Whispers around camp are about</text>
+    <text>rumours around camp are about</text>
 </string>
 <string id="st_dyn_news_builder_hear_20">
     <text>Word on the street is</text>
@@ -2690,7 +2690,7 @@
     <text>Just caught wind of</text>
 </string>
 <string id="st_dyn_news_builder_hear_23">
-    <text>I've been hearing whispers about</text>
+    <text>I've been hearing rumours about</text>
 </string>
 <string id="st_dyn_news_builder_hear_24">
     <text>Rumor has it that</text>
@@ -2732,7 +2732,7 @@
     <text>There's some gossip circulating regarding</text>
 </string>
 <string id="st_dyn_news_builder_hear_37">
-    <text>Whispers in the zone mention</text>
+    <text>Rumours in the zone mention</text>
 </string>
 <string id="st_dyn_news_builder_hear_38">
     <text>Just heard a tidbit about</text>
@@ -9745,7 +9745,7 @@
     <text>$who's head is worth a lot of cash. Dmytro, you up for it? Head to $where.</text>
 </string>
 <string id="st_dyn_news_gossip_bounty_112">
-    <text>Hearing whispers of a bounty on $who. Borys, might be worth checking out $where.</text>
+    <text>Hearing rumours of a bounty on $who. Borys, might be worth checking out $where.</text>
 </string>
 <string id="st_dyn_news_gossip_bounty_113">
     <text>$who's got a price on his head and Anatoliy, you're just the guy to collect. Try $where.</text>
@@ -10713,7 +10713,7 @@
     <text>There's a rumor that Strelok was seen navigating the Red Forest, could the legends be true?</text>
 </string>
 <string id="st_dyn_news_gossip_task_LL_22">
-    <text>Whispers say that Strelok is hunting for something priceless in the heart of Chernobyl. What's he after this time?</text>
+    <text>Rumours say that Strelok is hunting for something priceless in the heart of Chernobyl. What's he after this time?</text>
 </string>
 <string id="st_dyn_news_gossip_task_LL_23">
     <text>Everyone's talking about the ghost of Strelok haunting the Zone. I'll believe it when I see it with my own two eyes.</text>
@@ -10797,7 +10797,7 @@
     <text>I bumped into some odd fellow draped in black, rambling about joining "Sin" to cleanse the Zone. Sounds like a cult brewing to me.</text>
 </string>
 <string id="st_dyn_news_gossip_task_MS_9">
-    <text>Keep your eyes peeled, lads. There’s whispers of a group named "Sin" doing dark dealings in the shadows of the Zone. Don’t fall for their tales.</text>
+    <text>Keep your eyes peeled, lads. There’s rumours of a group named "Sin" doing dark dealings in the shadows of the Zone. Don’t fall for their tales.</text>
 </string>
 <string id="st_dyn_news_gossip_task_MS_10">
     <text>Last night, some bloke tried to convince me to meet their leader of "Sin". Reckons they’ve got the answers to the Zone’s mysteries. Smells like trouble.</text>
@@ -11488,7 +11488,7 @@
 		<text>Grizzled vet's warning: Brace for a $what $when. Seen it before, and it wasn't pretty.</text>
 	</string>
 	<string id="st_dyn_news_surge_template_65">
-		<text>From the lips of the lost ones: a $what whispers $when. Listen closely, or you'll miss the signs.</text>
+		<text> A $what rumoured $when. Listen closely, or you'll miss the signs.</text>
 	</string>
 	<string id="st_dyn_news_surge_template_66">
 		<text>Scrap of paper found: "$what soon" it says, scrawled for $when. Who wrote it? Does it matter?</text>
@@ -11905,7 +11905,7 @@
 		<text>One of the dogs sniffing around the outskirts barked out that</text>
 	</string>
 	<string id="st_dyn_news_surge_builder_start_bandit_22">
-		<text>The whispers in the night around Agroprom suggest</text>
+		<text>The rumours around Agroprom suggest</text>
 	</string>
 	<string id="st_dyn_news_surge_builder_start_bandit_23">
 		<text>From the lips of a dying Merc at the checkpoint,</text>
@@ -12519,7 +12519,7 @@
     <text>Intercepted a distress signal that mentioned</text>
 </string>
 <string id="st_dyn_news_surge_builder_start_freedom_16">
-    <text>The wind whispers of trouble,</text>
+    <text>There's rumours of trouble,</text>
 </string>
 <string id="st_dyn_news_surge_builder_start_freedom_17">
     <text>Our last patrol came back with stories of</text>
@@ -12546,7 +12546,7 @@
     <text>The birds aren't the only ones singing; they speak of</text>
 </string>
 <string id="st_dyn_news_surge_builder_start_freedom_25">
-    <text>Whispers from the underground tunnels talk of</text>
+    <text>Rumours from the underground tunnels mention</text>
 </string>
 <string id="st_dyn_news_surge_builder_start_freedom_26">
     <text>Code intercepted from an unknown source mentions</text>
@@ -12876,7 +12876,7 @@
     <text>Reports from the north claim</text>
 </string>
 <string id="st_dyn_news_surge_builder_start_stalker_17">
-    <text>Some nervous whispers in the underground are saying</text>
+    <text>Some rumours from the underground are saying</text>
 </string>
 <string id="st_dyn_news_surge_builder_start_stalker_18">
     <text>A reliable stalker from Pripyat warns</text>
@@ -12906,7 +12906,7 @@
     <text>A dying man’s last words at the Barrier hinted that</text>
 </string>
 <string id="st_dyn_news_surge_builder_start_stalker_27">
-    <text>The wind carries whispers from the Zone’s heart that</text>
+    <text>Watch out brats,</text>
 </string>
 <string id="st_dyn_news_surge_builder_start_stalker_28">
     <text>A wayward drone caught signals suggesting</text>

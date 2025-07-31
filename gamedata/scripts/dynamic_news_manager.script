@@ -1415,25 +1415,25 @@ function DynamicNewsManager:TickConversation()
     
 -- Decide between regular, extended, and group conversations
 local conversation_type = math.random(100)
-local success = false
+local success, result = false, false  -- Capture BOTH return values from pcall
 
-if conversation_type <= 90 then  -- 20% chance for group conversations
+if conversation_type <= 20 then  -- 20% chance for group conversations
     printf("[U.D.E] Debug: Attempting to start group conversation")
-    success = pcall(function()
+    success, result = pcall(function()
         return self:StartGroupConversation()
     end)
-    if success then
+    if success and result then  -- Check both: no error AND function returned true
         printf("[U.D.E] Debug: Group conversation started successfully")
     else
         printf("[U.D.E] Debug: Failed to start group conversation")
     end
 
-elseif conversation_type <= 5 then  -- 40% chance for extended conversations (21–60)
+elseif conversation_type <= 60 then  -- 40% chance for extended conversations (21–60)
     printf("[U.D.E] Debug: Attempting to start extended conversation")
-    success = pcall(function()
+    success, result = pcall(function()
         return self:StartExtendedConversation()
     end)
-    if success then
+    if success and result then
         printf("[U.D.E] Debug: Extended conversation started successfully")
     else
         printf("[U.D.E] Debug: Failed to start extended conversation")
@@ -1441,10 +1441,10 @@ elseif conversation_type <= 5 then  -- 40% chance for extended conversations (21
 
 else  -- 40% chance for regular conversations (61–100)
     printf("[U.D.E] Debug: Attempting to start regular conversation")
-    success = pcall(function()
+    success, result = pcall(function()
         return self:StartConversation()
     end)
-    if success then
+    if success and result then
         printf("[U.D.E] Debug: Regular conversation started successfully")
     else
         printf("[U.D.E] Debug: Failed to start regular conversation")
@@ -1452,6 +1452,7 @@ else  -- 40% chance for regular conversations (61–100)
 end
 
 return false
+
 
 end
 
@@ -4553,47 +4554,69 @@ function DynamicNewsManager:FindGroupConversationSpeakers(conversation)
     local required_speakers = conversation.required_speakers
     local tags = conversation.tags or {}
     
-    -- Collect potential speakers
+    printf("[U.D.E] Debug: Looking for %d speakers for group conversation", required_speakers)
+    
+    -- Collect potential speakers with relaxed conditions
     local available_speakers = {}
+    local speaker_count_by_faction = {}
     
     for i = 1, #db.OnlineStalkers do
         local st = db.storage[db.OnlineStalkers[i]]
         local npc = st and st.object or level.object_by_id(db.OnlineStalkers[i])
         
-        if npc and IsStalker(npc, npc:clsid()) and npc:alive() and 
-           not get_object_story_id(db.OnlineStalkers[i]) then
-            
+        if npc and IsStalker(npc, npc:clsid()) and npc:alive() then
             local npc_id = npc:id()
             local comm = npc:character_community()
             
-            -- Check if suitable
-            if not self:IsRecentlyUsedNPC(npc_id) and
-               not npc:best_enemy() and
-               not self:IsSpecialNPC(npc) and
-               not self:IsMonoCommunity(npc) and
-               self.channel_status[comm] then
-                
-                -- Check if matches conversation tags
-                local tag_match = true
-                if #tags > 0 then
-                    -- For now, simple faction-based tag matching
-                    tag_match = false
-                    for _, tag in ipairs(tags) do
-                        if tag == "mixed" then
-                            tag_match = true
-                            break
-                        elseif tag == comm then
-                            tag_match = true
-                            break
-                        end
-                    end
-                end
-                
-                if tag_match then
-                    table.insert(available_speakers, npc)
+            -- More relaxed conditions for group conversations
+            local is_suitable = true
+            
+            -- Basic checks
+            if get_object_story_id(db.OnlineStalkers[i]) then
+                is_suitable = false  -- Skip story NPCs
+            elseif npc:best_enemy() then
+                is_suitable = false  -- Skip if in combat
+            elseif self:IsSpecialNPC(npc) then
+                is_suitable = false  -- Skip special NPCs
+            elseif not self.channel_status[comm] then
+                is_suitable = false  -- Skip if channel disabled
+            end
+            
+            -- For group conversations, be less strict about recently used NPCs
+            -- Only check if they're currently in another conversation
+            if is_suitable and self.extended_conversation_state and self.extended_conversation_state.active then
+                if (self.extended_conversation_state.speaker1_id == npc_id or 
+                    self.extended_conversation_state.speaker2_id == npc_id) then
+                    is_suitable = false
                 end
             end
+            
+            -- Check tag matching
+            if is_suitable and #tags > 0 then
+                local tag_match = false
+                for _, tag in ipairs(tags) do
+                    if tag == "mixed" or tag == comm then
+                        tag_match = true
+                        break
+                    end
+                end
+                is_suitable = tag_match
+            end
+            
+            if is_suitable then
+                table.insert(available_speakers, npc)
+                speaker_count_by_faction[comm] = (speaker_count_by_faction[comm] or 0) + 1
+                printf("[U.D.E] Debug: Found suitable speaker: %s (%s)", 
+                       npc:character_name(), comm)
+            end
         end
+    end
+    
+    printf("[U.D.E] Debug: Found %d available speakers total", #available_speakers)
+    
+    -- Log faction distribution
+    for faction, count in pairs(speaker_count_by_faction) do
+        printf("[U.D.E] Debug: - %s: %d speakers", faction, count)
     end
     
     -- Need at least minimum speakers
@@ -4607,28 +4630,26 @@ function DynamicNewsManager:FindGroupConversationSpeakers(conversation)
     local selected_speakers = {}
     local used_indices = {}
     
+    -- Shuffle available speakers for better randomization
+    local shuffled = {}
+    for i, speaker in ipairs(available_speakers) do
+        local j = math.random(i)
+        shuffled[i] = shuffled[j]
+        shuffled[j] = speaker
+    end
+    
     -- Assign speakers to roles
+    local role_index = 1
     for role, _ in pairs(conversation.speaker_roles) do
-        local attempts = 0
-        local speaker_found = false
-        
-        while attempts < 10 and not speaker_found do
-            local idx = math.random(#available_speakers)
+        if role_index <= #shuffled then
+            selected_speakers[role] = shuffled[role_index]
+            -- Only mark as recently used after successfully starting conversation
+            role_index = role_index + 1
             
-            if not used_indices[idx] then
-                selected_speakers[role] = available_speakers[idx]
-                used_indices[idx] = true
-                speaker_found = true
-                
-                -- Mark as recently used
-                self:AddRecentlyUsedNPC(available_speakers[idx]:id())
-            end
-            
-            attempts = attempts + 1
-        end
-        
-        if not speaker_found then
-            printf("[U.D.E] Debug: Could not find speaker for role: %s", role)
+            printf("[U.D.E] Debug: Assigned %s to role: %s", 
+                   shuffled[role_index-1]:character_name(), role)
+        else
+            printf("[U.D.E] Debug: Not enough speakers for all roles")
             return nil
         end
     end
@@ -5399,4 +5420,16 @@ function DynamicNewsManager:IsRecentlyUsedNPC(npc_id)
         end
     end
     return false
+end
+
+
+
+
+
+function DynamicNewsManager:TableSize(t)
+    local count = 0
+    for _ in pairs(t) do
+        count = count + 1
+    end
+    return count
 end

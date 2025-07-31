@@ -1,0 +1,80 @@
+function on_mcm_load()
+    op = { id= "chatter",sh=true ,gr={
+            {id = "title",                      type= "slide", link= "ui_options_slider_player", text="ui_mcm_chatter_title", size= {512,50}, spacing= 20},
+            {id = "desc1",                      type = "desc", text = "ui_mcm_chatter_desc1"},
+
+            {id = "show_time",                  type = "track", val = 2, min=1,     max=60,     step=1,     def = 5},
+            {id = "show_time_long",             type = "track", val = 2, min=1,     max=60,     step=1,     def = 15},
+            {id = "beep_before",                type = "check", val = 1, def=true},
+            {id = "beep_after",                 type = "check", val = 1, def=false},
+
+            {id = "msg_state",                  type = "check", val = 1, def = false},
+            {id = "msg_argb",                   type = "input", val = 0, def = "255,255,255,255"--[[, precondition = { function() return get_config("msg_state") end }--]]},
+
+            {id = "divider",                    type = "line"},
+            {id = "desc2",                      type = "desc",  text = "ui_mcm_chatter_desc2"},
+
+            {id = "anomaly_state",              type = "check", val = 1, def=true},
+            {id = "anomaly_timer",              type = "track", val = 2, min=10,    max=1200,   step=10,    def = 60--[[, precondition = { function() return get_config("anomaly_state") end }--]]},
+            {id = "clear_state",                type = "check", val = 1, def=true},
+            {id = "campfire_state",             type = "check", val = 1, def=true},
+            {id = "wpm",                        type = "track", val = 2, min=50,    max=300,    step=5,     def = 150--[[, precondition = { function() return get_config("campfire_state") end }--]]},
+			{id = "npc_death_state",            type = "check", val = 1, def=true},
+            {id = "npc_death_comment_state",    type = "check", val = 1, def=true},
+            {id = "emission_state",             type = "check", val = 1, def=true},
+            {id = "enemy_state",                type = "check", val = 1, def=true},
+            {id = "headshot_state",             type = "check", val = 1, def=true},
+            {id = "level_state",                type = "check", val = 1, def=true},
+            {id = "level_chance",               type = "track", val = 2, min=1,     max=100,    step=1,     def = 5--[[, precondition = { function() return get_config("level_state") end }--]]},
+			{id = "npc_health_state",           type = "check", val = 1, def=true},
+            {id = "player_death_state",         type = "check", val = 1, def=true},
+            {id = "psistorm_state",             type = "check", val = 1, def=true},
+            {id = "jammed_state",               type = "check", val = 1, def=true},
+            {id = "reload_state",               type = "check", val = 1, def=true},
+            {id = "reload_chance",              type = "track", val = 2, min=1,     max=100,    step=1,     def = 5--[[, precondition = { function() return get_config("reload_state") end }--]]},
+            {id = "random_state",               type = "check", val = 1, def=true},
+            {id = "random_chance",              type = "track", val = 2, min=0.1,   max=10,     step=0.1,   def = 1--[[, precondition = { function() return get_config("random_state") end }--]]},
+            {id = "safe_area_state",            type = "check", val = 1, def=true},
+            {id = "safe_area_chance",           type = "track", val = 2, min=1,     max=100,    step=1,     def = 5--[[, precondition = { function() return get_config("safe_area_state") end }--]]},
+		}
+    }
+    return op
+end 
+
+-- If you don't use MCM, change your defaults from here.
+local defaults = {
+["show_time"] = 5,
+["show_time_long"] = 15,
+["beep_before"] = true,
+["beep_after"] = false,
+
+["msg_state"] = false,
+["msg_argb"] = "255,255,255,255",
+
+["anomaly_state"] = true,
+["anomaly_timer"] = 60,
+["campfire_state"] = true,
+["wpm"] = 150,
+["clear_state"] = true,
+["npc_death_state"] = true,
+["npc_death_comment_state"] = true,
+["emission_state"] = true,
+["enemy_state"] = true,
+["headshot_state"] = true,
+["level_state"] = true,
+["level_chance"] = 5,
+["npc_health_state"] = true,
+["player_death_state"] = true,
+["psistorm_state"] = true,
+["jammed_state"] = true,
+["reload_state"] = true,
+["reload_chance"] = 5,
+["random_state"] = true,
+["random_chance"] = 1,
+["safe_area_state"] = true,
+["safe_area_chance"] = 5,
+}
+
+function get_config(key)
+    if ui_mcm then return ui_mcm.get("chatter/"..key) else return defaults[key] end
+end

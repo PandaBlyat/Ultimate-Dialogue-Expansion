@@ -1,0 +1,2359 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+    <!-- Extended Conversation 1: Artifact Deal (5 turns) -->
+    <string id="st_dyn_news_extended_conv_1_meta">
+        <text>artifacts,trading,friendly</text>
+    </string>
+    <string id="st_dyn_news_extended_conv_1_turn_1">
+        <text>Hey %other_first_name%, you still looking for that Soul artifact?</text>
+    </string>
+    <string id="st_dyn_news_extended_conv_1_turn_2">
+        <text>Damn right I am! You actually found one?</text>
+    </string>
+    <string id="st_dyn_news_extended_conv_1_turn_3">
+        <text>Maybe. Depends on what you're offering. This thing wasn't easy to get.</text>
+    </string>
+    <string id="st_dyn_news_extended_conv_1_turn_4">
+        <text>How about 25k rubles and that Vintar BC you wanted?</text>
+    </string>
+    <string id="st_dyn_news_extended_conv_1_turn_5">
+        <text>Alright Ill take it! Meet me at %location%, same spot as last time.</text>
+    </string>
+
+    <!-- Extended Conversation 2: Mutant Warning (4 turns) -->
+    <string id="st_dyn_news_extended_conv_2_meta">
+        <text>mutants,danger,urgent</text>
+    </string>
+    <string id="st_dyn_news_extended_conv_2_turn_1">
+        <text>%other_last_name%! Don't go to the old warehouse! Bloodsucker nest!</text>
+    </string>
+    <string id="st_dyn_news_extended_conv_2_turn_2">
+        <text>Shit! How many did you see, %other_first_name%?</text>
+    </string>
+    <string id="st_dyn_news_extended_conv_2_turn_3">
+        <text>At least three. Maybe more. Lost Ivan and Petrov already.</text>
+    </string>
+    <string id="st_dyn_news_extended_conv_2_turn_4">
+        <text>Thanks for the warning, brother. I'll try to spread the word.</text>
+    </string>
+
+    <!-- Extended Conversation 3: Faction Tension (6 turns) -->
+    <string id="st_dyn_news_extended_conv_3_meta">
+        <text>faction,tension,rivalry</text>
+    </string>
+    <string id="st_dyn_news_extended_conv_3_turn_1">
+        <text>You %other_faction% mice were sniffing around our territory again.</text>
+    </string>
+    <string id="st_dyn_news_extended_conv_3_turn_2">
+        <text>Your territory? no one gives a fuck what you say. You guys are a joke</text>
+    </string>
+    <string id="st_dyn_news_extended_conv_3_turn_3">
+        <text>You are not going to like our punchline</text>
+    </string>
+    <string id="st_dyn_news_extended_conv_3_turn_4">
+        <text>COME ON THEN! We are ready.</text>
+    </string>
+    <string id="st_dyn_news_extended_conv_3_turn_5">
+        <text>You %other_faction% vermin better watch out.</text>
+    </string>
+    <string id="st_dyn_news_extended_conv_3_turn_6">
+        <text>All talk as usual.</text>
+    </string>
+	<!-- Extended Conversation 4: Faction Tension (3 turns) -->
+    <string id="st_dyn_news_extended_conv_4_meta">
+        <text>faction,tension,rivalry</text>
+    </string>
+    <string id="st_dyn_news_extended_conv_4_turn_1">
+        <text>You %other_faction% lot were bleeding into our sector again.</text>
+    </string>
+    <string id="st_dyn_news_extended_conv_4_turn_2">
+        <text>How about you shut the fuck up, you can't enforce shit.</text>
+    </string>
+    <string id="st_dyn_news_extended_conv_4_turn_3">
+        <text>You'll be the first, %speaker1_last_name% </text>
+    </string>
+
+    <!-- Extended Conversation 5: Faction Tension (4 turns) -->
+    <string id="st_dyn_news_extended_conv_5_meta">
+        <text>faction,tension,rivalry</text>
+    </string>
+    <string id="st_dyn_news_extended_conv_5_turn_1">
+        <text>YO %other_faction% mouth-breathers, we've disabled all your traps by %location%. Fucking idiots</text>
+    </string>
+    <string id="st_dyn_news_extended_conv_5_turn_2">
+        <text>How can you possibly know you got them all or even a fraction of them.</text>
+    </string>
+    <string id="st_dyn_news_extended_conv_5_turn_3">
+        <text>Alright listen I'm not gonna have a logical debate with you about the philosophies of trap disarment and survivorship bias.</text>
+    </string>
+    <string id="st_dyn_news_extended_conv_5_turn_4">
+        <text>Hope your gear’s as good as your words.</text>
+    </string>
+	
+	<!-- Extended Conversation 6: Faction Tension (5 turns) -->
+	<string id="st_dyn_news_extended_conv_6_meta">
+    <text>faction,tension,rivalry</text>
+	</string>
+	<string id="st_dyn_news_extended_conv_6_turn_1">
+    <text>We saw you %other_faction% boys skulking around near %location%. Looking for another beating?</text>
+	</string>
+	<string id="st_dyn_news_extended_conv_6_turn_2">
+    <text>We go where we want. You don’t own shit but a pile of corpses.</text>
+	</string>
+	<string id="st_dyn_news_extended_conv_6_turn_3">
+    <text>Say that again when you're not hiding behind anomaly fog.</text>
+	</string>
+	<string id="st_dyn_news_extended_conv_6_turn_4">
+    <text>You're welcome to step into the fog, we’ll light it up for you.</text>
+	</string>
+	<string id="st_dyn_news_extended_conv_6_turn_5">
+    <text> More empty threats by %other_faction% punks</text>
+	</string>
+	
+	
+	<!-- Extended Conversation 7: Faction Tension (2 turns) -->
+	<string id="st_dyn_news_extended_conv_7_meta">
+    <text>faction,tension,rivalry</text>
+	</string>
+	<string id="st_dyn_news_extended_conv_7_turn_1">
+    <text> God damn it! %other_faction% scum were looting our dead again.</text>
+	</string>
+	<string id="st_dyn_news_extended_conv_7_turn_2">
+    <text>Your dead aren't using the gear. Consider recycling and changing channels idiot</text>
+	</string>
+	<!-- Extended Conversation 8: Trading (5 turns) -->
+	<string id="st_dyn_news_extended_conv_8_meta">
+    <text>artifacts,trading,friendly</text>
+	</string>
+	<string id="st_dyn_news_extended_conv_8_turn_1">
+    <text>%other_first_name%, heard you got your hands on a Moonlight artifact.</text>
+	</string>
+	<string id="st_dyn_news_extended_conv_8_turn_2">
+    <text>Maybe I do. Depends on the going price for one.</text>
+	</string>
+	<string id="st_dyn_news_extended_conv_8_turn_3">
+    <text>15k rubles and this modified VSS. Fair trade?</text>
+	</string>
+	<string id="st_dyn_news_extended_conv_8_turn_4">
+    <text>Ehh, make it 20k and you got a deal. This thing wasn't easy to get.</text>
+	</string>
+	<string id="st_dyn_news_extended_conv_8_turn_5">
+    <text>Alright, 20k it is. Meet me %location% in an hourish.</text>
+	</string>
+
+<!-- Extended Conversation 9: Bandit Raid Warning -->
+<string id="st_dyn_news_extended_conv_9_meta">
+    <text>friendly,warning,story</text>
+</string>
+<string id="st_dyn_news_extended_conv_9_turn_1">
+    <text>%other_last_name%! Unknown convoy heading your way, about half a dozen strong!</text>
+</string>
+<string id="st_dyn_news_extended_conv_9_turn_2">
+    <text>Shit! How far out are they, %speaker1_first_name%?</text>
+</string>
+<string id="st_dyn_news_extended_conv_9_turn_3">
+    <text>Maybe 15 minutes. They seemed armed heavy, hurry the fuck up.</text>
+</string>
+<string id="st_dyn_news_extended_conv_9_turn_4">
+    <text>Thanks for the heads up. I'm bugging out now!</text>
+</string>
+
+<!-- Extended Conversation 10: Equipment Repair -->
+<string id="st_dyn_news_extended_conv_10_meta">
+    <text>equipment,help,friendly</text>
+</string>
+<string id="st_dyn_news_extended_conv_10_turn_1">
+    <text>%other_first_name% brat, my rifle's jamming every few shots. You know anything about gunsmithing?</text>
+</string>
+<string id="st_dyn_news_extended_conv_10_turn_2">
+    <text>Let me guess - AK-74? Those things clog up fast in this radioactive mud.</text>
+</string>
+<string id="st_dyn_news_extended_conv_10_turn_3">
+    <text>Nahh you're bullshitting. AK's are built for the mud, are you crazy?</text>
+</string>
+<string id="st_dyn_news_extended_conv_10_turn_4">
+    <text>Brat, no offense but you don't know what you're talking about.</text>
+</string>
+<string id="st_dyn_news_extended_conv_10_turn_5">
+    <text>You know what, not gonna argue with you brat! I'm heading back to our hideout, I'll leave the AK on ur bench</text>
+</string>
+
+<!-- Extended Conversation 11: Faction Tension -->
+<string id="st_dyn_news_extended_conv_11_meta">
+    <text>faction,tension,rivalry</text>
+</string>
+<string id="st_dyn_news_extended_conv_11_turn_1">
+    <text>You %other_faction% bastards think you own this whole area!</text>
+</string>
+<string id="st_dyn_news_extended_conv_11_turn_2">
+    <text>We earned our territory. Unlike you %speaker1_faction% cowards.</text>
+</string>
+<string id="st_dyn_news_extended_conv_11_turn_3">
+    <text>Only thing you've earned is my balls on your chin, sit down.</text>
+</string>
+<string id="st_dyn_news_extended_conv_11_turn_4">
+    <text>xD aight thats pretty funny, you're still a bitch tho.</text>
+</string>
+
+
+<!-- Extended Conversation 12: Mutant Hunt -->
+<string id="st_dyn_news_extended_conv_12_meta">
+    <text>mutants,hunting,cooperation</text>
+</string>
+<string id="st_dyn_news_extended_conv_12_turn_1">
+    <text>%other_first_name%, want to team up for that Chimera bounty?</text>
+</string>
+<string id="st_dyn_news_extended_conv_12_turn_2">
+    <text>Hell yes! That thing nearly killed a buddy of mine last week. What's the plan?</text>
+</string>
+<string id="st_dyn_news_extended_conv_12_turn_3">
+    <text>I'll bait it into an open area, you hit it with the auto shotty from the bushes. I'll cover you with the SVD</text>
+</string>
+<string id="st_dyn_news_extended_conv_12_turn_4">
+    <text>Risky, but it might work. Split the bounty 40-60 since I'm taking the bigger risk.</text>
+</string>
+<string id="st_dyn_news_extended_conv_12_turn_5">
+    <text>Fair enough. Let's gear up and move out.</text>
+</string>
+
+<!-- Extended Conversation 13: Emergency Rescue -->
+<string id="st_dyn_news_extended_conv_13_meta">
+    <text>emergency,rescue,urgent</text>
+</string>
+<string id="st_dyn_news_extended_conv_13_turn_1">
+    <text>MAYDAY! %other_first_name%, I'm pinned down by snorks %location%!</text>
+</string>
+<string id="st_dyn_news_extended_conv_13_turn_2">
+    <text>Hold tight %speaker1_last_name%! How many are there?</text>
+</string>
+<string id="st_dyn_news_extended_conv_13_turn_3">
+    <text>At least five, maybe more! Running low on ammo!</text>
+</string>
+<string id="st_dyn_news_extended_conv_13_turn_4">
+    <text>I'm 5 minutes out with grenades. Try to fall back to cover!</text>
+</string>
+
+<!-- Extended Conversation 14: Information Trade -->
+<string id="st_dyn_news_extended_conv_14_meta">
+    <text>information,trading,friendly</text>
+</string>
+<string id="st_dyn_news_extended_conv_14_turn_1">
+    <text>%other_first_name%, I got intel on a fresh artifact spawn. Interested?</text>
+</string>
+<string id="st_dyn_news_extended_conv_14_turn_2">
+    <text>Depends on the price and location. What kind of artifact?</text>
+</string>
+<string id="st_dyn_news_extended_conv_14_turn_3">
+    <text>Flash artifact, high-grade. 5k for the coordinates.</text>
+</string>
+<string id="st_dyn_news_extended_conv_14_turn_4">
+    <text>That's steep. How about 3k and I'll owe you a favor?</text>
+</string>
+<string id="st_dyn_news_extended_conv_14_turn_5">
+    <text>Deal. Swap to private channel.</text>
+</string>
+
+<!-- Extended Conversation 15: Supply Problems -->
+<string id="st_dyn_news_extended_conv_15_meta">
+    <text>supplies,problems,friendly</text>
+</string>
+<string id="st_dyn_news_extended_conv_15_turn_1">
+    <text>%other_first_name%, the supply convoy got hit by an enemy raid. We're running low on everything.</text>
+</string>
+<string id="st_dyn_news_extended_conv_15_turn_2">
+    <text>Damn it! How long can we hold out with current supplies?</text>
+</string>
+<string id="st_dyn_news_extended_conv_15_turn_3">
+    <text>Maybe a couple weeks if we ration carefully. Need to find another supplier.</text>
+</string>
+<string id="st_dyn_news_extended_conv_15_turn_4">
+    <text>I know a guy who might help, but he's expensive. Worth a shot though.</text>
+</string>
+
+<!-- Extended Conversation 16: Zone Anomaly -->
+<string id="st_dyn_news_extended_conv_16_meta">
+    <text>anomaly,danger,warning</text>
+</string>
+<string id="st_dyn_news_extended_conv_16_turn_1">
+    <text>%other_first_name%, stay away from the old factory. New anomaly field appeared overnight.</text>
+</string>
+<string id="st_dyn_news_extended_conv_16_turn_2">
+    <text>What kind of anomaly? Gravitational? Electrical?</text>
+</string>
+<string id="st_dyn_news_extended_conv_16_turn_3">
+    <text>Something I've never seen before. Turns metal to glass, organic matter to stone.</text>
+</string>
+<string id="st_dyn_news_extended_conv_16_turn_4">
+    <text>Fuck... thanks for the warning. I was planning to scavenge there today.</text>
+</string>
+<string id="st_dyn_news_extended_conv_16_turn_5">
+    <text>Yeah, definitely avoid it. Lost a good detector testing the edge of that field.</text>
+</string>
+
+<!-- Extended Conversation 17: Stash Discovery -->
+<string id="st_dyn_news_extended_conv_17_meta">
+    <text>stash,discovery,greed</text>
+</string>
+<string id="st_dyn_news_extended_conv_17_turn_1">
+    <text>%other_first_name%, someone stole half of my stash. Did you hear anything about it?</text>
+</string>
+<string id="st_dyn_news_extended_conv_17_turn_2">
+    <text>Damn, nah haven't heard anything brat.</text>
+</string>
+<string id="st_dyn_news_extended_conv_17_turn_3">
+    <text>Someone does. If I catch them...</text>
+</string>
+<string id="st_dyn_news_extended_conv_17_turn_4">
+    <text>Might be those rookies that came through yesterday.</text>
+</string>
+<string id="st_dyn_news_extended_conv_17_turn_5">
+    <text>Rookies, huh? I'll find those fuckers.</text>
+</string>
+<string id="st_dyn_news_extended_conv_17_turn_6">
+    <text>Let me know if you need help.</text>
+</string>
+
+<!-- Extended Conversation 18: Faction Peace Talk -->
+<string id="st_dyn_news_extended_conv_18_meta">
+    <text>faction,tension,rivalry</text>
+</string>
+<string id="st_dyn_news_extended_conv_18_turn_1">
+    <text>Listen up %other_faction% people. We're proposing a ceasefire near %location%.</text>
+</string>
+<string id="st_dyn_news_extended_conv_18_turn_2">
+    <text>A ceasefire? Since when do %speaker1_faction% care about peace?</text>
+</string>
+<string id="st_dyn_news_extended_conv_18_turn_3">
+    <text>Since we're all losing good men to the recent large mutant migration in the area.</text>
+</string>
+<string id="st_dyn_news_extended_conv_18_turn_4">
+    <text>...I'll run it by command. No promises.</text>
+</string>
+
+<!-- Extended Conversation 19: Medical Emergency -->
+<string id="st_dyn_news_extended_conv_19_meta">
+    <text>medical,emergency,urgent</text>
+</string>
+<string id="st_dyn_news_extended_conv_19_turn_1">
+    <text>%other_first_name%! Need a medic ASAP! Glukovsky's bleeding bad!</text>
+</string>
+<string id="st_dyn_news_extended_conv_19_turn_2">
+    <text>What happened? Where are you?</text>
+</string>
+<string id="st_dyn_news_extended_conv_19_turn_3">
+    <text>Boar attack near %location%. Tore through his armor like paper!</text>
+</string>
+<string id="st_dyn_news_extended_conv_19_turn_4">
+    <text>Apply pressure to the wound! I'm sending a squad your way!</text>
+</string>
+<string id="st_dyn_news_extended_conv_19_turn_5">
+    <text>Hurry the fuck up! I can't stop this fucking bleed.</text>
+</string>
+
+<!-- Extended Conversation 20: Rookie Advice -->
+<string id="st_dyn_news_extended_conv_20_meta">
+    <text>advice,emission,experienced</text>
+</string>
+<string id="st_dyn_news_extended_conv_20_turn_1">
+    <text>Sky went blood red near Rostok. Got caught halfway to Garbage. Barely made it.</text>
+</string>
+<string id="st_dyn_news_extended_conv_20_turn_2">
+    <text>That glow's your five-minute warning. Drop whatever you're doing and dig in.</text>
+</string>
+<string id="st_dyn_news_extended_conv_20_turn_3">
+    <text>Any safe spots left around there? Bar's too far when you're deep in the wilds.</text>
+</string>
+<string id="st_dyn_news_extended_conv_20_turn_4">
+    <text>There's an old checkpoint north of the scrapyard, half-buried. Roof's still solid last I checked.</text>
+</string>
+<string id="st_dyn_news_extended_conv_20_turn_5">
+    <text>Noted. Still owe vodka to the guy who dragged me into cover last time. Saved my ass.</text>
+</string>
+
+<!-- Extended Conversation 21: Faction Betrayal -->
+<string id="st_dyn_news_extended_conv_21_meta">
+    <text>faction,betrayal,anger</text>
+</string>
+<string id="st_dyn_news_extended_conv_21_turn_1">
+    <text>You %other_faction% snakes broke the truce at %location%!</text>
+</string>
+<string id="st_dyn_news_extended_conv_21_turn_2">
+    <text>Wasn't us.</text>
+</string>
+<string id="st_dyn_news_extended_conv_21_turn_3">
+    <text>Bullshit! They had %other_faction% patches!</text>
+</string>
+<string id="st_dyn_news_extended_conv_21_turn_4">
+    <text>Could be renegades wearing our colors. Think about it!</text>
+</string>
+<string id="st_dyn_news_extended_conv_21_turn_5">
+    <text>I'll get to the fucking end of this, dont worry.</text>
+</string>
+<string id="st_dyn_news_extended_conv_21_turn_6">
+    <text>I'm not worried.</text>
+</string>
+
+<!-- Extended Conversation 22: Controller Encounter -->
+<string id="st_dyn_news_extended_conv_22_meta">
+    <text>mutants,controller,horror</text>
+</string>
+<string id="st_dyn_news_extended_conv_22_turn_1">
+    <text>Brat... something's wrong... hearing voices...</text>
+</string>
+<string id="st_dyn_news_extended_conv_22_turn_2">
+    <text>Shit! Controller nearby! Look at your feet, don't look up!</text>
+</string>
+<string id="st_dyn_news_extended_conv_22_turn_3">
+    <text>Can't... resist... it's calling me...</text>
+</string>
+<string id="st_dyn_news_extended_conv_22_turn_4">
+    <text>SNAP OUT OF IT BRAT!</text>
+</string>
+
+
+<!-- Extended Conversation 23: Black Market Deal -->
+<string id="st_dyn_news_extended_conv_23_meta">
+    <text>trading,illegal,suspicious</text>
+</string>
+<string id="st_dyn_news_extended_conv_23_turn_1">
+    <text>%other_first_name%, I can get you that experimental rifle you wanted.</text>
+</string>
+<string id="st_dyn_news_extended_conv_23_turn_2">
+    <text>The Gauss rifle? I thought those were military only.</text>
+</string>
+<string id="st_dyn_news_extended_conv_23_turn_3">
+    <text>Let's just say I know a guy who knows a guy with a stash. 150k rubles.</text>
+</string>
+<string id="st_dyn_news_extended_conv_23_turn_4">
+    <text>That's... actually reasonable. Send me the info?</text>
+</string>
+<string id="st_dyn_news_extended_conv_23_turn_5">
+    <text>Done, check your private channel.</text>
+</string>
+
+
+<!-- Extended Conversation 24: Zone Mystery -->
+<string id="st_dyn_news_extended_conv_24_meta">
+    <text>mystery,zone,investigation</text>
+</string>
+<string id="st_dyn_news_extended_conv_24_turn_1">
+    <text>%other_first_name%, you heard about the stalkers disappearing near the Brain Scorcher?</text>
+</string>
+<string id="st_dyn_news_extended_conv_24_turn_2">
+    <text>Yeah, but people always disappear there. What's different?</text>
+</string>
+<string id="st_dyn_news_extended_conv_24_turn_3">
+    <text>Their bodies show up days later, miles away, perfectly preserved.</text>
+</string>
+<string id="st_dyn_news_extended_conv_24_turn_4">
+    <text>That's... not normal, even for the Zone.</text>
+</string>
+<string id="st_dyn_news_extended_conv_24_turn_5">
+    <text>All these years and we're still clueless to the inner workings of the zone.</text>
+</string>
+
+<!-- Extended Conversation 25: Drunk Rambling -->
+<string id="st_dyn_news_extended_conv_25_meta">
+    <text>humor,drunk,friendly</text>
+</string>
+<string id="st_dyn_news_extended_conv_25_turn_1">
+    <text> %other_first_name%! My bset friend! Hve I told you...youre my fucking brat!?</text>
+</string>
+<string id="st_dyn_news_extended_conv_25_turn_2">
+    <text>Jesus, how much vodka did you drink?</text>
+</string>
+<string id="st_dyn_news_extended_conv_25_turn_3">
+    <text>Not enouhg! The Zone... shes singing to me! Come! JOIN</text>
+</string>
+<string id="st_dyn_news_extended_conv_25_turn_4">
+    <text>Alright buddy, time to sleep it off before you wander into an anomaly.</text>
+</string>
+
+
+<!-- Extended Conversation 26: Faction Territory Dispute -->
+<string id="st_dyn_news_extended_conv_26_meta">
+    <text>faction,territory,negotiation</text>
+</string>
+<string id="st_dyn_news_extended_conv_26_turn_1">
+    <text>This is %speaker1_faction% territory now. Pack your shit and leave.</text>
+</string>
+<string id="st_dyn_news_extended_conv_26_turn_2">
+    <text>Now I know you're not talking to us.</text>
+</string>
+<string id="st_dyn_news_extended_conv_26_turn_3">
+    <text>Watch us. You have 24 hours.</text>
+</string>
+<string id="st_dyn_news_extended_conv_26_turn_4">
+    <text>Nah. Good luck!</text>
+</string>
+<string id="st_dyn_news_extended_conv_26_turn_5">
+    <text>Gather the men Sergei</text>
+</string>
+
+
+<!-- Extended Conversation 27: Mutant Research -->
+<string id="st_dyn_news_extended_conv_27_meta">
+    <text>science,mutants,research</text>
+</string>
+<string id="st_dyn_news_extended_conv_27_turn_1">
+    <text>%other_first_name%, the nerds want a live bloodsucker for research.</text>
+</string>
+<string id="st_dyn_news_extended_conv_27_turn_2">
+    <text>A LIVE bloodsucker? Are they insane?</text>
+</string>
+<string id="st_dyn_news_extended_conv_27_turn_3">
+    <text>They're paying 200k for it. Still think they're insane?</text>
+</string>
+<string id="st_dyn_news_extended_conv_27_turn_4">
+    <text>...Alright, I'm listening. How the hell do we trap one?</text>
+</string>
+<string id="st_dyn_news_extended_conv_27_turn_5">
+    <text>Swap to private channel.</text>
+</string>
+
+<!-- Extended Conversation 28: Lost Squad -->
+<string id="st_dyn_news_extended_conv_28_meta">
+    <text>rescue,lost,urgent</text>
+</string>
+<string id="st_dyn_news_extended_conv_28_turn_1">
+    <text>SPARTAN squad hasn't reported in. They were up in Red Forest.</text>
+</string>
+<string id="st_dyn_news_extended_conv_28_turn_2">
+    <text>How long have they been dark? And what the fuck are they doing in Red Forest?</text>
+</string>
+<string id="st_dyn_news_extended_conv_28_turn_3">
+    <text>Six hours. Way past their check-in time, Above my paygrade to know.</text>
+</string>
+<string id="st_dyn_news_extended_conv_28_turn_4">
+    <text>Why wasn't I told about this, FUCK. Gather the recruits, I'll be there soon!</text>
+</string>
+<string id="st_dyn_news_extended_conv_28_turn_5">
+    <text>Roger.</text>
+</string>
+
+<!-- Extended Conversation 29: Food Shortage -->
+<string id="st_dyn_news_extended_conv_29_meta">
+    <text>supplies,food,problem</text>
+</string>
+<string id="st_dyn_news_extended_conv_29_turn_1">
+    <text>%other_first_name%, our stash is looking very lacking.</text>
+</string>
+<string id="st_dyn_news_extended_conv_29_turn_2">
+    <text>Cyka. How did the hunting go?</text>
+</string>
+<string id="st_dyn_news_extended_conv_29_turn_3">
+    <text>No fucking luck.</text>
+</string>
+<string id="st_dyn_news_extended_conv_29_turn_4">
+    <text> We'll plan out a loot run for tomorrow when I get back, almost done with the deal.</text>
+</string>
+
+<!-- Extended Conversation 30: Artifact Malfunction -->
+<string id="st_dyn_news_extended_conv_30_meta">
+    <text>artifacts,danger,warning</text>
+</string>
+<string id="st_dyn_news_extended_conv_30_turn_1">
+    <text>DON'T TOUCH THAT ARTIFACT! %other_first_name%, step back NOW!</text>
+</string>
+<string id="st_dyn_news_extended_conv_30_turn_2">
+    <text>What? Why? It's just glowing a bit...</text>
+</string>
+<string id="st_dyn_news_extended_conv_30_turn_3">
+    <text>BLYAT BACK AWAY!</text>
+</string>
+<string id="st_dyn_news_extended_conv_30_turn_4">
+    <text>Backing away slowly...</text>
+</string>
+<string id="st_dyn_news_extended_conv_30_turn_5">
+    <text>You don't want to know what i saw through the scope. Regroup.</text>
+</string>
+
+<!-- Extended Conversation 31: Campfire Story -->
+<string id="st_dyn_news_extended_conv_31_meta">
+    <text>story,campfire,horror</text>
+</string>
+<string id="st_dyn_news_extended_conv_31_turn_1">
+    <text>Anyone else hear about that stalker who got stuck in a time loop near Yantar?</text>
+</string>
+<string id="st_dyn_news_extended_conv_31_turn_2">
+    <text>Bullshit story. Time doesn't work like that, even in the Zone.</text>
+</string>
+<string id="st_dyn_news_extended_conv_31_turn_3">
+    <text>No man, I met him. Guy aged 10 years in what felt like a day to us. Eyes were all fucked up, kept muttering about "the loop closing"</text>
+</string>
+<string id="st_dyn_news_extended_conv_31_turn_4">
+    <text>...shit. Maybe I'll avoid Yantar for a while.</text>
+</string>
+
+<!-- Extended Conversation 32: Old Timer's Wisdom -->
+<string id="st_dyn_news_extended_conv_32_meta">
+    <text>advice,veteran,wisdom</text>
+</string>
+<string id="st_dyn_news_extended_conv_32_turn_1">
+    <text>Listen up rookies. If you see grass growing in perfect circles, turn the fuck around.</text>
+</string>
+<string id="st_dyn_news_extended_conv_32_turn_2">
+    <text>Why? What's with the grass circles?</text>
+</string>
+<string id="st_dyn_news_extended_conv_32_turn_3">
+    <text>That's where the Zone breathes... Reality gets thin there. Many tales of parts of lost stalkers found around them.</text>
+</string>
+<string id="st_dyn_news_extended_conv_32_turn_4">
+    <text>Parts?</text>
+</string>
+<string id="st_dyn_news_extended_conv_32_turn_5">
+    <text>Parts of them came back. Different times, different places. Trust me, avoid the circles.</text>
+</string>
+
+<!-- Extended Conversation 33: Close Call Story -->
+<string id="st_dyn_news_extended_conv_33_meta">
+    <text>story,survival,close_call</text>
+</string>
+<string id="st_dyn_news_extended_conv_33_turn_1">
+    <text>Holy fuck boys, I just had the closest call of my life.</text>
+</string>
+<string id="st_dyn_news_extended_conv_33_turn_2">
+    <text>What happened %speaker1_first_name%? You sound shook.</text>
+</string>
+<string id="st_dyn_news_extended_conv_33_turn_3">
+    <text>Pseudogiant chased me into a whirligig field. Had to dodge between the anomalies while that thing charged through them.</text>
+</string>
+<string id="st_dyn_news_extended_conv_33_turn_4">
+    <text>No fucking way you survived that.</text>
+</string>
+<string id="st_dyn_news_extended_conv_33_turn_5">
+    <text>The whirligigs tore it apart. I'm covered in mutant chunks but alive. Need vodka. Lots of vodka.</text>
+</string>
+
+<!-- Extended Conversation 34: Artifact Hunting Gone Wrong -->
+<string id="st_dyn_news_extended_conv_34_meta">
+    <text>artifacts,danger,story</text>
+</string>
+<string id="st_dyn_news_extended_conv_34_turn_1">
+    <text>Remember that Kolobok I was tracking? Found it.</text>
+</string>
+<string id="st_dyn_news_extended_conv_34_turn_2">
+    <text>Nice! That's worth at least 40k!</text>
+</string>
+<string id="st_dyn_news_extended_conv_34_turn_3">
+    <text>Yeah, about that... it was bait. Fucking bandits had set up the whole thing.</text>
+</string>
+<string id="st_dyn_news_extended_conv_34_turn_4">
+    <text>Shit, they get you?</text>
+</string>
+<string id="st_dyn_news_extended_conv_34_turn_5">
+    <text>Nah, but i had to leave my detector and most of my ammo behind...fuck, living off tourist's delight for a week now.</text>
+</string>
+
+<!-- Extended Conversation 35: Weird Zone Phenomenon -->
+<string id="st_dyn_news_extended_conv_35_meta">
+    <text>mystery,zone,phenomenon</text>
+</string>
+<string id="st_dyn_news_extended_conv_35_turn_1">
+    <text>Guys, I just saw something that shouldn't exist.</text>
+</string>
+<string id="st_dyn_news_extended_conv_35_turn_2">
+    <text>In the Zone? That's basically Tuesday bro.</text>
+</string>
+<string id="st_dyn_news_extended_conv_35_turn_3">
+    <text>No, I mean it. A fucking door. Just standing in the middle of a field, no walls, nothing. And it was open.</text>
+</string>
+<string id="st_dyn_news_extended_conv_35_turn_4">
+    <text>Did you... look through it?</text>
+</string>
+<string id="st_dyn_news_extended_conv_35_turn_5">
+    <text>I saw myself on the other side. But older. Much older. He waved at me to stay away.</text>
+</string>
+<string id="st_dyn_news_extended_conv_35_turn_6">
+    <text>Jesus Christ. Where was this?</text>
+</string>
+<string id="st_dyn_news_extended_conv_35_turn_7">
+    <text>Not saying. Some things should stay lost.</text>
+</string>
+
+<!-- Extended Conversation 36: Rookie Mistake -->
+<string id="st_dyn_news_extended_conv_36_meta">
+    <text>humor,rookie,mistake</text>
+</string>
+<string id="st_dyn_news_extended_conv_36_turn_1">
+    <text>HAHAHA just saw the funniest shit %location%.</text>
+</string>
+<string id="st_dyn_news_extended_conv_36_turn_2">
+    <text>Spill it, I need a laugh</text>
+</string>
+<string id="st_dyn_news_extended_conv_36_turn_3">
+    <text>Rookie tried to throw a bolt at an anomaly. Threw his whole fucking detector instead ??</text>
+</string>
+<string id="st_dyn_news_extended_conv_36_turn_4">
+    <text>NO WAY! What did he do next?</text>
+</string>
+<string id="st_dyn_news_extended_conv_36_turn_5">
+    <text>Detector got fried, and now he's throwing actual roubles to check for anomalies HAHAHAH</text>
+</string>
+<string id="st_dyn_news_extended_conv_36_turn_6">
+    <text>Not gonna help him?</text>
+</string>
+<string id="st_dyn_news_extended_conv_36_turn_7">
+    <text>Ehh he made his choices</text>
+</string>
+
+<!-- Extended Conversation 37: Underground Horror -->
+<string id="st_dyn_news_extended_conv_37_meta">
+    <text>horror,underground,story</text>
+</string>
+<string id="st_dyn_news_extended_conv_37_turn_1">
+    <text>Don't go into Pripyat. Just... don't.</text>
+</string>
+<string id="st_dyn_news_extended_conv_37_turn_2">
+    <text>Why? What happened %other_first_name%?</text>
+</string>
+<string id="st_dyn_news_extended_conv_37_turn_3">
+    <text>I don't want to talk about it.</text>
+</string>
+<string id="st_dyn_news_extended_conv_37_turn_4">
+    <text>Vodka on me brat, meet me at %location%.</text>
+</string>
+<string id="st_dyn_news_extended_conv_37_turn_5">
+    <text>I'll take you up on that.</text>
+</string>
+
+
+<!-- Extended Conversation 38: Bar Fight Story -->
+<string id="st_dyn_news_extended_conv_38_meta">
+    <text>humor,fight,bar</text>
+</string>
+<string id="st_dyn_news_extended_conv_38_turn_1">
+    <text>%other_first_name% you missed the best bar fight ever last night!</text>
+</string>
+<string id="st_dyn_news_extended_conv_38_turn_2">
+    <text>Ah fuck, what happened?</text>
+</string>
+<string id="st_dyn_news_extended_conv_38_turn_3">
+    <text>Some asshole said beer was better than vodka. Whole place erupted!</text>
+</string>
+<string id="st_dyn_news_extended_conv_38_turn_4">
+    <text>xD Who won?</text>
+</string>
+<string id="st_dyn_news_extended_conv_38_turn_5">
+    <text>The barkeep. Shot his shotty into the ceiling. Everyone bought him drinks after that!</text>
+</string>
+
+<!-- Extended Conversation 39: Mutant Behavior -->
+<string id="st_dyn_news_extended_conv_39_meta">
+    <text>mutants,observation,scientific</text>
+</string>
+<string id="st_dyn_news_extended_conv_39_turn_1">
+    <text>Been observing the local bloodsucker pack. They're getting smarter.</text>
+</string>
+<string id="st_dyn_news_extended_conv_39_turn_2">
+    <text>Smarter how? They already hunt in packs</text>
+</string>
+<string id="st_dyn_news_extended_conv_39_turn_3">
+    <text>They're using decoys now. One shows itself, others flank. Lost two rookies to this tactic yesterday.</text>
+</string>
+<string id="st_dyn_news_extended_conv_39_turn_4">
+    <text>Fuck me. Evolution in action?</text>
+</string>
+<string id="st_dyn_news_extended_conv_39_turn_5">
+    <text>Whatever it is, spread the word. Traditional bloodsucker tactics won't work anymore.</text>
+</string>
+
+<!-- Extended Conversation 40: Trader Gossip -->
+<string id="st_dyn_news_extended_conv_40_meta">
+    <text>trading,gossip,economy</text>
+</string>
+<string id="st_dyn_news_extended_conv_40_turn_1">
+    <text>Sidorovich is ripping people off worse than usual</text>
+</string>
+<string id="st_dyn_news_extended_conv_40_turn_2">
+    <text>When isn't that fat fuck scamming stalkers?</text>
+</string>
+<string id="st_dyn_news_extended_conv_40_turn_3">
+    <text>No I mean REALLY bad. 1K rubles for fucking bread blyat</text>
+</string>
+<string id="st_dyn_news_extended_conv_40_turn_4">
+    <text>Highway robbery! What's his excuse this time?</text>
+</string>
+<string id="st_dyn_news_extended_conv_40_turn_5">
+    <text>"Supply chain issues" he says. More like greed chain issues.</text>
+</string>
+
+<!-- Extended Conversation 41: Ghost Story -->
+<string id="st_dyn_news_extended_conv_41_meta">
+    <text>ghost,story,supernatural</text>
+</string>
+<string id="st_dyn_news_extended_conv_41_turn_1">
+    <text>I saw him again. The stalker with no face.</text>
+</string>
+<string id="st_dyn_news_extended_conv_41_turn_2">
+    <text>Not this shit again %speaker1_first_name%. You need to lay off the vodka</text>
+</string>
+<string id="st_dyn_news_extended_conv_41_turn_3">
+    <text>I'm serious! He was at the old checkpoint, just standing there. Where his face should be was just... smooth.</text>
+</string>
+<string id="st_dyn_news_extended_conv_41_turn_4">
+    <text>Maybe it was a guy in a mask?</text>
+</string>
+<string id="st_dyn_news_extended_conv_41_turn_5">
+    <text>He walked through the fucking wall when I approached. THROUGH it.</text>
+</string>
+
+<!-- Extended Conversation 42: Equipment Failure -->
+<string id="st_dyn_news_extended_conv_42_meta">
+    <text>equipment,failure,frustration</text>
+</string>
+<string id="st_dyn_news_extended_conv_42_turn_1">
+    <text>FUCK FUCK FUCK my suit just failed in the worst possible moment!</text>
+</string>
+<string id="st_dyn_news_extended_conv_42_turn_2">
+    <text>What happened? You okay?</text>
+</string>
+<string id="st_dyn_news_extended_conv_42_turn_3">
+    <text>Servo in the leg locked up mid-sprint from a pack of dogs. Faceplanted hard.</text>
+</string>
+<string id="st_dyn_news_extended_conv_42_turn_4">
+    <text>Shit, did they get you?</text>
+</string>
+<string id="st_dyn_news_extended_conv_42_turn_5">
+    <text>Nah, managed to unlock it and hobble to safety. But I need a new suit ASAP.</text>
+</string>
+
+<!-- Extended Conversation 43: Weird Stash Find -->
+<string id="st_dyn_news_extended_conv_43_meta">
+    <text>stash,mystery,creepy</text>
+</string>
+<string id="st_dyn_news_extended_conv_43_turn_1">
+    <text>Found the weirdest stash today. Just... photos. Hundreds of photos.</text>
+</string>
+<string id="st_dyn_news_extended_conv_43_turn_2">
+    <text>Photos of what?</text>
+</string>
+<string id="st_dyn_news_extended_conv_43_turn_3">
+    <text>Sleeping stalkers. All different ones. Some I recognize, some are probably dead now.</text>
+</string>
+<string id="st_dyn_news_extended_conv_43_turn_4">
+    <text>That's fucking creepy. Burn that shit.</text>
+</string>
+<string id="st_dyn_news_extended_conv_43_turn_5">
+    <text>Already did. But now I can't sleep without checking my surroundings every few minutes.</text>
+</string>
+
+<!-- Extended Conversation 44: Faction Politics -->
+<string id="st_dyn_news_extended_conv_44_meta">
+    <text>faction,politics,argument</text>
+</string>
+<string id="st_dyn_news_extended_conv_44_turn_1">
+    <text>Your %other_faction% leadership is a fucking joke.</text>
+</string>
+<string id="st_dyn_news_extended_conv_44_turn_2">
+    <text>Rich coming from %speaker1_faction% dogs who can't even hold their own territory.</text>
+</string>
+<string id="st_dyn_news_extended_conv_44_turn_3">
+    <text>At least we don't kiss military ass for table scraps.</text>
+</string>
+<string id="st_dyn_news_extended_conv_44_turn_4">
+    <text>Keep talking shit and see what happens.</text>
+</string>
+<string id="st_dyn_news_extended_conv_44_turn_5">
+    <text>Is that a threat? Because I'm ready whenever you are.</text>
+</string>
+<string id="st_dyn_news_extended_conv_44_turn_6">
+    <text>%location%, tomorrow at dawn. Come alone.</text>
+</string>
+
+<!-- Extended Conversation 45: Emission Survival -->
+<string id="st_dyn_news_extended_conv_45_meta">
+    <text>emission,survival,story</text>
+</string>
+<string id="st_dyn_news_extended_conv_45_turn_1">
+    <text>Almost didn't make it through that last emission</text>
+</string>
+<string id="st_dyn_news_extended_conv_45_turn_2">
+    <text>Where were you when it hit?</text>
+</string>
+<string id="st_dyn_news_extended_conv_45_turn_3">
+    <text>Middle of fucking nowhere. Had to hide under a rusted car chassis</text>
+</string>
+<string id="st_dyn_news_extended_conv_45_turn_4">
+    <text>Jesus, that's not proper shelter!</text>
+</string>
+<string id="st_dyn_news_extended_conv_45_turn_5">
+    <text>Tell me about it. My hair's falling out and I can taste metal. But I'm alive.</text>
+</string>
+
+<!-- Extended Conversation 46: Scavenger Talk -->
+<string id="st_dyn_news_extended_conv_46_meta">
+    <text>scavenging,loot,friendly</text>
+</string>
+<string id="st_dyn_news_extended_conv_46_turn_1">
+    <text>%other_first_name%, you won't believe what I found in that old lab</text>
+</string>
+<string id="st_dyn_news_extended_conv_46_turn_2">
+    <text>Scientific samples? Documents?</text>
+</string>
+<string id="st_dyn_news_extended_conv_46_turn_3">
+    <text>Better. Unopened pre-war chocolate. Like 20 bars!</text>
+</string>
+<string id="st_dyn_news_extended_conv_46_turn_4">
+    <text>No way! That stuff's worth its weight in artifacts!</text>
+</string>
+<string id="st_dyn_news_extended_conv_46_turn_5">
+    <text>Already sold half to some mercs. Keeping the rest for special occasions.</text>
+</string>
+
+<!-- Extended Conversation 47: Paranormal Event -->
+<string id="st_dyn_news_extended_conv_47_meta">
+    <text>paranormal,mystery,fear</text>
+</string>
+<string id="st_dyn_news_extended_conv_47_turn_1">
+    <text>During my last trip to Red Forest i saw trees bleeding.</text>
+</string>
+<string id="st_dyn_news_extended_conv_47_turn_2">
+    <text>What do you mean bleeding?</text>
+</string>
+<string id="st_dyn_news_extended_conv_47_turn_3">
+    <text>Red liquid seeping from the bark. Smells like iron. The ground underneath was all black.</text>
+</string>
+<string id="st_dyn_news_extended_conv_47_turn_4">
+    <text>That's... that's not possible</text>
+</string>
+<string id="st_dyn_news_extended_conv_47_turn_5">
+    <text>I don't know anymore what's possible or not.</text>
+</string>
+
+<!-- Extended Conversation 48: Veteran's Advice -->
+<string id="st_dyn_news_extended_conv_48_meta">
+    <text>advice,veteran,teaching</text>
+</string>
+<string id="st_dyn_news_extended_conv_48_turn_1">
+    <text>Rookie asking how to spot a controller before it spots you. Anyone?</text>
+</string>
+<string id="st_dyn_news_extended_conv_48_turn_2">
+    <text>Your nose bleeds first. Then the headache starts.</text>
+</string>
+<string id="st_dyn_news_extended_conv_48_turn_3">
+    <text>Fucking hell...</text>
+</string>
+<string id="st_dyn_news_extended_conv_48_turn_4">
+    <text>And NEVER look directly at it. Peripheral vision only.</text>
+</string>
+<string id="st_dyn_news_extended_conv_48_turn_5">
+    <text>Thanks. This might save my life one day.</text>
+</string>
+
+<!-- Extended Conversation 49: Strange Dreams -->
+<string id="st_dyn_news_extended_conv_49_meta">
+    <text>dreams,zone,psychological</text>
+</string>
+<string id="st_dyn_news_extended_conv_49_turn_1">
+    <text>Anyone else having the dreams?</text>
+</string>
+<string id="st_dyn_news_extended_conv_49_turn_2">
+    <text>What dreams?</text>
+</string>
+<string id="st_dyn_news_extended_conv_49_turn_3">
+    <text>The ones where the Zone is calling you deeper. Showing you things.</text>
+</string>
+<string id="st_dyn_news_extended_conv_49_turn_4">
+    <text>Shit... What kind of things? I've...been having similar dreams.</text>
+</string>
+<string id="st_dyn_news_extended_conv_49_turn_5">
+    <text>A golden rusty door... And a voice saying "come home"</text>
+</string>
+<string id="st_dyn_news_extended_conv_49_turn_6">
+    <text>What the fuck...This can't be coincidence. Something's happening.</text>
+</string>
+<string id="st_dyn_news_extended_conv_49_turn_7">
+    <text>What do you mean?</text>
+</string>
+<string id="st_dyn_news_extended_conv_49_turn_8">
+    <text>Rusty golden door?! Were you able to open it?? I couldn't.</text>
+</string>
+<string id="st_dyn_news_extended_conv_49_turn_9">
+    <text>The harder i tried to open it the quieter the voice i got.</text>
+</string>
+<string id="st_dyn_news_extended_conv_49_turn_10">
+    <text>Maybe it's time to think of an exit plan off the zone. It has to be a sign.</text>
+</string>
+
+<!-- Extended Conversation 50: Last Stand Story -->
+<string id="st_dyn_news_extended_conv_50_meta">
+    <text>combat,survival,intense</text>
+</string>
+<string id="st_dyn_news_extended_conv_50_turn_1">
+    <text>Held off 20 monolith at the bridge yesterday. Down to my last mag.</text>
+</string>
+<string id="st_dyn_news_extended_conv_50_turn_2">
+    <text>Bullshit. 20 monolith and you're still breathing?</text>
+</string>
+<string id="st_dyn_news_extended_conv_50_turn_3">
+    <text>Had high ground and they had to funnel through. Plus one of them dropped a RPG.</text>
+</string>
+<string id="st_dyn_news_extended_conv_50_turn_4">
+    <text>Holy shit. How many did you take down?</text>
+</string>
+<string id="st_dyn_news_extended_conv_50_turn_5">
+    <text>Lost count after 12. Bridge is littered with bodies. Good salvage if anyone's brave enough.</text>
+</string>
+
+<!-- Extended Conversation 51: Dark Humor -->
+<string id="st_dyn_news_extended_conv_51_meta">
+    <text>humor,dark,friendly</text>
+</string>
+<string id="st_dyn_news_extended_conv_51_turn_1">
+    <text>What's the difference between a rookie and an anomaly?</text>
+</string>
+<string id="st_dyn_news_extended_conv_51_turn_2">
+    <text>Oh god, another one of your shit jokes?</text>
+</string>
+<string id="st_dyn_news_extended_conv_51_turn_3">
+    <text>The anomaly might actually kill you quickly! HAHAHA</text>
+</string>
+<string id="st_dyn_news_extended_conv_51_turn_4">
+    <text>That's terrible. Tell me another one.</text>
+</string>
+<string id="st_dyn_news_extended_conv_51_turn_5">
+    <text>Why don't bloodsuckers attack %other_faction%? Professional courtesy! ??</text>
+</string>
+
+<!-- Extended Conversation 52: Mystery Stalker -->
+<string id="st_dyn_news_extended_conv_52_meta">
+    <text>mystery,stalker,legend</text>
+</string>
+<string id="st_dyn_news_extended_conv_52_turn_1">
+    <text>The Ghost of Pripyat saved my ass today</text>
+</string>
+<string id="st_dyn_news_extended_conv_52_turn_2">
+    <text>That's just a legend man</text>
+</string>
+<string id="st_dyn_news_extended_conv_52_turn_3">
+    <text>Tell that to the sniper who had me dead to rights. One second I'm about to die, next second the sniper's down</text>
+</string>
+<string id="st_dyn_news_extended_conv_52_turn_4">
+    <text>Could've been anyone</text>
+</string>
+<string id="st_dyn_news_extended_conv_52_turn_5">
+    <text>Nobody else around for miles. And I found a chess piece where the shot came from. A white king.</text>
+</string>
+
+<!-- Extended Conversation 53: Mutant Pet -->
+<string id="st_dyn_news_extended_conv_53_meta">
+    <text>mutant,humor,unusual</text>
+</string>
+<string id="st_dyn_news_extended_conv_53_turn_1">
+    <text>So I maybe sort of have a pet pseudodog now</text>
+</string>
+<string id="st_dyn_news_extended_conv_53_turn_2">
+    <text>WHAT THE FUCK %speaker1_first_name%</text>
+</string>
+<string id="st_dyn_news_extended_conv_53_turn_3">
+    <text>It was injured! I fed it some sausage and now it follows me around</text>
+</string>
+<string id="st_dyn_news_extended_conv_53_turn_4">
+    <text>That thing will eat your face the moment you run out of food</text>
+</string>
+<string id="st_dyn_news_extended_conv_53_turn_5">
+    <text>Nah he's chill. Already warned me about two ambushes. I call him Sausage.</text>
+</string>
+
+<!-- Extended Conversation 54: Tech Malfunction -->
+<string id="st_dyn_news_extended_conv_54_meta">
+    <text>technology,malfunction,zone</text>
+</string>
+<string id="st_dyn_news_extended_conv_54_turn_1">
+    <text>All electronics %location% just died simultaneously</text>
+</string>
+<string id="st_dyn_news_extended_conv_54_turn_2">
+    <text>EMP anomaly?</text>
+</string>
+<string id="st_dyn_news_extended_conv_54_turn_3">
+    <text>No, weirder. They're working again but everything's displaying backwards. Text, numbers, everything.</text>
+</string>
+<string id="st_dyn_news_extended_conv_54_turn_4">
+    <text>The Zone's getting more aggressive with its mindfucks</text>
+</string>
+<string id="st_dyn_news_extended_conv_54_turn_5">
+    <text>Had to use a mirror to read my PDA. This place gets stranger every day.</text>
+</string>
+
+<!-- Extended Conversation 55: Rookie Hazing -->
+<string id="st_dyn_news_extended_conv_55_meta">
+    <text>humor,hazing,rookies</text>
+</string>
+<string id="st_dyn_news_extended_conv_55_turn_1">
+    <text>We sent the new guy to find a "left-handed screwdriver" HAHAHAH</text>
+</string>
+<string id="st_dyn_news_extended_conv_55_turn_2">
+    <text>Classic! How long's he been looking?</text>
+</string>
+<string id="st_dyn_news_extended_conv_55_turn_3">
+    <text>2 hours! He's been to every trader in the area!</text>
+</string>
+<string id="st_dyn_news_extended_conv_55_turn_4">
+    <text>Wait till he figures it out. I remember when we did to you!</text>
+</string>
+<string id="st_dyn_news_extended_conv_55_turn_5">
+    <text>Fuck you, I was young and stupid! hahaha</text>
+</string>
+
+<!-- Extended Conversation 56: Philosophical Zone -->
+<string id="st_dyn_news_extended_conv_56_meta">
+    <text>philosophy,zone,deep</text>
+</string>
+<string id="st_dyn_news_extended_conv_56_turn_1">
+    <text>You ever think the Zone is alive? Like, actually conscious?</text>
+</string>
+<string id="st_dyn_news_extended_conv_56_turn_2">
+    <text>Pass the joint, %speaker1_first_name%. You're too high.</text>
+</string>
+<string id="st_dyn_news_extended_conv_56_turn_3">
+    <text>No seriously. It reacts to us, changes based on our actions. Tests us.</text>
+</string>
+<string id="st_dyn_news_extended_conv_56_turn_4">
+    <text>...shit. When you put it that way.</text>
+</string>
+<string id="st_dyn_news_extended_conv_56_turn_5">
+    <text>What if we're just cells in its body? Or thoughts in its mind?</text>
+</string>
+<string id="st_dyn_news_extended_conv_56_turn_6">
+    <text>Okay now you definitely need to share whatever you're smoking</text>
+</string>
+
+<!-- Extended Conversation 57: Supply Run Gone Bad -->
+<string id="st_dyn_news_extended_conv_57_meta">
+    <text>supplies,ambush,combat</text>
+</string>
+<string id="st_dyn_news_extended_conv_57_turn_1">
+    <text>Supply run was a fucking trap. Lost half the shipment.</text>
+</string>
+<string id="st_dyn_news_extended_conv_57_turn_2">
+    <text>Bandits?</text>
+</string>
+<string id="st_dyn_news_extended_conv_57_turn_3">
+    <text>Worse. Mercs with insider info. Someone sold us out.</text>
+</string>
+<string id="st_dyn_news_extended_conv_57_turn_4">
+    <text>Any idea who?</text>
+</string>
+<string id="st_dyn_news_extended_conv_57_turn_5">
+    <text>Got my suspicions. When I find out, they're gonna wish the Zone took them instead.</text>
+</string>
+
+<!-- Extended Conversation 58: Artifact Science -->
+<string id="st_dyn_news_extended_conv_58_meta">
+    <text>artifacts,science,discovery</text>
+</string>
+<string id="st_dyn_news_extended_conv_58_turn_1">
+    <text>Holy shit, I think I figured out how to combine artifacts!</text>
+</string>
+<string id="st_dyn_news_extended_conv_58_turn_2">
+    <text>Bullshit. Scientists have been trying that for years.</text>
+</string>
+<string id="st_dyn_news_extended_conv_58_turn_3">
+    <text>Not combining exactly. But if you expose a Moonlight to a Flash during an emission...</text>
+</string>
+<string id="st_dyn_news_extended_conv_58_turn_4">
+    <text>You get radiation poisoning and die?</text>
+</string>
+<string id="st_dyn_news_extended_conv_58_turn_5">
+    <text>You get something new. Something that shouldn't exist. I'm calling it a Flashlight ??</text>
+</string>
+
+<!-- Extended Conversation 59: Old Guard Memories -->
+<string id="st_dyn_news_extended_conv_59_meta">
+    <text>memories,veteran,nostalgia</text>
+</string>
+<string id="st_dyn_news_extended_conv_59_turn_1">
+    <text>Been in the Zone for 15 years now. Sometimes I forget what the outside looks like.</text>
+</string>
+<string id="st_dyn_news_extended_conv_59_turn_2">
+    <text>Why don't you leave then, old timer?</text>
+</string>
+<string id="st_dyn_news_extended_conv_59_turn_3">
+    <text>Leave? This place is in my blood now. Tried once. Lasted two weeks.</text>
+</string>
+<string id="st_dyn_news_extended_conv_59_turn_4">
+    <text>What brought you back?</text>
+</string>
+<string id="st_dyn_news_extended_conv_59_turn_5">
+    <text>The silence outside. No anomalies humming, no Geiger clicking. Felt... wrong. Dead.</text>
+</string>
+<string id="st_dyn_news_extended_conv_59_turn_6">
+    <text>The Zone ruins us all in the end, doesn't it?</text>
+</string>
+
+<!-- Extended Conversation 60: Emergency Broadcast -->
+<string id="st_dyn_news_extended_conv_60_meta">
+    <text>emergency,warning,urgent</text>
+</string>
+<string id="st_dyn_news_extended_conv_60_turn_1">
+    <text>EMERGENCY: Unknown hostile force moving through %location%. All units avoid!</text>
+</string>
+<string id="st_dyn_news_extended_conv_60_turn_2">
+    <text>What kind of force? Military? Monolith?</text>
+</string>
+<string id="st_dyn_news_extended_conv_60_turn_3">
+    <text>Neither. They're... I don't understand, moving in perfect sync. No radio chatter. No visible patches. Couldn't get a good enough look.</text>
+</string>
+<string id="st_dyn_news_extended_conv_60_turn_4">
+    <text>How many?</text>
+</string>
+<string id="st_dyn_news_extended_conv_60_turn_5">
+    <text>6.</text>
+</string>
+<string id="st_dyn_news_extended_conv_60_turn_6">
+    <text>Keep distance and keep tracking, report back in an hour.</text>
+</string>
+
+<!-- Extended Conversation 61: Drunk Philosophy -->
+<string id="st_dyn_news_extended_conv_61_meta">
+    <text>drunk,philosophy,humor</text>
+</string>
+<string id="st_dyn_news_extended_conv_61_turn_1">
+    <text>bros.... what if.. what if anomalies are just the zone's farts?</text>
+</string>
+<string id="st_dyn_news_extended_conv_61_turn_2">
+    <text>How fucking drunk are you right now?</text>
+</string>
+<string id="st_dyn_news_extended_conv_61_turn_3">
+    <text>no no hear me out... gravitational anomaly = burp... flame = spicy fart...</text>
+</string>
+<string id="st_dyn_news_extended_conv_61_turn_4">
+    <text>I'm cutting you off. No more vodka.</text>
+</string>
+<string id="st_dyn_news_extended_conv_61_turn_5">
+    <text>WHIRLIGIG IS WHEN THE ZONE SPINS AFTER DRINKING TOO MUCH</text>
+</string>
+
+<!-- Extended Conversation 62: Bloodsucker Hunter -->
+<string id="st_dyn_news_extended_conv_62_meta">
+    <text>hunting,bloodsucker,professional</text>
+</string>
+<string id="st_dyn_news_extended_conv_62_turn_1">
+    <text>Taking contracts for bloodsucker removal. 20k per head.</text>
+</string>
+<string id="st_dyn_news_extended_conv_62_turn_2">
+    <text>That's steep. Why so much?</text>
+</string>
+<string id="st_dyn_news_extended_conv_62_turn_3">
+    <text>Because I actually deliver. 47 confirmed kills. I know their patterns.</text>
+</string>
+<string id="st_dyn_news_extended_conv_62_turn_4">
+    <text>Prove it.</text>
+</string>
+<string id="st_dyn_news_extended_conv_62_turn_5">
+    <text>Check my PDA profile. Every kill documented. I don't fuck around.</text>
+</string>
+
+<!-- Extended Conversation 63: Stalker Romance -->
+<string id="st_dyn_news_extended_conv_63_meta">
+    <text>romance,relationship,personal</text>
+</string>
+<string id="st_dyn_news_extended_conv_63_turn_1">
+    <text>She said yes!</text>
+</string>
+<string id="st_dyn_news_extended_conv_63_turn_2">
+    <text>Who said yes to what?</text>
+</string>
+<string id="st_dyn_news_extended_conv_63_turn_3">
+    <text>That trader's daughter in Skadovsk. Asked her to leave the Zone with me!</text>
+</string>
+<string id="st_dyn_news_extended_conv_63_turn_4">
+    <text>You're leaving? After all these years?</text>
+</string>
+<string id="st_dyn_news_extended_conv_63_turn_5">
+    <text>Time to try normal life. If I survive the next month saving up.</text>
+</string>
+
+<!-- Extended Conversation 64: Sleep Deprivation -->
+<string id="st_dyn_news_extended_conv_64_meta">
+    <text>sleep,zone,serious</text>
+</string>
+<string id="st_dyn_news_extended_conv_64_turn_1">
+    <text>Anyone else barely sleep out here? Feels like the Zone hums at night.</text>
+</string>
+<string id="st_dyn_news_extended_conv_64_turn_2">
+    <text>Yeah. It's like something's always watching. Even when it’s dead quiet.</text>
+</string>
+<string id="st_dyn_news_extended_conv_64_turn_3">
+    <text>I hear footsteps sometimes. No one there when I check.</text>
+</string>
+<string id="st_dyn_news_extended_conv_64_turn_5">
+    <text>Maybe the Zone doesn’t sleep. And it doesn’t like it when you do either.</text>
+</string>
+<string id="st_dyn_news_extended_conv_64_turn_5">
+    <text> * passes blunt *</text>
+</string>
+<string id="st_dyn_news_extended_conv_64_turn_5">
+    <text> haha yeah, that probably would help you sleep brat!</text>
+</string>
+<!-- Extended Conversation 65: Monolith Defector -->
+<string id="st_dyn_news_extended_conv_65_meta">
+    <text>monolith,defector,serious</text>
+</string>
+<string id="st_dyn_news_extended_conv_65_turn_1">
+    <text>Ex-Monolith here. The voices stopped. I need help.</text>
+</string>
+<string id="st_dyn_news_extended_conv_65_turn_2">
+    <text>How do we know you're not still brainwashed?</text>
+</string>
+<string id="st_dyn_news_extended_conv_65_turn_3">
+    <text>Because I remember my name... i think. My real name! And what I did... God, what I did...</text>
+</string>
+<string id="st_dyn_news_extended_conv_65_turn_4">
+<text>What did you do? Talk.</text>
+</string>
+<string id="st_dyn_news_extended_conv_65_turn_5">
+<text>I don't even know where to...We rounded up stalkers... for "cleansing." The Monolith made us do things to them while still alive. Their screams... fed the device. Amplified the Zone’s whispers.</text>
+</string>
+<string id="st_dyn_news_extended_conv_65_turn_6">
+<text>Bullshit. But continue...</text> 
+</string>
+<string id="st_dyn_news_extended_conv_65_turn_7">
+<text>Living batteries. The Scorcher fries minds, but bodies... they twitch for days. We wired them into the machine. The agony... it powers the Monolith’s signal. Turns pain into control.</text>
+</string>
+<string id="st_dyn_news_extended_conv_65_turn_8">
+<text>Christ... And the voices? How’d you break free?</text>
+</string>
+<string id="st_dyn_news_extended_conv_65_turn_9">
+<text>I...don't remember...I did something but i don't remember what, my mind's foggy</text>
+</string>
+<string id="st_dyn_news_extended_conv_65_turn_10">
+<text>No one can help you, all you can do is create a new identity like you have. Start fresh...Welcome Back STALKER</text>
+</string>
+
+<!-- Extended Conversation 66: Scammer Alert -->
+<string id="st_dyn_news_extended_conv_66_meta">
+    <text>scam,warning,trading</text>
+</string>
+<string id="st_dyn_news_extended_conv_66_turn_1">
+    <text>WARNING: %other_first_name%, Petrovsky is selling fake artifacts!</text>
+</string>
+<string id="st_dyn_news_extended_conv_66_turn_2">
+    <text>That bastard! He got me last week!</text>
+</string>
+<string id="st_dyn_news_extended_conv_66_turn_3">
+    <text>Same. "Moonlight" turned out to be a painted rock</text>
+</string>
+<string id="st_dyn_news_extended_conv_66_turn_4">
+    <text>Someone should teach him a lesson</text>
+</string>
+<string id="st_dyn_news_extended_conv_66_turn_5">
+    <text>Already on it. Swap to private channel.</text>
+</string>
+
+
+<!-- Extended Conversation 67: Weather Phenomenon -->
+<string id="st_dyn_news_extended_conv_67_meta">
+    <text>weather,anomaly,strange</text>
+</string>
+<string id="st_dyn_news_extended_conv_67_turn_1">
+    <text>It was raining upwards last time i was in Red Forest. UPWARDS.</text>
+</string>
+<string id="st_dyn_news_extended_conv_67_turn_2">
+    <text>What the fuck do you mean upwards?</text>
+</string>
+<string id="st_dyn_news_extended_conv_67_turn_3">
+    <text>Water falling from clouds and then levitating while ground water went upwards into the mass. Puddles in the sky.</text>
+</string>
+<string id="st_dyn_news_extended_conv_67_turn_4">
+    <text>Zone physics.</text>
+</string>
+<string id="st_dyn_news_extended_conv_67_turn_5">
+    <text>It truly was a sight though.</text>
+</string>
+
+<!-- Extended Conversation 68: Stalker Dad -->
+<string id="st_dyn_news_extended_conv_68_meta">
+    <text>family,personal,emotional</text>
+</string>
+<string id="st_dyn_news_extended_conv_68_turn_1">
+    <text>Just got a message. I'm a father. Baby girl.</text>
+</string>
+<string id="st_dyn_news_extended_conv_68_turn_2">
+    <text>Holy shit! Congratulations brother!</text>
+</string>
+<string id="st_dyn_news_extended_conv_68_turn_3">
+    <text>Thanks. Need to make one more big score and get out. She deserves a real father.</text>
+</string>
+<string id="st_dyn_news_extended_conv_68_turn_4">
+    <text>What's her name?</text>
+</string>
+<string id="st_dyn_news_extended_conv_68_turn_5">
+    <text>Svetlana. After her grandmother. I'm coming home, little light.</text>
+</string>
+
+
+<!-- Extended Conversation 69: Conspiracy Theory -->
+<string id="st_dyn_news_extended_conv_69_meta">
+    <text>conspiracy,theory,paranoid</text>
+</string>
+<string id="st_dyn_news_extended_conv_69_turn_1">
+    <text>I've connected the dots. The Zone isn't expanding randomly.</text>
+</string>
+<string id="st_dyn_news_extended_conv_69_turn_2">
+    <text>Here we go again with your theories...</text>
+</string>
+<string id="st_dyn_news_extended_conv_69_turn_3">
+    <text>Listen! It's following ley lines! Ancient energy paths!</text>
+</string>
+<string id="st_dyn_news_extended_conv_69_turn_4">
+    <text>You've been hitting the freedom weed again haven't you</text>
+</string>
+<string id="st_dyn_news_extended_conv_69_turn_5">
+    <text>Mock me all you want. When the Zone reaches Moscow following the dragon line, remember I called it!</text>
+</string>
+<string id="st_dyn_news_extended_conv_69_turn_5">
+    <text>Just put the ammo in the bag brat.</text>
+</string>
+
+
+<!-- Extended Conversation 70: Merc Job Offer -->
+<string id="st_dyn_news_extended_conv_70_meta">
+    <text>mercenary,job,professional</text>
+</string>
+<string id="st_dyn_news_extended_conv_70_turn_1">
+    <text>Professional squad looking for experienced Stalkers. Excellent pay.</text>
+</string>
+<string id="st_dyn_news_extended_conv_70_turn_2">
+    <text>How excellent we talking?</text>
+</string>
+<string id="st_dyn_news_extended_conv_70_turn_3">
+    <text>500k for two weeks work. Plus bonuses for objectives.</text>
+</string>
+<string id="st_dyn_news_extended_conv_70_turn_4">
+    <text>That's suicide mission money. What's the catch?</text>
+</string>
+<string id="st_dyn_news_extended_conv_70_turn_5">
+    <text>Chernobyl NPP. In and out. Simple retrieval. Interested?</text>
+</string>
+<string id="st_dyn_news_extended_conv_70_turn_6">
+    <text>Private Channel me the details.</text>
+</string>
+
+
+
+<!-- Extended Conversation 71: Rookie Panic -->
+<string id="st_dyn_news_extended_conv_71_meta">
+    <text>rookie,panic,help</text>
+</string>
+<string id="st_dyn_news_extended_conv_71_turn_1">
+    <text>HELP!! TRAPPED IN BUILDING!! THINGS OUTSIDE!! HELP!!</text>
+</string>
+<string id="st_dyn_news_extended_conv_71_turn_2">
+    <text>Calm down rookie. Where are you? What things?</text>
+</string>
+<string id="st_dyn_news_extended_conv_71_turn_3">
+    <text>I DONT KNOW!! INVISIBLE BUT I HEAR BREATHING!! CLAWS ON WALLS!!</text>
+</string>
+<string id="st_dyn_news_extended_conv_71_turn_4">
+    <text>Bloodsuckers. Stay quiet. Do NOT run. Where exactly are you?</text>
+</string>
+<string id="st_dyn_news_extended_conv_71_turn_5">
+    <text>I got lost running somewhere near %location%!! Please hurry! Down to last mag!!</text>
+</string>
+
+
+
+<!-- Extended Conversation 72: Scientific Discovery -->
+<string id="st_dyn_news_extended_conv_72_meta">
+    <text>science,discovery,breakthrough</text>
+</string>
+<string id="st_dyn_news_extended_conv_72_turn_1">
+    <text>Fellow stalkers, the Scientists have made a major breakthrough! Anomalies have a harmonic frequency!</text>
+</string>
+<string id="st_dyn_news_extended_conv_72_turn_2">
+    <text>English please and since when are you nerd?</text>
+</string>
+<string id="st_dyn_news_extended_conv_72_turn_3">
+    <text>One of the reasons I came to the zone was to study it's anomalies and artifacts, fascinastes me.</text>
+</string>
+<string id="st_dyn_news_extended_conv_72_turn_4">
+    <text>So what was the breakthrough?</text>
+</string>
+<string id="st_dyn_news_extended_conv_72_turn_5">
+    <text>Each anomaly type vibrates at specific frequencies. With the right equipment, we can detect them from distance and potentially even manipulate them!</text>
+</string>
+<string id="st_dyn_news_extended_conv_72_turn_6">
+    <text>So... better than throwing bolts?</text>
+</string>
+<string id="st_dyn_news_extended_conv_72_turn_7">
+    <text>Yes but for a moment think bigger! It could revolutionize Science as we know it! If you can manipulate anomalies...you're basically a god. Omnipower.</text>
+</string>
+<string id="st_dyn_news_extended_conv_72_turn_8">
+    <text>I don't think it will be used for the benefit of humanity.</text>
+</string>
+<string id="st_dyn_news_extended_conv_72_turn_9">
+    <text>Everything has pros and cons. I guess as long as it doesn't fall in the wrong hands we'll be okay.</text>
+</string>
+<string id="st_dyn_news_extended_conv_72_turn_10">
+    <text>There are no "good hands".</text>
+</string>
+
+<!-- Extended Conversation 73: Ghost Town -->
+<string id="st_dyn_news_extended_conv_73_meta">
+    <text>mystery,abandoned,creepy</text>
+</string>
+<string id="st_dyn_news_extended_conv_73_turn_1">
+    <text>Found a town that's not on any map. Completely intact but empty.</text>
+</string>
+<string id="st_dyn_news_extended_conv_73_turn_2">
+    <text>Empty how? Bodies? Signs of struggle?</text>
+</string>
+<string id="st_dyn_news_extended_conv_73_turn_3">
+    <text>Nothing. Food still on tables. Cars with keys in ignition. Like everyone vanished instantly.</text>
+</string>
+<string id="st_dyn_news_extended_conv_73_turn_4">
+    <text>Get out of there. Now.</text>
+</string>
+<string id="st_dyn_news_extended_conv_73_turn_5">
+    <text>Why? Found good loot and... wait. The church bell is ringing but no one's there to ring it...</text>
+</string>
+<string id="st_dyn_news_extended_conv_73_turn_6">
+    <text>RUN YOU IDIOT!</text>
+</string>
+
+
+<!-- Extended Conversation 74: Trading Post Drama -->
+<string id="st_dyn_news_extended_conv_74_meta">
+    <text>trading,drama,conflict</text>
+</string>
+<string id="st_dyn_news_extended_conv_74_turn_1">
+    <text>That new trader %location% is a total dick</text>
+</string>
+<string id="st_dyn_news_extended_conv_74_turn_2">
+    <text>What'd he do?</text>
+</string>
+<string id="st_dyn_news_extended_conv_74_turn_3">
+    <text>Sold me "armor-piercing" rounds. They're fucking blanks painted black!</text>
+</string>
+<string id="st_dyn_news_extended_conv_74_turn_4">
+    <text>LMAO you fell for the oldest trick in the book</text>
+</string>
+
+
+<!-- Extended Conversation 75: Anomaly Research -->
+<string id="st_dyn_news_extended_conv_75_meta">
+    <text>anomaly,research,scientific</text>
+</string>
+<string id="st_dyn_news_extended_conv_75_turn_1">
+    <text>Need volunteers to test new anomaly theory. Paying well.</text>
+</string>
+<string id="st_dyn_news_extended_conv_75_turn_2">
+    <text>Last time someone "tested theories" three stalkers melted</text>
+</string>
+<string id="st_dyn_news_extended_conv_75_turn_3">
+    <text>This is different! Just need someone to wear this modified suit near a Vortex</text>
+</string>
+<string id="st_dyn_news_extended_conv_75_turn_4">
+    <text>How much we talking?</text>
+</string>
+<string id="st_dyn_news_extended_conv_75_turn_5">
+    <text>100k for 10 minutes of data collection. Suit is 99% safe!</text>
+</string>
+<string id="st_dyn_news_extended_conv_75_turn_6">
+    <text>That 1% is why you're paying 100k isn't it?</text>
+</string>
+
+
+
+
+<!-- Extended Conversation 76: Campfire Stories -->
+<string id="st_dyn_news_extended_conv_76_meta">
+    <text>story,campfire,legend</text>
+</string>
+<string id="st_dyn_news_extended_conv_76_turn_1">
+    <text>My grandfather told me the Zone existed before Chernobyl</text>
+</string>
+<string id="st_dyn_news_extended_conv_76_turn_2">
+    <text>Bullshit. Everyone knows it started with the disaster</text>
+</string>
+<string id="st_dyn_news_extended_conv_76_turn_3">
+    <text>No, he said there were always strange spots. Places where physics broke. Chernobyl just made it visible.</text>
+</string>
+<string id="st_dyn_news_extended_conv_76_turn_4">
+    <text>Your grandpa was a drunk potato farmer</text>
+</string>
+<string id="st_dyn_news_extended_conv_76_turn_5">
+    <text>Shut the fuck up.</text>
+</string>
+
+
+<!-- Extended Conversation 77: Equipment Review -->
+<string id="st_dyn_news_extended_conv_77_meta">
+    <text>equipment,review,advice</text>
+</string>
+<string id="st_dyn_news_extended_conv_77_turn_1">
+    <text>PSA: That new "Eclipse" suit is garbage. Don't waste your money.</text>
+</string>
+<string id="st_dyn_news_extended_conv_77_turn_2">
+    <text>What's wrong with it? Specs looked good</text>
+</string>
+<string id="st_dyn_news_extended_conv_77_turn_3">
+    <text>Tears like paper. Psy-protection is nonexistent. Weight distribution is fucked.</text>
+</string>
+<string id="st_dyn_news_extended_conv_77_turn_4">
+    <text>Damn, already got a mechanic to custom fit one</text>
+</string>
+<string id="st_dyn_news_extended_conv_77_turn_5">
+    <text>Cancel it. Get a used SEVA instead. Uglier but won't get you killed.</text>
+</string>
+
+
+
+<!-- Extended Conversation 78: Zone Wildlife -->
+<string id="st_dyn_news_extended_conv_78_meta">
+    <text>wildlife,mutants,observation</text>
+</string>
+<string id="st_dyn_news_extended_conv_78_turn_1">
+    <text>Saw something beautiful today. A herd of glowing deer.</text>
+</string>
+<string id="st_dyn_news_extended_conv_78_turn_2">
+    <text>Glowing? You mean irradiated?</text>
+</string>
+<string id="st_dyn_news_extended_conv_78_turn_3">
+    <text>No, actually glowing. Soft blue light. They weren't aggressive, just... peaceful.</text>
+</string>
+<string id="st_dyn_news_extended_conv_78_turn_4">
+    <text>The Zone showing its other face</text>
+</string>
+<string id="st_dyn_news_extended_conv_78_turn_5">
+    <text>Made me remember why I came here. Not everything has to be horror and profit.</text>
+</string>
+
+<!-- Extended Conversation 79: Stalker Feud -->
+<string id="st_dyn_news_extended_conv_79_meta">
+    <text>feud,conflict,personal</text>
+</string>
+<string id="st_dyn_news_extended_conv_79_turn_1">
+    <text>If I see %other_first_name% again, he's dead. DEAD.</text>
+</string>
+<string id="st_dyn_news_extended_conv_79_turn_2">
+    <text>Whoa you're alive?? what did i do?</text>
+</string>
+<string id="st_dyn_news_extended_conv_79_turn_3">
+    <text> YOU LEFT ME FOR DEAD. Took my artifacts and ran when the bloodsuckers came.</text>
+</string>
+<string id="st_dyn_news_extended_conv_79_turn_4">
+    <text>I called for you and you didn't answer! I legged it like any reasoning person would.</text>
+</string>
+<string id="st_dyn_news_extended_conv_79_turn_5">
+    <text>Where are you??</text>
+</string>
+<string id="st_dyn_news_extended_conv_79_turn_6">
+    <text>Uhhh not gonna tell you that</text>
+</string>
+<string id="st_dyn_news_extended_conv_79_turn_7">
+    <text>The zone is a small place to hide.</text>
+</string>
+
+
+
+<!-- Extended Conversation 80: Morning Routine -->
+<string id="st_dyn_news_extended_conv_80_meta">
+    <text>routine,daily,casual</text>
+</string>
+<string id="st_dyn_news_extended_conv_80_turn_1">
+    <text>nothing like Zone coffee to start the day. tastes like motor oil but keeps you sharp</text>
+</string>
+<string id="st_dyn_news_extended_conv_80_turn_2">
+    <text>You guys have coffee? Living luxury over there</text>
+</string>
+<string id="st_dyn_news_extended_conv_80_turn_3">
+    <text>"coffee" - it's burnt grain and chicory root. maybe some actual coffee from 2008</text>
+</string>
+<string id="st_dyn_news_extended_conv_80_turn_4">
+    <text>Still better than energy drinks. Those make your piss glow</text>
+</string>
+<string id="st_dyn_news_extended_conv_80_turn_5">
+    <text>everything makes your piss glow here, friend. that's how you know you're alive</text>
+</string>
+
+
+
+<!-- Extended Conversation 81: Snork Pack Tactics -->
+<string id="st_dyn_news_extended_conv_81_meta">
+    <text>mutants,tactics,warning</text>
+</string>
+<string id="st_dyn_news_extended_conv_81_turn_1">
+    <text>UPDATE: Snorks are hunting in coordinated packs now. Just saw 8 moving in formation.</text>
+</string>
+<string id="st_dyn_news_extended_conv_81_turn_2">
+    <text>Formation? Those things can barely think</text>
+</string>
+<string id="st_dyn_news_extended_conv_81_turn_3">
+    <text>Tell that to the enemy patrol they ambushed. Flanking maneuvers and everything.</text>
+</string>
+<string id="st_dyn_news_extended_conv_81_turn_4">
+    <text>This is bad. Really bad.</text>
+</string>
+<string id="st_dyn_news_extended_conv_81_turn_5">
+    <text>Zone's teaching them. Or something is. Either way, watch your six.</text>
+</string>
+
+
+
+<!-- Extended Conversation 82: Artifact Addiction -->
+<string id="st_dyn_news_extended_conv_82_meta">
+    <text>artifacts,addiction,warning</text>
+</string>
+<string id="st_dyn_news_extended_conv_82_turn_1">
+    <text>Don't use Soul artifacts for more than a week straight. Trust me.</text>
+</string>
+<string id="st_dyn_news_extended_conv_82_turn_2">
+    <text>Why? Side effects?</text>
+</string>
+<string id="st_dyn_news_extended_conv_82_turn_3">
+    <text>Addiction. Your body stops healing naturally. Need the artifact just to feel normal.</text>
+</string>
+<string id="st_dyn_news_extended_conv_82_turn_4">
+    <text>Shit, I've been wearing mine for two weeks...</text>
+</string>
+<string id="st_dyn_news_extended_conv_82_turn_5">
+    <text>Wean off slowly. Cold turkey almost killed me. Felt like my bones were breaking.</text>
+</string>
+
+<!-- Extended Conversation 83: Night Terror -->
+<string id="st_dyn_news_extended_conv_83_meta">
+    <text>horror,night,psychological</text>
+</string>
+<string id="st_dyn_news_extended_conv_83_turn_1">
+    <text>Anyone else having the dreams? The ones with the door?</text>
+</string>
+<string id="st_dyn_news_extended_conv_83_turn_2">
+    <text>Black door? Red handle? Yeah.</text>
+</string>
+<string id="st_dyn_news_extended_conv_83_turn_3">
+    <text>Fuck. It's spreading. In mine, something's knocking from the other side.</text>
+</string>
+<string id="st_dyn_news_extended_conv_83_turn_4">
+    <text>Don't open it. Whatever you do, don't open it in the dream.</text>
+</string>
+<string id="st_dyn_news_extended_conv_83_turn_5">
+    <text>Why? What happens?</text>
+</string>
+<string id="st_dyn_news_extended_conv_83_turn_6">
+    <text>Kozlov opened it. He hasn't slept in six days. Says "they" are waiting for him to close his eyes.</text>
+</string>
+
+<!-- Extended Conversation 84: Lucky Find -->
+<string id="st_dyn_news_extended_conv_84_meta">
+    <text>lucky,find,treasure</text>
+</string>
+<string id="st_dyn_news_extended_conv_84_turn_1">
+    <text>JACKPOT! Found an untouched military cache!</text>
+</string>
+<string id="st_dyn_news_extended_conv_84_turn_2">
+    <text>Bullshit. All the good stuff's been picked clean</text>
+</string>
+<string id="st_dyn_news_extended_conv_84_turn_3">
+    <text>Hidden under a collapsed tunnel. 200 rounds of AP, NVGs, and THREE exoskeletons!</text>
+</string>
+<string id="st_dyn_news_extended_conv_84_turn_4">
+    <text>Holy shit! Need help moving it?</text>
+</string>
+<string id="st_dyn_news_extended_conv_84_turn_5">
+    <text>Already moved. But I'll sell you an exo for 80k. Friends discount.</text>
+</string>
+
+<!-- Extended Conversation 85: Mutant Evolution -->
+<string id="st_dyn_news_extended_conv_85_meta">
+    <text>mutants,evolution,scientific</text>
+</string>
+<string id="st_dyn_news_extended_conv_85_turn_1">
+    <text>The mutants are changing. Not just behavior - physically evolving.</text>
+</string>
+<string id="st_dyn_news_extended_conv_85_turn_2">
+    <text>Examples?</text>
+</string>
+<string id="st_dyn_news_extended_conv_85_turn_3">
+    <text>Bloodsuckers with thicker skin. Snorks with longer limbs. Saw a boar with what looked like armor plating.</text>
+</string>
+<string id="st_dyn_news_extended_conv_85_turn_4">
+    <text>Natural selection on fast-forward</text>
+</string>
+<string id="st_dyn_news_extended_conv_85_turn_5">
+    <text>It's accelerating. What took decades before is happening in months now.</text>
+</string>
+
+<!-- Extended Conversation 86: Trader Review -->
+<string id="st_dyn_news_extended_conv_86_meta">
+    <text>trading,review,recommendation</text>
+</string>
+<string id="st_dyn_news_extended_conv_86_turn_1">
+    <text>New trader %location% is legit. Fair prices, quality gear.</text>
+</string>
+<string id="st_dyn_news_extended_conv_86_turn_2">
+    <text>What's the catch? There's always a catch.</text>
+</string>
+<string id="st_dyn_news_extended_conv_86_turn_3">
+    <text>No catch. Ex-military quartermaster. Knows his shit and doesn't gouge.</text>
+</string>
+<string id="st_dyn_news_extended_conv_86_turn_4">
+    <text>Does he have medical supplies?</text>
+</string>
+<string id="st_dyn_news_extended_conv_86_turn_5">
+    <text>Full stock. Even has those military stimpaks. Expensive but worth it.</text>
+</string>
+
+<!-- Extended Conversation 87: Weather Warning -->
+<string id="st_dyn_news_extended_conv_87_meta">
+    <text>weather,warning,advisory</text>
+</string>
+<string id="st_dyn_news_extended_conv_87_turn_1">
+    <text>Potential psi-storm forming over Red Forest. All stalkers heading there, AVOID.</text>
+</string>
+<string id="st_dyn_news_extended_conv_87_turn_2">
+    <text>How bad are we talking?</text>
+</string>
+<string id="st_dyn_news_extended_conv_87_turn_3">
+    <text>Category 5. Will fry your brain through any protection less than a full psi-helm.</text>
+</string>
+<string id="st_dyn_news_extended_conv_87_turn_4">
+    <text>Shit, my squad's right in the path!</text>
+</string>
+<string id="st_dyn_news_extended_conv_87_turn_5">
+    <text>Let's hope they spot the signs.</text>
+</string>
+
+
+<!-- Extended Conversation 88: Urban Legend -->
+<string id="st_dyn_news_extended_conv_88_meta">
+    <text>legend,mystery,story</text>
+</string>
+<string id="st_dyn_news_extended_conv_88_turn_1">
+    <text>They say if you see your own grave in the Zone, you have 3 days to leave or it comes true</text>
+</string>
+<string id="st_dyn_news_extended_conv_88_turn_2">
+    <text>Superstitious bullshit</text>
+</string>
+<string id="st_dyn_news_extended_conv_88_turn_3">
+    <text>Markov saw his. Laughed it off. Found him three days later exactly where the grave showed.</text>
+</string>
+<string id="st_dyn_news_extended_conv_88_turn_4">
+    <text>Coincidence.</text>
+</string>
+<string id="st_dyn_news_extended_conv_88_turn_5">
+    <text>Maybe. But if you see a headstone with your name, maybe don't test it?</text>
+</string>
+
+<!-- Extended Conversation 89: Tech Support -->
+<string id="st_dyn_news_extended_conv_89_meta">
+    <text>tech,help,equipment</text>
+</string>
+<string id="st_dyn_news_extended_conv_89_turn_1">
+    <text>Anyone know how to fix a fried PDA mainboard?</text>
+</string>
+<string id="st_dyn_news_extended_conv_89_turn_2">
+    <text>Fried how? EMP? Water? Vodka? </text>
+</string>
+<string id="st_dyn_news_extended_conv_89_turn_3">
+    <text>Electro anomaly. Screen works but no GPS or comms.</text>
+</string>
+<string id="st_dyn_news_extended_conv_89_turn_4">
+    <text>Try replacing the RF module. Usually first thing to blow.</text>
+</string>
+<string id="st_dyn_news_extended_conv_89_turn_5">
+    <text>Where the hell do I find RF modules in the Zone?</text>
+</string>
+<string id="st_dyn_news_extended_conv_89_turn_6">
+    <text>Old radio station has boxes of them. Or cannibalize a dead stalker's PDA.</text>
+</string>
+
+<!-- Extended Conversation 90: Final Message -->
+<string id="st_dyn_news_extended_conv_90_meta">
+    <text>final,goodbye,emotional</text>
+</string>
+<string id="st_dyn_news_extended_conv_90_turn_1">
+    <text>This is it boys. Making my run for the Wish Granter.</text>
+</string>
+<string id="st_dyn_news_extended_conv_90_turn_2">
+    <text>For real? Don't actually do it man. It's not worth it.</text>
+</string>
+<string id="st_dyn_news_extended_conv_90_turn_3">
+    <text>Been here 8 years. Lost everything outside. This is all I have left.</text>
+</string>
+<string id="st_dyn_news_extended_conv_90_turn_4">
+    <text>Fuck...What will you wish for?</text>
+</string>
+<string id="st_dyn_news_extended_conv_90_turn_5">
+    <text>To forget. To forget all of this. To forget her. See you on the other side, stalkers.</text>
+</string>
+<string id="st_dyn_news_extended_conv_90_turn_6">
+    <text>Don't do it %other_first_name%.</text>
+</string>
+<string id="st_dyn_news_extended_conv_90_turn_7">
+    <text>I...have to. I can't anymore. About to lose connection. Good bye Stalkers.</text>
+</string>
+<string id="st_dyn_news_extended_conv_90_turn_8">
+    <text>Crazy fucker...</text>
+</string>
+
+
+<!-- Extended Conversation 91: Equipment Maintenance -->
+<string id="st_dyn_news_extended_conv_91_meta">
+    <text>equipment,maintenance,coordination</text>
+</string>
+<string id="st_dyn_news_extended_conv_91_turn_1">
+    <text>%other_first_name%, you got a minute? Need help with this rifle scope.</text>
+</string>
+<string id="st_dyn_news_extended_conv_91_turn_2">
+    <text>Sure thing. What's the problem?</text>
+</string>
+<string id="st_dyn_news_extended_conv_91_turn_3">
+    <text>Keeps drifting to the left. Already tried adjusting the windage.</text>
+</string>
+<string id="st_dyn_news_extended_conv_91_turn_4">
+    <text>Could be the mount. Check if the screws are tight on the rail.</text>
+</string>
+<string id="st_dyn_news_extended_conv_91_turn_5">
+    <text>Good call... yep, found two loose ones. How'd you know?</text>
+</string>
+<string id="st_dyn_news_extended_conv_91_turn_6">
+    <text>Same thing happened to me last month. Almost missed a perfect shot.</text>
+</string>
+<string id="st_dyn_news_extended_conv_91_turn_7">
+    <text>Thanks man, mind if I come over, got some other gear needs looking over?</text>
+</string>
+<string id="st_dyn_news_extended_conv_91_turn_8">
+    <text>Yeah sure, meet me at the bar later on.</text>
+</string>
+
+
+<!-- Extended Conversation 92: Supply Coordination -->
+<string id="st_dyn_news_extended_conv_92_meta">
+    <text>supplies,planning,logistics</text>
+</string>
+<string id="st_dyn_news_extended_conv_92_turn_1">
+    <text>%other_last_name%, we need to talk about next week's supply run.</text>
+</string>
+<string id="st_dyn_news_extended_conv_92_turn_2">
+    <text>What's the situation? Running low on something specific?</text>
+</string>
+<string id="st_dyn_news_extended_conv_92_turn_3">
+    <text>Ammo's getting critical. Medical supplies too. Bandages especially.</text>
+</string>
+<string id="st_dyn_news_extended_conv_92_turn_4">
+    <text>I can handle the medical stuff. Know a guy who sells quality bandages cheap.</text>
+</string>
+<string id="st_dyn_news_extended_conv_92_turn_5">
+    <text>What about ammunition? 5.45 specifically, we're down to maybe 200 rounds.</text>
+</string>
+<string id="st_dyn_news_extended_conv_92_turn_6">
+    <text>Shit, that's low. I'll check with our usual contacts, see who's got stock.</text>
+</string>
+<string id="st_dyn_news_extended_conv_92_turn_7">
+    <text>Also need food. Canned goods, tourist's delight, anything with long shelf life.</text>
+</string>
+<string id="st_dyn_news_extended_conv_92_turn_8">
+    <text>Got it. What's the budget looking like for all this?</text>
+</string>
+<string id="st_dyn_news_extended_conv_92_turn_9">
+    <text>About 50k rubles total. Can stretch to 60k if we find good deals.</text>
+</string>
+<string id="st_dyn_news_extended_conv_92_turn_10">
+    <text>Alright, I'll send some texts. Should have a list of suppliers by tomorrow.</text>
+</string>
+
+
+<!-- Extended Conversation 93: Patrol Report -->
+<string id="st_dyn_news_extended_conv_93_meta">
+    <text>patrol,report,zone,atmosphere</text>
+</string>
+<string id="st_dyn_news_extended_conv_93_turn_1">
+    <text>HQ, this is Spartan One. Sector 7 sweep complete.</text>
+</string>
+<string id="st_dyn_news_extended_conv_93_turn_2">
+    <text>Read you, Spartan One. Anything worth flagging?</text>
+</string>
+<string id="st_dyn_news_extended_conv_93_turn_3">
+    <text>No contact, but spotted flesh tracks near the pipeline ruins.</text>
+</string>
+<string id="st_dyn_news_extended_conv_93_turn_4">
+    <text>Estimated pack size?</text>
+</string>
+<string id="st_dyn_news_extended_conv_93_turn_5">
+    <text>Four to five. Tracks are maybe half a shift old. Headed northbound.</text>
+</string>
+<string id="st_dyn_news_extended_conv_93_turn_6">
+    <text>North puts them near the old depot. Probably chasing rats.</text>
+</string>
+<string id="st_dyn_news_extended_conv_93_turn_7">
+    <text>Could be. No sign they’re circling toward us.</text>
+</string>
+<string id="st_dyn_news_extended_conv_93_turn_8">
+    <text>Understood. What's your current position?</text>
+</string>
+<string id="st_dyn_news_extended_conv_93_turn_9">
+    <text>Approaching northern perimeter. Should wrap and be back to HQ in 2-3 hours.</text>
+</string>
+<string id="st_dyn_news_extended_conv_93_turn_10">
+    <text>Keep sharp. HQ out.</text>
+</string>
+
+
+
+<!-- Extended Conversation 94: Zone Phenomena Rumors -->
+<string id="st_dyn_news_extended_conv_94_meta">
+    <text>mystery,zone,rumors</text>
+</string>
+<string id="st_dyn_news_extended_conv_94_turn_1">
+    <text>%other_first_name%, you hear about that squad that vanished near the old grain silo?</text>
+</string>
+<string id="st_dyn_news_extended_conv_94_turn_2">
+    <text>Yeah. No bodies, no gear, just... gone. Like the Zone swallowed them whole.</text>
+</string>
+<string id="st_dyn_news_extended_conv_94_turn_3">
+    <text>One guy who passed through there swears he heard voices calling his name. Said it wasn’t human.</text>
+</string>
+<string id="st_dyn_news_extended_conv_94_turn_4">
+    <text>Place was always off. Compass spins like crazy, GPS won't lock. Even the dogs won’t go near it.</text>
+</string>
+<string id="st_dyn_news_extended_conv_94_turn_5">
+    <text>Someone suggested it's a micro-emission zone. Traps you in time loops or something worse.</text>
+</string>
+<string id="st_dyn_news_extended_conv_94_turn_6">
+    <text>Or maybe something new. Something the eggheads haven’t classified yet. A living anomaly, maybe.</text>
+</string>
+<string id="st_dyn_news_extended_conv_94_turn_7">
+    <text>I’d believe it. Zone’s changing. Places shifting. Maps don’t line up like they used to.</text>
+</string>
+<string id="st_dyn_news_extended_conv_94_turn_8">
+    <text>Some of the old-timers say the Zone is waking up. That it’s watching us now.</text>
+</string>
+<string id="st_dyn_news_extended_conv_94_turn_9">
+    <text>Sounds like vodka-fueled paranoia... but I’ve seen enough weird shit to not rule it out.</text>
+</string>
+<string id="st_dyn_news_extended_conv_94_turn_10">
+    <text>Same. Best we stay the hell away from that silo. Whatever’s there... it ain’t worth the loot.</text>
+</string>
+
+
+<!-- Extended Conversation 95: Equipment Trade -->
+<string id="st_dyn_news_extended_conv_95_meta">
+    <text>trading,equipment,friendly</text>
+</string>
+<string id="st_dyn_news_extended_conv_95_turn_1">
+    <text>%other_first_name%, still looking for that upgraded detector?</text>
+</string>
+<string id="st_dyn_news_extended_conv_95_turn_2">
+    <text>Hell yes! You found one?</text>
+</string>
+<string id="st_dyn_news_extended_conv_95_turn_3">
+    <text>Managed to get my hands on a Bear detector. Slightly used but fully functional.</text>
+</string>
+<string id="st_dyn_news_extended_conv_95_turn_4">
+    <text>Nice! What are you looking for in exchange?</text>
+</string>
+<string id="st_dyn_news_extended_conv_95_turn_5">
+    <text>Still need that night vision scope you mentioned last week.</text>
+</string>
+<string id="st_dyn_news_extended_conv_95_turn_6">
+    <text>The PSO-1? Yeah, I can part with it for another 5k on top. Fair trade?</text>
+</string>
+<string id="st_dyn_news_extended_conv_95_turn_7">
+    <text>More than fair. When do you want to make the swap?</text>
+</string>
+<string id="st_dyn_news_extended_conv_95_turn_8">
+    <text>How about tomorrow evening? I'll be back from patrol around 1800 hours.</text>
+</string>
+<string id="st_dyn_news_extended_conv_95_turn_9">
+    <text>Perfect. I'll have the scope cleaned and ready. Thanks for thinking of me.</text>
+</string>
+<string id="st_dyn_news_extended_conv_95_turn_10">
+    <text>No problem, we look out for each other. See you tomorrow, brat.</text>
+</string>
+
+
+
+<!-- Extended Conversation 96: Casual Scav Run Planning -->
+<string id="st_dyn_news_extended_conv_96_meta">
+    <text>scavenging,planning,stalker_team</text>
+</string>
+<string id="st_dyn_news_extended_conv_96_turn_1">
+    <text>Yo %other_last_name%, you still up for hitting that old factory tomorrow?</text>
+</string>
+<string id="st_dyn_news_extended_conv_96_turn_2">
+    <text>Yeah, I'm in. What's the plan, and who's tagging along?</text>
+</string>
+<string id="st_dyn_news_extended_conv_96_turn_3">
+    <text>Me, you, Petrov, and that new kid who just came from the Garbage. Quiet crew.</text>
+</string>
+<string id="st_dyn_news_extended_conv_96_turn_4">
+    <text>The rookie? Hope he doesn't freeze up if things get weird.</text>
+</string>
+<string id="st_dyn_news_extended_conv_96_turn_5">
+    <text>He’ll be fine. It’s just a parts run. Some busted terminals and maybe a few old batteries.</text>
+</string>
+<string id="st_dyn_news_extended_conv_96_turn_6">
+    <text>Alright. Long as we don’t run into anything with more teeth than sense.</text>
+</string>
+<string id="st_dyn_news_extended_conv_96_turn_7">
+    <text>Few blind dogs, maybe a spark or two. Nothing major. We'll steer clear of the deeper wing.</text>
+</string>
+<string id="st_dyn_news_extended_conv_96_turn_8">
+    <text>You thinking early morning, or wait 'til the fog burns off?</text>
+</string>
+<string id="st_dyn_news_extended_conv_96_turn_9">
+    <text>Let’s move after breakfast. Should be back at the camp before dusk if all goes smooth.</text>
+</string>
+<string id="st_dyn_news_extended_conv_96_turn_10">
+    <text>Cool. I’ll sort my pack tonight, make sure the rookie ain’t bringing junk gear.</text>
+</string>
+
+
+<!-- Extended Conversation 97: Personal Check-in -->
+<string id="st_dyn_news_extended_conv_97_meta">
+    <text>personal,friendly,wellbeing</text>
+</string>
+<string id="st_dyn_news_extended_conv_97_turn_1">
+    <text>%other_first_name%, you doing alright? Haven't seen you around much lately.</text>
+</string>
+<string id="st_dyn_news_extended_conv_97_turn_2">
+    <text>Yeah, just been pulling extra jobs. Trying to save up some rubles.</text>
+</string>
+<string id="st_dyn_news_extended_conv_97_turn_3">
+    <text>Saving for anything specific or just building reserves?</text>
+</string>
+<string id="st_dyn_news_extended_conv_97_turn_4">
+    <text>Thinking about upgrading my armor. This old jacket's seen better days.</text>
+</string>
+<string id="st_dyn_news_extended_conv_97_turn_5">
+    <text>Good call. What are you looking at? SEVA suit?</text>
+</string>
+<string id="st_dyn_news_extended_conv_97_turn_6">
+    <text>Haha not quite there yet! Something more affordable.</text>
+</string>
+
+
+
+<!-- Extended Conversation 98: Resource Management -->
+<string id="st_dyn_news_extended_conv_98_meta">
+    <text>resources,management,practical</text>
+</string>
+<string id="st_dyn_news_extended_conv_98_turn_1">
+    <text>%other_last_name%, we need to discuss fuel allocation for the generators.</text>
+</string>
+<string id="st_dyn_news_extended_conv_98_turn_2">
+    <text>How much do we have left? Last I checked we were running pretty low.</text>
+</string>
+<string id="st_dyn_news_extended_conv_98_turn_3">
+    <text>About three days worth at current consumption rate. Maybe four if we conserve.</text>
+</string>
+<string id="st_dyn_news_extended_conv_98_turn_4">
+    <text>Shit. Any ideas on where to get more? Our usual supplier's been unreliable.</text>
+</string>
+<string id="st_dyn_news_extended_conv_98_turn_5">
+    <text>There's an abandoned gas station about 4 clicks east. Might still have some reserves.</text>
+</string>
+<string id="st_dyn_news_extended_conv_98_turn_6">
+    <text>Worth checking out, we'll head there tomorrow.</text>
+</string>
+
+
+
+<!-- Extended Conversation 99: Equipment Review -->
+<string id="st_dyn_news_extended_conv_99_meta">
+    <text>equipment,review,advice</text>
+</string>
+<string id="st_dyn_news_extended_conv_99_turn_1">
+    <text>%other_first_name%, tried that new rifle you recommended. Impressive accuracy.</text>
+</string>
+<string id="st_dyn_news_extended_conv_99_turn_2">
+    <text>Told you so! The L85 might look weird but it shoots straight.</text>
+</string>
+<string id="st_dyn_news_extended_conv_99_turn_3">
+    <text>Only complaint is the weight. Thing's heavy as hell compared to my AK.</text>
+</string>
+<string id="st_dyn_news_extended_conv_99_turn_4">
+    <text>Yeah, that's the trade-off. Better accuracy but more weight to carry around.</text>
+</string>
+<string id="st_dyn_news_extended_conv_99_turn_5">
+    <text>Worth it though. Nailed three dogs at 200 meters without breaking a sweat.</text>
+</string>
+<string id="st_dyn_news_extended_conv_99_turn_6">
+    <text>Nice shooting! How's the ammo situation? 5.56 can be pricey.</text>
+</string>
+<string id="st_dyn_news_extended_conv_99_turn_7">
+    <text>Yeah, about twice what I pay for 5.45. But quality over quantity, right?</text>
+</string>
+<string id="st_dyn_news_extended_conv_99_turn_8">
+    <text>Exactly. Better to have fewer rounds that count than spray and pray.</text>
+</string>
+<string id="st_dyn_news_extended_conv_99_turn_9">
+    <text>Any other gear recommendations? Always looking to upgrade.</text>
+</string>
+<string id="st_dyn_news_extended_conv_99_turn_10">
+    <text>Check out the new tactical vests from that trader. Good protection, reasonable price.</text>
+</string>
+
+
+<!-- Extended Conversation 100: Zone Dreams -->
+<string id="st_dyn_news_extended_conv_100_meta">
+    <text>dreams,zone,strange</text>
+</string>
+<string id="st_dyn_news_extended_conv_100_turn_1">
+    <text>%other_last_name%, you ever have those weird-ass dreams out here?</text>
+</string>
+<string id="st_dyn_news_extended_conv_100_turn_2">
+    <text>Every other night. Last one, I was walking through Rostok, but everything was upside down.</text>
+</string>
+<string id="st_dyn_news_extended_conv_100_turn_3">
+    <text>Huh. I had one where the sky was bleeding and dogs spoke in human voices. Woke up sweating.</text>
+</string>
+<string id="st_dyn_news_extended_conv_100_turn_4">
+    <text>The Zone gets in your head, man. Too many emissions, too many nights under the open sky.</text>
+</string>
+<string id="st_dyn_news_extended_conv_100_turn_5">
+    <text>Think it's just stress? Or is it something else... like it's showing us things?</text>
+</string>
+<string id="st_dyn_news_extended_conv_100_turn_6">
+    <text>I don’t know. But I’ve heard guys say they dream about places they’ve never seen—then find them later.</text>
+</string>
+<string id="st_dyn_news_extended_conv_100_turn_7">
+    <text>That happen to you?</text>
+</string>
+<string id="st_dyn_news_extended_conv_100_turn_8">
+    <text>Once. Had a dream about a flooded tunnel with glowing moss. Found it last week west of Agroprom. But who the fuck knows, could be just Deja vu.</text>
+</string>
+<string id="st_dyn_news_extended_conv_100_turn_9">
+    <text>That’s messed up. Maybe the Zone’s not just mutating us—it’s rewiring us too.</text>
+</string>
+<string id="st_dyn_news_extended_conv_100_turn_10">
+    <text>Heh. Wouldn’t be the weirdest thing it’s done. Just wish the dreams didn’t feel so damn real.</text>
+</string>
+
+
+
+<!-- Extended Conversation 101: The Stranger -->
+<string id="st_dyn_news_extended_conv_101_meta">
+    <text>rumor,stranger,zone</text>
+</string>
+<string id="st_dyn_news_extended_conv_101_turn_1">
+    <text>Did you see that guy that came through camp last week? Long coat, didn’t say a word?</text>
+</string>
+<string id="st_dyn_news_extended_conv_101_turn_2">
+    <text>Yeah. Looked like he walked straight out of a storm. Gear was soaked, eyes hollow.</text>
+</string>
+<string id="st_dyn_news_extended_conv_101_turn_3">
+    <text>Someone said he was seen coming from near the Brain Scorcher. Alone!.</text>
+</string>
+<string id="st_dyn_news_extended_conv_101_turn_4">
+    <text>No way he made it out of there solo. That whole sector fries your head if you get too close.</text>
+</string>
+<string id="st_dyn_news_extended_conv_101_turn_5">
+    <text>That's what I thought. But he had no burns, no rads. Like the Zone just let him pass.</text>
+</string>
+<string id="st_dyn_news_extended_conv_101_turn_6">
+    <text>He didn’t even trade. Just sat by the fire, stared into it like it was showing him something.</text>
+</string>
+<string id="st_dyn_news_extended_conv_101_turn_7">
+    <text>Did you notice the dogs wouldn’t go near him?</text>
+</string>
+<string id="st_dyn_news_extended_conv_101_turn_8">
+    <text>I did. Even Vaska's mutt, and that thing barks at anomalies.</text>
+</string>
+<string id="st_dyn_news_extended_conv_101_turn_9">
+    <text>Zone's full of ghosts, man. Maybe this one just learned how to walk among the living.</text>
+</string>
+
+
+
+<!-- Extended Conversation 102: Missing Stalker -->
+<string id="st_dyn_news_extended_conv_102_meta">
+    <text>missing,stalker,zone_danger</text>
+</string>
+<string id="st_dyn_news_extended_conv_102_turn_1">
+    <text>You hear anything from Misha? He went out two days ago, said he'd be back by nightfall.</text>
+</string>
+<string id="st_dyn_news_extended_conv_102_turn_2">
+    <text>Nothing. Last ping I got was near the burnt farmstead. Then silence.</text>
+</string>
+<string id="st_dyn_news_extended_conv_102_turn_3">
+    <text>Shit. That area’s crawling with anomalies lately. He might’ve slipped into one.</text>
+</string>
+<string id="st_dyn_news_extended_conv_102_turn_4">
+    <text>Or worse. Some loners spotted bloodsucker tracks not far from there.</text>
+</string>
+<string id="st_dyn_news_extended_conv_102_turn_5">
+    <text>Always told him going solo was a gamble. Zone doesn’t give second chances.</text>
+</string>
+<string id="st_dyn_news_extended_conv_102_turn_6">
+    <text>Still, he knew the area. Wouldn't just vanish without a fight.</text>
+</string>
+<string id="st_dyn_news_extended_conv_102_turn_7">
+    <text>You want to go look for him?</text>
+</string>
+<string id="st_dyn_news_extended_conv_102_turn_8">
+    <text>Thinking about it. At least check the spot where the signal cut.</text>
+</string>
+<string id="st_dyn_news_extended_conv_102_turn_9">
+    <text>Alright. I’ll tag along. But if we find his gear and not him… we leave it at that.</text>
+</string>
+<string id="st_dyn_news_extended_conv_102_turn_10">
+    <text>Deal. No hero shit. Just closure.</text>
+</string>
+
+
+<!-- Extended Conversation 103: Weapon Failure -->
+<string id="st_dyn_news_extended_conv_103_meta">
+    <text>weapon,malfunction,combat</text>
+</string>
+<string id="st_dyn_news_extended_conv_103_turn_1">
+    <text>You ever have your rifle jam right when things go bad?</text>
+</string>
+<string id="st_dyn_news_extended_conv_103_turn_2">
+    <text>Yesterday. Wild dogs rushed me near the embankment — damn bolt got stuck halfway.</text>
+</string>
+<string id="st_dyn_news_extended_conv_103_turn_3">
+    <text>What’d you do?</text>
+</string>
+<string id="st_dyn_news_extended_conv_103_turn_4">
+    <text>Switched to the pistol. Emptied the whole mag just to get breathing room.</text>
+</string>
+<string id="st_dyn_news_extended_conv_103_turn_5">
+    <text>I keep telling you — stop using that rusted-out AK from the flea market. It’s held together with tape and prayers.</text>
+</string>
+<string id="st_dyn_news_extended_conv_103_turn_6">
+    <text>Hey, it was cheap. And it *usually* works.</text>
+</string>
+<string id="st_dyn_news_extended_conv_103_turn_7">
+    <text>“Usually” doesn’t cut it out here. Get yourself a backup that doesn’t jam when you sneeze.</text>
+</string>
+<string id="st_dyn_news_extended_conv_103_turn_8">
+    <text>Yeah, yeah. Soon as I sell this artifact I’ve been hauling around.</text>
+</string>
+<string id="st_dyn_news_extended_conv_103_turn_9">
+    <text>Just don’t die holding junk. Ain’t worth the rubles.</text>
+</string>
+
+
+
+<!-- Extended Conversation 104: Vanished with the Stash -->
+<string id="st_dyn_news_extended_conv_104_meta">
+    <text>stash,greed,missing</text>
+</string>
+<string id="st_dyn_news_extended_conv_104_turn_1">
+    <text>You hear what happened to Lobanov?</text>
+</string>
+<string id="st_dyn_news_extended_conv_104_turn_2">
+    <text>Yeah. Word is he found a military stash north of the swamp checkpoint. Then vanished.</text>
+</string>
+<string id="st_dyn_news_extended_conv_104_turn_3">
+    <text>Typical. Gets lucky once and suddenly he’s too good to share it with the rest of us.</text>
+</string>
+<string id="st_dyn_news_extended_conv_104_turn_4">
+    <text>Or someone followed him. Could’ve been bandits — stash like that doesn’t stay quiet long.</text>
+</string>
+<string id="st_dyn_news_extended_conv_104_turn_5">
+    <text>He should’ve kept his mouth shut. Was bragging about it over vodka like a rookie.</text>
+</string>
+<string id="st_dyn_news_extended_conv_104_turn_6">
+    <text>Now his radio's dead and no one's seen him for two days. Either he bailed... or he’s dead in a ditch.</text>
+</string>
+<string id="st_dyn_news_extended_conv_104_turn_7">
+    <text>Another zone mystery. </text>
+</string>
+
+
+	</string_table>

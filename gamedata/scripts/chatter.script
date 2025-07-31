@@ -1,0 +1,890 @@
+--====================< Credits >====================--
+
+-- Many thanks to two anonymous contributors, ravenascendant, and dan6642 for coding help.
+-- Many thanks to Australian cunt#3627, RitualColt#7912, cubed#8023, shiyon, piscesblau, and ALostArchitect#9240 for writing help.
+-- Many thanks to izperehoda, sasanito95., CV514#7004, and njaal for the Russian translation.
+-- Many thanks to jinxovarrio, d.santi, and Spooky Usuala#2706 for the Spanish translation.
+-- Many thanks to ishmaeel for their generous decision to allow their code to be re-used.
+-- Many thanks to realdealflexseal for playtesting and ideas.
+-- Many thanks to Abhishek Kumar and hookenz on stackoverflow for useful snippets of code.
+
+-- Without them this would not have been possible.
+
+--====================< Settings >====================--
+
+local show_time
+local show_time_long
+local beep_before
+local beep_after
+
+--local name_state
+--local name_rgb
+local msg_state
+
+--local clr_name
+local clr_msg
+
+local anomaly_state
+local anomaly_timer
+local clear_state
+local campfire_state
+local wpm
+local npc_death_state
+local npc_death_comment_state
+local emission_state
+local enemy_state
+local headshot_state
+local level_state
+local level_chance
+local npc_health_state
+local player_death_state
+local psistorm_state
+local jammed_state
+local reload_state
+local reload_chance
+local random_state
+local random_chance
+local safe_area_state
+local safe_area_chance
+
+function load_settings()
+    show_time = chatter_mcm.get_config("show_time")
+    show_time_long = chatter_mcm.get_config("show_time_long")
+
+    show_time = show_time*1000
+    show_time_long = show_time_long*1000
+
+    beep_before = chatter_mcm.get_config("beep_before")
+    beep_after = chatter_mcm.get_config("beep_after")
+
+    msg_state = chatter_mcm.get_config("msg_state")
+
+    if msg_state then
+        clr_msg = "%c[" .. chatter_mcm.get_config("msg_argb") .. "]"
+    else
+        clr_msg = ""
+    end
+
+    anomaly_state = chatter_mcm.get_config("anomaly_state")
+    anomaly_timer = chatter_mcm.get_config("anomaly_timer")
+
+    anomaly_timer = anomaly_timer*1000
+
+    clear_state = chatter_mcm.get_config("clear_state")
+    campfire_state = chatter_mcm.get_config("campfire_state")
+    wpm = chatter_mcm.get_config("wpm")
+    npc_death_state = chatter_mcm.get_config("npc_death_state")
+    npc_death_comment_state = chatter_mcm.get_config("npc_death_comment_state")
+    emission_state = chatter_mcm.get_config("emission_state")
+    enemy_state = chatter_mcm.get_config("enemy_state")
+    headshot_state = chatter_mcm.get_config("headshot_state")
+    level_state = chatter_mcm.get_config("level_state")
+    level_chance = chatter_mcm.get_config("level_chance")
+    npc_health_state = chatter_mcm.get_config("npc_health_state")
+    player_death_state = chatter_mcm.get_config("player_death_state")
+    psistorm_state = chatter_mcm.get_config("psistorm_state")
+    jammed_state = chatter_mcm.get_config("jammed_state")
+    reload_state = chatter_mcm.get_config("reload_state")
+    reload_chance = chatter_mcm.get_config("reload_chance")
+    random_state = chatter_mcm.get_config("random_state")
+    random_chance = chatter_mcm.get_config("random_chance")
+    safe_area_state = chatter_mcm.get_config("safe_area_state")
+    safe_area_chance = chatter_mcm.get_config("safe_area_chance")
+end
+
+--====================< Definitions >====================--
+
+local number = {
+    ["part_2"] =                    10,
+
+    ["actor_on_before_death"] =     10,
+    ["anomaly_part_1"] =            5,
+    ["anomaly_part_2"] =            5,
+    ["campfire"] =                  10,
+    ["clear"] =                     5,
+    ["companion_death"] =           5,
+    ["headshot"] =                  5,
+    ["near_death"] =                30,
+    ["npc_on_death"] =              10,
+    ["psi_storm"] =                 10,
+    ["random"] =                    25,
+    ["safe_area"] =                 25,
+    ["emission"] =                  10,
+    ["weapon_jammed"] =             5,
+    ["weapon_reload"] =             5,
+}
+
+local campfire_radius = 5
+local campfire_radius_far = 20
+local max_delay = 420000
+local max_timer = 120000
+local min_delay = 240000
+local min_timer = 60000
+local n = 1
+
+local base_radius = 50
+local neutral_bases = true
+local safe_area_timer = 30
+
+local bonus_bases = {}
+bonus_bases.pri_monolith = {monolith = true}
+bonus_bases.pri_a18_smart_terrain = {killer = true}
+
+-- companion_attitude ={
+-- 	["army"] =          "tactical",
+-- 	["bandit"] =        "casual",
+-- 	["csky"] =          "casual",
+-- 	["dolg"] =          "tactical",
+-- 	["ecolog"] =        "tactical",
+-- 	["freedom"] =       "casual",
+-- 	["greh"] =          "cult",
+--  ["isg"] =           "tactical",
+-- 	["killer"] =        "tactical",
+--  ["monolith"] =      "cult",
+-- 	["renegade"] =      "casual",
+-- 	["stalker"] =       "casual",
+-- }
+
+local level_responses = {
+	["l03_agroprom"] =          {name = "agroprom"                , number = 5},
+	["l03u_agr_underground"] =  {name = "agroprom_underground"    , number = 5},
+	["l07_military"] =          {name = "army_warehouses"         , number = 5},
+	["l12_stancia_2"] =         {name = "chernobyl_npp_north"     , number = 5},
+	["l12_stancia"] =           {name = "chernobyl_npp_south"     , number = 5},
+	["l01_escape"] =            {name = "cordon"                  , number = 5},
+	["l04_darkvalley"] =        {name = "dark_valley"             , number = 5},
+	["k01_darkscape"] =         {name = "darkscape"               , number = 5},
+	["l09_deadcity"] =          {name = "dead_city"               , number = 5},
+	["l11_hospital"] =          {name = "deserted_hospital"       , number = 5},
+	["l02_garbage"] =           {name = "garbage"                 , number = 5},
+	["l13_generators"] =        {name = "generators"              , number = 5},
+	["k00_marsh"] =             {name = "great_swamp"             , number = 5},
+	["jupiter"] =               {name = "jupiter"                 , number = 5},
+	["jupiter_underground"] =   {name = "jupiter_underground"     , number = 5},
+	["l08u_brainlab"] =         {name = "lab_x-16"                , number = 5},
+	["l04u_labx18"] =           {name = "lab_x-18"                , number = 5},
+	["l10u_bunker"] =           {name = "lab_x-19"                , number = 5},
+	["labx8"] =                 {name = "lab_x-8"                 , number = 5},
+	["l10_limansk"] =           {name = "limansk"                 , number = 5},
+	["y04_pole"] =              {name = "meadow"                  , number = 5},
+	["l12u_control_monolith"] = {name = "monolith_control_center" , number = 5},
+	["l13u_warlab"] =           {name = "monolith_war_lab"        , number = 5},
+	["pripyat"] =               {name = "pripyat_outskirts"       , number = 5},
+	["l11_pripyat"] =           {name = "pripyat"                 , number = 5},
+	["l10_radar"] =             {name = "radar"                   , number = 5},
+	["l10_red_forest"] =        {name = "red_forest"              , number = 5},
+	["l05_bar"] =               {name = "rostok"                  , number = 5},
+	["l12u_sarcofag"] =         {name = "sarcophagus"             , number = 5},
+	["k02_trucks_cemetery"] =   {name = "truck_cemetery"          , number = 5},
+	["l06_rostok"] =            {name = "wild_territory"          , number = 5},
+	["l08_yantar"] =            {name = "yantar"                  , number = 5},
+	["zaton"] =                 {name = "zaton"                   , number = 5},
+}
+
+local mutant_responses = {
+	bloodsucker =   5,
+	boar =          5,
+	burer =         5,
+	cat =           5,
+	chimera =       5,
+    controller =    5,
+	dog =           5,
+	flesh =         5,
+	fracture =      5,
+	gigant =        5,
+	karlik =        5,
+	lurker =        5,
+    poltergeist =   5,
+    pseudodog =     5,
+	psy_dog =       5,
+    pyrogeist =     5,
+	psysucker =     5,
+	snork =         5,
+	tushkano =      5,
+	zombi =         5,
+	mutant =        1, --default case
+}
+
+local stalker_responses = {
+	army =      6,
+	bandit =    5,
+	csky =      5,
+	dolg =      5,
+	ecolog =    5,
+	freedom =   5,
+	greh =      5,
+    isg =       5,
+	killer =    5,
+    monolith =  5,
+	renegade =  5,
+	stalker =   5,
+	zombied =   5,
+}
+
+local stalker_table = {
+    "army",
+    "bandit",
+    "csky",
+    "c_sky",
+    "clearsky",
+    "clear_sky",
+    "dolg",
+    "duty",
+    "ecolog",
+    "freedom",
+    "greh",
+    "isg",
+    "killer",
+    "loner",
+    "military",
+    "monolith",
+    "merc",
+    "renegade",
+    "sin",
+    "stalker",
+    "zombied",
+}
+
+local word_table = {}
+local person_table = {}
+
+person_table[1] =  { [1] =  1, [2] = 2, [3] = 1, [4] = 2 }
+person_table[2] =  { [1] =  1, [2] = 2, [3] = 1, [4] = 2, [5] = 1 }
+person_table[3] =  { [1] =  1, [2] = 2, [3] = 1, [4] = 2 }
+person_table[4] =  { [1] =  1, [2] = 2, [3] = 3, [4] = 2, [5] = 3 }
+person_table[5] =  { [1] =  1, [2] = 2, [3] = 1, [4] = 2 }
+person_table[6] =  { [1] =  1, [2] = 2, [3] = 1, [4] = 2, [5] = 1 }
+person_table[7] =  { [1] =  1, [2] = 1, [3] = 2, [4] = 1, [5] = 2 }
+person_table[8] =  { [1] =  1, [2] = 1, [3] = 1, [4] = 1, [5] = 1, [6] = 2, [7] = 1 }
+person_table[9] =  { [1] =  1, [2] = 2, [3] = 1, [4] = 2, [5] = 1, [6] = 2 }
+person_table[10] = { [1] =  1, [2] = 2, [3] = 1, [4] = 2, [5] = 1, [6] = 2, [7] = 1, [8] = 2, [9] = 1, [10] = 2, [11] = 1, [12] = 2 }
+
+local cooldowns = {}
+local enemy_table = {}
+local near_campfire_table = {}
+local npc_toggle = {}
+local squad_table = {}
+local time_table = {}
+
+local FirstTime_safe_area = true
+
+local level_change = false
+
+--====================< Function Alias >====================--
+
+gt = game.translate_string
+
+function beep_func()
+    xr_sound.set_sound_play(AC_ID, "pda_tips")
+    return true
+end
+
+function cooldown(key, duration, obj)
+    local current_time = time_global()
+    if obj and obj:id() then
+        key = key .. obj:id()
+    end
+
+    if not cooldowns[key] or current_time - cooldowns[key] > duration then
+        cooldowns[key] = current_time + duration
+        return true
+    end
+
+    return false
+end
+
+function count(base, pattern)
+    return select(2, string.gsub(base, pattern, ""))
+end
+
+function dump(o)
+    if type(o) == 'table' then
+        s = '{ '
+        for k,v in pairs(o) do
+            if type(k) ~= 'number' then k = '"'..k..'"' end
+            s = s .. '['..k..'] = ' .. dump(v) .. ','
+        end
+        return s .. '} '
+    else
+        return tostring(o)
+    end
+end
+
+function enough_people()
+    local condition = false
+    if (campfire_random == 3 and near_campfire_table[2] and near_campfire_table[3]) or (campfire_random ~= 3 and near_campfire_table[2]) then
+        condition = true
+    end
+
+    return condition
+end
+
+function get_random_companion()
+    local companion_table = axr_companions.list_actor_squad_by_id()
+    return level.object_by_id(companion_table[math.random(#companion_table)])
+end
+
+function get_time_table()
+    for a = 1, number["campfire"] do
+        word_table[a] = {}
+        time_table[a] = {}
+        word_table[a][1] = 0
+        time_table[a][1] = 0
+        for b = 2, #person_table[a] do
+            c = b - 1
+            word_table[a][b] = count(gt("st_darkasleif_campfire_".. a .. "_" .. c), " ") + 1
+            time_table[a][b] = (60*word_table[a][b])/(wpm)
+        end
+    end
+end
+
+function in_combat()
+    area_clear = true
+    level.iterate_nearest(db.actor:position(), 50, iterate_func_clear)
+    return not area_clear
+end
+
+function iterate_func_clear(obj)
+    if stored_id ~= obj:id() and obj:id() ~= 0 and is_enemy(obj, db.actor, true) then
+        area_clear = false
+    end
+end
+
+function is_enemy(obj, who, memory)
+    -- If obj exists
+    if not obj then
+        return false
+    end
+
+    -- If obj and who are the same
+    if obj:id() == who:id() then
+        return false
+    end
+
+    -- If obj is a crow
+    if (obj:clsid() == clsid.crow) then
+		return false 
+	end
+
+    -- If obj is not a mutant or stalker
+    if not IsMonster(obj) and not IsStalker(obj) then
+        return false
+    end
+
+    -- If obj is dead
+    if not obj:alive() then
+        return false
+    end
+
+    if IsStalker(obj) and ((who:id() == 0) or (who:id() == AC_ID)) then
+        local relation = relation_registry.community_relation(character_community(obj), gameplay_disguise.get_default_comm())
+        local goodwill = relation_registry.community_goodwill(character_community(obj), db.actor:id())
+        -- If faction is not enemy and not fighting with actor
+        if not game_relations.is_factions_enemies(obj:character_community(), character_community(db.actor):sub(7)) and not xr_combat_ignore.fighting_with_actor_npcs[obj:id()] then
+            return false
+        end
+
+        -- If obj is companion and not pissed off
+        if obj:has_info("npcx_is_companion") and not xr_combat_ignore.fighting_with_actor_npcs[obj:id()] then
+            return false
+        end
+
+        -- if not gameplay_disguise.is_actor_disguised() and relation + goodwill >= 0 and not xr_combat_ignore.fighting_with_actor_npcs[obj:id()] then
+        --     return false
+        -- end
+
+        -- If player bribe is in effect
+        if xr_bribe.at_peace(character_community(obj), gameplay_disguise.get_default_comm(), obj:position():distance_to(db.actor:position())) and not xr_combat_ignore.fighting_with_actor_npcs[obj:id()] then
+            return false
+        end
+
+        -- If "Rostok Under Duty Control" installed
+        if gameplay_peace_zone and level.name() == "l05_bar" and character_community(db.actor):sub(7) == "army" and (character_community(obj) == "csky" or character_community(obj) == "stalker") and not xr_combat_ignore.fighting_with_actor_npcs[obj:id()] then
+            return false
+        end
+
+        -- If obj has forgotten who
+        if memory then
+            local tg = time_global()
+            local time_in_memory = tg - obj:memory_time(who)
+            if (time_in_memory < 0) then
+                if (time_in_memory < -120000) or (time_in_memory < -60000) then
+                    return false 
+                end
+            else 
+                if (time_in_memory > 120000) or (time_in_memory > 60000) then
+                    return false
+                end
+            end
+        end
+    end
+
+    if IsStalker(obj) then
+        if npc_surrendered(obj) then
+            return false
+        end
+    end
+
+	return true
+end
+
+function iterate_function_campfire(obj)
+    if IsStalker(obj) and (obj.alive and obj:alive()) and sr_camp.get_current_camp(obj:position()) and obj:id() ~= 0 and not obj:has_info("npcx_is_companion") then
+        near_campfire_table[#near_campfire_table + 1] = obj:id()
+    end
+end
+
+function level_func()
+    local level_name = level.name()
+    if level_name and level_responses[level_name] then
+        send_tip_random(gt("st_darkasleif_level_transition_" .. level_responses[level_name].name .. math.random(level_responses[level_name].number)), show_time_long)
+    end
+    return true
+end
+
+function msg_func(num)
+    if not bind_campfire.get_nearby_campfire(campfire_radius_far, true) or not bind_campfire.get_nearby_campfire(campfire_radius_far, true):is_on() then
+        return true
+    end
+
+    for i = 1, #near_campfire_table do
+        local obj = near_campfire_table[i]
+        if not (obj.alive and obj:alive()) then
+            table.remove(near_campfire_table, i)
+        end
+    end
+
+    if not enough_people() then
+        return true
+    end
+
+    local person = person_table[campfire_random][num]
+    if not near_campfire_table[person] then
+        local msg = utils_xml.get_color("white") .. gt("st_darkasleif_campfire_".. campfire_random .. "_" .. num)
+        news_manager.send_tip(db.actor, msg, msg_delay, nil, show_time_long*1000)
+    else
+        local obj = level.object_by_id(near_campfire_table[person])
+        send_tip(gt("st_darkasleif_campfire_".. campfire_random .. "_" .. num), obj, show_time_long)
+    end
+
+    new_num = num + 1
+    if new_num and campfire_random and new_num<=#person_table[campfire_random] and time_table[campfire_random][new_num] then
+        CreateTimeEvent("CC" .. campfire_random, "Campfire_" .. campfire_random .. "_" .. new_num, time_table[campfire_random][new_num], msg_func, new_num)
+    end
+
+    return true
+end
+
+function send_tip(msg, sender, showtime)
+
+    if beep_before then
+        xr_sound.set_sound_play(AC_ID, "pda_tips")
+    end
+
+    local actor = db.actor
+    local news_caption = sender:character_name()
+    local news_text = clr_msg .. msg
+    local texture = sender:character_icon()
+
+	actor:give_game_news(news_caption, news_text, texture, 0, showtime, 0)
+
+    if beep_after then
+        CreateTimeEvent("CC", "Beeping" .. time_global(), showtime/1000, beep_func)
+    end
+end
+
+function send_tip_random(msg, showtime)
+    local rnd_companion = get_random_companion()
+    if rnd_companion and rnd_companion:id() ~= 0 then
+        send_tip(msg, rnd_companion, showtime)
+    end
+end
+
+function shuffle(a)
+    if type(o) == 'table' then
+        if #a == 1 then
+            return
+        elseif #a == 2 then
+            if math.random(2) == 1 then
+                a[1], a[2] = a[2], a[1]
+            end
+        elseif #a >= 3 then
+            for i = #a, 2, -1 do
+                local j = math.random(i)
+                a[i], a[j] = a[j], a[i]
+            end
+        end
+    else
+        return tostring(o)
+    end
+end
+
+function sound_pda()
+    xr_sound.set_sound_play(AC_ID, "pda_tips")
+    return true
+end
+
+function npc_surrendered(npc)
+	local st = db.storage[npc:id()]
+	return st and st.victim_surrender and st.victim_surrender >= 0 and st.victim_surrender < 65534 or false
+end
+
+--====================< Actions >====================--
+
+function actor_on_before_death()
+    if not player_death_state then
+        return
+    end
+
+    send_tip_random(gt("st_darkasleif_companion_player_death" .. math.random(number["actor_on_before_death"])), show_time)
+end
+
+function actor_on_feeling_anomaly(obj)
+    if not anomaly_state then
+        return
+    end
+
+    local anomaly_type
+    local anomaly_strength
+    local message
+    local sec = obj:section()
+
+    if not cooldown("Anomaly", anomaly_timer) then
+        return
+    end
+
+    if string.find(sec, "electric") then
+        anomaly_type = "electric"
+    elseif string.find(sec, "chemical") then
+        anomaly_type = "chemical"
+    elseif string.find(sec, "thermal") then
+        anomaly_type = "thermal"
+    elseif string.find(sec, "gravitational") then
+        anomaly_type = "gravitational"
+    else
+        printf("Anomaly Unable to be Identified")
+        printf("Anomaly Section: %s", obj:section())
+        printf("Anomaly Name: %s", obj:name())
+    end
+
+    if string.find(sec, "strong") then
+        anomaly_strength = "strong"
+    elseif string.find(sec, "normal") then
+        anomaly_strength = "normal"
+    elseif string.find(sec, "weak") then
+        anomaly_strength = "weak"
+    end
+
+    if anomaly_type and anomaly_strength then
+        message = gt("st_darkasleif_actor_on_feeling_anomaly_" .. anomaly_type .. math.random(number["anomaly_part_1"])) .. " " .. gt("st_darkasleif_actor_on_feeling_anomaly_" .. anomaly_strength .. math.random(number["anomaly_part_2"]))
+    elseif anomaly_type then
+        message = gt("st_darkasleif_actor_on_feeling_anomaly_" .. anomaly_type .. math.random(number["anomaly_part_1"]))
+    end
+
+    if message then
+        send_tip_random(message, show_time)
+    end
+end
+
+function actor_on_first_update()
+    level_change = true
+end
+
+function actor_on_interaction(typ, obj, name)
+    if (typ  == "anomalies") and (name == "psi_storm_start") and psistorm_state then
+        send_tip_random(gt("st_darkasleif_on_before_psi_storm" .. math.random(number["psi_storm"])), show_time)
+    elseif (typ == "anomalies") and (name == "emission_start") and emission_state then
+        send_tip_random(gt("st_darkasleif_on_before_surge" .. math.random(number["emission"])), show_time)
+    end
+end
+
+function actor_on_update()
+    if not campfire_state and not random_state and not safe_area_state then
+        return
+    end
+
+    n = n + 1
+    if n ~= 100 then
+        return
+    end
+
+    n = 1
+    if random_state and math.random(10000*random_chance) == 1 and not in_combat() then
+        send_tip_random(gt("st_darkasleif_random" .. math.random(number["random"])), show_time)
+    end
+
+    local tg = time_global()
+    if not tg_previous then
+        tg_previous = tg
+    end
+
+    get_time_table()
+    if not bind_campfire.get_nearby_campfire(campfire_radius_far, true) or not bind_campfire.get_nearby_campfire(campfire_radius_far, true):is_on() then
+        if campfire_random and new_num then
+            RemoveTimeEvent("CC" .. campfire_random, "Campfire_" .. campfire_random .. "_" .. new_num)
+            RemoveTimeEvent("CC" .. campfire_random, "Campfire_" .. campfire_random .. "_1")
+        elseif campfire_random then
+            RemoveTimeEvent("CC" .. campfire_random, "Campfire_" .. campfire_random .. "_1")
+        end
+
+        timer = nil
+        near_campfire_table = {}
+        return
+    elseif not bind_campfire.get_nearby_campfire(campfire_radius, true) or not bind_campfire.get_nearby_campfire(campfire_radius, true):is_on() then
+        timer = nil
+        near_campfire_table = {}
+        return
+    end
+
+    if in_combat() then
+        if campfire_random and new_num then
+            RemoveTimeEvent("CC" .. campfire_random, "Campfire_" .. campfire_random .. "_" .. new_num)
+            RemoveTimeEvent("CC" .. campfire_random, "Campfire_" .. campfire_random .. "_1")
+        elseif campfire_random then
+            RemoveTimeEvent("CC" .. campfire_random, "Campfire_" .. campfire_random .. "_1")
+        end
+
+        timer = nil
+        near_campfire_table = {}
+        return
+    end
+
+    if delay and (tg <= delay) then
+        return
+    end
+
+    delay = nil
+    if not timer then
+        timer = tg + math.random(min_timer,max_timer)
+    elseif tg >= timer then
+        campfire_obj = bind_campfire.get_nearby_campfire(campfire_radius, false)
+        level.iterate_nearest(campfire_obj:position(), 3, iterate_function_campfire)
+        shuffle(near_campfire_table)
+        campfire_random = math.random(number["campfire"])
+        if (last_tale ~= campfire_random) and enough_people() and bind_campfire.get_nearby_campfire(campfire_radius_far, true) and bind_campfire.get_nearby_campfire(campfire_radius_far, true):is_on() and new_num and campfire_random and new_num<=#person_table[campfire_random] and time_table[campfire_random][1] then
+            CreateTimeEvent("CC" .. 1, "Campfire_" .. campfire_random .. "_" .. 1, 0, msg_func, 1)
+            last_tale = campfire_random
+        end
+
+        timer = nil
+        delay = tg + math.random(min_delay,max_delay)
+    end
+end
+
+function actor_on_weapon_jammed()
+    if not jammed_state then
+        return
+    end
+
+    send_tip_random(gt("st_darkasleif_jammed" .. math.random(number["weapon_jammed"])), show_time)
+end
+
+function actor_on_weapon_reload()
+    if not reload_state or not (math.random(100) <= reload_chance) or not in_combat() then
+        return
+    end
+
+    send_tip_random(gt("st_darkasleif_reload" .. math.random(number["weapon_reload"])), show_time)
+end
+
+function monster_on_death_callback(obj)
+    id = obj:id()
+    stored_id = obj:id()
+    if enemy_table[id] then
+        table.remove(enemy_table, id)
+        npc_was_enemy = true
+    else
+        npc_was_enemy = false
+    end
+
+    if clear_state and npc_was_enemy and not in_combat() and area_clear then
+        send_tip_random(gt("st_darkasleif_clear" .. math.random(number["clear"])), show_time)
+    end
+end
+
+function npc_on_before_hit(npc,shit,bone_id,flags)
+    if (bone_id <= 14) or (bone_id >= 19) then
+        return
+    end
+
+    npc_stored = npc
+end
+
+function npc_on_death_callback(obj)
+    local id = obj:id()
+    stored_id = obj:id()
+    if enemy_table[id] then
+        table.remove(enemy_table, id)
+        npc_was_enemy = true
+    else
+        npc_was_enemy = false
+    end
+
+    if not npc_death_state and not npc_death_comment_state and not clear_state then
+        return
+    end
+
+    if npc_death_state and obj:has_info("npcx_is_companion") then
+        send_tip(gt("st_darkasleif_npc_on_death_callback" .. math.random(number["npc_on_death"])), obj, show_time)
+        if npc_toggle[id] then
+            table.remove(npc_toggle, id)
+        end
+    end
+
+    if npc_death_comment_state and obj:has_info("npcx_is_companion") then
+        send_tip_random(gt("st_darkasleif_companion_death" .. math.random(number["companion_death"])), show_time)
+    end
+
+    if clear_state and npc_was_enemy and not in_combat() then
+        send_tip_random(gt("st_darkasleif_clear" .. math.random(number["clear"])), show_time)
+    end
+end
+
+function npc_on_hit_callback(npc,amount,local_direction,who,bone_index)
+    if not npc_stored or not who:has_info("npcx_is_companion") or (who:id() == 0) then
+        return
+    end
+
+    send_tip(gt("st_darkasleif_headshot" .. math.random(number["headshot"])), who, show_time)
+    npc_stored = nil
+end
+
+function npc_on_update(npc)
+    if not npc_health_state or not npc:has_info("npcx_is_companion") or npc:id() == 0 then
+        return
+    end
+
+    local id = npc:id()
+    local health = npc.health
+    if health < 0.3 and not npc_toggle[id] then
+        send_tip(gt("st_darkasleif_near_death" .. math.random(number["near_death"])), npc, show_time)
+        npc_toggle[id] = true
+    elseif health >= 0.5 and npc_toggle[id] then
+        npc_toggle[id] = false
+    end
+end
+
+function on_enemy_eval(obj, enemy)
+    local id = enemy:id()
+    if not enemy_state or enemy_table[id] or not obj:has_info("npcx_is_companion") or not is_enemy(enemy, db.actor, false) then
+        return
+    end
+
+    enemy_table[id] = true
+    local squad_enemy = get_object_squad(enemy)
+    if squad_enemy then
+        local squad_id = squad_enemy.id
+        if squad_table[squad_id] then
+            return
+        else
+            squad_table[squad_id] = enemy:position()
+        end
+
+        squad_count = 0
+        for k in squad_enemy:squad_members() do
+            local se_obj = k.object or k.id and sim:object(k.id)
+            if se_obj.position:distance_to(squad_table[squad_id]) < 25 then
+                squad_count = squad_count + 1
+            end
+        end
+    end
+
+    local message
+    if IsStalker(enemy) then
+        local faction = enemy:character_community()
+        if not stalker_responses[faction] then
+            return
+        end
+
+        message = gt("st_darkasleif_short_".. faction .. math.random(stalker_responses[faction]))
+
+    elseif IsMonster(enemy) then
+        local sec = enemy:section()
+        name = "mutant"
+        if string.find(sec, "pseudodog") then
+            name = "pseudodog"
+        elseif string.find(sec, "psy_dog") then
+            name = "psy_dog"
+        elseif string.find(sec, "zat_b18_dog_little") then
+            return
+        elseif string.find(sec, "dog") then
+            name = "dog"
+        elseif string.find(sec, "polter") then
+            name = "poltergeist"
+        elseif string.find(sec, "pyro") then
+            name = "pyrogeist"
+        else
+            for key, _ in pairs(mutant_responses) do
+                if string.find(sec, key) then
+                    name = key
+                    break
+                end
+            end
+        end
+
+        if not mutant_responses[name] then
+            return
+        end
+
+        if name == "mutant" then
+            for _, val in pairs(stalker_table) do
+                if string.find(sec, val) then
+                    return
+                end
+            end
+        end
+
+        message = gt("st_darkasleif_short_" .. name .. math.random(mutant_responses[name]))
+
+        if name == "mutant" then
+            printf("Enemy Unable to be Identified")
+            printf("Enemy Section: %s", obj:section())
+            printf("Enemy Name: %s", obj:name())
+        end
+    end
+
+    if not message then
+        return
+    end
+
+    if squad_enemy and squad_count > 1 then
+        message = message .. " " .. gt("st_darkasleif_multiple"..math.random(number["part_2"]))
+    end
+
+    if message then
+        send_tip(message, obj, show_time)
+    end
+end
+
+function on_key_press()
+    if level_change then
+        level_change = false
+        local level_name = level.name()
+        if not level_state or not level_name or not (math.random(100) <= level_chance) then
+            return
+        end
+
+        CreateTimeEvent("CC", "Printing Level Response", 3, level_func)
+    end
+end
+
+--====================< Callbacks >====================--
+
+function on_game_start()
+    RegisterScriptCallback("actor_on_before_death", actor_on_before_death)
+    RegisterScriptCallback("actor_on_feeling_anomaly", actor_on_feeling_anomaly)
+    RegisterScriptCallback("actor_on_first_update", actor_on_first_update)
+    RegisterScriptCallback("actor_on_interaction", actor_on_interaction)
+    RegisterScriptCallback("actor_on_update", actor_on_update)
+    RegisterScriptCallback("actor_on_weapon_jammed", actor_on_weapon_jammed)
+    RegisterScriptCallback("actor_on_weapon_reload", actor_on_weapon_reload)
+    RegisterScriptCallback("monster_on_death_callback", monster_on_death_callback)
+    RegisterScriptCallback("npc_on_before_hit", npc_on_before_hit)
+    RegisterScriptCallback("npc_on_death_callback", npc_on_death_callback)
+    RegisterScriptCallback("npc_on_hit_callback", npc_on_hit_callback)
+    RegisterScriptCallback("npc_on_update", npc_on_update)
+    RegisterScriptCallback("on_enemy_eval", on_enemy_eval)
+    RegisterScriptCallback("on_game_load", load_settings)
+    RegisterScriptCallback("on_key_press", on_key_press)
+    RegisterScriptCallback("on_option_change", load_settings)
+end

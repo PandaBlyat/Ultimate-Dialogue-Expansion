@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>                                                                                                                              
+	<string id="st_eat_medkit_cry_1"><text>Haah... medkit... there we go. Not dead yet, not dead yet...</text></string>
+	<string id="st_eat_medkit_cry_2"><text>DAMN! I'm going to need another tourniquet soon!</text></string>
+	<string id="st_eat_medkit_cry_3"><text>You're not the only one carrying meds, sucker.</text></string>
+	<string id="st_eat_medkit_cry_4"><text>Uugh. So much blood. Bandages, bandages, bandages.... whew.</text></string>
+	<string id="st_eat_medkit_cry_5"><text>Ghnaaa! Fuck, that's mine. That's my blood. No. Nononononono. Medkit, medkit-medkit! Aaah. Much better.</text></string>
+	<string id="st_eat_medkit_cry_6"><text>I don't die so easily, fool!</text></string>
+	<string id="st_eat_medkit_cry_7"><text>You made me use my last medkit... I'm going to enjoy stripping your corpse.</text></string>
+	<string id="st_eat_medkit_cry_8"><text>Come on, COME ON! I'm going to need another morphine shot!</text></string>
+	<string id="st_eat_medkit_cry_9"><text>Ah, hell. My kevlar's almost shredded!</text></string>
+	<string id="st_eat_medkit_cry_10"><text>Ngghhh. I'm going to give my medic a kiss if I survive this.</text></string>
+	<string id="st_eat_medkit_cry_11"><text>I need more bandages over here!</text></string>
+	<string id="st_eat_medkit_cry_12"><text>GAH! Guess those looted meds were good for something after all...</text></string>
+	<string id="st_eat_medkit_cry_13"><text>Mmmffffp! Insurance isn't going to cover this...</text></string>
+	<string id="st_eat_medkit_cry_14"><text>Just need another shot, just need another shot, just need another shot...</text></string>
+	<string id="st_eat_medkit_cry_15"><text>Guess that wasn't my last medkit, after all. I'm still in the fight, sucker!</text></string>
+	<string id="st_eat_medkit_cry_16"><text>Unnff. Bandage time. That might've killed me if you could aim worth a damn!</text></string>
+	<string id="st_eat_medkit_cry_17"><text>Inghh! Someone pass me another medkit! This one is finished!</text></string>
+	<string id="st_eat_medkit_cry_18"><text>A-aaaah-AAAAAAH! Mmmph. Thank God for morphine...</text></string>
+	<string id="st_eat_medkit_cry_19"><text>It's going to take more than that to put me down, punk!</text></string>
+	<string id="st_eat_medkit_cry_20"><text>AAARGH! Bloody, fu- EERRGHN! Medkit, medkit, medkit. Whew...</text></string>
+	<string id="st_eat_medkit_cry_21"><text>You think you're going to bleed me out? Think again.</text></string>
+	<string id="st_eat_medkit_cry_22"><text>Armour is still holding, armour is still holding, armour is still holding...</text></string>
+	<string id="st_eat_medkit_cry_23">
+    <text>Haah... okay, just... patch it up. Not dying today.</text>
+</string>
+<string id="st_eat_medkit_cry_24">
+    <text>Ugh. Can't lose focus now... medkit, don't fail me now.</text>
+</string>
+<string id="st_eat_medkit_cry_25">
+    <text>Blood's slowing, but that shot nearly took me out. Keep it together.</text>
+</string>
+<string id="st_eat_medkit_cry_26">
+    <text>All right, this is gonna sting. Can't believe I'm still standing.</text>
+</string>
+<string id="st_eat_medkit_cry_27">
+    <text>Last medkit... if this doesn’t hold, I’m out. Come on, come on...</text>
+</string>
+<string id="st_eat_medkit_cry_28">
+    <text>Shit, I’m burning up. Better get this bandage on quick.</text>
+</string>
+<string id="st_eat_medkit_cry_29">
+    <text>Lucky I grabbed that extra medkit. Can't lose focus now, not when I'm this close.</text>
+</string>
+<string id="st_eat_medkit_cry_30">
+    <text>I’ve survived worse... but it’s starting to feel like it’s my turn now. Patch me up!</text>
+</string>
+<string id="st_eat_medkit_cry_31">
+    <text>Bandages are soaked, but no choice. Can’t give up now.</text>
+</string>
+<string id="st_eat_medkit_cry_32">
+    <text>Bleeding’s slowing... I can still make it out of here. Maybe.</text>
+</string>
+<string id="st_eat_medkit_cry_33">
+    <text>Come on, that’s the last of my morphine. I can’t be feeling this much, not now.</text>
+</string>
+<string id="st_eat_medkit_cry_34">
+    <text>Gotta get this under control or I'm not walking out of here... Gotta stay focused.</text>
+</string>
+<string id="st_eat_medkit_cry_35">
+    <text>Stitch me up, I’ll handle the rest. Just need to keep moving.</text>
+</string>
+<string id="st_eat_medkit_cry_36">
+    <text>God, the pain's a mess. But it's better than no medkit, I guess.</text>
+</string>
+<string id="st_eat_medkit_cry_37">
+    <text>The wound’s deep... but so am I. You won’t kill me that easy.</text>
+</string>
+<string id="st_eat_medkit_cry_38">
+    <text>Yeah, this one’s gonna take a minute to heal, but I’ll make it. Keep fighting.</text>
+</string>
+<string id="st_eat_medkit_cry_39">
+    <text>The blood’s slowing down, but don’t think this means I’m giving up.</text>
+</string>
+<string id="st_eat_medkit_cry_40">
+    <text>This is gonna take more than bandages, but I’ll be damned if I’m gonna stop now.</text>
+</string>
+<string id="st_eat_medkit_cry_41">
+    <text>Alright, that’ll hold. Can’t say I feel good, but I’m still in this fight.</text>
+</string>
+<string id="st_eat_medkit_cry_42">
+    <text>My gut’s screaming, but I’m still breathing. Better keep it that way.</text>
+</string>
+<string id="st_eat_medkit_cry_43">
+    <text>Yeah, that’s a hell of a shot. But I’m still here. Medkit or not, you won’t take me down.</text>
+</string>
+<string id="st_eat_medkit_cry_44">
+    <text>Hah! I thought that was it for me. Guess that’s why I carry a spare.</text>
+</string>
+<string id="st_eat_medkit_cry_45"><text>Ow, that fucking hurt.</text></string>
+<string id="st_eat_medkit_cry_46"><text>Damn it! Is this the Zone or a shooting gallery?</text></string>
+<string id="st_eat_medkit_cry_47"><text>Argh, you're gonna pay for that! Just you wait...</text></string>
+<string id="st_eat_medkit_cry_48"><text>Not bad, but you’ll need more than that to finish me!</text></string>
+<string id="st_eat_medkit_cry_49"><text>Son of a... that actually stung. Lucky shot, punk!</text></string>
+<string id="st_eat_medkit_cry_50"><text>Heh, I've had worse scrapes after drinking at the bar.</text></string>
+<string id="st_eat_medkit_cry_51"><text>The Zone’s trying to kill me, and now you are too? Get in line!</text></string>
+<string id="st_eat_medkit_cry_52"><text>You call that aim? I've seen blind dogs with better accuracy!</text></string>
+<string id="st_eat_medkit_cry_53"><text>Alright, you got me that time... but I won’t miss next.</text></string>
+<string id="st_eat_medkit_cry_54"><text>Bleeding again? Typical day in the Zone, huh?</text></string>
+<string id="st_eat_medkit_cry_55"><text>Ow, you bastard! I'll show you what pain really feels like!</text></string>
+<string id="st_eat_medkit_cry_56"><text>What is this, a free target practice session? My turn next!</text></string>
+<string id="st_eat_medkit_cry_57"><text>I'm not dying here... not in this godforsaken place.</text></string>
+<string id="st_eat_medkit_cry_58"><text>Agh, who even *aims* for the chest anymore? Amateur!</text></string>
+<string id="st_eat_medkit_cry_59"><text>Patch it up quick, the bastards won’t wait for me to recover!</text></string>
+<string id="st_eat_medkit_cry_60"><text>Heh, that’s what I get for letting my guard down. Won’t happen again!</text></string>
+<string id="st_eat_medkit_cry_61"><text>Just another scar for the collection. Zone life, right?</text></string>
+<string id="st_eat_medkit_cry_62"><text>Still alive? Good. Now it's my turn to return the favor.</text></string>
+<string id="st_eat_medkit_cry_63"><text>Medkit's running low... just gotta make this one count.</text></string>
+<string id="st_eat_medkit_cry_64"><text>What the hell was that? A warning shot? Try harder!</text></string>
+<string id="st_eat_medkit_cry_65"><text>First blood, huh? We'll see who has the last laugh.</text></string>
+<string id="st_eat_medkit_cry_66"><text>Yeah, I'm still standing. Gonna take more than that to drop me.</text></string>
+<string id="st_eat_medkit_cry_67"><text>Lucky shot! Let's see if you can keep that up!</text></string>
+<string id="st_eat_medkit_cry_68"><text>Damn it, that's another hole in my jacket! Do you know how expensive this was?</text></string>
+<string id="st_eat_medkit_cry_69"><text>Getting real tired of bleeding out. Time to finish this!</text></string>
+<string id="st_eat_medkit_cry_70"><text>Still breathing, still fighting. Hope you're ready for what's coming.</text></string>
+<string id="st_eat_medkit_cry_71"><text>Alright, you’ve made your point. My turn to make mine.</text></string>
+<string id="st_eat_medkit_cry_72"><text>Argh! Great, another set of bruises to explain later...</text></string>
+<string id="st_eat_medkit_cry_73"><text>The Zone’s taken worse shots at me. You’re just background noise.</text></string>
+<string id="st_eat_medkit_cry_74"><text>I’m gonna need a drink after this. Maybe three.</text></string>
+<string id="st_eat_medkit_cry_75"><text>You're starting to annoy me. Time to end this.</text></string>
+<string id="st_eat_medkit_cry_76"><text>Heh, you missed all the vital parts. Better luck next time.</text></string>
+<string id="st_eat_medkit_cry_77"><text>You think I’m scared? I eat bullets for breakfast. Bring it on!</text></string>
+<string id="st_eat_medkit_cry_78"><text>Hah, you'll need more firepower than that to put me down!</text></string>
+<string id="st_eat_medkit_cry_79"><text>Ugh, why do I always get hit in the same spot?!</text></string>
+<string id="st_eat_medkit_cry_80"><text>Ow! Alright, now you've made it personal!</text></string>
+<string id="st_eat_medkit_cry_81"><text>Oh, you’re proud of that? Let’s see you try again.</text></string>
+<string id="st_eat_medkit_cry_82"><text>Heh, you’re just giving me more reasons to keep fighting.</text></string>
+<string id="st_eat_medkit_cry_83"><text>That the best you got? Come on, impress me!</text></string>
+<string id="st_eat_medkit_cry_84"><text>It’s just a flesh wound... I think. Damn it hurts though!</text></string>
+<string id="st_eat_medkit_cry_85"><text>You’d think the Zone would toughen me up by now. Guess not!</text></string>
+<string id="st_eat_medkit_cry_86"><text>Medkit’s not magic, but it’ll have to do. Let’s keep moving.</text></string>
+<string id="st_eat_medkit_cry_87"><text>Ugh! Feels like I just got hit by a pseudogiant!</text></string>
+<string id="st_eat_medkit_cry_88"><text>This isn’t over! I’ll patch up and come right back for you!</text></string>
+<string id="st_eat_medkit_cry_89"><text>Well, that sucked. Let’s even the score, shall we?</text></string>
+<string id="st_eat_medkit_cry_90"><text>Hold on, hold on... Let me catch my breath. Then you're dead!</text></string>
+<string id="st_eat_medkit_cry_91"><text>I’ve had worse from mutants. You're nothing special.</text></string>
+<string id="st_eat_medkit_cry_92"><text>Heh, still standing, still breathing. Your move, punk.</text></string>
+<string id="st_eat_medkit_cry_93"><text>Missed the vital organs. Guess I should thank you for that.</text></string>
+<string id="st_eat_medkit_cry_94"><text>That’s gonna leave a scar... if I make it out of here alive.</text></string>
+<string id="st_eat_medkit_cry_95"><text>I need to find some cover... then I’ll show you how it’s done.</text></string>
+<string id="st_eat_medkit_cry_96"><text>You’ve got some nerve taking a shot at me. Let’s settle this.</text></string>
+<string id="st_eat_medkit_cry_97"><text>Zone’s throwing everything at me today... but I’m still here.</text></string>
+<string id="st_eat_medkit_cry_98"><text>Oh, that’s cute. You think you’ve won? Think again!</text></string>
+<string id="st_eat_medkit_cry_99"><text>Patch me up quick... this is only the beginning.</text></string>
+<string id="st_eat_medkit_cry_100"><text>Great, now I look like a walking bullet sponge.</text></string>
+<string id="st_eat_medkit_cry_101"><text>You’ve scratched the surface. Let’s see if you can dig deeper.</text></string>
+<string id="st_eat_medkit_cry_102"><text>What, you thought that was enough? Amateur.</text></string>
+<string id="st_eat_medkit_cry_103"><text>I’m not done yet. You’ll regret leaving me breathing.</text></string>
+<string id="st_eat_medkit_cry_104"><text>That all you got? I’ve seen rookies do better than that.</text></string>
+<string id="st_eat_medkit_cry_105"><text>Yeah, yeah, that stung. My turn’s coming up next!</text></string>
+<string id="st_eat_medkit_cry_106"><text>The Zone’s got a funny way of keeping me humble...</text></string>
+<string id="st_eat_medkit_cry_107"><text>Whew! Lucky I’m wearing this armor. Still hurts like hell though!</text></string>
+<string id="st_eat_medkit_cry_108"><text>Damn it, that almost clipped my head. Almost.</text></string>
+<string id="st_eat_medkit_cry_109"><text>Blood’s running, but so am I. You’re not stopping me.</text></string>
+<string id="st_eat_medkit_cry_110"><text>I’ll make it through this. Just watch me.</text></string>
+<string id="st_eat_medkit_cry_111"><text>Hah, is that all you've got? I’ve taken worse from boars!</text></string>
+<string id="st_eat_medkit_cry_112"><text>Alright, now I’m pissed. You better hope I don’t get back up.</text></string>
+<string id="st_eat_medkit_cry_113"><text>That was a good shot... for a rookie. My turn now.</text></string>
+<string id="st_eat_medkit_cry_114"><text>Son of a—! You’re gonna regret that one, pal.</text></string>
+<string id="st_eat_medkit_cry_115"><text>Ugh, armor’s barely holding up. Time to make this quick.</text></string>
+<string id="st_eat_medkit_cry_116"><text>Zone’s testing me today... but I’m not going down that easy.</text></string>
+<string id="st_eat_medkit_cry_117"><text>Argh! Next time, aim somewhere that doesn’t hurt so much!</text></string>
+<string id="st_eat_medkit_cry_118"><text>You’ll need to do better than that if you want to take me out!</text></string>
+<string id="st_eat_medkit_cry_119"><text>That’s it? I’ve had mosquitoes in the swamps hurt worse than you.</text></string>
+<string id="st_eat_medkit_cry_120"><text>You better pray I don’t find you after I patch this up!</text></string>
+<string id="st_eat_medkit_cry_121"><text>Medkit or no medkit, I’m finishing this fight.</text></string>
+<string id="st_eat_medkit_cry_122"><text>Ugh... the Zone’s not getting me today. Not today.</text></string>
+<string id="st_eat_medkit_cry_123"><text>Heh, looks like I’m still in one piece. Barely.</text></string>
+<string id="st_eat_medkit_cry_124"><text>I’m not dying out here. You hear me? Not here!</text></string>
+<string id="st_eat_medkit_cry_125"><text>Come on, is that all you’ve got? Let’s end this!</text></string>
+<string id="st_eat_medkit_cry_126"><text>Damn it, bleeding again... but I’m still breathing.</text></string>
+<string id="st_eat_medkit_cry_127"><text>You think I’m scared? I’ve faced worse than you in the Zone.</text></string>
+<string id="st_eat_medkit_cry_128"><text>Argh! That armor saved me, but barely. Time to move.</text></string>
+<string id="st_eat_medkit_cry_129"><text>Patch it up, patch it up... gotta stay in the fight.</text></string>
+<string id="st_eat_medkit_cry_130"><text>That one’s gonna sting for a while. Time to return the favor.</text></string>
+<string id="st_eat_medkit_cry_131"><text>Ugh, I should charge rent for all these bullet holes in me.</text></string>
+<string id="st_eat_medkit_cry_132"><text>Medkit’s not magic, but I’ll take what I can get.</text></string>
+<string id="st_eat_medkit_cry_133"><text>Is that all you’ve got? You’re making this too easy!</text></string>
+<string id="st_eat_medkit_cry_134"><text>Lucky shot. Won’t happen again, I promise you that.</text></string>
+<string id="st_eat_medkit_cry_135"><text>Alright, I’ve had enough of this! Time to end it!</text></string>
+<string id="st_eat_medkit_cry_136"><text>The Zone’s not claiming me today. I’ve got more left in me!</text></string>
+<string id="st_eat_medkit_cry_137"><text>Great, another scar to add to the collection. Thanks for that!</text></string>
+<string id="st_eat_medkit_cry_138"><text>You hit me, but I’m still standing. That’s all that matters.</text></string>
+<string id="st_eat_medkit_cry_139"><text>Damn it, the armor’s failing. Better finish this fast.</text></string>
+<string id="st_eat_medkit_cry_140"><text>I’ll be back on my feet soon. You won’t like that.</text></string>
+<string id="st_eat_medkit_cry_141"><text>Another day, another bullet. Life in the Zone, I guess.</text></string>
+<string id="st_eat_medkit_cry_142"><text>You’re gonna need more ammo if you want me dead!</text></string>
+<string id="st_eat_medkit_cry_143"><text>I’ve survived anomalies worse than you. Try harder!</text></string>
+<string id="st_eat_medkit_cry_144"><text>Morphine kicking in... finally, I can think straight.</text></string>
+<string id="st_eat_medkit_cry_145"><text>Fentanyl... feels like fire in my veins, but at least I can move again.</text></string>
+<string id="st_eat_medkit_cry_146"><text>Ah, God bless whoever made morphine. Still hurts like hell, though.</text></string>
+<string id="st_eat_medkit_cry_147"><text>Popped a stim, but this isn’t over. Keep it together!</text></string>
+<string id="st_eat_medkit_cry_148"><text>Zone-grade painkillers—barely better than chewing glass.</text></string>
+<string id="st_eat_medkit_cry_149"><text>Inject and hope for the best... That’s my kind of medicine.</text></string>
+<string id="st_eat_medkit_cry_150"><text>Stims are working, but my hands are still shaking... not good.</text></string>
+<string id="st_eat_medkit_cry_151"><text>These black-market drugs are sketchy, but they’re keeping me alive.</text></string>
+<string id="st_eat_medkit_cry_152"><text>Just shot up a dose... feels like my chest is on fire, but I’m not dying yet.</text></string>
+<string id="st_eat_medkit_cry_153"><text>Morphine’s dulling the pain, but my head’s swimming... focus!</text></string>
+<string id="st_eat_medkit_cry_154"><text>If I survive this, I’m swearing off these meds... until next time.</text></string>
+<string id="st_eat_medkit_cry_155"><text>Stabbing myself with adrenaline. Let's see if it’s enough...</text></string>
+<string id="st_eat_medkit_cry_156"><text>This syringe better not be expired... I can’t afford another infection.</text></string>
+<string id="st_eat_medkit_cry_157"><text>Fentanyl’s hitting hard... just don’t pass out. Not yet.</text></string>
+<string id="st_eat_medkit_cry_158"><text>These pills are doing something... but I’m still bleeding. Great.</text></string>
+<string id="st_eat_medkit_cry_159"><text>Ugh, whatever’s in this injector burns like hell. But it works.</text></string>
+<string id="st_eat_medkit_cry_160"><text>Med-grade stims? Or bootleg crap? Guess I’ll find out in a few minutes...</text></string>
+<string id="st_eat_medkit_cry_161"><text>Fuck you, I'm not wasting any more moonshine on my wounds.</text></string>
+<string id="st_eat_medkit_cry_162"><text>Painkillers, morphine, adrenaline... cocktail of survival, right?</text></string>
+<string id="st_eat_medkit_cry_163"><text>Zone meds always come with side effects... but dying isn’t one I can afford.</text></string>
+<string id="st_eat_medkit_cry_164"><text>Adrenaline’s got me on my feet, but my head’s pounding like a drum.</text></string>
+<string id="st_eat_medkit_cry_165"><text>What the hell did I just inject? Feels like my veins are on fire!</text></string>
+<string id="st_eat_medkit_cry_166"><text>Whatever was in that syringe, it’s keeping me upright. That’s all that matters.</text></string>
+<string id="st_eat_medkit_cry_167"><text>Blood loss slowed... thank God for morphine and duct tape.</text></string>
+<string id="st_eat_medkit_cry_168"><text>That stim felt like a lightning bolt. Still, better than bleeding out.</text></string>
+<string id="st_eat_medkit_cry_169"><text>If this painkiller doesn’t kick in soon, I might just lose it...</text></string>
+<string id="st_eat_medkit_cry_170"><text>Fentanyl’s doing its job... but I’m starting to feel way too numb.</text></string>
+<string id="st_eat_medkit_cry_171"><text>Zone drugs are a gamble... but they’re the only thing keeping me alive.</text></string>
+<string id="st_eat_medkit_cry_172"><text>These painkillers taste like crap, but I don’t care as long as they work.</text></string>
+<string id="st_eat_medkit_cry_173"><text>That stim shot’s giving me a second wind... but for how long?</text></string>
+<string id="st_eat_medkit_cry_174"><text>Medications working overtime... feels like I’m barely holding together.</text></string>
+<string id="st_eat_medkit_cry_175"><text>Thank God for combat drugs. Without them, I’d already be dead.</text></string>
+
+</string_table>

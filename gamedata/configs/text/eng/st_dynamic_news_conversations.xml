@@ -1,0 +1,1413 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+
+<!-- ARTIFACTS CONVERSATIONS -->
+<string id="st_dyn_news_conversation_artifacts_msg_1">
+    <text>Hey, youve heard bout that shiny thing popping up at the electro anomaly field?</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_1_1">
+    <text>Yeh, big brains from the eco lab paying fat rubles. If its legit, we are talking life changing cash.</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_1_2">
+    <text>I no like. Last time I chase sparkly rock, me end up with half my face missing. Stay away.</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_1_3">
+    <text>Word is, that thing warps the air and could fry your eyeballs at ten paces. Only fools touch it.</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_1_4">
+    <text>Quite intriguing...such anomalous phenomena often yield unprecedented scientific data, though perilous.</text>
+</string>
+
+<string id="st_dyn_news_conversation_artifacts_msg_2">
+    <text>Found a little rock glowing green. Think itll fetch a price?</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_2_1">
+    <text>Glow stone, huh? Better wrap that sucker in lead or youll glow too warm funeral, mate.</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_2_2">
+    <text>Could be legit artifact. But careful: handle with tweezers, not mitts—bare hands bad juju.</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_2_3">
+    <text>Eh, probably just hot slag from reactor. Still, fence guys might pay up if you hype it right.</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_2_4">
+    <text>Fascinating discovery, its spectral luminescence suggests high photon emission. Recommend analysis.</text>
+</string>
+
+<string id="st_dyn_news_conversation_artifacts_msg_3">
+    <text>Where is the next dig? Usual haunts are picked clean.</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_3_1">
+    <text>After the last blast, anomalies drift north. Try old watchtower grounds when fog lifts.</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_3_2">
+    <text>Dry spots? Sweet. Fewer rats to tussle. Ill take twice the haul for half the heat.</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_3_3">
+    <text>Someone said Duty boys marked fresh nodes by the riverbank. But they are paranoid bastards.</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_3_4">
+    <text>No clue. Zone keeps her secrets. One day you are king, next you are chow for mutants.</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_msg_4">
+    <text>Spotted a trader hawking about a .heart of the Zone. relic near the bar, anyone know what that is?</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_4_1">
+    <text>Heart of the Zone? Ha! Thats just fancy talk for a Psi coral chunk. Worth a handful of rubles, tops.</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_4_2">
+    <text>I met that trader last month, sold me a dud. Left me puking for two days. Avoid, comrade.</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_4_3">
+    <text>Intriguing nomenclature. If genuine, its anomalous resonance could yield potent psionic feedback.</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_4_4">
+    <text>Bro, dude is a scammer. He labels any glowing pebble heart to bilk fresh meat outta their cash.</text>
+</string>
+
+<string id="st_dyn_news_conversation_artifacts_msg_5">
+    <text>Heard whispers of a living artifact near the old power station. Moves on its own. Real or rumor?</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_5_1">
+    <text>Living artifact? You mean that twitchy blob folks say skulks in the dark? Pure folk's tale, I reckon.</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_5_2">
+    <text>I seen it with my own eyes..pulsing amber mass, slithering away when you get close. Gave me nightmares.</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_5_3">
+    <text>Such reports often stem from collective hysteria after emissions. Unlikely any creature exists.</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_5_4">
+    <text>Man, I chased that thing until my boots fell apart. It vanished inside a crevice, never saw a relic so sly.</text>
+</string>
+
+<string id="st_dyn_news_conversation_artifacts_msg_6">
+    <text>Word is, that new artifact bends time. Got anyone seen clocks spinning backward?</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_6_1">
+    <text>Time warp trinket? Thats pure Zone fairy tale. You will lose more than minutes chasing that nonsense.</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_6_2">
+    <text>I touched it once. felt like reliving my worst nightmares. Never again. Time is a curse here.</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_6_3">
+    <text>Fascinating. A chronometric anomaly could revolutionize our understanding of Zone physics if its real.</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_6_4">
+    <text>I saw my watch spin like crazy once, before it heat up to the point i had to chuck it away. Scared me good.</text>
+</string>
+
+<string id="st_dyn_news_conversation_artifacts_msg_7">
+    <text>Heard creepy crawlers hoarding shiny bits in the mutant burrow. Anyone brave enough to scout it?</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_7_1">
+    <text>Mutant stash? You daft? Those packs guard their loot with claws and teeth. no thanks.</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_7_2">
+    <text>Last hunter in there came back with a broken leg and missing ribs. If you value life, stay clear.</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_7_3">
+    <text>It is true, Psi beasts collect irradiated fragments. A well placed mine might clear them out… at risk.</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_7_4">
+    <text>I once filched a trinket while they slept. Heart pounding, I swear I heard growls in my skull.</text>
+</string>
+
+<string id="st_dyn_news_conversation_artifacts_msg_8">
+    <text>Some claim there is a singing artifact, emits tones that lure you closer. Sound familiar?</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_8_1">
+    <text>Singing stone yeah, locals call it the Sirens Tear. Folks get hypnotized, wander into anomalies.</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_8_2">
+    <text>I hear no song. just my own heartbeat when I touched it. Then I ran before the zone could eat me.</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_8_3">
+    <text>Acoustic feedback from micro fractures could explain the tones..pure physics! no magic involved.</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_8_4">
+    <text>If it sings, I aint sticking around to duet with. Got scars enough already.</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_msg_9">
+    <text>Spotted a lone sniper clutching a teardrop shaped relic and whispering to it. wtf.</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_9_1">
+    <text>Ah, thats the Echo Shard. Supposedly it replays lost voices. Watch your sanity, or itll echo forever.</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_9_2">
+    <text>I heard that whisperer just babbles nonsense, claims of lost loves and old wars. Probably cracked in the head.</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_9_3">
+    <text>Fascinating psychological tool, if it modulates auditory cortex, we might map memories through neural resonance.</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_9_4">
+    <text>I got one once, kept hearing mums lullaby. Nearly cried myself to sleep every night till I tossed it.</text>
+</string>
+
+<string id="st_dyn_news_conversation_artifacts_msg_10">
+    <text>Spotted a tiny orb that shrinks your packs weight, real or more Zone tall tale?</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_10_1">
+    <text>Weight shrinker? Might be the Light Core artifact. Heard it bends gravity if it's not a busted trinket junk.</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_10_2">
+    <text>Last time I believed that, I spilled half my ammo when it snapped back. Never trust weight games here.</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_10_3">
+    <text>Literature on gravitonic artifacts is sparse, but a micro singularity effect could account for reduced mass.</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_10_4">
+    <text>Bro, its legit. I hauled twice the loot till I hit a bump. Felt like wings on my shoulders…until crash.</text>
+</string>
+
+<string id="st_dyn_news_conversation_artifacts_msg_11">
+    <text>Caught wind of a mirror like shard that shows your worst fear. Anyone dare test it?</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_11_1">
+    <text>Mirror of Dread? No thanks, I've seen nightmares that still crawl under my skin when I blink.</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_11_2">
+    <text>Im not scared of shadows. But glass that knows your soul? Better leave that devils toy in the dirt.</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_11_3">
+    <text>From a cognitive science view, such an artifact could induce a hallucinatory feedback loop via brain wave entrainment. Further testing required.</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_11_4">
+    <text>I cracked it once, saw my own grave. Apparently spent a week muttering to myself. Never again.</text>
+</string>
+
+<string id="st_dyn_news_conversation_artifacts_msg_12">
+    <text>Swore I smelled fresh rain around a cluster of glowing mushrooms. Could it be an artifact bloom?</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_12_1">
+    <text>Mushroom bloom? Could be the Sporespire cluster releases psychoactive spores and odd scents.</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_12_2">
+    <text>I ate one once. Fucked me up, was in care for weeks. </text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_12_3">
+    <text>The olfactory receptors can be manipulated by certain fungal metabolites. Zone chemistry at its finest.</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_12_4">
+    <text>Bleh, mushrooms freak me out. If it aint gold, I am out. don't fancy sleepwalking into anomalies.</text>
+</string>
+
+
+<string id="st_dyn_news_conversation_artifacts_msg_13">
+    <text>Found this weird pyramid-shaped crystal near Jupiter. Glows when mutants are near. Anyone seen similar?</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_13_1">
+    <text>That's a Hunter's Beacon! Rare find. Monolith fanatics pay top rubles for those death traps.</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_13_2">
+    <text>Burn it. Last stalker carrying one got swarmed by snorks in his sleep.</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_13_3">
+    <text>Fascinating! Possibly psionic resonance acting as organic proximity detector.</text>
+</string>
+
+<string id="st_dyn_news_conversation_artifacts_msg_14">
+    <text>Does the "Soul" artifact actually heal mental wounds? Or just Zone fairytale?</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_14_1">
+    <text>Heals? More like borrows sanity. You'll be smiling while bleeding out.</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_14_2">
+    <text>Traded mine after it made me forget my own name for three days.</text>
+</string>
+<string id="st_dyn_news_conversation_artifacts_resp_14_3">
+    <text>Psychotropic properties confirmed. Ecologists pay triple for intact specimens.</text>
+</string>
+
+<!-- MUTANTS CONVERSATIONS -->
+
+<string id="st_dyn_news_conversation_mutants_msg_1">
+    <text>Bloodsucker pack spotted near the old factory. Stay alert!</text>
+</string>
+<string id="st_dyn_news_conversation_mutants_resp_1_1">
+    <text>Christ, again? Third fucking sighting this week Zone is going apeshit.</text>
+</string>
+<string id="st_dyn_news_conversation_mutants_resp_1_2">
+    <text>Cheers for the tip. Ill snake around, don't fancy becoming mutant chow.</text>
+</string>
+<string id="st_dyn_news_conversation_mutants_resp_1_3">
+    <text>Better grease up the double barrel. Those leech fiends wont know what hit them.</text>
+</string>
+<string id="st_dyn_news_conversation_mutants_resp_1_4">
+    <text>The factory is a fucking deathtrap, anyone daft enough to wander in deserves what they get.</text>
+</string>
+
+<string id="st_dyn_news_conversation_mutants_msg_2">
+    <text>Has anyone else noticed more mutants than usual lately?</text>
+</string>
+<string id="st_dyn_news_conversation_mutants_resp_2_1">
+    <text>Yeah, like they are massing up for a fucking invasion. Real shitshow out there.</text>
+</string>
+<string id="st_dyn_news_conversation_mutants_resp_2_2">
+    <text>More mutants, more bounties. My pockets are thanking the Zone today.</text>
+</string>
+<string id="st_dyn_news_conversation_mutants_resp_2_3">
+    <text>Might be the storms, creatures feel the charge before we do. Nature is twisted here.</text>
+</string>
+<string id="st_dyn_news_conversation_mutants_resp_2_4">
+    <text>I do seem to encounter more recently, they must be breeding more or some shit.</text>
+</string>
+
+<string id="st_dyn_news_conversation_mutants_msg_3">
+    <text>Spotted a pack of pseudogiants by the swamp, absolutely massive. Anyone got eyes?</text>
+</string>
+<string id="st_dyn_news_conversation_mutants_resp_3_1">
+    <text>Pseudogiants? Fuck me, that is asking for a quick trip to the afterlife.</text>
+</string>
+<string id="st_dyn_news_conversation_mutants_resp_3_2">
+    <text>I saw them too, looked like walking towers. Shot one in the knee, made a helluva racket.</text>
+</string>
+<string id="st_dyn_news_conversation_mutants_resp_3_3">
+    <text>Terrifying specimens, probably mutated by deep water anomalies. Handle with extreme prejudice.</text>
+</string>
+<string id="st_dyn_news_conversation_mutants_resp_3_4">
+    <text>Man, Id rather wrestle a pseudodog than meet those cunts head on fully geared.</text>
+</string>
+
+<string id="st_dyn_news_conversation_mutants_msg_4">
+    <text>Anyone heard growling near the old train cars at night? Sounded unnatural.</text>
+</string>
+<string id="st_dyn_news_conversation_mutants_resp_4_1">
+    <text>Yeah, that is the wretched dog things prowling. Give them a flare and watch them scatter.</text>
+</string>
+<string id="st_dyn_news_conversation_mutants_resp_4_2">
+    <text>Me? I sleep with earplugs. Let the poor sods howl at ghosts, they wont get me.</text>
+</string>
+<string id="st_dyn_news_conversation_mutants_resp_4_3">
+    <text>Acoustic predator behavior increasing, screams replicate pack cohesion. Fascinating, yet deadly.</text>
+</string>
+<string id="st_dyn_news_conversation_mutants_resp_4_4">
+    <text>Fucking hell same, I nearly shit myself last night. Kept expecting to feel hot breath on my neck.</text>
+</string>
+
+<string id="st_dyn_news_conversation_mutants_msg_5">
+    <text>Heard the snorks are swarming near the tunnel entrance. Anyone brave enough to clear them?</text>
+</string>
+<string id="st_dyn_news_conversation_mutants_resp_5_1">
+    <text>Snorks? Nah, fuck that. I quit after one nearly tore off my arm.</text>
+</string>
+<string id="st_dyn_news_conversation_mutants_resp_5_2">
+    <text>Im gearing up, got new rounds for the SPAS. Lets teach those gurgling freaks a lesson.</text>
+</string>
+<string id="st_dyn_news_conversation_mutants_resp_5_3">
+    <text>Observing group hunting tactics snorks coordinate via potential sonar clicks. Starting to consider some kind of heavy acoustic suppression.</text>
+</string>
+<string id="st_dyn_news_conversation_mutants_resp_5_4">
+    <text>Last bloke who tried said he heard voices in his head before the swarm hit. Spooky shit.</text>
+</string>
+
+<string id="st_dyn_news_conversation_mutants_msg_6">
+    <text>Saw a lone chimera slinking through the cornfields at dusk—looked pissed. Heads up!</text>
+</string>
+<string id="st_dyn_news_conversation_mutants_resp_6_1">
+    <text>Hm, chimeras don't generally wander alone. Somethings really fucked up if its solo.</text>
+</string>
+<string id="st_dyn_news_conversation_mutants_resp_6_2">
+    <text>Chimeras freak me the fuck out, i see one im OUT the fucking place, I don't give a fuck what you guys think.</text>
+</string>
+<string id="st_dyn_news_conversation_mutants_resp_6_3">
+    <text>Interesting deviation from pack behavior, could indicate territorial pressure or a wounded alpha.</text>
+</string>
+<string id="st_dyn_news_conversation_mutants_resp_6_4">
+    <text>Id give my left smaller nut to bag that bastard, but aint stupid enough to try solo.</text>
+</string>
+
+<string id="st_dyn_news_conversation_mutants_msg_7">
+    <text>Heard whisper of a controller haunting the substation tunnels, anyone got proof?</text>
+</string>
+<string id="st_dyn_news_conversation_mutants_resp_7_1">
+    <text>Controller in the tubes? I almost had my brain scrambled last week, pure psychic hell.</text>
+</string>
+<string id="st_dyn_news_conversation_mutants_resp_7_2">
+    <text>I aint superstitious, but I saw lights blink without wires and then a voice in my head.</text>
+</string>
+<string id="st_dyn_news_conversation_mutants_resp_7_3">
+    <text>Electromagnetic anomalies could explain auditory hallucinations, though psionic field interactions remain uncharted.</text>
+</string>
+<string id="st_dyn_news_conversation_mutants_resp_7_4">
+    <text>Bullshit rumor, unless you fancy getting your skull vacuum cleaned, stay the fuck away from those tunnels.</text>
+</string>
+
+<string id="st_dyn_news_conversation_mutants_msg_8">
+    <text>Rogue pack of pseudodogs tearing through convoys on the clearance road, any backup teams?</text>
+</string>
+<string id="st_dyn_news_conversation_mutants_resp_8_1">
+    <text>Pseudodogs on the clearance? Fucking brilliant, no safe route left. I am bugging out tonight.</text>
+</string>
+<string id="st_dyn_news_conversation_mutants_resp_8_2">
+    <text>Got given orders. set up ambush with flashbangs. Those buggers hate bright lights.</text>
+</string>
+<string id="st_dyn_news_conversation_mutants_resp_8_3">
+    <text>Pack coordination suggests higher cognitive function, could be a new subspecies adapting to patrol patterns.</text>
+</string>
+<string id="st_dyn_news_conversation_mutants_resp_8_4">
+    <text>I went in solo, came out minus half my gear. don't be a hero; bring friends or don't bother.</text>
+</string>
+
+<string id="st_dyn_news_conversation_mutants_msg_9">
+    <text>Anyone else got scratched by those freaky cat things near the barn? Getting weird rashes.</text>
+</string>
+<string id="st_dyn_news_conversation_mutants_resp_9_1">
+    <text>Fucking hell, those scratches will rot your arm if you aint careful.</text>
+</string>
+<string id="st_dyn_news_conversation_mutants_resp_9_2">
+    <text>I patched myself up with vodka and iodine, still itching like mad. Might need medics help.</text>
+</string>
+<string id="st_dyn_news_conversation_mutants_resp_9_3">
+    <text>Dermal irritation from their saliva indicates potent enzymatic agents, recommend topical antivenom creams.</text>
+</string>
+<string id="st_dyn_news_conversation_mutants_resp_9_4">
+    <text>I don't trust any mutant pussy. One scratch and you are a walking biohazard.</text>
+</string>
+
+<string id="st_dyn_news_conversation_mutants_msg_10">
+    <text>Pseudodog pups following me near Garbage. Shoot or leave?</text>
+</string>
+<string id="st_dyn_news_conversation_mutants_resp_10_1">
+    <text>Kill the litter. Momma's tracking you through them.</text>
+</string>
+<string id="st_dyn_news_conversation_mutants_resp_10_2">
+    <text>Lead them to bandit camp. Free clean-up crew.</text>
+</string>
+<string id="st_dyn_news_conversation_mutants_resp_10_3">
+    <text>Fascinating! Juvenile pack behavior suggests higher social intelligence!</text>
+</string>
+
+<string id="st_dyn_news_conversation_mutants_msg_11">
+    <text>Burnt Fuzz mutants near Brain Scorcher - new variant?</text>
+</string>
+<string id="st_dyn_news_conversation_mutants_resp_11_1">
+    <text>Psi-burned zombies. Headshots don't work - burn the bodies.</text>
+</string>
+<string id="st_dyn_news_conversation_mutants_resp_11_2">
+    <text>Monolith experiments gone wrong. Avoid unless you want your mind fried.</text>
+</string>
+
+	<!-- TRADING CONVERSATIONS -->
+	<string id="st_dyn_news_conversation_trading_msg_1">
+		<text>Sidorovich is ripping us off again. His prices are getting ridiculous!</text>
+	</string>
+	<string id="st_dyn_news_conversation_trading_resp_1_1">
+		<text>What else is new? That fat bitch has been doing it for years.</text>
+	</string>
+	<string id="st_dyn_news_conversation_trading_resp_1_2">
+		<text>Try the other traders. Competition might make him reconsider.</text>
+	</string>
+	<string id="st_dyn_news_conversation_trading_resp_1_3">
+		<text>Supply and demand, friend. Not many merchants brave enough to work here.</text>
+	</string>
+	<string id="st_dyn_news_conversation_trading_resp_1_4">
+		<text>At least he's reliable. Rather pay more than get shot for my gear.</text>
+	</string>
+<string id="st_dyn_news_conversation_trading_msg_2">
+    <text>Got a fat stack of ammo but need medkits, anyone wanna swap?</text>
+</string>
+<string id="st_dyn_news_conversation_trading_resp_2_1">
+    <text>Ammo for medkits? Hell yes, just don't try to short me, or Ill unload on you.</text>
+</string>
+<string id="st_dyn_news_conversation_trading_resp_2_2">
+    <text>Im low on bandages, but I got a couple of Morphine shots. Fair trade?</text>
+</string>
+<string id="st_dyn_news_conversation_trading_resp_2_3">
+    <text>Supplies are tight. Id only do that if you toss in a couple of those 5.45s to sweeten the deal.</text>
+</string>
+<string id="st_dyn_news_conversation_trading_resp_2_4">
+    <text>Interesting proposal. It will accept, on condition you mention this favor when I need extraction intel.</text>
+</string>
+
+<string id="st_dyn_news_conversation_trading_msg_3">
+    <text>Heard there is a buyer for Intel on enemy patrol routes, anyone got maps to sell?</text>
+</string>
+<string id="st_dyn_news_conversation_trading_resp_3_1">
+    <text>Maps? I may have something that interests you. I will trade for a scoped rifle and extra mags.</text>
+</string>
+<string id="st_dyn_news_conversation_trading_resp_3_2">
+    <text>Maybe talk to Sidorovichs mole down by the bar. He deals in whispers, not toys.</text>
+</string>
+<string id="st_dyn_news_conversation_trading_resp_3_3">
+    <text>From a strategic standpoint, patrol intel shifts with emissions, stale maps are worse than none.</text>
+</string>
+<string id="st_dyn_news_conversation_trading_resp_3_4">
+    <text>Look, I aint your cartographer. But trade me a medkit and i will sketch you part of the eastern flank.</text>
+</string>
+
+<string id="st_dyn_news_conversation_trading_msg_4">
+    <text>Saw a blackmarket fence offering electric grenades, worth the risk?</text>
+</string>
+<string id="st_dyn_news_conversation_trading_resp_4_1">
+    <text>Electric grenades? Sounds like suicide by shock. Id stick to good old frag.</text>
+</string>
+<string id="st_dyn_news_conversation_trading_resp_4_2">
+    <text>Ive used them, stun biocreatures dead cold. But theyre temperamental. Handle with gloves.</text>
+</string>
+<string id="st_dyn_news_conversation_trading_resp_4_3">
+    <text>From an engineering view, the minicapacitors could overload under humidity, high failure rate.</text>
+</string>
+<string id="st_dyn_news_conversation_trading_resp_4_4">
+    <text>Fuck yeah, grab them! Nothing says surprise like a lightning blast in a burrow of blind beasts.</text>
+</string>
+
+<string id="st_dyn_news_conversation_trading_msg_5">
+    <text>Need .45 ACP ammo. Will trade two fresh antirads.</text>
+</string>
+<string id="st_dyn_news_conversation_trading_resp_5_1">
+    <text>Deal. Meet at dead truck north of Rostok. Come alone.</text>
+</string>
+<string id="st_dyn_news_conversation_trading_resp_5_2">
+    <text>Antirads for bullets? You'll regret that when your skin starts peeling.</text>
+</string>
+
+<string id="st_dyn_news_conversation_trading_msg_6">
+    <text>Who buys mutant trophies? Got fresh chimera claws.</text>
+</string>
+<string id="st_dyn_news_conversation_trading_resp_6_1">
+    <text>Saw Sakharov paying for biological samples yesterday.</text>
+</string>
+<string id="st_dyn_news_conversation_trading_resp_6_2">
+    <text>Duty buys 'em for their "wall of horrors" at the barrier.</text>
+</string>
+
+
+<!-- HUMOR CONVERSATIONS -->
+<string id="st_dyn_news_conversation_humor_msg_1">
+    <text>My detector has been beeping non stop either Im about to score big or get fried</text>
+</string>
+<string id="st_dyn_news_conversation_humor_resp_1_1">
+    <text>Both, knowing this shithole you are probably dying rich</text>
+</string>
+<string id="st_dyn_news_conversation_humor_resp_1_2">
+    <text>Maybe give that piece of a shit a kick works better than half the junk in my pack</text>
+</string>
+<string id="st_dyn_news_conversation_humor_resp_1_3">
+    <text>Could be that fucker just craving attention who knows in this dump</text>
+</string>
+<string id="st_dyn_news_conversation_humor_resp_1_4">
+    <text>Silence means something shit is yet to happen so enjoy the racket while it lasts</text>
+</string>
+
+<string id="st_dyn_news_conversation_humor_msg_2">
+    <text>Robbed a bandit earlier today, forced him to walk shoeless. Eh you gotta entertain yourself sometimes in the zone.</text>
+</string>
+<string id="st_dyn_news_conversation_humor_resp_2_1">
+    <text>Should've shot a toe off too, just to teach him not to beg.</text>
+</string>
+<string id="st_dyn_news_conversation_humor_resp_2_2">
+    <text>Nice. Maybe now he'll think twice before pulling a rusty Makarov on someone.</text>
+</string>
+<string id="st_dyn_news_conversation_humor_resp_2_3">
+    <text>Hope he steps on a meatgrinder. Barefoot justice.</text>
+</string>
+<string id="st_dyn_news_conversation_humor_resp_2_4">
+    <text>That�s mercy in the Zone. Next time, don�t leave him breathing.</text>
+</string>
+<string id="st_dyn_news_conversation_humor_msg_3">
+    <text>Spilled my vodka in the mud great start to any day. feels bad.</text>
+</string>
+<string id="st_dyn_news_conversation_humor_resp_3_1">
+    <text>Congrats you just watered the Zones only crop</text>
+</string>
+<string id="st_dyn_news_conversation_humor_resp_3_2">
+    <text>Drink muddy vodka it builds character stalker.</text>
+</string>
+<string id="st_dyn_news_conversation_humor_resp_3_3">
+    <text>Well at least the mud is sterile!</text>
+</string>
+<string id="st_dyn_news_conversation_humor_resp_3_4">
+    <text>Better than losing bullets I guess</text>
+</string>
+
+<string id="st_dyn_news_conversation_humor_msg_4">
+    <text>My boots just fell apart mid loot run, this fucking zone man</text>
+</string>
+<string id="st_dyn_news_conversation_humor_resp_4_1">
+    <text>Best get duct tape or youll be slipping on your own blood</text>
+</string>
+<string id="st_dyn_news_conversation_humor_resp_4_2">
+    <text>Boots last longer if you don't stomp mutant corpses in them</text>
+</string>
+<string id="st_dyn_news_conversation_humor_resp_4_3">
+    <text>Survival tip use boots from dead stalkers never your own stash</text>
+</string>
+<string id="st_dyn_news_conversation_humor_resp_4_4">
+    <text>Congrats you are officially shoeless and clueless welcome to the zone</text>
+</string>
+
+<string id="st_dyn_news_conversation_humor_msg_5">
+    <text>Ate some mystery meat now my guts feel like they are doing backflips</text>
+</string>
+<string id="st_dyn_news_conversation_humor_resp_5_1">
+    <text>Mystery meat is famous for mystery poison happy tripping</text>
+</string>
+<string id="st_dyn_news_conversation_humor_resp_5_2">
+    <text>Next time cook it twice or turn it into mutant stew</text>
+</string>
+<string id="st_dyn_news_conversation_humor_resp_5_3">
+    <text>Vodka cures all but that might kill you faster</text>
+</string>
+<string id="st_dyn_news_conversation_humor_resp_5_4">
+    <text>At least you are not hungry now</text>
+</string>
+
+<string id="st_dyn_news_conversation_humor_msg_6">
+    <text>Weapon keeps fucking jamming right when I needed it most thanks for nothing</text>
+</string>
+<string id="st_dyn_news_conversation_humor_resp_6_1">
+    <text>Kick it a few times usually fixes your shitty luck</text>
+</string>
+<string id="st_dyn_news_conversation_humor_resp_6_2">
+    <text>Use your knife while you fish out the blockage</text>
+</string>
+<string id="st_dyn_news_conversation_humor_resp_6_3">
+    <text>Maybe you should carry less junk and clean your gun more</text>
+</string>
+<string id="st_dyn_news_conversation_humor_resp_6_4">
+    <text>That sounds like a massive skill issue</text>
+</string>
+
+<!-- EQUIPMENT CONVERSATIONS -->
+<string id="st_dyn_news_conversation_equipment_msg_1">
+    <text>Anyone know how to fix a busted gas mask filter? Duct tape isnt working.</text>
+</string>
+<string id="st_dyn_news_conversation_equipment_resp_1_1">
+    <text>If duct tape isnt working, you're not using enough duct tape.</text>
+</string>
+<string id="st_dyn_news_conversation_equipment_resp_1_2">
+    <text>Try the mechanics. They work miracles with junk parts.</text>
+</string>
+<string id="st_dyn_news_conversation_equipment_resp_1_3">
+    <text>Just get a new one. Your lungs will thank you later.</text>
+</string>
+<string id="st_dyn_news_conversation_equipment_resp_1_4">
+    <text>I use coffee filters in a pinch. Not recommended for heavy radiation though.</text>
+</string>
+<string id="st_dyn_news_conversation_equipment_msg_2">
+    <text>Battery on my NVG died fast as hell any tips to juice it up?</text>
+</string>
+<string id="st_dyn_news_conversation_equipment_resp_2_1">
+    <text>Swap in some fresh AAs or scavenge cells from dead geiger counters</text>
+</string>
+<string id="st_dyn_news_conversation_equipment_resp_2_2">
+    <text>Charge pack on a generator if you can find one without getting blasted</text>
+</string>
+<string id="st_dyn_news_conversation_equipment_resp_2_3">
+    <text>Juryrig a solar panel outta scrap glass and wiring but good luck</text>
+</string>
+<string id="st_dyn_news_conversation_equipment_resp_2_4">
+    <text>Or just learn to see in the dark like the rest of usNVGs are luxury</text>
+</string>
+
+<string id="st_dyn_news_conversation_equipment_msg_3">
+    <text>My AKs barrel is all shitfouled any quick clean tricks?</text>
+</string>
+<string id="st_dyn_news_conversation_equipment_resp_3_1">
+    <text>Use your shirt and half a bottle of petrol, better than nothing</text>
+</string>
+<string id="st_dyn_news_conversation_equipment_resp_3_2">
+    <text>Wire brush and bore solvent from the chem dealer does wonders</text>
+</string>
+<string id="st_dyn_news_conversation_equipment_resp_3_3">
+    <text>Barrel is shot if you need steel wool and elbow grease, no shortcuts</text>
+</string>
+<string id="st_dyn_news_conversation_equipment_resp_3_4">
+    <text>Fuck cleaning, just swap barrels and pray you find one</text>
+</string>
+
+<string id="st_dyn_news_conversation_equipment_msg_4">
+    <text>Scope is loose as hell how do I torque that mount?</text>
+</string>
+<string id="st_dyn_news_conversation_equipment_resp_4_1">
+    <text>Grab a spanner or wrench and tighten until it stops rattling</text>
+</string>
+<string id="st_dyn_news_conversation_equipment_resp_4_2">
+    <text>Stuck? Hit it with a rubber mallet, careful not to break that lens</text>
+</string>
+<string id="st_dyn_news_conversation_equipment_resp_4_3">
+    <text>Put a bit of thread locker on the screws so they don't back out</text>
+</string>
+<string id="st_dyn_news_conversation_equipment_resp_4_4">
+    <text>Or duct tape it like everything else you junkcollector</text>
+</string>
+
+<string id="st_dyn_news_conversation_equipment_msg_5">
+    <text>PSU on my PDA fucking fried cant get maps up, any repair hacks?</text>
+</string>
+<string id="st_dyn_news_conversation_equipment_resp_5_1">
+    <text>Toss a fresh fuse in there if you can scrounge one, saves your ass</text>
+</string>
+<string id="st_dyn_news_conversation_equipment_resp_5_2">
+    <text>Short the burnt traces with wire but youll need steady hands</text>
+</string>
+<string id="st_dyn_news_conversation_equipment_resp_5_3">
+    <text>Trade it in for a working unit or go fucking blind out there</text>
+</string>
+<string id="st_dyn_news_conversation_equipment_resp_5_4">
+    <text>Or just follow the sun and landmarks like some cavedweller</text>
+</string>
+
+<string id="st_dyn_news_conversation_equipment_msg_6">
+    <text>Best armor mod against chemical burns? Keep getting acid-spitted.</text>
+</string>
+<string id="st_dyn_news_conversation_equipment_resp_6_1">
+    <text>Layer rubber seals between plates. Stinks but saves skin.</text>
+</string>
+<string id="st_dyn_news_conversation_equipment_resp_6_2">
+    <text>Freedom sells spray-on sealant. Costs more than your gun.</text>
+</string>
+
+
+<!-- STALKER LIFE CONVERSATIONS -->
+<string id="st_dyn_news_conversation_stalker_life_msg_1">
+    <text>Any advice for a rookie trying to not become mutant chow?</text>
+</string>
+<string id="st_dyn_news_conversation_stalker_life_resp_1_1">
+    <text>Keep your mouth shut and your boots laced silence saves your arse more than bullets.</text>
+</string>
+<string id="st_dyn_news_conversation_stalker_life_resp_1_2">
+    <text>Watch the skies for emissions, theyll cook your brains faster than a psiblast.</text>
+</string>
+<string id="st_dyn_news_conversation_stalker_life_resp_1_3">
+    <text>don't trust any mug who smiles too wide, theyll gut you for spare parts at first chance.</text>
+</string>
+<string id="st_dyn_news_conversation_stalker_life_resp_1_4">
+    <text>Learn to love the stink of napalm and vodka, only comforts youll find out here.</text>
+</string>
+<string id="st_dyn_news_conversation_stalker_life_msg_2">
+    <text>Im running low on meds whats your go to first aid tip?</text>
+</string>
+<string id="st_dyn_news_conversation_stalker_life_resp_2_1">
+    <text>Stitch cuts with fishing line and antiseptic from vodka makeshift doctoring 101.</text>
+</string>
+<string id="st_dyn_news_conversation_stalker_life_resp_2_2">
+    <text>Put on your big boy pants and figure it out.</text>
+</string>
+<string id="st_dyn_news_conversation_stalker_life_resp_2_3">
+    <text>Raw honey on wounds keeps infections at bay if you are brave enough to taste it.</text>
+</string>
+<string id="st_dyn_news_conversation_stalker_life_resp_2_4">
+    <text>Pray to whatever gods lurk in this hell hole and carry more bandages next time.</text>
+</string>
+
+<string id="st_dyn_news_conversation_stalker_life_msg_3">
+    <text>How do you handle the loneliness out here?</text>
+</string>
+<string id="st_dyn_news_conversation_stalker_life_resp_3_1">
+    <text>I talk to my rifle its the only friend that wont stab you in the back.</text>
+</string>
+<string id="st_dyn_news_conversation_stalker_life_resp_3_2">
+    <text>Cigarettes and KINO under the stars, misery loves company. Even if its your own.</text>
+</string>
+<string id="st_dyn_news_conversation_stalker_life_resp_3_3">
+    <text>Whistle some tunes, Zone echoes carry farther than normal voices.</text>
+</string>
+<string id="st_dyn_news_conversation_stalker_life_resp_3_4">
+    <text>Lonely? Embrace it. Out here, silence is a weapon and your only ally.</text>
+</string>
+
+<string id="st_dyn_news_conversation_stalker_life_msg_4">
+    <text>Whats your nightmare run, what killer makes you shiver?</text>
+</string>
+<string id="st_dyn_news_conversation_stalker_life_resp_4_1">
+    <text>Bloodsuckers at night...hearing that slurp before they dive is pure terror.</text>
+</string>
+<string id="st_dyn_news_conversation_stalker_life_resp_4_2">
+    <text>Controllers messing with your mind...seeing your dead mates begging you to stop.</text>
+</string>
+<string id="st_dyn_news_conversation_stalker_life_resp_4_3">
+    <text>Poltergeist anomalies throwing debris like grenades, no blast radius warning.</text>
+</string>
+<string id="st_dyn_news_conversation_stalker_life_resp_4_4">
+    <text>Radstorms in the open, feels like being microwaved alive and there is no cover.</text>
+</string>
+
+<string id="st_dyn_news_conversation_stalker_life_msg_5">
+    <text>How do you secure your camp at night without attracting mutants?</text>
+</string>
+<string id="st_dyn_news_conversation_stalker_life_resp_5_1">
+    <text>Set up a tripwire with cans or empty shells, noise alert without bright lights.</text>
+</string>
+<string id="st_dyn_news_conversation_stalker_life_resp_5_2">
+    <text>Dig shallow foxholes and sleep staggered watches. Better one less snooze than mutant snack.</text>
+</string>
+<string id="st_dyn_news_conversation_stalker_life_resp_5_3">
+    <text>A simple heat lamp rigged to a motion sensor draws critters away from your actual spot.</text>
+</string>
+<string id="st_dyn_news_conversation_stalker_life_resp_5_4">
+    <text>Keep a smoker running. Mutants hate the smell. Plus you can cook ration packs off the coals.</text>
+</string>
+
+<string id="st_dyn_news_conversation_stalker_life_msg_6">
+    <text>Rations are running low while im out in the wild, any tips for finding edible plants out here?</text>
+</string>
+<string id="st_dyn_news_conversation_stalker_life_resp_6_1">
+    <text>Look for the small white fungus near water, boil it twice, gets rid of most toxins.</text>
+</string>
+<string id="st_dyn_news_conversation_stalker_life_resp_6_2">
+    <text>I wouldn't eat shit thats grown in the zone.</text>
+</string>
+<string id="st_dyn_news_conversation_stalker_life_resp_6_3">
+    <text>Edible roots grow near old soot patches,dig carefully, wash off radiation first.</text>
+</string>
+<string id="st_dyn_news_conversation_stalker_life_resp_6_4">
+    <text>Best bet is the canned goods from supply drops, they're very rare though. Forage only if you know your botanicals.</text>
+</string>
+
+<!-- ZONE MYSTERIES (1-10) -->
+<string id="st_dyn_news_conversation_mysteries_msg_1">
+    <text>Anyone else see those green lights floating over the cooling towers last night?</text>
+</string>
+<string id="st_dyn_news_conversation_mysteries_resp_1_1">
+    <text>Yeah, been happening more lately. Zone is up to something new.</text>
+</string>
+<string id="st_dyn_news_conversation_mysteries_resp_1_2">
+    <text>Probably just swamp gas reflecting off Venus or some shit.</text>
+</string>
+<string id="st_dyn_news_conversation_mysteries_resp_1_3">
+    <text>I shot at them. They scattered like they were alive. Creepy as fuck.</text>
+</string>
+<string id="st_dyn_news_conversation_mysteries_resp_1_4">
+    <text>Keep your distance. Last guy who investigated never came back.</text>
+</string>
+
+<string id="st_dyn_news_conversation_mysteries_msg_2">
+    <text>Found a room full of perfectly preserved STALKER bodies from what it seems like a decade ago. Not a mark on them.</text>
+</string>
+<string id="st_dyn_news_conversation_mysteries_resp_2_1">
+    <text>Time anomaly maybe? Zone loves to fuck with the laws of physics.</text>
+</string>
+<string id="st_dyn_news_conversation_mysteries_resp_2_2">
+    <text>Leave them be. Disturbing the past never ends well here.</text>
+</string>
+<string id="st_dyn_news_conversation_mysteries_resp_2_3">
+    <text>Check their pockets for artifacts. Dead men don't need treasures.</text>
+</string>
+
+<string id="st_dyn_news_conversation_mysteries_msg_3">
+    <text>My compass has been spinning nonstop for three days. What gives?</text>
+</string>
+<string id="st_dyn_news_conversation_mysteries_resp_3_1">
+    <text>Magnetic anomaly forming nearby. Better relocate before it goes critical.</text>
+</string>
+<string id="st_dyn_news_conversation_mysteries_resp_3_2">
+    <text>Same here. Electronics are going haywire too. Bad sign.</text>
+</string>
+<string id="st_dyn_news_conversation_mysteries_resp_3_3">
+    <text>Could mean a big emission coming. Stock up on anti-rads.</text>
+</string>
+<string id="st_dyn_news_conversation_mysteries_msg_4">
+    <text>Strange metal monolith appeared overnight in Red Forest. Zone playing tricks?</text>
+</string>
+<string id="st_dyn_news_conversation_mysteries_resp_4_1">
+    <text>Monolith propaganda. Don't look at the symbols - drives men mad.</text>
+</string>
+<string id="st_dyn_news_conversation_mysteries_resp_4_2">
+    <text>New anomaly type? Got radiation readings off the charts.</text>
+</string>
+<string id="st_dyn_news_conversation_mysteries_resp_4_2">
+    <text>I wouldn't probe it.</text>
+</string>
+
+<!-- FACTION POLITICS (11-20) -->
+<string id="st_dyn_news_conversation_politics_msg_1">
+    <text>Heard Duty and Freedom are negotiating a ceasefire.</text>
+</string>
+<string id="st_dyn_news_conversation_politics_resp_1_1">
+    <text>Bullshit. Too much bad blood. Someone is gonna get played.</text>
+</string>
+<string id="st_dyn_news_conversation_politics_resp_1_2">
+    <text>About time. This war is bleeding everyone dry.</text>
+</string>
+<string id="st_dyn_news_conversation_politics_resp_1_3">
+    <text>Ceasefire just means they are planning something bigger.</text>
+</string>
+
+<string id="st_dyn_news_conversation_politics_msg_2">
+    <text>Military has been recruiting some stalkers. Offering amnesty and citizenship.</text>
+</string>
+<string id="st_dyn_news_conversation_politics_resp_2_1">
+    <text>Fuck that. Rather die free than live as their lapdog.</text>
+</string>
+<string id="st_dyn_news_conversation_politics_resp_2_2">
+    <text>Might not be a bad deal. Zone's getting too dangerous.</text>
+</string>
+<string id="st_dyn_news_conversation_politics_resp_2_3">
+    <text>Its a trap. They will use you then dispose of you.</text>
+</string>
+<string id="st_dyn_news_conversation_politics_resp_2_4">
+    <text>Already know three guys who took the deal. Havent heard from them since.</text>
+</string>
+
+<!-- SURVIVAL TIPS (21-30) -->
+<string id="st_dyn_news_conversation_survival_msg_1">
+    <text>Whats the best way to treat radiation sickness without proper meds?</text>
+</string>
+<string id="st_dyn_news_conversation_survival_resp_1_1">
+    <text>Vodka and cigarettes. Old stalker remedy. Works 60% of the time.</text>
+</string>
+<string id="st_dyn_news_conversation_survival_resp_1_2">
+    <text>Find some mushrooms near anomalies. Some absorb rads, some kill you. Good luck.</text>
+</string>
+<string id="st_dyn_news_conversation_survival_resp_1_3">
+    <text>Best treatment is not getting irradiated in the first place without the right meds with you, genius. Get out of the zone civilian.</text>
+</string>
+
+<string id="st_dyn_news_conversation_survival_msg_2">
+    <text>Running out of clean water. Any safe sources around here?</text>
+</string>
+<string id="st_dyn_news_conversation_survival_resp_2_1">
+    <text>Don't risk it, try to barter with someone instead.</text>
+</string>
+<string id="st_dyn_news_conversation_survival_resp_2_2">
+    <text>Boil everything twice. Add iodine tablets if you got them.</text>
+</string>
+<string id="st_dyn_news_conversation_survival_resp_2_3">
+    <text>Trade for it. I'm sure there'll be someone overcharging for somewhat clean water.</text>
+</string>
+
+<!-- ANOMALY ENCOUNTERS (31-40) -->
+<string id="st_dyn_news_conversation_anomaly_msg_1">
+    <text>New type of anomaly spotted. Turns organic matter to crystal.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_1_1">
+    <text>Saw a dog walk into one. Came out looking like a glass sculpture.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_1_2">
+    <text>Scientists would pay big for samples. If you survive collecting them.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_1_3">
+    <text>Zone is getting more creative with how it kills us everyday.</text>
+</string>
+
+<string id="st_dyn_news_conversation_anomaly_msg_2">
+    <text>That gravitational anomaly near the bridge is growing. I swear its grown twice as big since last week.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_2_1">
+    <text>Time to find a new route. That things becoming a black hole.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_2_2">
+    <text>Good. Maybe itll take out the bandits that go through there.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_2_3">
+    <text>Growing anomalies could mean the Zone is expanding? We're all fucked...</text>
+</string>
+
+
+<!-- STALKER STORIES (41-50) -->
+<string id="st_dyn_news_conversation_stories_msg_1">
+    <text>You guys hear what happened to Yuris squad in the Red Forest?</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_1_1">
+    <text>Found them all standing in a circle, stone dead.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_1_2">
+    <text>Controller work. Poor bastards probably shot each other.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_1_3">
+    <text>Red Forest doesn't forgive. Shouldve known better.</text>
+</string>
+
+<string id="st_dyn_news_conversation_stories_msg_2">
+    <text>Hey what ever happened to that rookie who said hed make it to the Wish Granter in a week?</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_2_1">
+    <text>Found his PDA near the first checkpoint. Lasted two days.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_2_2">
+    <text>Zone has a way of humbling the arrogant real quick.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_2_3">
+    <text>Another dreamer turned into mutant food. Tale as old as time.</text>
+</string>
+
+<string id="st_dyn_news_conversation_stories_msg_3">
+    <text>Anyone else notice the birds acting weird lately? They're all flying south.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_3_1">
+    <text>Animals always know before we do. Pack your shit.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_3_2">
+    <text>Last time this happened we had emissions for three days straight.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_3_3">
+    <text>Nature's early warning system. Better than any Geiger counter.</text>
+</string>
+
+<string id="st_dyn_news_conversation_stories_msg_4">
+    <text>My detector's been going mental near the old factory. Anyone brave enough to check it out?</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_4_1">
+    <text>Probably just scrap metal. Not worth the radiation poisoning.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_4_2">
+    <text>Could be a decent artifact. I'll split it 60-40 if you guide me there.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_4_3">
+    <text>Last guy who went there came back speaking in tongues. Hard pass.</text>
+</string>
+
+<string id="st_dyn_news_conversation_stories_msg_5">
+    <text>Group of fleshes got into our stash last night. Went through half our shit before we them down.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_5_1">
+    <text>Shit, those things are getting bolder.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_5_2">
+    <text>Damn, at least you'll get some stews out of them.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_5_3">
+    <text>At least you got it. I've lost a few friends to them.</text>
+</string>
+
+<string id="st_dyn_news_conversation_stories_msg_6">
+    <text>Found some premium vodka in a bunker today. Tastes like heaven after drinking brake fluid for weeks.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_6_1">
+    <text>Lucky bastard. All I found was moldy MREs and dead rats.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_6_2">
+    <text>Share the wealth, brother. I've got some decent ammo to trade.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_6_3">
+    <text>Careful, might be contaminated or some shit. Zone has a way of poisoning everything good.</text>
+</string>
+
+<string id="st_dyn_news_conversation_stories_msg_7">
+    <text>Guys, I think I'm being followed. Keep seeing the same shadow for the past three days.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_7_1">
+    <text>Paranoia or not, trust your gut. Better safe than dead.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_7_2">
+    <text>Could be a phantom. They like to stalk lone stalkers.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_7_3">
+    <text>Probably just your mind playing tricks. Zone does that to everyone eventually.</text>
+</string>
+
+<string id="st_dyn_news_conversation_stories_msg_8">
+    <text>Remember that old timer who used to tell stories about the early days? Found his body today.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_8_1">
+    <text>Vasily? Damn, thought that crazy old fuck was immortal.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_8_2">
+    <text>Zone claims everyone eventually. Even the legends.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_8_3">
+    <text>He knew more about this place than anyone. What a waste.</text>
+</string>
+
+<string id="st_dyn_news_conversation_stories_msg_9">
+    <text>My suit's giving me radiation warnings but the detector shows nothing. Anyone else having gear problems?</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_9_1">
+    <text>Electronics go haywire near psi-fields. Check for Controllers nearby.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_9_2">
+    <text>Probably fried circuits. This place eats technology for breakfast.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_9_3">
+    <text>Trust the Geiger over the suit. Suits lie, radiation doesn't.</text>
+</string>
+
+<string id="st_dyn_news_conversation_stories_msg_10">
+    <text>Emission's coming and I'm stuck in the open. Anyone know shelters near the Cement Factory?</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_10_1">
+    <text>Underground tunnel system east side. Watch for the snorks though.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_10_2">
+    <text>Too late to help now. If you're reading this after, you made it.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_10_3">
+    <text>Concrete pipe about 200m north. Tight fit but it'll keep you breathing.</text>
+</string>
+
+<string id="st_dyn_news_conversation_stories_msg_11">
+    <text>Spent three days tracking this artifact, turns out it was just a broken headlamp. FML.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_11_1">
+    <text>Zone's playing jokes on you, stalker. Happens to the best of us.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_11_2">
+    <text>At least you didn't get killed chasing phantom signals like Dmitri did.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_11_3">
+    <text>Three days wasted, but three days alive. Count your blessings.</text>
+</string>
+
+<string id="st_dyn_news_conversation_stories_msg_12">
+    <text>Anyone know what happened to Scar's group? They were supposed to check in two hours ago.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_12_1">
+    <text>Radio's been dead all day. Might just be interference.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_12_2">
+    <text>Scar's too stubborn to die easy. Give them time.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_12_3">
+    <text>Two hours in the Zone might as well be two years. Start worrying.</text>
+</string>
+
+<string id="st_dyn_news_conversation_stories_msg_13">
+    <text>This rookie keeps asking me about "safe paths" through anomaly fields. Should I tell him the truth?</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_13_1">
+    <text>Kid needs to learn somehow. Better from you than from a Whirligig.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_13_2">
+    <text>There are no safe paths, only less deadly ones.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_13_3">
+    <text>Tell him to throw bolts and pray. Same as the rest of us.</text>
+</string>
+
+<string id="st_dyn_news_conversation_stories_msg_14">
+    <text>Pulled a Jellyfish artifact from a Vortex today. Burns like hell but my wounds are healing fast.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_14_1">
+    <text>Careful, heard those things can cook you from the inside if you're not careful.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_14_2">
+    <text>Good find. Those go for serious cash with the right buyer.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_14_3">
+    <text>Keep it away from your vital organs. Had a buddy die from internal burns.</text>
+</string>
+
+<string id="st_dyn_news_conversation_stories_msg_15">
+    <text>Military checkpoint's been abandoned for three days. Either they pulled out or something got them.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_15_1">
+    <text>Probably tired of losing men to the Zone. Smart move.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_15_2">
+    <text>Free passage for now, but they'll be back. They always come back.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_15_3">
+    <text>Check for bodies. If there aren't any, they retreated. If there are... run.</text>
+</string>
+
+<string id="st_dyn_news_conversation_stories_msg_16">
+    <text>My Geiger counter just died. Anyone got a spare? Will trade ammo.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_16_1">
+    <text>Learn to read the signs. Plants, animals, your own body.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_16_2">
+    <text>Got one but it's temperamental. 200 rounds of 9mm and it's yours.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_16_3">
+    <text>Going in blind is suicide. Stay put until you get one.</text>
+</string>
+
+<string id="st_dyn_news_conversation_stories_msg_17">
+    <text>Monolith broadcast was different today. Usually it's just static and whispers, but I swear I heard actual words.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_17_1">
+    <text>Don't listen to that shit. That's how they get you.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_17_2">
+    <text>Zone's messing with your head. Change frequencies.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_17_3">
+    <text>What kind of words? Asking for a friend who's... curious.</text>
+</string>
+
+<string id="st_dyn_news_conversation_stories_msg_18">
+    <text>Stumbled into a Controller's lair yesterday. Still can't remember how I got out alive.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_18_1">
+    <text>Maybe you didn't get out. Maybe you're still there.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_18_2">
+    <text>Gaps in memory are normal after psi-attacks. You'll be fine... probably.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_18_3">
+    <text>Check yourself for bites or scratches. Controllers like to mark their toys.</text>
+</string>
+
+<string id="st_dyn_news_conversation_stories_msg_19">
+    <text>Found a stash marked with Duty symbols, but the contents were Freedom gear. Someone's playing games.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_19_1">
+    <text>Probably a trap. Those faction wars never really end.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_19_2">
+    <text>Or someone's trying to start shit between them again.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_19_3">
+    <text>Free gear is free gear. Politics don't matter when you're bleeding.</text>
+</string>
+
+<string id="st_dyn_news_conversation_stories_msg_20">
+    <text>That new girl who joined last week? She's asking way too many questions about our routes and stashes.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_20_1">
+    <text>Could be a spy. Or could just be thorough. Hard to tell these days.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_20_2">
+    <text>Give her false info, see what happens. If word gets out, you'll know.</text>
+</string>
+<string id="st_dyn_news_conversation_stories_resp_20_3">
+    <text>Paranoia keeps you alive in the Zone. Trust it.</text>
+</string>
+
+<!-- EQUIPMENT TALK (Conversations 51-60) -->
+<string id="st_dyn_news_conversation_gear_msg_1">
+    <text>Anyone got experience with those new anomaly detectors? Worth the price?</text>
+</string>
+<string id="st_dyn_news_conversation_gear_resp_1_1">
+    <text>Saved my ass twice already. Detection range is insane.</text>
+</string>
+<string id="st_dyn_news_conversation_gear_resp_1_2">
+    <text>Overpriced junk. My old Bear still works fine.</text>
+</string>
+<string id="st_dyn_news_conversation_gear_resp_1_3">
+    <text>Battery life is shit. Dies after two days of use.</text>
+</string>
+
+<string id="st_dyn_news_conversation_gear_msg_2">
+    <text>My armor is taking a beating. Any good repair guys around?</text>
+</string>
+<string id="st_dyn_news_conversation_gear_resp_2_1">
+    <text>Check with Nimble. Hes expensive but does quality work.</text>
+</string>
+<string id="st_dyn_news_conversation_gear_resp_2_2">
+    <text>Just duct tape it like the rest of us, fancy boy.</text>
+</string>
+<string id="st_dyn_news_conversation_gear_resp_2_3">
+    <text>There is a guy in the swamps. Weird, but skilled.</text>
+</string>
+
+<!-- MEDICAL EMERGENCIES (61-70) -->
+<string id="st_dyn_news_conversation_medical_msg_1">
+    <text>Anyone know how to treat controller induced psychosis?</text>
+</string>
+<string id="st_dyn_news_conversation_medical_resp_1_1">
+    <text>Psy block and lots of vodka. Keep them sedated for 48 hours.</text>
+</string>
+<string id="st_dyn_news_conversation_medical_resp_1_2">
+    <text>Once the brain is scrambled, there's no going back.</text>
+</string>
+<string id="st_dyn_news_conversation_medical_resp_1_3">
+    <text>Ive seen guys recover. Takes weeks and they are never the same.</text>
+</string>
+
+<string id="st_dyn_news_conversation_medical_msg_2">
+    <text>Got a deep gash from a bloodsucker claw. Bleeding wont stop.</text>
+</string>
+<string id="st_dyn_news_conversation_medical_resp_2_1">
+    <text>Their claws have anticoagulant. Need to cauterize it NOW.</text>
+</string>
+<string id="st_dyn_news_conversation_medical_resp_2_2">
+    <text>Pack it with artifact dust. Hurts like hell but stops bleeding.</text>
+</string>
+<string id="st_dyn_news_conversation_medical_resp_2_3">
+    <text>Get to a medic fast. Bloodsucker wounds go septic quick.</text>
+</string>
+
+<!-- TRADING AND ECONOMY (71-80) -->
+<string id="st_dyn_news_conversation_economy_msg_1">
+    <text>Artifact prices crashed again. Market is flooded with fakes.</text>
+</string>
+<string id="st_dyn_news_conversation_economy_resp_1_1">
+    <text>Thats what happens when every rookie thinks they are a treasure hunter.</text>
+</string>
+<string id="st_dyn_news_conversation_economy_resp_1_2">
+    <text>Good for us. Means real artifacts will spike in value soon.</text>
+</string>
+<string id="st_dyn_news_conversation_economy_resp_1_3">
+    <text>Time to switch to gun running. More stable income.</text>
+</string>
+
+<string id="st_dyn_news_conversation_economy_msg_2">
+    <text>New trader in town claims he can get NATO gear. Legit or scam?</text>
+</string>
+<string id="st_dyn_news_conversation_economy_resp_2_1">
+    <text>Saw his inventory. Either stolen or fake, but it works.</text>
+</string>
+<string id="st_dyn_news_conversation_economy_resp_2_2">
+    <text>Military has been losing shipments. Connect the dots.</text>
+</string>
+<string id="st_dyn_news_conversation_economy_resp_2_3">
+    <text>Who cares where it is from if the price is right?</text>
+</string>
+
+<!-- ZONE PHENOMENA (81-90) -->
+<string id="st_dyn_news_conversation_phenomena_msg_1">
+    <text>Sky turned purple for three hours yesterday. Never seen that before.</text>
+</string>
+<string id="st_dyn_news_conversation_phenomena_resp_1_1">
+    <text>New emission type maybe? Zone is evolving.</text>
+</string>
+<string id="st_dyn_news_conversation_phenomena_resp_1_2">
+    <text>My hair stood on end the whole time. Electrical charge was insane.</text>
+</string>
+<string id="st_dyn_news_conversation_phenomena_resp_1_3">
+    <text>Old timers say it happens before major Zone shifts.</text>
+</string>
+
+<string id="st_dyn_news_conversation_phenomena_msg_2">
+    <text>Animals have been migrating south all week. What do they know that we don't?</text>
+</string>
+<string id="st_dyn_news_conversation_phenomena_resp_2_1">
+    <text>Animals sense danger. Time to follow their lead.</text>
+</string>
+<string id="st_dyn_news_conversation_phenomena_resp_2_2">
+    <text>Probably just seasonal. Don't read too much into it.</text>
+</string>
+<string id="st_dyn_news_conversation_phenomena_resp_2_3">
+    <text>Last time this happened, half the northern sectors became uninhabitable.</text>
+</string>
+
+<string id="st_dyn_news_conversation_phenomena_msg_3">
+    <text>Anomaly fields shifting after emissions? My safe route's now death trap.</text>
+</string>
+<string id="st_dyn_news_conversation_phenomena_resp_3_1">
+    <text>Zone rearranges like a living thing. Never trust yesterday's path.</text>
+</string>
+<string id="st_dyn_news_conversation_phenomena_resp_3_2">
+    <text>Buy updated anomaly maps from guide at Skadovsk. Worth every ruble.</text>
+</string>
+
+<!-- ROOKIE QUESTIONS (91-100) -->
+<string id="st_dyn_news_conversation_rookie_msg_1">
+    <text>First time in the Zone. Whats the number one rule?</text>
+</string>
+<string id="st_dyn_news_conversation_rookie_resp_1_1">
+    <text>Trust no one. Not even yourself after a psi storm.</text>
+</string>
+<string id="st_dyn_news_conversation_rookie_resp_1_2">
+    <text>Always save one bullet for yourself. Better than some deaths here.</text>
+</string>
+<string id="st_dyn_news_conversation_rookie_resp_1_3">
+    <text>If it looks safe, it's a trap. If it looks dangerous, its worse.</text>
+</string>
+
+<string id="st_dyn_news_conversation_rookie_msg_2">
+    <text>How much should I charge for guide services to the center?</text>
+</string>
+<string id="st_dyn_news_conversation_rookie_resp_2_1">
+    <text>Your life is not worth any price. don't be stupid.</text>
+</string>
+<string id="st_dyn_news_conversation_rookie_resp_2_2">
+    <text>50k minimum. Half upfront, half if they survive.</text>
+</string>
+<string id="st_dyn_news_conversation_rookie_resp_2_3">
+    <text>Center? You can't even guide yourself to the toilet safely yet.</text>
+</string>
+
+<string id="st_dyn_news_conversation_rookie_msg_3">
+    <text>Is it true you can tame mutants with the right artifacts?</text>
+</string>
+<string id="st_dyn_news_conversation_rookie_resp_3_1">
+    <text>Sure, if you want a pet that eats your face while you sleep.</text>
+</string>
+<string id="st_dyn_news_conversation_rookie_resp_3_2">
+    <text>One guy tried with a pseudodog. Found pieces of him everywhere.</text>
+</string>
+<string id="st_dyn_news_conversation_rookie_resp_3_3">
+    <text>Mutants arent pets. They're death with legs.</text>
+</string>
+
+<string id="st_dyn_news_conversation_rookie_msg_4">
+    <text>Whats the fastest way to get rich in the Zone?</text>
+</string>
+<string id="st_dyn_news_conversation_rookie_resp_4_1">
+    <text>Die quick and leave your gear to someone smarter.</text>
+</string>
+<string id="st_dyn_news_conversation_rookie_resp_4_2">
+    <text>Slow and steady wins. Fast money means fast death.</text>
+</string>
+<string id="st_dyn_news_conversation_rookie_resp_4_3">
+    <text>Rob other stalkers. But then you become everyones target.</text>
+</string>
+
+<string id="st_dyn_news_conversation_rookie_msg_5">
+    <text>Should I join a faction or stay neutral?</text>
+</string>
+<string id="st_dyn_news_conversation_rookie_resp_5_1">
+    <text>Factions give protection but also paint targets on your back.</text>
+</string>
+<string id="st_dyn_news_conversation_rookie_resp_5_2">
+    <text>Neutral means no backup when shit hits the fan.</text>
+</string>
+<string id="st_dyn_news_conversation_rookie_resp_5_3">
+    <text>Join whoever pays best. Loyalty is a luxury here.</text>
+</string>
+
+<string id="st_dyn_news_conversation_rookie_msg_6">
+    <text>How do you deal with nightmares after seeing your first controller victim?</text>
+</string>
+<string id="st_dyn_news_conversation_rookie_resp_6_1">
+    <text>Vodka helps. So does not sleeping.</text>
+</string>
+<string id="st_dyn_news_conversation_rookie_resp_6_2">
+    <text>You don't. They become part of you. Welcome to the Zone.</text>
+</string>
+<string id="st_dyn_news_conversation_rookie_resp_6_3">
+    <text>Focus on survival. Dead men don't have nightmares.</text>
+</string>
+
+<string id="st_dyn_news_conversation_rookie_msg_7">
+    <text>Is the Wish Granter real or just a legend?</text>
+</string>
+<string id="st_dyn_news_conversation_rookie_resp_7_1">
+    <text>Real enough to kill everyone who looks for it.</text>
+</string>
+<string id="st_dyn_news_conversation_rookie_resp_7_2">
+    <text>It grants wishes alright, when you're dreaming.</text>
+</string>
+<string id="st_dyn_news_conversation_rookie_resp_7_3">
+    <text>Focus on staying alive. Wishes are for fairy tales.</text>
+</string>
+
+<string id="st_dyn_news_conversation_rookie_msg_8">
+    <text>Best weapon for a beginner with limited funds?</text>
+</string>
+<string id="st_dyn_news_conversation_rookie_resp_8_1">
+    <text>Sawed off shotgun. Cheap, reliable, and mutants hate it.</text>
+</string>
+<string id="st_dyn_news_conversation_rookie_resp_8_2">
+    <text>Whatever you can maintain. Fancy gun that jams is useless.</text>
+</string>
+<string id="st_dyn_news_conversation_rookie_resp_8_3">
+    <text>Your brain. Smart stalkers live longer than well armed idiots.</text>
+</string>
+
+<string id="st_dyn_news_conversation_rookie_msg_9">
+    <text>How accurate are the Zone maps they sell at the bar?</text>
+</string>
+<string id="st_dyn_news_conversation_rookie_resp_9_1">
+    <text>About as accurate as a blind mans drawings.</text>
+</string>
+<string id="st_dyn_news_conversation_rookie_resp_9_2">
+    <text>Zone changes daily. Maps are suggestions at best.</text>
+</string>
+<string id="st_dyn_news_conversation_rookie_resp_9_3">
+    <text>Good enough to get you lost, not good enough to get you found.</text>
+</string>
+
+<string id="st_dyn_news_conversation_rookie_msg_10">
+    <text>Whats the deal with the Brain Scorcher? Can it really be turned off?</text>
+</string>
+<string id="st_dyn_news_conversation_rookie_resp_10_1">
+    <text>Sure, just walk up and flip the switch. We will collect your body later.</text>
+</string>
+<string id="st_dyn_news_conversation_rookie_resp_10_2">
+    <text>Some say its been done. None of them are sane enough to confirm.</text>
+</string>
+<string id="st_dyn_news_conversation_rookie_resp_10_3">
+    <text>Worry about surviving your first week before tackling Zone Legends.</text>
+</string>
+
+
+
+
+
+</string_table>

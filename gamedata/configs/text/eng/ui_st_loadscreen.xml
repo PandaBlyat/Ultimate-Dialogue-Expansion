@@ -1,0 +1,1501 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="ls_header">
+		<text>S.T.A.L.K.E.R - with even more extra Cheeki Breeki!</text>
+	</string>
+	<string id="ls_tip_number">
+		<text>=Stories #</text>
+	</string>
+	<string id="ls_tip_1">
+		<text>I'm in the rookie village with Snake, who's barely hanging on. Two days ago, Sakharov sent our group—Dima, Snake, Fima, and me—to meet someone in Cordon, with a stop to handle bandits in the Garbage. At the train depot, we fought hard but lost both Dima and Fima to an ambush. Now it's just Snake and me, left with the bitter task of returning to Yantar to tell Sakharov his student is gone.</text>
+	</string>
+	<string id="ls_tip_2">
+		<text>Alfa Squad was clearing mutants near Jupiter, secretly searching for the "Oasis," when a military Hind spiraled out of control and crashed into the factory. Inside, they found wreckage, dead bodies, and one wounded soldier—Lieutenant Sokolov—who revealed his gunship had been downed by an airborne anomaly during Operation Fairway. After fending off snorks, they let Sokolov go. When he asked why, Terminator replied, "Professional courtesy—not all of us are psychos for hire."</text>
+	</string>
+	<string id="ls_tip_3">
+		<text>Edmund entered the laundromat’s back room to meet an unknown man, Danko, who knew his real identity. Danko, an informant for Dushman, revealed that he was aware of Edmund’s mission and offered his assistance. Edmund recognized Danko as the merc who narrowly survived two encounters with Major Degtyarev, a fact Danko preferred to keep quiet. After exchanging banter, Danko got to the point: a mercenary group, funded by Constellis Holdings (formerly Blackwater), was secretly fueling chaos in the Zone.</text>
+	</string>
+	<string id="ls_tip_4">
+		<text>I kept my receiver tuned to 145 MHz, curious about rumors that it could pick up a Controller’s signal. At around 2 AM, static jolted me awake, followed by a sinister laugh from the device. </text>
+	</string>
+	<string id="ls_tip_5">
+		<text>One day at Yanov, Hustler shared a crude joke before Loki’s voice blared over the intercom: Duty was advancing. Though our contract didn’t cover fighting them, we moved to avoid crossfire. However, Duty spotted us, forcing us into cover. Cossack attempted to radio Duty’s Colonel Shulga, but Duty was ordered to engage, and we braced ourselves for combat when a sudden emission turned the sky blood-red, forcing everyone inside.</text>
+	</string>
+	<string id="ls_tip_6">
+		<text>After the emission, Duty and Freedom found themselves trapped together inside Yanov. Tensions flared as Shulga and Loki argued, with Terminator finally intervening, reminding them that Monolith remained a significant threat. Terminator shared recon data, estimating Monolith’s numbers between 400 to 900, and suggested that neither faction could hold Yanov alone.</text>
+	</string>
+	<string id="ls_tip_7">
+		<text>When the stalker above us yelled about an incoming Psy-Storm, everyone in the yard rushed into Forester’s tower. My comrade Vadim and I were blocked by a large Freedomer who only let me in, forcing me to barrel into him to get Vadim inside. Vadim, enraged at almost being left to die, took a swing at the Freedomer. I managed to break up the fight, reminding them of the rule: no one is denied Storm Shelter. A shout from Forester above silenced everyone, bringing the tension to a halt.</text>
+	</string>
+	<string id="ls_tip_8">
+		<text>As we set off towards Rostok, I shared tales about Natalya, a legendary stalker known for her courage and ferocity. Vadim and Mikhail listened in awe, especially at her fearsome reputation and history in the Zone. Suddenly, a deep growl echoed, signaling the approach of a Chimera. We scrambled for cover, and as it charged, I shouted, “Light it up!” as we braced for a deadly showdown.</text>
+	</string>
+	<string id="ls_tip_9">
+		<text>The sniper targeting Freedom and Syndicate patrols had struck again, and Terminator and Lotus were closing in on his last known location at the quarry, planning a night assault to stay concealed. They carefully moved across hazardous ground, navigating chemical anomalies with gas masks on. Reaching the massive excavator, they spotted the sniper on the balcony, prompting Terminator to fire a risky shot with his handgun. He missed, and the sniper retreated, but it bought them enough time to reach the ladder.</text>
+	</string>
+	<string id="ls_tip_10">
+		<text>But as he looked at the truck, leaking oil from Artur’s shots, he cursed. With the whole plan shot, they quickly looted what they could from the bodies, grabbing ammo, cash, and a few rare rounds for the Remington. They jogged off through dense foliage, sticking to the edge of Zaton, with their only hope of reaching Pripyat resting on a rumored bridge.</text>
+	</string>
+	<string id="ls_tip_11">
+		<text>Inside, the place was a ruin—a broken table, a shredded sofa, scattered bones, and a mound of wet papers. They spotted a zombified stalker curled up, breathing slowly in the corner. Ahmed signaled Koba to fire, and two quick shots to the back of the head put him to eternal rest.</text>
+	</string>
+	<string id="ls_tip_12">
+		<text>"LEFT!" Koba shouted, unloading his rifle at the approaching creatures to the right. Ahmed turned, firing a quick burst into a Izlom charging straight at him. But it kept coming, its long arm swinging in a brutal arc. Ahmed ducked, deflecting the strike but catching a harsh blow to his hip. A second Izlom charged him before he could react, striking his shoulder and knocking him to the ground. His vision blurred as he felt the weight of the creature above, pounding on him.</text>
+	</string>
+	<string id="ls_tip_13">
+		<text>Edmund rolled to his feet, sprinting low towards the crates. He slipped between two broken-down cars, coming up on the Dutyer hiding behind the rusted car. With a swift move, he yanked out the hunting knife Nimble had given him, and before the Dutyer could react, Edmund slashed through his vest, the blade sinking into flesh and dropping the man with a gurgled cry.</text>
+	</string>
+	<string id="ls_tip_14">
+		<text>The last of the bandits turned, attempting to retreat back to the woods, but Artur was quicker, leveling his rifle and firing. The bandit collapsed, his head bashing onto the cracked concrete. All was silent again.</text>
+	</string>
+	<string id="ls_tip_15">
+		<text>With a single nod, Edmund signaled, and Artur brought up his rifle, firing a precise shot straight into one bandit’s chest. Chaos erupted. Nimble’s men ducked and scattered, grabbing cover as the two remaining bandits spun around,</text>
+	</string>
+	<string id="ls_tip_16">
+		<text>As Misha walked away from the Duty checkpoint, his thoughts lingered on Kolya’s warning and the knowledge that his path would inevitably bring him closer to the mysteries of the Red Forest. It was always the uncharted horrors that lay heavy on the heart of any true stalker, and though the Zone had stripped Misha of much, it hadn’t yet taken his curiosity.</text>
+	</string>
+	<string id="ls_tip_17">
+		<text>But, for now, he had no intention of lingering any longer. He’d done his job, survived a chimera, and made it out with his skin intact. Rostok was just a brief waypoint, a place to rest and recover before he moved on. As he turned to head out, Misha caught sight of a pair of eyes studying him from the shadows near the Duty checkpoint. The figure, half-concealed in a tattered cloak, bore a rough expression that spoke of countless scars and battles fought under both sun and rain.</text>
+	</string>
+	<string id="ls_tip_18">
+		<text>An attack has taken place on one of Duty’s high-ranking officers, resulting in his untimely death. This cowardly act will not go unpunished. All information leading to the capture of those responsible will be rewarded generously. Stay vigilant, and remember: Duty stands for protection and peace within the Zone.</text>
+	</string>
+	<string id="ls_tip_19">
+		<text>Edmund looked at him, his eyes sharp even through his exhaustion. “We head to Skadovsk. I have questions for Beard. Nimble knows a thing or two about weapons deals in the Zone, and he might be able to help us find out more about the people who supplied the renegades.”</text>
+	</string>
+	<string id="ls_tip_20">
+		<text>As they left the room, the weight of the Zone pressed down on them, a silent reminder of the danger lurking around every corner. But for the first time in days, Edmund felt that he was closing in, inch by inch, on the truth. Whatever these people were guarding, he was ready to tear through every last obstacle the Zone threw at him to uncover it.</text>
+	</string>
+	<string id="ls_tip_21">
+		<text>“Only one,” Terminator replied, his voice hollow, each word dripping with a grief he could barely hold back. He could see flashes of Panzer and Boomer in his mind, their faces etched in agony, and the horror of Koschiy’s twisted vision lingering like a stain on his memory. “The mission… it was compromised. Koschiy… he’s gone rogue, and he’s become something I’ve never seen. Something I barely stopped.”</text>
+	</string>
+	<string id="ls_tip_22">
+		<text>I took a slow breath and then moved forward, my Exo clanking slightly with each step, the weight of the Nosorog armor grounding me even as tension tightened my muscles. Each step brought that roar closer to memory, as though it were still resonating off the walls. Then, as I took another cautious step forward, something caught the edge of my vision. There, crawling along the wall like some perverse shadow, was a creature unlike anything I’d ever seen.</text>
+	</string>
+	<string id="ls_tip_23">
+		<text>Long, with limbs distorted like stretched sinew, it had pale, almost translucent skin with bulging, amber-colored eyes that fixed on me with unsettling intelligence. It clung to the wall, silent as death, its mouth a lipless gash revealing razor-sharp teeth. Every movement it made was painfully slow, deliberate, almost as if mocking the speed at which my own heart was pounding.</text>
+	</string>
+	<string id="ls_tip_24">
+		<text>“Fall back to the main room!” I shouted, pulling Vadim back with one hand as I discharged my weapon into the closest creature, sending it tumbling to the floor, twitching but not quite dead. We staggered back into the room where we had first taken refuge. The air felt thick with the Zone’s latent energy, practically vibrating with an aura of violence.</text>
+	</string>
+	<string id="ls_tip_25">
+		<text>The creatures poured into the room, and Vadim and I fired in unison. The Nosorog’s power allowed me to take brunt hits that might otherwise kill another Stalker, and I felt claws tearing at the edges of my armor as I plunged my Scorcher knife into any creature that got close.</text>
+	</string>
+	<string id="ls_tip_26">
+		<text>The creatures seemed to sense our plan, and as though driven by some shared intelligence, they pressed forward with renewed aggression. I took the lead, my Nosorog plowing through the horde with sheer brute strength. Each impact sent them flying, but I could feel their claws scraping and tearing at my armor with each step.</text>
+	</string>
+	<string id="ls_tip_27">
+		<text>Vadim followed close behind, firing in controlled bursts to keep them off our backs. As we finally reached the doorway, I turned back one last time, feeling the ground rumble beneath my feet. One of the creatures, larger and more menacing than the others, lumbered forward. Its eyes glowed with an unnatural, sickly light, and its maw opened to let out an ear-piercing scream that shook the walls around me.</text>
+	</string>
+	<string id="ls_tip_28">
+		<text>The ground trembled briefly, a rumble traveling through the Zone, a distant roar reminding us that tranquility here was as fleeting as the Emissions. With a sigh, I finished my notes and glanced at Vadim, who looked ready for another injection of painkillers but kept his jaw set. Even through the morphine, he could tell the work wasn’t done.</text>
+	</string>
+	<string id="ls_tip_29">
+		<text>The Zone had a strange way of rewarding bravery and insanity in equal measure, and right now, as I scribbled my notes, I couldn’t help but think I was toeing the line between both. Vadim was still picking at his meal with a half-smirk on his face, relishing his newly acquired war story while I documented my encounter with the diseased Pseudogiant and the baffling railgun.</text>
+	</string>
+	<string id="ls_tip_30">
+		<text>Petka’s absence weighed heavily on my mind as I trudged through the mud. The guy had always been more reckless than me, but I never thought I’d leave him behind like that. Every step I took toward the village only made the pang of guilt worse, as if each footfall was sinking me deeper into some kind of cosmic punishment. I tried to remind myself that Petka was the one who’d run into the tunnel, but the excuse felt hollow in my chest.</text>
+	</string>
+     
+    <string id="ls_tip_31">
+        <text>We stood on the edge of a precipice; in the distance we could see an old abandoned factory. The road to it was strewn with anomalies, and no one knew the exact route. One wrong step and you won't come back. I thought I saw faint vibrations in the air ahead, but I could be wrong. At such moments, you understand that the zone  leaves no choice: you either move forward or remain in its clutches forever.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_32">
+        <text>The checkpoint was abandoned many years ago, but in its
+There was still life in the ruins. There were rusty helmets lying on the ground, and worn-out boots at the old checkpoint, as if people had abandoned everything in a hurry. I came closer when suddenly I heard voices. They were fuzzy, as if coming from the depths of time. Freezing, I realized that they sound everywhere and nowhere
+simultaneously. There was once a massacre here, and these voices are its last echoes.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_33">
+        <text>I met a stalker at the old bridge, who
+looked like he hadn't eaten for a week. His clothes were in tatters, and there was emptiness in his eyes. He held out his hand, showing a strange amulet. “Found this near the Red Forest,” he whispered. I looked at the amulet and felt my heart clench. Such things always bring disaster with them, but it was impossible to refuse. I knew we were both doomed now.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_34">
+        <text>The abandoned city seemed absolutely lifeless.
+Only the wind rustled through the empty streets, blowing dust into the empty windows. I walked along the main square, examining the dilapidated buildings. Suddenly I heard footsteps behind me. Turning around, I saw a shadow quickly disappearing around the corner of the house. But they assured me that no one should be here...</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_35">
+        <text>This trail was said to have been made by stalkers
+long ago, but now they feared her. The last time they walked along it was two weeks ago, and no one returned. I decided to take a chance. At every step, anomalies flared up nearby, but I managed to avoid them. At some point I heard a faint groan. Looking to the right, I saw something resembling a man entwined in chains and twisted iron.
+This journey was their last.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_36">
+        <text>The stalkers jumped into some kind of hatch in a hurry,
+trying to hide from mutants. Having somehow closed themselves from the inside, they looked around.
+Cable collector. We can obviously use it to get out to some kind of
+interesting place,” said the seasoned stalker engaged in digging in his cold voice.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_37">
+        <text>They ordered a whole bag of marijuana from Ganja, and he didn’t
+Knowing where to find so much, I decided to fill the bag with ordinary dried grass. He was asked to come to the meeting place in person so as not to spoil the reputation of the customers. Imagine his surprise when on the spot he met
+mercenaries who decided to lure him out in order to fulfill his next order. It’s not for nothing that large traders do not attend meetings in person.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_38">
+        <text>Koryagi's joy knew no bounds when he found
+a modified mercenary PDA, equipped with a USB port and the ability to easily read information from flash drives. With such a device he will go far, the stalker thought to himself.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_39">
+        <text>We went down into an old underground tunnel in search of another exit from the laboratory. The air was damp and smelled of rust. Our every step echoed in the dark corridors, creating an unpleasant atmosphere. Suddenly the flashlight on my partner’s helmet flickered and went out. “Not this...” he whispered, and I already felt like something cold and invisible
+slowly approaching from the depths of the tunnel.</text>
+    </string>
+    
+
+    <string id="ls_tip_40">
+        <text>In an old equipment cemetery, surrounded by
+voices seemed to be heard from rusted trucks and tanks. The stalkers who were here said that they heard the whispers of their dead comrades. I decided to check it out myself. When my detector began to crackle sharply, the air
+filled with a strange hum. Suddenly a figure came out from behind the old tank - its face was familiar. It was my partner who disappeared two years ago...</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_41">
+        <text>At the edge of the zone  I came across the remains of a crashed
+military helicopter. Its body had already begun to grow overgrown with moss, and its broken blades rested in the mud. I was searching the cabin when I heard a crunching sound in the bushes nearby. Looking back, I saw something - or someone,
+hidden in the shadows. I froze, hoping it wasn't one of the creatures that hunt in these parts.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_42">
+        <text>Master key, what a beast. He fussed and pushed me straight into Kissel, the fucking panicker. And I myself perished, and I burned all my legs. And all this damn artifact! If I had known that I would have to take such a risk, I would have gotten into this anomaly. Now all hope lies with Red. He must be
+nearby, promised to help. How painful it is, bitch...</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_43">
+        <text>We received a task from Dushman - to capture the base
+Freedom in the Dark Valley. We are considering two capture options. The first is to enter the territory through the X-18 laboratory. The second is to use the tunnels under the Dark Valley. Svoboda has its own man. Through Commandant Shchukin we have a complete alignment of the forces of Freedom. Of those who used to
+tried to get into the Dark Valley through X-18, but no one returned. But we'll try.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_44">
+        <text>The plan worked. After the last release, the anomaly
+completely resolved. A large detachment led by Commandant Shchukin went to Dark Hollow to drag our arsenal. And as soon as the detachment left, bandits immediately descended on the Dark Valley. It was as if they knew that there were only a handful of fighters left here, who also had almost zero ammunition. This is where the nuance lies.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_45">
+        <text>I stood on the edge of the anomalous field, watching how
+the light inside it changes shape. It seemed as if something lived there. Suddenly, a bright beam burst out from the depths of the field, illuminating the ground around. I stepped back, realizing that this anomaly was different from all that I had seen before. She didn't just devour matter - she seemed to be trying to show something. The only question was what exactly?</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_46">
+        <text>In the old laboratory block I found a laptop,
+covered with dust and mold. It was a miracle he was still working. I turned it on and came across a video of one of the scientists. This shouldn't have happened, he said, his voice shaking, looking straight into the camera. Suddenly a shadow appeared behind him. The scientist froze, then the screen went dark. I closed my laptop and realized that I urgently needed to leave this place.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_47">
+        <text>When we entered this Gloomy Forest, thick fog
+enveloped everything around. Our steps were barely audible, and every sound seemed to be an echo of someone else's presence. A strange whistle was heard in the distance and we stopped. Vague silhouettes began to appear in the fog, moving slowly, as if from another world. None of us dared to move until the shadows melted into a whitish fog.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_48">
+        <text>My weapon misfired at the most inopportune moment.
+The bullet got stuck in the barrel, and the monster kept getting closer. In desperation, I took out the last cartridge and inserted it, hoping for a miracle. It's like time
+stopped when I took aim. The shot rang out and the creature fell to the ground in front of me. I sighed, but knew it was only a brief respite. You can never relax in the zone .</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_49">
+        <text>An old radio found in an abandoned house suddenly...
+came to life. It transmitted a strange signal that could not be deciphered except for a few words: “They are here... dangerous...”. I tried to adjust the frequency, but the signal cut out abruptly. At that moment I heard a rustling outside the door. Suddenly everything around became frighteningly quiet, as if the zone  itself was holding its breath.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_50">
+        <text>I froze looking into the eyes of a half-dead bandit, lying on the ground wounded after heavy fire. Still green, completely
+a young guy, just like I was at his age. Not everyone deserves to die, but I couldn't spare him, that was the order. Although who knows what would be better for him.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_51">
+        <text>I, Professor Kruglov, erase the reports of our
+research. Dangerous knowledge should not fall into the hands of unreliable elements who will use it for their own criminal purposes. Anyone who reads this entry should know that our group was shot down over “wild territory” by mercenaries led by the famous thug Wolfhound. And know that, most likely, we are no longer alive.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_52">
+        <text>Well, there's no one else to go but you, understand that. Now
+It is very important to do the calibration. I beg you, do it! We all depend on this,” Sakharov trembled. “I don’t care, I won’t go anywhere alone,” Kruglov unequivocally repeated.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_53">
+        <text>On the other side of the river I noticed movement. Human? Or a mutant? I couldn't figure out who it was, but I had to cross the water. Traces of a recent struggle were visible on the bridge - blood and torn fabric. I
+I moved forward, knowing that every second I risked colliding with what was waiting at the other end.
+</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_54">
+        <text>Mornings in the zone  are rarely quiet, but this dawn was
+especially sinister. The sky was filled with blood-red light, and the shadows from the houses seemed longer than usual. I looked at my watch - it was standing. Every sound was sharp, every movement seemed slow. I felt that something terrible was about to happen.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_55">
+        <text>There are rumors that somewhere in the north there has appeared
+one stalker who, for a nominal fee, arranges boat trips along one of the tributaries of the Pripyat, near the station. And he arranges them on an inflatable motor boat, which who the hell knows how he dragged into the zone . And who even uses his services?</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_56">
+        <text>Listen stalker, can you at least get me
+a couple of cassettes with music, eh? Because the silence makes my teeth ache. When I was on the mainland, I couldn’t last an hour without music, and when I went to the zone  I didn’t think about it. So, do you agree?..</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_57">
+        <text>In an old pocket recorder that I found on
+one of the corpses in Pripyat, there was only one entry. “We found it... this artifact... it’s alive...” the voice trembled, and strange sounds were heard in the background, like a buzzing sound. Then the recording stopped and there was only silence. I turned off the recorder and thought: what did they find, and should I continue on their path?</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_58">
+        <text>Listen, you'll be in the Dead City anyway will stay at a local stalker camp. There is our man there, they call him “Syava”. We had to give him this device if possible, and we had already agreed that our fool would give it to him when he went on an expedition with you. And as you can see, he’s no longer capable, damn it.”</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_59">
+        <text>“I heard that Kramer leaned back on the mainland...
+hmm... The conductor was cool, but it’s a pity that there was a problem with his head. They say that he had several personalities, and he told everyone about some Remarque... It’s all creepy...</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_60">
+        <text>The zone smells special. That metallic taste in the air mixed with the smell of decaying organic matter is hard to forget. As we made our way through the old swamps, the smell became so strong that I felt dizzy. The stalkers walking nearby began to cough, and one of them suddenly fell, convulsively clutching his throat. We realized that this was not just a swamp - the anomaly was right below us.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_61">
+        <text>Oh, have you already heard, they say there is some
+The artifact is called a dream catcher. Scientists in Pripyat recently found him and dragged him to the institute. The artifact is rare, and no one really said anything about its properties. Some say that the artifact talks to
+carrier, and others said: if you just look at it, you will fall asleep in an eternal sleep. It's creepy.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_62">
+        <text>Fever, temperature under 40, yeast in the body,
+dizziness and hallucinations - all these are symptoms of the virus with which stalkers were brought to Professor Kalanche for treatment, or rather for his attempts. The professor knew one thing for sure - the virus is not transmitted by airborne droplets, because on the necks of all the patients there were traces of a syringe injection...</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_63">
+        <text>The artifacts that we send to the mainland,
+really help people. But at the same time, they change. We have noticed an early stage of the mutation in most of our clients. If we can't control this, all the nasty things we see in the Chernobyl zone  will spread beyond its borders to the rest of the world.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_64">
+        <text>Climbing the hill, I saw it - a huge, ragged anomaly that sucked in the air around it, distorting reality. A stalker lay on its edge, clinging to life, his legs were already inside this terrifying whirlwind. “Help,” he whispered, holding out his hand. But I knew that if I came closer, we would both be swallowed up by the zone . Having made a difficult decision, I turned around and ran away.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_65">
+        <text>The village was quiet, too quiet. I checked several houses - everything was empty, there were not even traces of animals. Suddenly I
+I heard footsteps behind me. Looking back, I only saw a figure flashing around the corner. As I slowly moved forward, I knew that this figure was not just an illusion. In the zone , such things always mean trouble.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_66">
+        <text>Something was burning on the horizon. I could hardly discern
+the outline of a helicopter that left a trail of black smoke behind it. As I got closer, I realized that a serious battle had taken place here. Remains of equipment were scattered everywhere, and the bodies of military personnel lay motionless. But what’s strange is that there was not a single trace of the enemy among them. I knew that in these places no one just disappears.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_67">
+        <text>In an old bunker I came across a sealed folder
+marked Top Secret. Having opened it, I found an order for a group of stalkers, which spoke of a mission concerning the study of a strange object in the center of the zone . But at the bottom there was a note: “Prevent information leakage at any cost.” Suddenly I heard heavy footsteps behind me - someone also knew about this place.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_68">
+        <text>Deep in the old forest I came across an ancient stone monolith. He seemed motionless, but at the same time he exuded a strange
+humming. There were no trees or grass growing around him, only gray ash. I moved closer, feeling my heart begin to beat faster. The monolith seemed to be staring right at me, and I wasn't sure I could leave without losing part of my soul.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_69">
+        <text>We were hiding in an abandoned house, waiting for the release to end. It was quiet outside, only the occasional distant explosion could be heard. Suddenly I heard a rustling sound behind the door, as if someone was slowly sliding along the floor. Everyone froze, our hands clenched our weapons, but no one dared to take the first step. The rustling intensified and the door began to slowly open.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_70">
+        <text>The old hospital has long been turned into ruins, but
+There was still an ominous atmosphere inside him. We walked along long corridors, hearing something groaning somewhere ahead. The windows were boarded up, but light came through the cracks. In one of the rooms I noticed a handprint on the wall - fresh, left by blood. “Someone was here recently,” my inner voice whispered to me.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_71">
+        <text>We knew there was a pseudo-giant lurking ahead. His
+Traces were everywhere - uprooted trees, crushed stones, the smell of rot. We had to get around it, but it turned out to be more difficult than it seemed. Suddenly the ground beneath our feet began to tremble, and I heard heavy footsteps behind us. We didn't even have time to turn around when the first blow knocked us off our feet.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_72">
+        <text>In the center of the field stood a rusty truck, its cab half buried in the ground. I climbed inside, examining the old cargo. Among the boxes I found several empty containers for artifacts. There was one
+still sealed, but when I opened it, I found only dry leaves and a strange rag inside. Someone here clearly knew how to cover their tracks and left a decoy.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_73">
+        <text>At night there was no wind or sounds in the forest. Only
+light from a rare artifact that I found between the roots of an old tree,
+slightly illuminated the ground. It was pulsating, as if it was breathing, and I felt uneasy.
+to yourself. I decided to leave, but as soon as I took a couple of steps, the artifact began to glow brighter, as if it was trying to say something important. I froze, realizing that this was not just an artifact, but something more.
+</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_74">
+        <text>At the base everyone was talking about a group of stalkers who
+went in search of a legendary artifact, but did not return. I decided to check the place where they were last seen. The trail was confusing, but after a few hours I came across their camp. Everything was untouched: food, weapons, tents. But the stalkers themselves were nowhere to be found, as if they had fallen through the ground...
+</text>
+    </string>
+    
+
+    <string id="ls_tip_75">
+        <text>In the underground bunker it seemed that the corridors
+repeat endlessly. We walked for several hours without finding a single exit, only steel doors locked with locks. Finally, we saw a light ahead and rushed towards it. But instead of exiting, we were met by a concrete dead end. We couldn’t understand how we ended up here - this dead end didn’t exist on the map</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_76">
+        <text>Having hardly knocked down the door, which one hundred percent should have led to the exit from the dungeons, the exhausted stalkers were horrified: all the same corridors, rooms, furniture, and everything here was the same. A thought flashed through each of them: “is there really no way out of here?”</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_77">
+        <text>I got an old, half-burnt map of the zone . She
+led to a place that no one had marked on their maps. When I got there, I saw a strange metal structure hidden underground. No one had talked about such objects before. The map showed that under this
+something is hidden by the design. But how to get there?</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_78">
+        <text>I came across a stalker who looked like a scientist. His clothes were covered in dirt, and on his back was a heavy backpack with equipment. He came up to me and said: “Do you know what a real artifact is? It’s not just stone or metal. It’s something that changes you... forever.” He handed me something in the form of a crystal. I refused, but his look remained in my memory - the look of a man who saw something terrifying.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_79">
+        <text>The barrel of Zvyagintsev’s rifle was already smoking. Duty could not send soldiers to help his own, so the major volunteered to go alone. He emptied store after store at the enemy position. By the time the trunk
+his Kalashnikov was completely deformed, the opponents had already fled, deciding that they had run into an entire heavily armed detachment.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_80">
+        <text>Rumors quickly spread throughout the cordon. Very experienced
+The stalker, who once began his journey here, was hanged in a noose at the very top of the railway bridge. And who could be capable of such a thing?</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_81">
+        <text>“Listen Fuchs, aren’t you a good fighter?” - Well, something
+sort of. - In general, we have one request. Kill one stalker, master. He is equipped with simply incredible equipment, but at the same time he has been staying at Cordon for a whole month to profit. The newcomers here are already struggling to make ends meet, and then he showed up. Recently I even killed one newcomer far from the camp for the sake of cheap swag, and among the locals
+He has too good a reputation among merchants. So, will you undertake to save the young animals?
+</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_82">
+        <text>The train has long since rusted and become part of the landscape. Cars
+stood like the carcasses of dead animals, left to be torn apart by time. I decided to inspect one of them.
+Inside, on the old seat, lay some tramp's jacket, and under it was a journal with notes. Last entry
+read: The train is leaving. We are all.... But the phrase was cut off, and then there were only scribbles that were impossible to make out.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_83">
+        <text>When I approached the old nuclear reactor, it looked abandoned but still majestic. Its walls were covered with rust, and a huge chimney rose into the sky, as if witnessing a terrible disaster. I looked around the entrance to the building and saw a warning sign that read: Danger to Life. But I knew that hidden inside could be answers to questions that had haunted stalkers for decades.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_84">
+        <text>We were hunting for a mutant we hadn't seen in a long time.
+these parts. It was as big as a house and destroyed everything in its path. When we found his lair, all the ground around was scorched and trees were knocked down. We moved closer, preparing for battle, but there was no sign of the mutant. Only huge footprints led to the water. It seems this giant was smarter than we thought.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_85">
+        <text>In the depths of the zone , I came across ruins that were not listed on any map. They looked too ancient to have been built by man. Columns entwined with strange plants stood like guardians of the past. I went inside, where the walls were covered with symbols that were impossible to decipher. A feeling of heaviness fell on my shoulders, and I realized that in this place the zone  hid another secret.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_86">
+        <text>The swamp waters have always hidden their secrets. But one day I happened to encounter something completely unexpected. As I was crossing the flooded area, I noticed a hand emerge from the water. This
+it was not the body of a mutant - it was a man. A stalker who had been missing for a long time, but his face looked like he had just died. When I touched him, he suddenly opened his eyes.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_87">
+        <text>This knife is dear to me as a memory. He gave it to me
+father, just before his death. He used it to cut up all sorts of “monsters” after the hunt; once he even fought off a bear with it. So, what, I can’t give it to you.” The bandits silently looked at each other. “Let’s go.” - their leader dispelled the silence.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_88">
+        <text>I spoke on the radio with a comrade who was on a mission deep in the zone . The connection was poor, but his voice sounded clearly: “I found it. This is not just an artifact. It changes everything. I’m going to the collection point.” But when he was supposed to come, he was not there. No traces, no radio transmissions, no messages. It was as if he had vanished on the way back.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_89">
+        <text>They said that in the very depths of the zone  there lives a strange a group of people worshiping an unknown force. They considered themselves her chosen ones and were looking for something they called the Key. When I met them, I realized that they were not at all like ordinary stalkers. There was madness in their eyes, and their speeches were filled with riddles. “You won’t leave here the way you came,” one of them told me.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_90">
+        <text>Every stalker knows that winters in the zone  are especially dangerous. Frost, anomalies and mutants - all this was aggravated by the cold. We made our way through the snowy forest, trying to get to the old base. At night we were covered in a snowstorm and there was no shelter. There was only one thing left to do - keep going. We lost three people along the way - they were cold and couldn’t keep up the pace. But the base was close, I knew it.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_91">
+        <text>The legend of an artifact that can change its shape,
+has been passed on among stalkers for a long time. Many tried to find him, but returned with nothing. One day I heard from a merchant that this artifact was spotted in an old laboratory. Having made my way there, I found a container. Something was glowing inside, and when I opened it, I saw the artifact change its shape, taking on the shape of a hand. I quickly closed the container and realized that this artifact was not just dangerous - it was alive.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_92">
+        <text>There was a city inside the zone  that no one talked about.
+He was absent from the maps, and stalkers avoided mentioning his name. I decided to go there, believing that the rumors about untold riches and artifacts were true. The city really was there, but upon entering its borders, I felt a cold silence, as if it had died long ago, but was still breathing. All the buildings were empty, and there were traces on the streets, but not a person.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_93">
+        <text>I had a map in my hands on which several anomalies were noted. One of them was called Boneyard. Nobody knew what this meant, but there were rumors that this place had taken the lives of dozens of stalkers. I decided to check it out. When I got there, the place was strangely calm, almost inviting. I stepped onto the path, but after a few minutes I felt the ground under my feet begin to tremble.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_94">
+        <text>Several years ago, stalkers organized the Game, in
+in which only the best of the best could participate. The task was simple: survive in the most dangerous part of the zone  and find a unique artifact. Dozens participated, but only a few returned. I was offered to participate, but I refused. However, rumors about those who won continue to circulate in the zone  - they say that the zone  has changed them forever.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_95">
+        <text>On the corpse of one of the deceased, I found a thick folder with paper maps, the whole zone  was in full view. Not only were most of the known transitions marked on them, but its most important value was all the marked known anomalous fields of the zone  that could only be found in its vastness. Such a thing can be sold for a very high price, or, in the future, you can become much richer...</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_96">
+        <text>Deep underground, in abandoned underground
+communications, we came across an old mine. A river flowed in its depths. The water had a strange greenish tint and gave off a faint glow. My detector beeped, but no artifacts were visible. One of my comrades had the imprudence to step into it, and something completely dragged him under the water... We have never run away so quickly before.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_97">
+        <text>They said that Phantom was the best stalker in the zone  - neither mutants nor anomalies could catch him. But one day he disappeared, as if he had dissolved. Now new stalkers are whispering that they saw him in abandoned factories, but no one can say for sure whether he is dead or alive. One thing is important: whoever meets the Phantom will never return.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_98">
+        <text>The path to the collection point was long, and suddenly rose
+wind. This wind was strange - it smelled of something chemical, and after a few minutes I felt weak. My radiation detector whined. I sped up, but the wind grew stronger, as if it knew I was trying to escape. It was impossible to stop, but it became dangerous to go further.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_99">
+        <text>In the cave where I descended, the walls seemed alive.
+They pulsed slowly, as if they were breathing. In the center of the cave lay an artifact surrounded by black liquid. I felt that this cave was not simple - it was part of something larger. Having taken the artifact, I hurried to leave, but at the exit something began to move. The zone  didn’t want to let me go just like that.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_100">
+        <text>At the old airfield, I came across an old container labeled Cargo-200. There were bodies inside - stalkers who were unlucky. Their backpacks were torn, but strange things remained in them - old
+compasses, films and records. One of them held in his hand a broken artifact, which, apparently, caused their death. I left the container closed and hurried away.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_101">
+        <text>We walked along an old power line leading through the zone . This route was called the Death Strip - everyone who tried it
+pass, did not return. Beneath the tall pillars, the ground was scorched and anomalies erupted everywhere. We knew we were taking a risk, but there was no other way. The wreckage of a helicopter appeared ahead - it seemed that someone had already tried to go this way.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_102">
+        <text>My partner got stuck in the anomaly, and I was left with
+only one cartridge. He knew that he would no longer be able to get out. “Don’t leave me here,” he said, squeezing my shoulder. I raised the weapon and took aim, and with trembling hands I pulled the trigger. I moved on alone, knowing that this was the last time I would have to make such a decision.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_103">
+        <text>When the ejection began, the sky turned bright
+red. We managed to hide in an old bunker, but the ground beneath us shook, as if the zone  itself was trying to swallow us. After a few minutes, the silence was deafening. We didn't know if we would be able to get out alive, or if the bunker would now become our grave.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_104">
+        <text>The eastern border of the zone  is rarely crowded.
+They said that in these parts there are more mutants than stalkers. I decided to check it out myself. The wasteland stretched for kilometers, and no one dared to cross it alone. But as I approached the abandoned camp, I noticed strange footprints that led beyond the horizon. It seemed that someone was still living here.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_105">
+        <text>In a bar, one stalker showed me the skull of a huge
+mutant. “I brought it from Pripyat,” he said, looking at me with a grin. But his eyes said something different. “This mutant is not like the others,” he added. I asked what happened to the others who were with him. “No one has returned,” he answered briefly and left. I wondered what could be so dangerous as to destroy an entire group of stalkers.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_106">
+        <text>We went down into the underground complex, which
+was considered long abandoned. There were old, barely readable warnings on the doors, but that didn't stop us. Inside, a labyrinth of corridors and rooms littered with rubble awaited us. When we got to the main laboratory, the door was locked. There was a faint hum behind the door, as if something was still working there. But none of us knew how to open the door.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_107">
+        <text>We were pursued throughout the Dark Valley, and our
+The last hope was to hide in a laboratory under an abandoned factory. But the stalker rumors turned out to be true: the door was indeed blocked, although a week ago everything was in order. Footsteps were heard on the surface. Looks like we'll have to fight back.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_108">
+        <text>My refuge seemed like a piece of paradise in the vastness
+all this horror. A well-preserved apartment at the very top of a high-rise building in Pripyat. A cozy soft bed, all the furniture necessary for life and even a working radio that played in tandem with the rain pounding on the roof at night; the only downside seemed to be the occasional hissing flying chemical anomaly. However, it was impossible to stay here for long -
+the mercenaries will find me even here.</text>
+    </string>
+    
+
+    <string id="ls_tip_109">
+        <text>There were rumors among stalkers about a “red anomaly.” No one knew where she came from, but everyone was afraid to meet her on their way. We accidentally came across her in the old forest. It looked like a swirling red mist, pulsating with the rhythm of a heartbeat. One of ours came closer, but barely stepped on the edge of the anomaly when his skin began to bubble and burn. All we could do was run.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_110">
+        <text>In the bushes I noticed an old backpack, half
+covered in mud. Opening it, I found a notebook with notes about strange artifacts and ways to find them. On the last page there was a map, but instead of the usual markers, there were places marked on it that were not on the official maps of the zone . Suddenly a voice came from behind: “These marks are not for us.” He was an old stalker, and his face said that he knew more than he was willing to tell.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_111">
+        <text>Among local stalkers there was a legend about “The Man
+in an iron mask. He never took off his helmet, and no one knew who he really was. Some said that he was a former scientist who had suffered in
+the result of experiments. Others argued that it was a mutant trying
+hide your essence. One day I met him at an old checkpoint. We exchanged brief glances and he disappeared as quickly as
+appeared.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_112">
+        <text>In the distance I saw a huge figure, slowly
+approaching our camp. It was a mutant, but not like the others. His eyes glowed with a bright white light, and it seemed that he could see right through him. We opened fire, but the bullets didn't stop it. As he came closer, I felt how cold it became around me, and the air began to compress, as if the zone  itself was pressing on us.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_113">
+        <text>The old guide told me about a dangerous path,
+which in the zone  was called the “Path of the Dead”. She was passing through the zone 
+filled with anomalies and mutants, but it led straight to rare artifacts. Many tried to pass it, but no one returned. We decided to take a chance. With every minute the feeling that we were being pursued by something invisible became stronger. When we finally saw the light at the end of the trail, I realized it was just a trick.</text>
+    </string>
+    
+
+    <string id="ls_tip_114">
+        <text>I found an old walkie-talkie in an old abandoned warehouse.
+When I turned it on, there was only hiss on the air. But after a couple of minutes a voice was heard over the speaker: “Are you there?” It was strange, because there was no signal source nearby. I answered, but all I heard in response was heavy breathing. It became obvious that this was not just a walkie-talkie.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_115">
+        <text>Barely standing on our feet, we ran into a tight
+sealed hermetic door. “Looks like we won’t get to the end of this laboratory this time” - “damn, but we almost died here! How can we not get there?” Taking a breath, Rasp said: “Apparently, we will have to assemble an electronic lock decoder to reveal its secrets. The next destination is a flea market, we need to talk to the diggers.”</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_116">
+        <text>The night was restless. I returned to the couch,
+bad thoughts came into my head. But after a time that I lost track of, I still fell into the kingdom of Morpheus. Not even a few hours had passed before I woke up, without understanding why. A dark figure appeared at the entrance to the room. “Your time has come, pack your things, you need to hit the road.” - the “stranger” spoke clearly.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_117">
+        <text>When I found myself on the outskirts of the Red Forest, it was blowing
+a strong wind that chilled to the bones. It seemed that this wind was unnatural. As I approached the center of the forest, the temperature continued to drop, and after a while the trees around me began to become covered with frost. On the ground I found the frozen bodies of the stalkers, who clearly froze in just a matter of minutes. This wind was part of something larger - a force we did not yet understand.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_118">
+        <text>They said that in the center of the zone  there is a place where you can
+find glass tears - a rare artifact created as a result of a large release. I went looking for him, following descriptions from old records. When I got there, the artifact was indeed there - clear crystals that looked like tears. One thing stopped me - nearby were the remains of stalkers who tried to take him before
+me.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_119">
+        
+
+        <text>Iu auoee ia ia?iiiia, ?iaiia iiea, ia eioi?ii ia
+there was not a single sign of life. The detectors were silent, there were no anomalies. However, something was wrong about this place. The surface of the earth was strangely smooth, as if someone had cultivated it. In the middle of the field I saw
+metal box. She was old, but completely untouched
+time. As I got closer, I felt the air around me begin to vibrate.
+</text>
+    </string>
+    
+
+    <string id="ls_tip_120">
+        <text>After a long journey through the forest, we came across a log
+the surprise of everyone in our group was strewn with chemical anomalies. One thing made us happy
+the old church flickered ahead, looking literally like new. Next to it there should have been a clearly untouched village, in which anyone could find a lot of things.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_121">
+        <text>I didn't like this village from the very beginning,
+however, it was necessary to hide somewhere for the night. When I was walking along the central road, looking for the best place to spend the night, I became wary, and I became
+take a closer look. Are these lights in the windows really someone's eyes?</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_122">
+        <text>Limping, I wandered through the night forest for a long time, damn it
+I took that jelly. Eventually I came across a hut and decided to spend the night in it since it was empty. But I couldn’t sleep for a long time, because on the walls there were portraits of some people who, it seemed to me, were looking at me ominously. Eventually I fell asleep from exhaustion. In the morning I was awakened by bright sunlight, simultaneously informing me that there were no paintings on the walls. These were windows.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_123">
+        <text>I was given the task of finding an old freight train,
+who was carrying valuable artifacts to a military base. The train disappeared without a trace somewhere in the north of the zone . When I found it, the carriages were torn apart and the rails were twisted. There were no bodies around, no signs of struggle. Only silence broken by the wind. The artifacts were gone, and I was left wondering what or who took them.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_124">
+        <text>On one of the missions I came across a strange
+an artifact that the merchant claimed could show the way. It pulsated when I held it in my hands, and seemed to guide me somewhere deeper into the zone . After several hours of travel, I realized that the artifact was leading me not to a safe place, but to something much more dangerous.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_125">
+        <text>We entered a valley shrouded in thick fog. All
+the vegetation was covered with drops of water, and the air seemed heavy. Silhouettes began to appear ahead, but they were not people. We walked further, but the deeper we went, the more we felt a strange heaviness in our heads, as if something was pressing on our thoughts. We quickly realized that the fog was not ordinary - it was part of the zone , its trap.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_126">
+        <text>At the old factory we encountered a mutant who
+was larger than anyone I had seen before. Its skin was covered with thick plates of bone, and its eyes glowed blood red. We threw everything we had at him: grenades, machine gun fire, but he only got stronger
+got angry. Realizing that we could not defeat him in battle, we began to retreat, hoping that the factory ruins would slow him down.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_127">
+        <text>We walked through the forest, following a group that had left
+deep into the zone  a few days ago. The tracks were fresh, and it seemed as if they had recently passed here. But after a few kilometers the tracks suddenly disappeared. The ground was smooth, as if no one had ever walked here. There were no bodies, no belongings left behind, no hint that there had once been people here.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_128">
+        <text>Reception, thirteenth, this is the eighth, can you hear? We
+got out of the collector, and apparently got to the unfinished 5th power unit, bypassing ground anomalies. This appears to be the central base of the monolith. End of connection.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_129">
+        <text>I tiredly trudged to the technician for my reward, after
+so many tools collected for him, but what could he offer me? When I arrived, he began to say with a smile: “I assembled this thing when I was working with scientists on Yantar. The design has been improved with “twist” particles, and now this AK shoots faster than some machine guns.” “Just make sure it doesn’t overheat, otherwise I don’t know if I can fix it,” the technician grinned. My joy knew no bounds, it was not in vain that I wandered around the zone  for a month in search. This technician turned out to be a good guy...</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_130">
+        <text>They said that there was an artifact that could control time. I didn't believe these rumors until I found it in an old factory. It looked like a crystal with grains of sand moving inside it, as if it had its own little world inside. When I touched it, time around me slowed down. I saw the raindrops freeze in the air and realized that I was holding in my hands something incredible, but also extremely dangerous.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_131">
+        <text>When I returned to base, everyone was talking about the stalker,
+who lived alone on the very edge of the zone . No one knew his name, no one saw his face. But everyone knew that he never left his refuge. They said that he had seen too much to continue living among people. It seems he could even talk to mutants, but this is all at the level of rumors. Once I saw him from the mountain, but as soon as I went down, he disappeared, as if he had disappeared into the air of the zone .</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_132">
+        <text>In different parts of the zone , mainly in some
+abandoned shelters, you can meet lonely scientists. They are looking for volunteers to carry out missions to find artifacts, which sometimes seem literally suicidal. However, they pay well for such things, not only with money, but also with their reputation among scientists.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_133">
+        <text>What are you doing? Are you going to take this crap or
+no blah? I’m already really cringing at your thoughts.” The bandit’s patience was clearly running out, but I still didn’t have the courage to bring down the exorbitant price for this camera. On the one hand, no one else has this, and with it I can get rich. And on the other, How much will I live on for the next month if I buy it?</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_134">
+        <text>We came across a huge accumulation of corpses
+mutants. They were torn, some almost to the bone. Strange, but there was not a single human trace nearby. Who or what could destroy an entire flock so quickly and effectively? I came closer to take a look
+remains, and noticed strange marks on one of them that could not have been made by humans.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_135">
+        <text>We lost three clanmates in this short
+raid. This can no longer continue, at least with me. I said, completely losing faith in our leader. The burner is turned off, we must break through to the center first, sentiments should be put off for later. - our leader said curtly.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_136">
+        <text>Fifteenth, this is Soroka. I see the expected
+leader of Monolith, near the Energetika Palace of Culture, observing from the roof. Damn... he looked straight at me, trying to hide... the connection was cut off. How is it
+Maybe? God, that's all we needed...</text>
+    </string>
+    
+
+    <string id="ls_tip_137">
+        <text>Having passed through the old tunnel, we came to an open
+the space where the rusty tower stood. There was a strange smell of sulfur in the air, and every step echoed. The closer we got to the tower, the stronger the smell became, and inside there were old notes waiting for us. They talked about a disaster that happened decades ago, when the zone  had not yet been studied, and experiments here were just beginning.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_138">
+        <text>I came across an old army patrol
+frozen in time. All the soldiers were in full uniform, their machine guns were pointed at the invisible enemy. Their faces were calm, as if they did not even understand that death had befallen them. Their commander was holding a map in his hands, on which a strange place was marked in the depths of the zone . It wasn't marked on regular maps, and I knew something important might be hiding there.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_139">
+        <text>On the old hill, which was considered long ago
+abandoned, I found a strange metal structure that resembled a huge sundial. Their arrow was motionless, although the sun was shining brightly in the sky. As I got closer, the detector began to quietly crackle, and a feeling of strange energy hung in the air. The arrow began to turn slowly, as if counting down the time I spent in this place. It felt like the zone  was watching me and deciding my
+fate.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_140">
+        <text>In the morning, an incomprehensible hum was heard throughout the laboratory. The walls are cracking and the ground is crumbling. Water is dripping here and there. Perhaps this is an underground river making its way. I was sent with security to check the collector leading to the Dark Valley, and they even gave me a machine gun. What nonsense! I've never held one in my hands that's heavier than a wrench and a glass. I'll try to deal with this crap...</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_141">
+        <text>There was one stalker in the zone  who, according to legend, made a deal with the Devil through an artifact that spoke to him. He ran around with huge trunks like crazy, pistol bullets could not pierce his skin, and the mutants had difficulty chewing through it. But the zone  ate him too. It is not known where this artifact is now, but it definitely has an owner; such things in the zone  do not disappear in vain.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_142">
+        <text>The zone  regained power by punishing the military. Those,
+those who were lucky were found three days later - a detachment sent to search for the missing secret convoy discovered their corpses: they lay dead with glassy eyes, the rest disappeared unknown where and in what nightmarish places that defy human understanding.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_143">
+        <text>In the ruins of an old building I found an ancient clock,
+stopping at exactly noon. They looked untouched by time, although everything around them was destroyed. As I picked them up, the seconds began to tick slowly. But as soon as I let go of the watch, it froze again. Arose
+a strange feeling that this is not just a device for measuring time - perhaps the clock is stuck at the moment when the zone  first showed its power.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_144">
+        <text>We were walking through abandoned forests when suddenly on the path
+Artifacts began to appear. They lay in an unnatural order, as if someone had deliberately placed them to lure us into a trap. One of the stalkers could not stand it and took the first artifact. At that moment, something howled in the distance, and the ground began to separate underfoot. We realized that the artifacts were part of the big game of the zone , and it would be a matter of getting out of here alive
+not easy.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_145">
+        <text>One experienced stalker gave me a tip about the escaping
+artifact,” which he himself could not take. When I arrived at the place, I really found it, but I just couldn’t take it. It really seemed to “jump” away from me, eventually luring me to the farm. And there the whole truth was revealed - the artifact was bait in a trap
+controllers.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_146">
+        <text>We came to an old bridge that connected two
+banks of a small river. It looked quite durable, but there were no traces of either humans or mutants on it. As we stepped onto the bridge, its old wooden beams began to creak, and a tense silence hung in the air. I was walking ahead, and suddenly I heard a faint knocking under my feet - the bridge seemed to be alive, as if something was moving under it.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_147">
+        <text>In the center of a huge field covered with ash,
+there was a circle made of old rusty metal structures. It looked like someone had deliberately built it around an anomaly. Inside the circle, the air flickered and shimmered with fiery flashes. One stalker tried to come closer, but did not take even two steps before the flash of the anomaly consumed him. This circle turned out to be not just a barrier - it was an entrance to something
+unknown.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_148">
+        <text>In an old building, long abandoned, we saw
+strange picture on the wall. It was a simple child's painting - hand-painted houses and the sun. But something was wrong: the houses in the picture began to fall apart if you looked at them for too long. I looked away and heard a faint rustling sound. Looking around, I noticed that the wall itself had begun
+change, as if she was trying to tell us something through this drawing.</text>
+    </string>
+    
+
+    <string id="ls_tip_149">
+        <text>In the underground complex we came across a camera,
+sealed with huge steel doors. There were no locks, but there were strange symbols on the door. One of us, having dared, touched the door, and it began to slowly open. There was no light inside the cell, but a sound could be heard from the depths - something was quietly knocking, like the pendulum of a clock, counting down the last minutes.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_150">
+        <text>That night we walked through the Dead City. The sky was
+overcast, and the light of the moon barely broke through the clouds. Suddenly, in one of the windows I saw a faint glow - a neon green light. I came closer and saw a shadow inside. But as soon as I climbed the stairs, the light disappeared and the room was empty. Only the wall was covered with fresh claw marks, as if someone had recently tried to get out.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_151">
+        <text>We returned to the base, where it was always crowded and
+noisy. But today everything was different. There were empty tents at the entrance, weapons were left on the ground, and a fire was burning in the middle of the base. There was no one visible, and there was absolute silence around. I walked closer to the fire, trying to understand what happened, when I suddenly heard a crunching sound. But there is still no one around.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_152">
+        <text>In the abandoned ruins I found an artifact hidden
+among the stones. It glowed with a dim blue light, and when I touched it, I felt a strange pulsation - as if the artifact was breathing. But there was something wrong with him. It did not respond to the detector and weighed almost nothing. I decided to take it, but suddenly I felt the ruins begin to tremble. It seemed to me that the artifact itself was the key to this place.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_153">
+        <text>On the outskirts of the zone  there was a river, the water of which glowed in
+darkness. Local stalkers called it the “River of Ghosts.” They said that anyone who dares to cross it risks never returning. We decided to check it out. When we approached the river, the water began to move against the current, as if something from the depths was trying to break out. One of
+a stone threw us into the water, but it disappeared in the blink of an eye, leaving not a single trace.</text>
+    </string>
+    
+
+    <string id="ls_tip_154">
+        <text>In an underground bunker littered with rubble, one of the
+we heard a whisper coming from behind the concrete wall. He stopped and listened - a voice was quietly calling his name. We decided to clear the rubble to find out what was hiding there. When the last stone was removed, there was nothing beyond the wall but an empty corridor. But the whisper is not
+stopped. The voice seemed to come straight from the wall, as if she remembered those who were buried under her weight.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_155">
+        <text>On the southern outskirts of the zone  there was a village that had long been considered abandoned. We decided to spend the night there. But as darkness fell, lights began to come on in the houses. At first we thought it was one of the stalkers, but when we got closer, we didn’t find anyone. The doors of the houses were locked, the windows were broken, and a strange silence hung in the air. But the lights continued to shine, as if inviting us to enter.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_156">
+        <text>During heavy rain, we decided to sit out in
+abandoned hangar. Then, for the first time in a long time, we were not in danger, and such moments in the zone  are worth their weight in gold. Sometimes you think, is it worth going further, is it worth continuing to risk your life? But we all understand that everyone has their own reasons, some of which even the strongest of us are not able to fight.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_157">
+        <text>Closer to the center of the zone , one was popular among stalkers
+an attraction that was staged mainly near unfinished factories or factories. The idea was to ride on the suspended parts of long-frozen construction cranes, sometimes hanging very high above the ground. Even though everyone was aware of the risks, and the dose of radiation that could be captured from the local iron, everyone still rode on like this, just to forget for a minute and have fun in the company.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_158">
+        <text>In an abandoned school, we discovered strange patterns on the walls made of shadows. Upon closer inspection, it became clear that these shadows were not cast by any objects; their source was unclear. One of us touched the wall and the pattern began to move slowly. The shadows seemed to come to life, creating a new picture - something ancient and inexplicable. We
+They hurried to leave, realizing that these patterns could be part of an unknown mechanism.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_159">
+        <text>Red hasn't slept in a week. He couldn't afford
+close his eyes until that strange man in a black cloak continued to watch him. Wherever he went, wherever he hid, a faceless silhouette was always visible in the distance, watching him so closely. </text>
+        
+
+    </string>
+     
+    <string id="ls_tip_160">
+        <text>We found a gramophone in the ruins of an old house,
+covered with dust and dirt. When we started it, it suddenly started working and an old, muffled tune came out of the speakers. But the strangest thing began later - the sound of the gramophone died down, and instead of music we heard voices that spoke in an unfamiliar language. One of the stalkers recognized the voices as long-lost comrades. He tried to make out what they were talking about, but at that moment the gramophone fell silent forever.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_161">
+        <text>Walking past a row of abandoned houses, we noticed that all the windows were looking at us. The glass was broken, but there was a feeling that someone or something was watching us. Every time we looked around, the shadows in the windows seemed to change their position. One of the stalkers went to check one of the windows, but as soon as he approached, his hand seemed to fall through the glass. He returned, not understanding what had happened, but his eyes became empty, like those of those windows.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_162">
+        <text>On the floor of one of the abandoned buildings we found
+old book. The sheets were covered with writing, but the text was constantly changing. At first these were records about life in the zone , but then the names of the stalkers we knew appeared. One of the names belonged to me. The sheets began to turn on their own until the book closed. We tried to open it again, but
+the page with my name disappeared as if it had
+never existed.</text>
+    </string>
+    
+
+    <string id="ls_tip_163">
+        <text>They haven't been seen in these parts for a long time, but you need to kill him. - I was entrusted with an order for a bloodsucker. Going at him alone would be suicide, so I decided to stuff his lair with traps. I placed trip wires all over the ATP, laid anti-personnel mines and waited. When I approached the almost dead bloodsucker to examine him, the mask suddenly began to slide off his face...</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_164">
+        <text>At night we heard a familiar sound - deep, wet
+wheezing coming from the ruins of the old factory. It was a bloodsucker. We knew he was somewhere nearby, but no one could see him. Suddenly one of ours screamed and fell to the ground when an invisible force grabbed him by the neck. We opened fire blindly, but every shot seemed to hit nothing.
+The bloodsucker remained invisible until we were one step away from his claws.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_165">
+        <text>Along the old railway embankment we heard heavy stomping - the pseudo-giant was approaching. The ground shook under his steps. One stalker tried to run away, but the giant hit him with a massive hand, crushing him like a fly. We opened fire, but each bullet seemed useless against his thick skin. It was too late to retreat - he was too close. All we could do was pray that we had enough ammunition.
+</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_166">
+        <text>We were walking along a narrow path when suddenly a deafening shot was heard, and one of the stalkers fell, hit in the head. It was an ambush. A group of bandits from the high hills opened fire and we had no place to take cover. We pressed ourselves to the ground, trying to respond, but their positions were too good. We could hear the bandit leader laughing as their bullets whistled over our heads.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_167">
+        <text>At first it was a lonely dog that? we noticed
+in the field. But soon a whole flock of blind dogs jumped out of the fog. There was no stopping them; they were moving too fast. One of ours did not have time to shoot before he was knocked down, and the dogs began to tear him apart. We shot in the air to scare them, but they only became
+more aggressive. All we could do was retreat, losing ammunition and hoping that we would survive.
+</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_168">
+        <text>The leader of the Svoboda group is a rare scumbag. IN
+in his youth he was a member of several anarchist groups, suspected of committing several terrorist attacks, after which he most likely fled to the zone . Manovar, Kapets, Angle. Three scumbags, bodyguards of Lukash. Old
+Lukash's accomplices came to the zone  with him. Wanted by Interpol for armed robbery, blackmail, rape.
+</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_169">
+        <text>- Who is your eldest here? There is a case for him.
+— Our eldest, Lukash, is in the main building. But when you enter it, hide your weapon, otherwise they might shoot you.
+Why so? - Yes, there was a precedent - Lukash was almost killed by some mercenary. Since then we have been playing it safe.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_170">
+        <text>Having been captured by Duty, we found ourselves in a dungeon,
+where they started interrogating us. The leader of their group, Kurgan, was cruel and merciless. He demanded information about the location of the cache of artifacts. We remained silent, knowing that their revenge would be terrible. But at some point one of our guys couldn’t stand it and gave out the coordinates. Kurgan smiled, and we were left in the cold, locked in a concrete room without food or water. </text>
+        
+
+    </string>
+     
+    <string id="ls_tip_171">
+        <text>We entered a quiet dark tunnel on the outskirts of Zaton, and this was our first big mistake. The silence soon gave way to rustling noises - the snorks were preparing to attack. They moved along the walls, jumping from place to place, and this made them practically invisible. One snork jumped on our comrade, tearing his throat with one blow. We started shooting, but it seemed that their number only increased with each passing
+shot.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_172">
+        <text>We made a stop at an abandoned airfield when
+suddenly a roar cut through the air - a chimera. This two-headed mutant was almost invulnerable to bullets, and his speed left us without a chance. We shot
+a couple of times before he attacked the first stalker, tearing him apart with his
+powerful claws. The chimera moved with lightning speed, leaving behind only traces of blood.
+Our only chance was to escape while she was busy with her prey.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_173">
+        <text>We met a squad of loners at an abandoned base. At first everything went calmly - we exchanged goods and shared news. But when it came to dividing up the artifacts, the situation became tense. One of the stalkers, named Grom, turned out to be too greedy and tried to
+deceive. The first bullet sounded suddenly, and a moment later a shootout began. Everyone defended their own, but there were no winners in this battle - only corpses.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_174">
+        <text>When we discovered the weapons cache, it seemed to us that luck is on our side. But we didn't know that they had their eyes on him and
+mercenaries. Their leader, nicknamed Falcon, was known for his cruelty. The meeting was inevitable. The battle began suddenly - they attacked us from the flanks, using tactics and superior numbers. We were forced to retreat, leaving behind everything we found. But the Falcon didn't like to let go
+witnesses.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_175">
+        <text>Vasiliev chickened out at the last moment... and instead
+In order to turn off the lower controls, he simply ran away... when the door opened. There was no need to rely on him... That's right Shooter... didn't trust these lying dogs. My only chance is to get to the door before the controller.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_176">
+        <text>Scientists always seemed neutral, but one day we stumbled upon a strange discovery. Documents were found in an abandoned laboratory indicating that stalkers were used as test subjects in
+experiments with mental influence at the institute at Agroprom. One of the documents contained the name of our familiar stalker, who disappeared several months ago. He was given drugs that were supposed to enhance
+resistance to anomalies, but instead he simply disappeared without a trace.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_177">
+        <text>They say that Duty has always stood for protection
+humanity from mutants and anomalies, but in one of their abandoned bunkers near Rostok we found a secret room. It contained artifacts that we had never seen before. These objects exuded dark energy, and something ominous emanated from them. We learned that these artifacts were used in secret Duty research to create new types of weapons capable of destroying entire groups of stalkers or mutants in one shot.
+</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_178">
+        <text>The Svoboda group has always advocated free
+existence in the zone , but few people know that some of its members are engaged in trafficking in prohibited substances. One day we found one of their leaders,
+nicknamed Rat, who ran the clandestine laboratory. He created drugs based on artifacts that made stalkers euphoric, but ultimately destroyed their minds. Those who could not pay for the dose disappeared without a trace.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_179">
+        <text>They say about Clear Sky that their goal is to study and understand the zone , but in one of their laboratories we came across horrifying discoveries. There lay the bodies of the stalkers, frozen in capsules. Each of them had marks with numbers, like experimental animals. We learned that earlier, as scientists, the creators and leaders of Clear Sky
+experimented with changing DNA through exposure to artifacts, trying to develop a “perfect man” who could survive in the most dangerous places in the zone .</text>
+    </string>
+    
+
+    <string id="ls_tip_180">
+        <text>In the evening we heard conversations on the radio - Debt
+planned to capture important territory near Yantar, supposedly to clear it of mutants. But we later learned from one of their former members that this was just a cover. The real goal was to control the rare artifacts that were in that area. They used stalkers as cannon fodder, sending them on suicide missions under the guise of protection
+humanity.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_181">
+        <text>In one of the forgotten Freedom camps we came across
+strange equipment. There were devices placed throughout the camp that emitted a weak electric field. One of the local stalkers told us that this was part of an experiment to influence consciousness. The Freedom leaders hoped that they could control the minds of the stalkers, forcing them to carry out their orders. The experiment failed, and now the stalkers who fell under the influence wander around the zone  like clumsy puppets.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_182">
+        <text>Scientists have always strived for neutrality, but one day
+we saw something strange. A group of mercenaries entered the scientists' bunker, loaded with bags that clearly did not belong to the researchers. It turned out that scientists had entered into secret deals with mercenaries, providing them with rare artifacts and information about new anomalies in exchange for protection and the black market for technology. Scientists were ready to make any deals just to gain access to the zone , even if it required cooperation with the dirtiest players.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_183">
+        <text>One day we met a stalker who claimed
+that he used to be a high-ranking member of the Duty. He said that their main goal is not the protection of humanity, but control over the zone  and its riches. Duty uses his ideals as a cover to
+legitimize their operations. When someone tries to go against this system, he is either eliminated or pushed into the most dangerous part of the zone , where inevitable death awaits him.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_184">
+        <text>In one of the old Freedom caches we found a diary
+a former fighter who revealed a dark truth. The group's leaders often negotiate with bandits and mercenaries, selling them information about the location of newcomers and small groups of stalkers. These newcomers often have no idea that their fate is sealed - they are sent into traps where they become easy prey. Freedom sells their lives for artifacts and resources, hiding it under its slogans about freedom in the zone .</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_185">
+        <text>The mercenary nicknamed the Wolf was always quiet, but
+a reliable comrade. We went through dozens of troubles with him, and he never let us down. Once, when we stumbled upon a bandit ambush, the Wolf covered me with his back, receiving two bullets in the chest. I thought he wouldn’t survive, but he just grinned and said: “You’ll have to.” Such friends are worth their weight in gold in the zone  - they do not require gratitude, they simply help when needed.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_186">
+        <text>We sat by the fire with Bes, our guide. He
+was an old-timer of the zone , knew every nook and cranny. One night we were stuck in a radiation zone  without an antidote. The demon pulled the last cigarette out of his pocket and offered it to me. “Smoke will kill you faster than radiation,” he joked. We shared this cigarette, realizing that our chance of survival was extremely small. But the next morning, against all odds, we found someone's cache of
+anti-radiation drugs. That night became a symbol of our brotherhood - together until the last.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_187">
+        <text>Raven and I have been through a lot. He always was
+someone you could rely on, but one day everything changed. We found a rare artifact in the desert area, and Raven said that it should be sold and the profits shared. But when I turned away to check the perimeter, he stabbed me in the back. He thought I was dead and took the artifact. But I survived and found him later. Raven was already dead, killed by another traitor. In the zone , such stories are not uncommon.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_188">
+        <text>We found an old wristwatch on the body of the deceased stalker. They looked broken for a long time, but as soon as we touched them, the arrows began to move. The clock showed a time that was several hours ahead from ours. One of the stalkers put them on his hand, and soon began to feel strange things - he was surrounded by emptiness, as if time had slowed down. The clock seemed to be connected to another reality, where time flowed according to different laws.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_189">
+        <text>At the landfill we came across a large flock of mutants.
+There seemed to be no way out - the ammunition was running out, one of ours was wounded, and the mutants were getting closer. But at that moment, when we were already preparing for the worst, our old friend, Max, whom we had not seen for several months, appeared. He began shooting mutants with his machine gun, pulling us out of the most hopeless situation. In the zone  they say: true friends come when you don't expect them.</text>
+        
+
+    </string>
+    
+
+    <string id="ls_tip_190">
+        <text>Vint and I knew each other from the first days in the zone . Once I let him down - on a mission I made a mistake, because of which Vint fell into a trap and almost died. He didn't hold a grudge. “The main thing is that we are alive,” he said, pulling me out of the captivity of the debtors, when everyone thought that I was already dead. In the zone  it is rare to meet those who forgive mistakes. But such people become something more than just comrades.</text>
+        
+
+    </string>
+    
+
+    <string id="ls_tip_191">
+        <text>Tolik and I were like brothers. In the zone  it is always difficult to find someone you can trust with your back. One day we found a cache of weapons and supplies. They decided to divide everything equally, but by nightfall Tolik suddenly disappeared along with all the goods. I looked for him for several days, and in the end I found him dead - the bandits shot him and took everything. There is betrayal in the zone 
+overtakes everyone, but sometimes it turns against the traitor himself.</text>
+        
+
+    </string>
+    
+
+    <string id="ls_tip_192">
+        <text>On the way to Pripyat, Fox and I found ourselves in an ambush. He
+was wounded and the chances of survival were minimal. But I couldn't leave him. We made our way through the swamps, trying to avoid snorkels, and I carried him on my back. The fox said that I had to go and save myself, but I knew that without him I would not make it to the end. Three days later we reached a safe place. True friends in the zone  save each other even when it seems impossible.</text>
+    </string>
+    
+
+    <string id="ls_tip_193">
+        <text>Sedy and I were best friends, but one day,
+during the sortie, I lost sight of him in the anomalous zone . I was sure that
+he's dead. But a year later I met him at the fire in the Freedom camp. He didn't say a word, but I saw something dark in his eyes. He experienced something terrible that made him different. We didn't talk about that anymore
+happened that day. Sometimes friendship in the zone  dies not from bullets, but from something more terrible.</text>
+        
+
+    </string>
+    
+
+    <string id="ls_tip_194">
+        <text>I walked with Pasha along the dead road to Pripyat. We knew there was danger ahead, but no one expected that a pseudo-giant would attack us. In a panic, Pasha dropped a rare artifact that we had been hunting for for several days. I could have left him and run, but I turned around and grabbed the artifact right from under the monster’s clutches. We survived, and now this artifact is a symbol of our friendship, saved not only for the sake of money, but also for the sake of loyalty to each other.</text>
+        
+
+    </string>
+    
+
+    <string id="ls_tip_195">
+        <text>More than anything in the world, I want to leave this damned zone  and forget all this. Start all over again. And he would have ratted me out, that’s for sure, stalkers are greedy for money. As soon as I let him go, I would immediately
+caught. I didn't want to kill him, I just wanted to give myself a little head start and
+hide. But he would have gotten out, this tramp was not a newbie.</text>
+    </string>
+    
+
+    <string id="ls_tip_196">
+        <text>After several days in the high radiation zone , I had little hope left. The radiation was slowly killing me from the inside, but I kept going. Every step was filled with pain in the body, my head was spinning, and shadows swam before my eyes. Finally, I found a cache left by a stalker many years ago. Inside was the last dose of anti-rad. Believing in luck, I took the injection, knowing that this was just a delay. But in the zone , even such a chance is already salvation.</text>
+        
+
+    </string>
+    
+
+    <string id="ls_tip_197">
+        <text>When food supplies run out and there are still some left in your backpack
+Just a few pieces of dry bread, you begin to appreciate every moment when your stomach does not ache. My friend and I walked through an abandoned warehouse, hoping to find at least something edible, but all we found were several cans of expired canned food. They could be poisonous, but there was no choice. That night I realized that the zone  teaches one thing: survival is more important than all your principles.</text>
+        
+
+    </string>
+    
+
+    <string id="ls_tip_198">
+        <text>Finding a place to stay overnight in the zone  is not easy
+luck is a matter of life and death. We came across an old farm, half collapsed. It would seem that the place is safe, but this does not happen in the zone . At night we were awakened by a strange noise - the roof of the house had collapsed from being in the anomalous zone  for a long time. It's a good thing we slept in another part of the house, otherwise it would have been our last night.</text>
+        
+
+    </string>
+    
+
+    <string id="ls_tip_199">
+        <text>In the zone , losing connection is like losing light in
+darkness. My radio broke after we got caught in the radiation rain. I was alone, far from the camp. Every step could be the last - after all, without a connection with the group you are nothing. My savior turned out to be a random stalker who heard my scream in the night. He gave me his radio and went deeper into the zone , as if he knew that he would no longer need it.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_200">
+        <text>We went on a scavenger hunt for artifacts. In a group
+there were five people, each an experienced stalker. But when the release began, we were stuck in an abandoned school. One by one my comrades fell,
+struck by radiation and emissions of anomalous energy. When it was all over, I was left alone. I looked at their bodies and thought: how easily the zone  can
+take away everything you love and respect. At such moments, life loses its meaning.</text>
+        
+
+    </string>
+     
+    <string id="ls_tip_201">
+        <text>In the zone , every mistake can cost you your life. We are with The Grays decided to go through an unknown anomaly, thinking that we would bypass it along edge. But I was wrong. For a few seconds I fell into the zone  of its influence, and
+my body felt frozen from the inside. I survived, but my arms were no longer there
+the same. Now every shot from a rifle is a pain, but I can’t stop, because in the zone , stopping is death.
+</text>
+        
+
+    </string>
+    
+
+    <string id="ls_tip_202">
+        <text>In the zone  you often come across what you have lost.
+One time I found an old jacket hanging on an abandoned car. It was the jacket of my old friend, with whom we once wandered around the zone . He went missing many years ago, and now traces of him have reappeared. I never found out what happened to him, but the zone  keeps its secrets with a stranglehold. All that was left of him was an old, faded jacket.</text>
+        
+
+    </string>
+    
+
+    <string id="ls_tip_203">
+        <text>Everyone dreams of a big find - an artifact that will allow them to leave the zone  forever and live in freedom. But the longer you are in the zone , the more you understand that freedom is an illusion. My friend Sapsan once found a rare artifact that could fetch a fortune. But when the time came to sell it, he refused. “The zone  won’t let me go,” he said. And indeed, a week later he died in one of the anomalies, never leaving the zone .</text>
+        
+
+    </string>
+    
+
+    <string id="ls_tip_204">
+        <text>Time flows differently in the zone . At first you think that you will stay here for a week, maybe a month, but then a year passes and you no longer remember what the world looks like outside the zone . I lost track of time. The only watch I had left stopped after one of the emissions. Now I only navigate by the sun, but sometimes it shines here somehow incorrectly, as if nature itself no longer belongs to this world.</text>
+        
+
+    </string>
+    
+
+    <string id="ls_tip_205">
+        <text>The life of a stalker is constant fatigue. Even if you are sleeping, you always keep one eye on your surroundings. Every sound in the night makes you grab your weapon. Leshiy and I somehow got out of the same jam, but when we got to the camp, we didn’t even have the strength to talk. We just sat by the fire and silently looked into the fire. Fatigue in the zone  is not just a physical condition, it is something that eats you up from the inside.</text>
+    </string>
+    
+
+    <string id="ls_tip_206">
+        <text>One day we found a whole treasure trove of artifacts.
+It seemed that luck smiled on us, but the more we found, the more
+greed flared up. My partner, nicknamed Rex, collected them even in the most dangerous places, without thinking about the consequences. In the end, one of the artifacts was too close to the anomaly, and Rex was absorbed
+electric flash. I stood nearby and realized that sometimes it is better to leave with what you already have than to try to grab more and lose
+All.</text>
+        
+
+    </string>
+    
+
+    <string id="ls_tip_207">
+        <text>Some stalkers return to the bar after forays
+or camp, but for many the fear of returning becomes a reality. As my friend and I were returning to our camp, we noticed that something was wrong. At the site of the camp there was only burnt ashes. It turned out that in our absence the bandits looted and burned everything that we had been building for several months. Now we no longer had a home, and the zone  was ours again
+the only refuge.</text>
+        
+
+    </string>
+    
+
+    <string id="ls_tip_208">
+        <text>Every stalker has someone who is waiting for him outside the zone . Wick had a brother who never knew about his fate. Wick wrote him a letter, telling him about his findings and how he would return soon. But one day he went deep into the zone  for a rare artifact and never returned. The letter remained in his backpack, lost among other things, as a reminder that not all promises can be
+perform in the zone .</text>
+        
+
+    </string>
+    
+
+    <string id="ls_tip_209">
+        <text>Semyon was a newbie. He was one of those who came to the zone  in search of adventure and quick money. He was full of enthusiasm for the first week until his first failure occurred. One day he fell into an anomaly, which did not kill him, but disfigured him. We found it on the ninth day after the release. He was alive, but his eyes were empty and his body was burned. He didn't say a word, he just looked at the sky, as if he was trying to find salvation in it. A week later, Semyon died without finding peace.</text>
+        
+
+    </string>
+    
+
+    <string id="ls_tip_210">
+        <text>Pasha, or as he was called in the zone  - Patron, was one of those who came here to escape from his past life. He once told me that his life before the zone  was full of mistakes, betrayals and losses. In the zone  he found salvation, but over time he realized that it was impossible to hide from his demons here. On one of the forays, Patron simply disappeared. His body was never found, but his spirit is said to haunt Pripyat, and he can sometimes be heard whispering for forgiveness.</text>
+        
+
+    </string>
+    
+
+    <string id="ls_tip_211">
+        <text>Nikita and Vadim have been inseparable since childhood.
+They came to the zone  together, dreaming of fame and wealth. But one day, during a sortie, they were attacked by a bloodsucker. Nikita managed to kill the mutant, but Vadim was mortally wounded. He could not save his friend, but he did not dare to abandon his body. For a whole week Nikita carried Vadim’s body with him, unable to find the strength to leave him. Only when radiation and hunger forced him to give up did he finally bury his friend and return to the camp, where no one recognized his current self.</text>
+        
+
+    </string>
+    
+
+    <string id="ls_tip_212">
+        <text>The stalker, nicknamed Goose, was known for his luck.
+He always found rare artifacts and avoided anomalies. But one day his luck ran out. We found him on the edge of the zone , wounded and almost unconscious. He survived, but all he had left was a torn jacket, an empty backpack and some bloody bandages. The goose no longer went on forays. He sat at the base by the fire, quietly whispering the names of those he had lost, realizing that the zone  had taken from him everything that once mattered.</text>
+        
+
+    </string>
+    
+
+    <string id="ls_tip_213">
+        <text>Lyokha Shaman was an experienced stalker, but his past
+always haunted him. He lost his entire family during the Chernobyl nuclear power plant accident, and the zone  became a way for him to atone for his pain. One day, during a foray into the Red Forest, he saw a girl standing among the trees. She looked at him, and her face was painfully familiar. It was his sister who died many years ago. The “shaman” rushed after her, shouting her name, but she disappeared into the fog. After that, Lyokha disappeared. No one else saw him.</text>
+        
+
+    </string>
+    
+
+    <string id="ls_tip_214">
+        <text>Every stalker dreams of the day when he can
+leave the zone  and return to normal life. Many have families waiting for them outside of this damned place.
+But one day I met an old man who lived in an abandoned village not far from Yantar. He
+said that he left the zone  many years ago, but was never able to return to his former life. The zone  changed him forever, and he could no longer feel at home in the world he once knew. He remained in the zone , becoming part of it.</text>
+        
+
+    </string>
+    
+
+    <string id="ls_tip_215">
+        <text>A stalker named Filin was once a fighter
+Clear Sky. Before leaving for his last outing, he promised to return to his daughter, who was waiting for him outside the zone . But time passed, and Owl sank deeper and deeper into its darkness. He thought less and less about his promise, until one day he realized that he had long ago lost hope of returning. The owl died in the depths of the zone , never having fulfilled his
+promises.</text>
+        
+
+    </string>
+    
+
+    <string id="ls_tip_216">
+        <text>Stalker nicknamed Barsik was known for his
+telling stories around the fire. Every evening he told stories about his adventures, and many of them seemed fictitious. But one day Barsik fell silent. He sat by the fire, looked into the flames and did not want to speak anymore. When asked what happened, he just shook his head and said, Some stories are best kept to yourself. There are things in the zone  that are best forgotten. A week later, Barsik was found dead, his face full of pain, as if he could not cope with what he saw.</text>
+        
+
+    </string>
+    
+
+    <string id="ls_tip_217">
+        <text>Somewhere in an abandoned factory not far from Temnaya
+valley there are rumors of a stalker who stands on top of an old water tower and looks into the distance. He doesn't move, doesn't scream. He just stands and watches. Those who tried to climb to him did not return. No one knows who he is or what awaits those who approach him. Some say it's just a phantom, others say it's a stalker whose mind has been completely taken over by the zone .</text>
+    </string>
+    
+
+    <string id="ls_tip_218">
+        <text>In the very heart of the Landfill, stalkers began to find traces of strange rituals. Circles of charred artifacts, bloody rows of candles left by unknown people. Rumor has it that this is the work of a group that calls itself Followers of the Flame. They believe that the fire of anomalies can give them immortality if called upon correctly. But everyone who tried to find out more about them went missing.</text>
+        
+
+    </string>
+    
+
+    <string id="ls_tip_219">
+        <text>During one of the emissions on the territory of Yantar
+The stalkers heard a child's cry coming from the thick fog. No one dared to approach, because everyone knew: there could be no children in the zone . But the sound did not subside. He followed them, repeating himself all the way. Some of the stalkers began to lose their minds hearing this crying in their sleep. No one understood what it was - an echo of the past or another trap of the zone .</text>
+        
+
+    </string>
+    
+
+    <string id="ls_tip_220">
+        <text>One night in Bar, a veteran of stalking, nicknamed Dog, talked about a foray into the depths of Radar. He and his group encountered absolute silence - no anomalies, no mutants, no wind. Only emptiness. They moved further and further until they noticed strange figures on the horizon. As he approached, the Dog realized that these were their own bodies - dead, disfigured, lying on the ground. He doesn't remember how he returned to Bar, but he never went on raids again.</text>
+        
+
+    </string>
+    
+
+    <string id="ls_tip_221">
+        <text>In an old warehouse on Cordon, one of the walkie-talkies suddenly
+started to pick up a strange signal. At first it was just noise, but after a few days someone's voice began to break through. The stalker who held this walkie-talkie heard in it an old comrade who died several years ago. A voice called him to the old power plant where they once mined together
+artifacts. He left without leaving an explanation for anyone, and no one heard from him again.</text>
+    </string>
+    
+
+    <string id="ls_tip_222">
+        <text>In one of the old field laboratories, scientists found
+a note left by an unknown stalker. It described his last days in the zone , his farewell words addressed to his family, who were waiting for his return. However, among the signatures was a name - his own. The stalker wrote a letter to himself, as if he knew that no one else would get it.
+hands. The zone  took him, like many others, leaving only his shadow among the artifacts and anomalies.
+</text>
+        
+
+    </string>
+    
+
+</string_table>

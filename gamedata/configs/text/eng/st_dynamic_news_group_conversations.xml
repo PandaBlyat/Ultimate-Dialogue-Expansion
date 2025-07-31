@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+
+<!-- Group Conversations XML Structure -->
+<!-- Format: speaker_role|message -->
+<!-- Meta format: tags|min_speakers|max_speakers -->
+
+<string_table>
+
+<!-- Group Conversation 1: Artifact Discovery Discussion -->
+<string id="st_dyn_news_group_conv_1_meta">
+    <text>mixed,artifacts|3|4</text>
+</string>
+<string id="st_dyn_news_group_conv_1_turn_1">
+    <text>finder|Holy shit guys, I just found a Goldfish artifact near %location%!</text>
+</string>
+<string id="st_dyn_news_group_conv_1_turn_2">
+    <text>skeptic|Bullshit, %finder_name%. Goldfish artifacts are super rare.</text>
+</string>
+<string id="st_dyn_news_group_conv_1_turn_3">
+    <text>expert|Actually, there was an emission yesterday. Could have spawned new artifacts.</text>
+</string>
+<string id="st_dyn_news_group_conv_1_turn_4">
+    <text>finder|I'm telling you, it's real! I can prove it!</text>
+</string>
+<string id="st_dyn_news_group_conv_1_turn_5">
+    <text>buyer|If it's real, I'll pay 50k for it right now.</text>
+</string>
+<string id="st_dyn_news_group_conv_1_turn_6">
+    <text>skeptic|%buyer_name%, don't be an idiot. Make him show proof first.</text>
+</string>
+<string id="st_dyn_news_group_conv_1_turn_7">
+    <text>finder|Meet me at the bar and I'll show you. Bring the cash.</text>
+</string>
+
+<!-- Group Conversation 2: Planning a Raid -->
+<string id="st_dyn_news_group_conv_2_meta">
+    <text>faction,planning,raid|3|4</text>
+</string>
+<string id="st_dyn_news_group_conv_2_turn_1">
+    <text>leader|Alright boys, we're hitting that military checkpoint tomorrow at dawn.</text>
+</string>
+<string id="st_dyn_news_group_conv_2_turn_2">
+    <text>scout|I scouted it yesterday. They've got at least 8 guards on rotation.</text>
+</string>
+<string id="st_dyn_news_group_conv_2_turn_3">
+    <text>veteran|Eight? That's more than last time. We'll need a distraction.</text>
+</string>
+<string id="st_dyn_news_group_conv_2_turn_4">
+    <text>demo|I've got some IEDs ready. Could hit their supply truck when it arrives.</text>
+</string>
+<string id="st_dyn_news_group_conv_2_turn_5">
+    <text>leader|Good thinking, %demo_name%. %scout_name%, what time does the truck usually show?</text>
+</string>
+<string id="st_dyn_news_group_conv_2_turn_6">
+    <text>scout|Around 0600 hours, like clockwork.</text>
+</string>
+<string id="st_dyn_news_group_conv_2_turn_7">
+    <text>veteran|Perfect. We hit the truck, then storm in during the chaos.</text>
+</string>
+<string id="st_dyn_news_group_conv_2_turn_8">
+    <text>leader|It's settled then. Everyone gear up and get some rest.</text>
+</string>
+
+<!-- Group Conversation 3: Emergency Situation -->
+<string id="st_dyn_news_group_conv_3_meta">
+    <text>emergency,mutants,danger|3|5</text>
+</string>
+<string id="st_dyn_news_group_conv_3_turn_1">
+    <text>spotter|FUCK! Bloodsucker pack moving towards the rookie village!</text>
+</string>
+<string id="st_dyn_news_group_conv_3_turn_2">
+    <text>guard|How many? I'm at the south gate!</text>
+</string>
+<string id="st_dyn_news_group_conv_3_turn_3">
+    <text>spotter|I count at least 4, maybe 5! Coming from the east!</text>
+</string>
+<string id="st_dyn_news_group_conv_3_turn_4">
+    <text>leader|All fighters to the east wall NOW! %guard_name%, stay at your post!</text>
+</string>
+<string id="st_dyn_news_group_conv_3_turn_5">
+    <text>sniper|I've got eyes on them from the tower. Setting up shots.</text>
+</string>
+<string id="st_dyn_news_group_conv_3_turn_6">
+    <text>guard|Should I evacuate the rookies?</text>
+</string>
+<string id="st_dyn_news_group_conv_3_turn_7">
+    <text>leader|No time! %sniper_name%, start dropping them!</text>
+</string>
+<string id="st_dyn_news_group_conv_3_turn_8">
+    <text>sniper|First one down! They're scattering!</text>
+</string>
+
+<!-- Group Conversation 4: Trading Negotiations -->
+<string id="st_dyn_news_group_conv_4_meta">
+    <text>trading,negotiation,friendly|3|3</text>
+</string>
+<string id="st_dyn_news_group_conv_4_turn_1">
+    <text>seller|I've got 20 medkits, 50 bandages, and 100 rounds of 5.45. Interested?</text>
+</string>
+<string id="st_dyn_news_group_conv_4_turn_2">
+    <text>buyer|Depends on the price. What are you asking?</text>
+</string>
+<string id="st_dyn_news_group_conv_4_turn_3">
+    <text>mediator|Hold up, let me check current market prices...</text>
+</string>
+<string id="st_dyn_news_group_conv_4_turn_4">
+    <text>seller|I'm thinking 25k for the whole package.</text>
+</string>
+<string id="st_dyn_news_group_conv_4_turn_5">
+    <text>buyer|That's robbery! I'll give you 15k.</text>
+</string>
+<string id="st_dyn_news_group_conv_4_turn_6">
+    <text>mediator|Fair price would be around 20k. %seller_name%, that's reasonable.</text>
+</string>
+<string id="st_dyn_news_group_conv_4_turn_7">
+    <text>seller|Fine, 20k it is. But %buyer_first%, you're carrying.</text>
+</string>
+
+<!-- Group Conversation 5: Anomaly Research -->
+<string id="st_dyn_news_group_conv_5_meta">
+    <text>science,anomaly,research|3|4</text>
+</string>
+<string id="st_dyn_news_group_conv_5_turn_1">
+    <text>scientist|The gravitational readings near %location% are off the charts!</text>
+</string>
+<string id="st_dyn_news_group_conv_5_turn_2">
+    <text>escort|Is it safe to approach? I'm supposed to keep you eggheads alive.</text>
+</string>
+<string id="st_dyn_news_group_conv_5_turn_3">
+    <text>assistant|We need to get closer for accurate measurements, %escort_name%.</text>
+</string>
+<string id="st_dyn_news_group_conv_5_turn_4">
+    <text>scientist|Look at these readings! This could be a new type of anomaly!</text>
+</string>
+<string id="st_dyn_news_group_conv_5_turn_5">
+    <text>escort|I don't like this. My detector is going crazy.</text>
+</string>
+<string id="st_dyn_news_group_conv_5_turn_6">
+    <text>assistant|Just a bit closer... I'm getting incredible data!</text>
+</string>
+<string id="st_dyn_news_group_conv_5_turn_7">
+    <text>escort|That's it, we're pulling back. NOW!</text>
+</string>
+
+<!-- Group Conversation 6: Bar Argument -->
+<string id="st_dyn_news_group_conv_6_meta">
+    <text>humor,argument,bar|3|4</text>
+</string>
+<string id="st_dyn_news_group_conv_6_turn_1">
+    <text>drunk|I'm telling you, I saw a pseudogiant juggling cars!</text>
+</string>
+<string id="st_dyn_news_group_conv_6_turn_2">
+    <text>skeptic|%drunk_name%, how much vodka have you had?</text>
+</string>
+<string id="st_dyn_news_group_conv_6_turn_3">
+    <text>witness|Actually... I think I saw it too. Near the factory.</text>
+</string>
+<string id="st_dyn_news_group_conv_6_turn_4">
+    <text>bartender|If you boys are seeing juggling mutants, I'm cutting you off.</text>
+</string>
+<string id="st_dyn_news_group_conv_6_turn_5">
+    <text>drunk|I swear on my mother! It was real!</text>
+</string>
+<string id="st_dyn_news_group_conv_6_turn_6">
+    <text>skeptic|%witness_name%, don't encourage him!</text>
+</string>
+<string id="st_dyn_news_group_conv_6_turn_7">
+    <text>witness|Look, all I'm saying is... the Zone is weird, okay?</text>
+</string>
+
+<!-- Group Conversation 7: Rescue Operation -->
+<string id="st_dyn_news_group_conv_7_meta">
+    <text>rescue,urgent,teamwork|4|5</text>
+</string>
+<string id="st_dyn_news_group_conv_7_turn_1">
+    <text>survivor|Is anyone out there? I'm trapped in the basement at %location%!</text>
+</string>
+<string id="st_dyn_news_group_conv_7_turn_2">
+    <text>responder|This is %responder_name%, I'm 10 minutes out! What's your situation?</text>
+</string>
+<string id="st_dyn_news_group_conv_7_turn_3">
+    <text>survivor|Controller upstairs... killed my whole squad... I'm wounded...</text>
+</string>
+<string id="st_dyn_news_group_conv_7_turn_4">
+    <text>medic|%survivor_name%, this is a medic. How bad are your wounds?</text>
+</string>
+<string id="st_dyn_news_group_conv_7_turn_5">
+    <text>backup|I'm bringing psi-protection. %responder_name%, wait for me!</text>
+</string>
+<string id="st_dyn_news_group_conv_7_turn_6">
+    <text>survivor|Bleeding bad... getting dizzy... please hurry...</text>
+</string>
+<string id="st_dyn_news_group_conv_7_turn_7">
+    <text>responder|Stay awake! We're almost there! %medic_name%, prep the supplies!</text>
+</string>
+<string id="st_dyn_news_group_conv_7_turn_8">
+    <text>backup|I see the building. Going in hot!</text>
+</string>
+
+<!-- Group Conversation 8: Faction Politics -->
+<string id="st_dyn_news_group_conv_8_meta">
+    <text>faction,politics,debate|3|4</text>
+</string>
+<string id="st_dyn_news_group_conv_8_turn_1">
+    <text>diplomat|We need to discuss the ceasefire terms with %other_faction%.</text>
+</string>
+<string id="st_dyn_news_group_conv_8_turn_2">
+    <text>hawk|Ceasefire? After what they did last week? No way!</text>
+</string>
+<string id="st_dyn_news_group_conv_8_turn_3">
+    <text>moderate|%hawk_name%, we've lost too many people. Maybe it's time to talk.</text>
+</string>
+<string id="st_dyn_news_group_conv_8_turn_4">
+    <text>diplomat|The terms are simple - they stay out of our territory, we stay out of theirs.</text>
+</string>
+<string id="st_dyn_news_group_conv_8_turn_5">
+    <text>hawk|And when they break it? Because they will!</text>
+</string>
+<string id="st_dyn_news_group_conv_8_turn_6">
+    <text>moderate|Then we'll be justified in our response. Right now, we look like the aggressors.</text>
+</string>
+<string id="st_dyn_news_group_conv_8_turn_7">
+    <text>diplomat|I'm meeting with their representative tomorrow. Final objections?</text>
+</string>
+<string id="st_dyn_news_group_conv_8_turn_8">
+    <text>hawk|Just... watch your back, %diplomat_name%.</text>
+</string>
+
+<!-- Group Conversation 9: Stash Discovery -->
+<string id="st_dyn_news_group_conv_9_meta">
+    <text>stash,discovery,excitement|3|4</text>
+</string>
+<string id="st_dyn_news_group_conv_9_turn_1">
+    <text>finder|Guys! I found Strelok's stash! The coordinates were real!</text>
+</string>
+<string id="st_dyn_news_group_conv_9_turn_2">
+    <text>partner|No fucking way! What's inside?</text>
+</string>
+<string id="st_dyn_news_group_conv_9_turn_3">
+    <text>finder|Artifacts, weapons, documents... This is the motherlode!</text>
+</string>
+<string id="st_dyn_news_group_conv_9_turn_4">
+    <text>lookout|Keep it down! Half the Zone will hear you!</text>
+</string>
+<string id="st_dyn_news_group_conv_9_turn_5">
+    <text>partner|%finder_name%, start loading up. How much can we carry?</text>
+</string>
+<string id="st_dyn_news_group_conv_9_turn_6">
+    <text>finder|There's too much! We'll need to make multiple trips.</text>
+</string>
+<string id="st_dyn_news_group_conv_9_turn_7">
+    <text>lookout|Movement to the west! Someone's coming!</text>
+</string>
+<string id="st_dyn_news_group_conv_9_turn_8">
+    <text>partner|Grab what you can! We're leaving NOW!</text>
+</string>
+
+<!-- Group Conversation 10: Technical Problem -->
+<string id="st_dyn_news_group_conv_10_meta">
+    <text>technical,problem,cooperation|3|3</text>
+</string>
+<string id="st_dyn_news_group_conv_10_turn_1">
+    <text>tech|The main generator just died. We're on backup power.</text>
+</string>
+<string id="st_dyn_news_group_conv_10_turn_2">
+    <text>chief|How long do we have on backup?</text>
+</string>
+<string id="st_dyn_news_group_conv_10_turn_3">
+    <text>assistant|Maybe 2 hours if we shut down non-essentials.</text>
+</string>
+<string id="st_dyn_news_group_conv_10_turn_4">
+    <text>tech|I can fix it, but I need parts from the old station.</text>
+</string>
+<string id="st_dyn_news_group_conv_10_turn_5">
+    <text>chief|That's in the radiation zone. %assistant_name%, do we have suits?</text>
+</string>
+<string id="st_dyn_news_group_conv_10_turn_6">
+    <text>assistant|Two working suits. But the radiation levels...</text>
+</string>
+<string id="st_dyn_news_group_conv_10_turn_7">
+    <text>tech|No choice. I'll go. Need someone to watch my back.</text>
+</string>
+<string id="st_dyn_news_group_conv_10_turn_8">
+    <text>chief|I'll go with you. %assistant_name%, monitor our vitals.</text>
+</string>
+
+</string_table>

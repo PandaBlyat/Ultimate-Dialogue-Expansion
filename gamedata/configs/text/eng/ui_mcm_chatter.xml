@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<string_table>
+	<string id="ui_mcm_chatter_title">
+		<text>Chatty Companions Options</text>
+	</string>
+	<string id="ui_mcm_menu_chatter">
+		<text>Chatty Companions</text>
+	</string>
+	<string id="ui_mcm_chatter_desc1">
+		<text>General Settings</text>
+	</string>
+
+	<string id="ui_mcm_chatter_show_time">
+		<text>Duration messages will be shown (s)</text>
+	</string>
+	<string id="ui_mcm_chatter_show_time_long">
+		<text>Duration longer messages will be shown (s)</text>
+	</string>
+	<string id="ui_mcm_chatter_beep_before">
+		<text>Play a sound when the message appears</text>
+	</string>
+	<string id="ui_mcm_chatter_beep_after">
+		<text>Play a sound when the message disappears</text>
+	</string>
+	<string id="ui_mcm_chatter_msg_state">
+		<text>Custom message color</text>
+	</string>
+	<string id="ui_mcm_chatter_msg_argb">
+		<text>ARGB value of custom message color</text>
+	</string>
+
+	<string id="ui_mcm_chatter_desc2">
+		<text>Response Specific Settings</text>
+	</string>
+
+
+	<string id="ui_mcm_chatter_anomaly_state">
+		<text>Anomaly comments</text>
+	</string>
+	<string id="ui_mcm_chatter_anomaly_timer">
+		<text>Minimum time between on anomaly comments (s)</text>
+	</string>
+
+	<string id="ui_mcm_chatter_clear_state">
+		<text>Area clear comments</text>
+	</string>
+
+	<string id="ui_mcm_chatter_campfire_state">
+		<text>Campfire stories</text>
+	</string>
+	<string id="ui_mcm_chatter_wpm">
+		<text>Speaking rate of campfire stories (words per minute)</text>
+	</string>
+
+	<string id="ui_mcm_chatter_npc_death_state">
+		<text>Companion death comments (Said by the companion dying)</text>
+	</string>
+
+	<string id="ui_mcm_chatter_npc_death_comment_state">
+		<text>Companion death comments (Said by a second companion if available)</text>
+	</string>
+
+	<string id="ui_mcm_chatter_emission_state">
+		<text>Emission comments</text>
+	</string>
+
+	<string id="ui_mcm_chatter_enemy_state">
+		<text>Enemy comments</text>
+	</string>
+
+	<string id="ui_mcm_chatter_headshot_state">
+		<text>Headshot by companion comments</text>
+	</string>
+
+	<string id="ui_mcm_chatter_level_state">
+		<text>Level comments</text>
+	</string>
+	<string id="ui_mcm_chatter_level_chance">
+		<text>Percent chance of a comment on the current level</text>
+	</string>
+
+	<string id="ui_mcm_chatter_npc_health_state">
+		<text>Low health (Health of companion) comments</text>
+	</string>
+
+
+	<string id="ui_mcm_chatter_player_death_state">
+		<text>Player death comments</text>
+	</string>
+
+	<string id="ui_mcm_chatter_psistorm_state">
+		<text>Psistorm comments</text>
+	</string>
+
+	<string id="ui_mcm_chatter_reload_state">
+		<text>Player reload comments</text>
+	</string>
+	<string id="ui_mcm_chatter_reload_chance">
+		<text>Percent chance of a comment upon player reload</text>
+	</string>
+
+	<string id="ui_mcm_chatter_jammed_state">
+		<text>Player weapon jammed comments</text>
+	</string>
+
+	<string id="ui_mcm_chatter_random_state">
+		<text>Random comments</text>
+	</string>
+	<string id="ui_mcm_chatter_random_chance">
+		<text>Random comment frequency multiplier</text>
+	</string>
+	
+	<string id="ui_mcm_chatter_safe_area_state">
+		<text>Safe area comments</text>
+	</string>
+	<string id="ui_mcm_chatter_safe_area_chance">
+		<text>Percent chance of a comment on entering a safe area</text>
+	</string>
+</string_table>

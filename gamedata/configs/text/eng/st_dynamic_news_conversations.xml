@@ -50,7 +50,7 @@
     <text>No clue. Zone keeps her secrets. One day you are king, next you are chow for mutants.</text>
 </string>
 <string id="st_dyn_news_conversation_artifacts_msg_4">
-    <text>Spotted a trader hawking about a .heart of the Zone. relic near the bar, anyone know what that is?</text>
+    <text>Spotted a trader hawking about a "heart of the Zone" relic near the bar, anyone know what that is?</text>
 </string>
 <string id="st_dyn_news_conversation_artifacts_resp_4_1">
     <text>Heart of the Zone? Ha! Thats just fancy talk for a Psi coral chunk. Worth a handful of rubles, tops.</text>
@@ -176,20 +176,20 @@
     <text>I cracked it once, saw my own grave. Apparently spent a week muttering to myself. Never again.</text>
 </string>
 
-<string id="st_dyn_news_conversation_artifacts_msg_12">
-    <text>Swore I smelled fresh rain around a cluster of glowing mushrooms. Could it be an artifact bloom?</text>
+<string id="st_dyn_news_conversation_counterfeit_msg_12">
+    <text>Someone’s been pushing fake medkits around. Looks real ‘til you need it, then you bleed out clutching gauze and chalk.</text>
 </string>
-<string id="st_dyn_news_conversation_artifacts_resp_12_1">
-    <text>Mushroom bloom? Could be the Sporespire cluster releases psychoactive spores and odd scents.</text>
+<string id="st_dyn_news_conversation_counterfeit_resp_12_1">
+    <text>The fuck, we need to look into that.</text>
 </string>
-<string id="st_dyn_news_conversation_artifacts_resp_12_2">
-    <text>I ate one once. Fucked me up, was in care for weeks. </text>
+<string id="st_dyn_news_conversation_counterfeit_resp_12_2">
+    <text>Bet it’s those black market rats again. Cut corners, sell to rookies, then vanish.</text>
 </string>
-<string id="st_dyn_news_conversation_artifacts_resp_12_3">
-    <text>The olfactory receptors can be manipulated by certain fungal metabolites. Zone chemistry at its finest.</text>
+<string id="st_dyn_news_conversation_counterfeit_resp_12_3">
+    <text>Zone’s dangerous enough without your lifeline being a placebo. Someone needs to hang for that.</text>
 </string>
-<string id="st_dyn_news_conversation_artifacts_resp_12_4">
-    <text>Bleh, mushrooms freak me out. If it aint gold, I am out. don't fancy sleepwalking into anomalies.</text>
+<string id="st_dyn_news_conversation_counterfeit_resp_12_4">
+    <text>I test mine before heading out. No seal? No sale. Not dying because some scumbag watered down adrenaline.</text>
 </string>
 
 
@@ -260,13 +260,13 @@
     <text>Pseudogiants? Fuck me, that is asking for a quick trip to the afterlife.</text>
 </string>
 <string id="st_dyn_news_conversation_mutants_resp_3_2">
-    <text>I saw them too, looked like walking towers. Shot one in the knee, made a helluva racket.</text>
+    <text>I saw them too, looked like walking towers.</text>
 </string>
 <string id="st_dyn_news_conversation_mutants_resp_3_3">
-    <text>Terrifying specimens, probably mutated by deep water anomalies. Handle with extreme prejudice.</text>
+    <text>Terrifying specimens, probably mutated by deep water anomalies.</text>
 </string>
 <string id="st_dyn_news_conversation_mutants_resp_3_4">
-    <text>Man, Id rather wrestle a pseudodog than meet those cunts head on fully geared.</text>
+    <text>Man, Id rather wrestle a pseudodog than meet those cunts head on with a squad fully geared.</text>
 </string>
 
 <string id="st_dyn_news_conversation_mutants_msg_4">
@@ -1157,7 +1157,7 @@
     <text>Paranoia keeps you alive in the Zone. Trust it.</text>
 </string>
 
-<!-- EQUIPMENT TALK (Conversations 51-60) -->
+
 <string id="st_dyn_news_conversation_gear_msg_1">
     <text>Anyone got experience with those new anomaly detectors? Worth the price?</text>
 </string>
@@ -1184,7 +1184,7 @@
     <text>There is a guy in the swamps. Weird, but skilled.</text>
 </string>
 
-<!-- MEDICAL EMERGENCIES (61-70) -->
+
 <string id="st_dyn_news_conversation_medical_msg_1">
     <text>Anyone know how to treat controller induced psychosis?</text>
 </string>
@@ -1211,7 +1211,7 @@
     <text>Get to a medic fast. Bloodsucker wounds go septic quick.</text>
 </string>
 
-<!-- TRADING AND ECONOMY (71-80) -->
+
 <string id="st_dyn_news_conversation_economy_msg_1">
     <text>Artifact prices crashed again. Market is flooded with fakes.</text>
 </string>
@@ -1238,7 +1238,7 @@
     <text>Who cares where it is from if the price is right?</text>
 </string>
 
-<!-- ZONE PHENOMENA (81-90) -->
+
 <string id="st_dyn_news_conversation_phenomena_msg_1">
     <text>Sky turned purple for three hours yesterday. Never seen that before.</text>
 </string>
@@ -1275,7 +1275,7 @@
     <text>Buy updated anomaly maps from guide at Skadovsk. Worth every ruble.</text>
 </string>
 
-<!-- ROOKIE QUESTIONS (91-100) -->
+
 <string id="st_dyn_news_conversation_rookie_msg_1">
     <text>First time in the Zone. Whats the number one rule?</text>
 </string>
@@ -1290,16 +1290,16 @@
 </string>
 
 <string id="st_dyn_news_conversation_rookie_msg_2">
-    <text>How much should I charge for guide services to the center?</text>
+    <text>Which artifact should a newcomer focus on collecting?</text>
 </string>
 <string id="st_dyn_news_conversation_rookie_resp_2_1">
-    <text>Your life is not worth any price. don't be stupid.</text>
+    <text>Start with Jellyfish—healing properties and reasonably stable fields.</text>
 </string>
 <string id="st_dyn_news_conversation_rookie_resp_2_2">
-    <text>50k minimum. Half upfront, half if they survive.</text>
+    <text>Try Mushrooms near emission sites—low risk and decent rad protection.</text>
 </string>
 <string id="st_dyn_news_conversation_rookie_resp_2_3">
-    <text>Center? You can't even guide yourself to the toilet safely yet.</text>
+    <text>Avoid anomalies until you’ve got at least a decent detector. Chasing ghosts nets nothing.</text>
 </string>
 
 <string id="st_dyn_news_conversation_rookie_msg_3">
@@ -1329,13 +1329,13 @@
 </string>
 
 <string id="st_dyn_news_conversation_rookie_msg_5">
-    <text>Should I join a faction or stay neutral?</text>
+    <text>Should I join a squad or stay solo?</text>
 </string>
 <string id="st_dyn_news_conversation_rookie_resp_5_1">
-    <text>Factions give protection but also paint targets on your back.</text>
+    <text>Squads give protection but also paint targets on your back.</text>
 </string>
 <string id="st_dyn_news_conversation_rookie_resp_5_2">
-    <text>Neutral means no backup when shit hits the fan.</text>
+    <text>Solo means no backup when shit hits the fan.</text>
 </string>
 <string id="st_dyn_news_conversation_rookie_resp_5_3">
     <text>Join whoever pays best. Loyalty is a luxury here.</text>
@@ -1403,11 +1403,341 @@
     <text>Some say its been done. None of them are sane enough to confirm.</text>
 </string>
 <string id="st_dyn_news_conversation_rookie_resp_10_3">
-    <text>Worry about surviving your first week before tackling Zone Legends.</text>
+    <text>Worry about surviving before tackling Zone Legends.</text>
+</string>
+
+
+<string id="st_dyn_news_conversation_rookie_msg_11">
+    <text>How can I tell a real artifact from a fake?</text>
+</string>
+<string id="st_dyn_news_conversation_rookie_resp_11_1">
+    <text>Real ones pulse in your hand. If it’s cold and lifeless, toss it.</text>
+</string>
+<string id="st_dyn_news_conversation_rookie_resp_11_2">
+    <text>Check the readout on your PDA, fakes show inconsistent radiation spikes.</text>
+</string>
+<string id="st_dyn_news_conversation_rookie_resp_11_3">
+    <text>Ask a veteran to field-test it. Their detector will tell the tale.</text>
+</string>
+
+<string id="st_dyn_news_conversation_rookie_msg_12">
+    <text>Any tips for surviving my first emission?</text>
+</string>
+<string id="st_dyn_news_conversation_rookie_resp_12_1">
+    <text>Find concrete cover at least 50 m away before the pulse hits.</text>
+</string>
+<string id="st_dyn_news_conversation_rookie_resp_12_2">
+    <text>Keep an eye out on PDA chatter, lot of Stalkers will give out warnings.</text>
+</string>
+<string id="st_dyn_news_conversation_rookie_resp_12_3">
+    <text>I've found that most covers within reason work.</text>
+</string>
+
+<string id="st_dyn_news_conversation_rookie_msg_13">
+    <text>Should I carry grenades or load up extra mags?</text>
+</string>
+<string id="st_dyn_news_conversation_rookie_resp_13_1">
+    <text>Extra mags, close fights favor sustained fire over one big bang.</text>
+</string>
+<string id="st_dyn_news_conversation_rookie_resp_13_2">
+    <text>One or two grenades can clear a room, but don’t overdo it.</text>
+</string>
+<string id="st_dyn_news_conversation_rookie_resp_13_3">
+    <text>Balance is key: frag for crowds, ammo for single targets.</text>
+</string>
+
+<string id="st_dyn_news_conversation_rookie_msg_14">
+    <text>How do I disinfect wounds if I run out of medkits?</text>
+</string>
+<string id="st_dyn_news_conversation_rookie_resp_14_1">
+    <text>Vodka works in a pinch—pour it over the cut and wrap it tight.</text>
+</string>
+<string id="st_dyn_news_conversation_rookie_resp_14_2">
+    <text>Burn a clean cloth over a flame and use as makeshift bandage.</text>
+</string>
+<string id="st_dyn_news_conversation_rookie_resp_14_3">
+    <text>Honey from your rations has antiseptic qualities—apply sparingly.</text>
+</string>
+
+<string id="st_dyn_news_conversation_rookie_msg_15">
+    <text>What’s the safest way to approach a sniper’s nest?</text>
+</string>
+<string id="st_dyn_news_conversation_rookie_resp_15_1">
+    <text>Stay low, use cover, and take your time to find the advantage point.</text>
+</string>
+<string id="st_dyn_news_conversation_rookie_resp_15_2">
+    <text>Flank from the side—snipers rarely check their six o’clock.</text>
+</string>
+<string id="st_dyn_news_conversation_rookie_resp_15_3">
+    <text>Smoke grenades buy time. Move under the cloud and keep your head down.</text>
+</string>
+
+
+<!-- Angry Conversation 001: Ammo Theft -->
+<string id="st_dyn_news_conversation_angry_msg_1">
+    <text>Someone's been lifting ammo from my stash. I'm not fucking around—own up before I start checking bags.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_1_1">
+    <text>If it’s missing, you were careless. Secure your shit next time.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_1_2">
+    <text>You think threats help? Maybe someone needed it more than you.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_1_3">
+    <text>Relax. It was probably some rookie who thought 5.45 fits everything.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_1_4">
+    <text>If I find out who it was, I'll help you bury the body.</text>
+</string>
+
+<string id="st_dyn_news_conversation_angry_msg_2">
+    <text>Who the hell shot at me near the tower yesterday? I was in plain view, you blind bastard.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_2_1">
+    <text>If you don't want to get shot, stop creeping around like a damn bloodsucker.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_2_2">
+    <text>Mistakes happen. Be glad you’re still breathing.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_2_3">
+    <text>Next time wear something that doesn’t scream ‘hostile.’</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_2_4">
+    <text>That wasn’t a mistake. Maybe someone just doesn’t like you.</text>
+</string>
+
+
+<string id="st_dyn_news_conversation_angry_msg_3">
+    <text>That scumbag at the checkpoint sold me a busted rifle and called it “battle-tested.”</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_3_1">
+    <text>Sounds like battle-tested by a blind chimp. Demand a refund—or a beating.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_3_2">
+    <text>Every trader’s a liar until proven otherwise. Strip it down next time.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_3_3">
+    <text>Next time buy from someone who doesn’t smell like vodka and desperation.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_3_4">
+    <text>You expected honesty in the Zone? That’s adorable.</text>
+</string>
+
+
+<string id="st_dyn_news_conversation_angry_msg_4">
+    <text>Why the hell did our patrol leader send us through an anomaly field with no scanner? Two men down for nothing.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_4_1">
+    <text>Same shit different day. Leadership here means louder voice, not smarter brain.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_4_2">
+    <text>File it under "Zone accidents" and keep your boots moving.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_4_3">
+    <text>Next time, question the orders. Or bring your own damn scanner.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_4_4">
+    <text>Men die. Gear gets lost. Welcome to the Zone’s idea of a briefing.</text>
 </string>
 
 
 
+<string id="st_dyn_news_conversation_angry_msg_5">
+    <text>Someone went through my stash last night. If I find out who it was, I’ll leave pieces of you scattered from here to Jupiter.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_5_1">
+    <text>Should’ve buried it deeper, rookie. The Zone eats the careless.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_5_2">
+    <text>If you stash it, it's up for grabs. That’s the rule, crybaby.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_5_3">
+    <text>If you’re too soft to guard your gear, maybe you should pack up and go back to momma.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_5_4">
+    <text>Welcome to the Zone. Lock it up or shut the hell up.</text>
+</string>
 
+
+
+<string id="st_dyn_news_conversation_angry_msg_6">
+    <text>He left me behind when things went loud. Ran like a rat. If he shows his face again, I’ll break his jaw.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_6_1">
+    <text>Zone reveals character. Looks like he didn’t have any.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_6_2">
+    <text>Handle it quiet, or handle it loud. Just don’t come crying here.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_6_3">
+    <text>Put a round in his knee and tell him to run again. See how far he gets.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_6_4">
+    <text>Next time choose someone with balls, not a coward in boots.</text>
+</string>
+
+
+
+<string id="st_dyn_news_conversation_angry_msg_7">
+    <text>Guy took a bullet and the medic sat there counting bandages. He bled out like a pig in front of us.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_7_1">
+    <text>Call him a medic again and I’ll puke. He’s a butcher with a bandage fetish.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_7_2">
+    <text>You want proper first aid? Wrong damn place, friend.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_7_3">
+    <text>Next time, do it yourself or carry morphine. Don’t rely on incompetents.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_7_4">
+    <text>Zone doesn’t wait. You freeze, someone dies. End of story.</text>
+</string>
+
+
+
+<string id="st_dyn_news_conversation_angry_msg_8">
+    <text>We called for backup for over fifteen minutes in the radio. Nothing. You bastards just sat on your asses.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_8_1">
+    <text>Maybe we just didn’t feel like dying for you. Think about that.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_8_2">
+    <text>You think anyone gives a shit out here? Grow up.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_8_3">
+    <text>You’re lucky we even read the damn message. Half of us delete them on sight.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_8_4">
+    <text>Zone’s full of ghosts. Guess we figured you were already one of them.</text>
+</string>
+
+
+<string id="st_dyn_news_conversation_angry_msg_9">
+    <text>I swear this new guy, who the hell trained this fucking guy, Bastard nearly blew my head off last night. Wrong target, wrong time, every damn time.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_9_1">
+    <text>Maybe you should wear a sign that says "Not an Enemy", dumbass.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_9_2">
+    <text>If he’s still breathing tomorrow, you’ve got no one to blame but yourself.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_9_3">
+    <text>“Friendly fire” my ass. Some people just shouldn’t be holding guns.</text>
+</string>
+
+
+<string id="st_dyn_news_conversation_angry_msg_10">
+    <text>They promised twenty thousand for that job. Got back and they gave me six and a pat on the back. Screw every one of those lying parasites.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_10_1">
+    <text>Should’ve known. If the pay sounds fair, it’s a trap. If it sounds good, it’s a con.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_10_2">
+    <text>You let them get away with that? You’re part of the problem.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_10_3">
+    <text>They feed you shit and you ask for seconds. Don’t expect pity from me.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_10_4">
+    <text>Zone taxes the stupid. Guess you just got audited.</text>
+</string>
+
+<string id="st_dyn_news_conversation_angry_msg_11">
+    <text>They had us loop through Bloodsucker territory with zero intel. Two men gone, and for what? A broken Geiger and some rusted tools?</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_11_1">
+    <text>Maybe next time don’t follow orders from someone who hasn’t got the field experience.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_11_2">
+    <text>You should’ve turned around. No loot’s worth a zipped-up body bag.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_11_3">
+    <text>Two men dead, and for scraps. Guess loyalty’s a one-way street out here.</text>
+</string>
+
+<string id="st_dyn_news_conversation_angry_msg_12">
+    <text>Old man Gromov was watching the rookie’s back. Rookie froze. Gromov took a round to the gut. He died calling out for help that never came.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_12_1">
+    <text>Zone doesn’t care if you’re green or grey. It just eats the slower one.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_12_2">
+    <text>Gromov should’ve let that little shit learn the hard way. Now we’ve lost a legend for a coward.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_12_3">
+    <text>Rookies don’t deserve escorts. They deserve body bags with their name pre-printed.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_12_4">
+    <text>If I see that rookie smiling, I swear I’ll knock every tooth out of his head.</text>
+</string>
+
+
+<string id="st_dyn_news_conversation_angry_msg_13">
+    <text>We got ambushed because someone fed our route to enemy scouts. I know it. No way they just “stumbled” on us mid-transfer. Someone sold us out.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_13_1">
+    <text>Hope they enjoy the cash. I’m going to find them, and they’re going to need it for burial costs.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_13_2">
+    <text>If one of ours did this… I’ll put their head on a pike at the checkpoint.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_13_3">
+    <text>First hint I get, I’m dragging them out by the ankles. Alive. Bleeding.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_13_4">
+    <text>Zone’s full of monsters. But the worst ones know how to speak our language.</text>
+</string>
+
+<string id="st_dyn_news_conversation_angry_msg_14">
+    <text>They ran. Left Danya to bleed out in a ditch. He begged for help on the radio. I heard it. Cowards didn’t even go back for the body.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_14_1">
+    <text>I hope the rats got there before the dogs did. They deserve to see what they abandoned.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_14_2">
+    <text>Leave a brother to die, and you forfeit the right to call yourself a stalker.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_14_3">
+    <text>One of them ever sets foot in this camp again, they’re leaving without kneecaps.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_14_4">
+    <text>Next time I’ll leave *them* in the mud. See how they like it.</text>
+</string>
+
+
+<string id="st_dyn_news_conversation_angry_msg_15">
+    <text>They caught Viktor. Held him for days. Ripped his fingers off one by one. Just to find our stash. Then slit his throat when he finally broke.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_15_1">
+    <text>They’ll wish they never touched him. I’m going to peel their skin off with wire.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_15_2">
+    <text>I hope whatever they stole rots in their hands. Because I'm coming, and I'm not bringing mercy.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_15_3">
+    <text>I don’t want justice. I want screams. I want blood in the dust.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_15_4">
+    <text>The Zone took Viktor. Now it owes me a debt of flesh.</text>
+</string>
+
+
+
+<string id="st_dyn_news_conversation_angry_msg_16">
+    <text>He wasn’t even a fighter. Just a scav looking for scrap to sell to feed his family back home. They shot him anyway. No warning, no question. Just a laugh and a bullet.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_16_1">
+    <text>Some people forget there’s still lines you don’t cross — or at least there used to be.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_16_2">
+    <text>If we don’t put that bastard down, we’re just as guilty.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_16_3">
+    <text>Zone doesn't judge. But I do. And I say he dies for what he did.</text>
+</string>
+<string id="st_dyn_news_conversation_angry_resp_16_4">
+    <text>You kill the helpless, you die helpless. That’s how it should be.</text>
+</string>
 
 </string_table>

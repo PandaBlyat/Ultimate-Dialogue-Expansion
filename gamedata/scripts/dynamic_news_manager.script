@@ -78,7 +78,7 @@ function update_settings()
         cycle_TickCompanion = ui_options.get("alife/dynamic_news/cycle_of_companions_news") or 380
         
         -- HARDCODED CONVERSATION CYCLE (no MCM needed)
-        cycle_TickConversation = 230  -- Fixed value, adjust as needed
+        cycle_TickConversation = 120  -- Fixed value, adjust as needed
         
         msg_duration = ui_options.get("alife/dynamic_news/message_duration") or 10
         
@@ -192,65 +192,49 @@ function DynamicNewsManager:__init()
         end
         
         self.channel_status = {
-            ["general"]			= true,
-            ["stalker"]  		= true,
-            ["monolith"] 		= (comm == "monolith"),
-            ["csky"]   			= true,
-            ["army"] 			= (comm == "army"),
-            ["killer"]   		= true,
-            ["ecolog"]   		= true,
-            ["dolg"]    		= true,
-            ["freedom"]  		= true,
-            ["bandit"]   		= true,
-            ["greh"]	   		= (comm == "greh"),
-            ["isg"]		   		= (comm == "isg"),
-            ["renegade"]		= true,
-            ["greh_npc"]	   	= true,
-            ["army_npc"]   		= true,
-        }
-
-        self.queue = {}
-        for channel, _ in pairs(self.channel_status) do
-            self.queue[channel] = {}
-        end
-        
-        self.mono = {
-            ["army_npc"] = true,
-            ["greh_npc"] = true,
-            ["greh"] = true,
-            ["isg"] = true,
-            ["trader"] = true,
-            ["monolith"] = true,
+            ["stalker"]      = true,
+            ["dolg"]         = true,
+            ["freedom"]      = true,
+            ["csky"]         = true,
+            ["ecolog"]       = true,
+            ["killer"]       = true,
+            ["army"]         = false,
+            ["bandit"]       = true,
+            ["monolith"]     = false,
+            ["renegade"]     = false,
+            ["greh"]         = false,
+            ["isg"]          = false,
+            [comm]           = true,    -- Enable actor's PDA channel
+            ["general"]      = true     -- General channel for all stalkers
         }
         
         self.unknown = {
-            ["isg"] = true,
+            ["monster"]     = true,
+            ["zombied"]     = true
         }
+		
+		self.mono = {
+        ["monolith"] = true
+		}
         
+        -- Initialize message queue
+        self.queue = {}
+        for k,v in pairs(self.channel_status) do
+            self.queue[k] = {}
+        end
+        
+        -- Initialize state variables with proper defaults
         self.response = {
             ["type"] = false,
             ["who"] = false,
             ["message"] = false
         }
         
-        self.recently_used_npcs = {}  -- Track NPCs used in recent conversations
-        self.max_recent_npcs = 10      -- Maximum number of recent NPCs to track
+        -- Initialize conversation states
+        self.regular_conversation_active = false
+        self.conversation_state = nil
         
-        -- PROPERLY INITIALIZE CONVERSATION STATES
-        self.conversation_state = { 
-            ["active"] = false,
-            ["initial_speaker"] = nil,
-            ["topic"] = nil,
-            ["message_index"] = nil,
-            ["response_index"] = nil,
-            ["initial_speaker_id"] = nil,
-            ["response_count"] = nil,
-            ["responses_sent"] = nil,
-            ["used_response_indices"] = nil,
-            ["used_speaker_ids"] = nil
-        }
-        
-        self.extended_conversation_state = { 
+        self.extended_conversation_state = {
             ["active"] = false,
             ["speaker1"] = nil,
             ["speaker1_id"] = nil,
@@ -264,16 +248,15 @@ function DynamicNewsManager:__init()
             ["total_turns"] = 0,
             ["current_turn"] = 1,
             ["messages"] = {},
-            ["min_delay"] = 10,
-            ["max_delay"] = 20,
+            ["min_delay"] = 8,
+            ["max_delay"] = 15,
             ["start_time"] = nil
         }
         
-        -- Initialize group conversation state
         self.group_conversation_state = {
             ["active"] = false,
             ["conversation_id"] = nil,
-            ["speakers"] = {},  -- Table of role -> speaker mapping
+            ["speakers"] = {},
             ["total_turns"] = 0,
             ["current_turn"] = 1,
             ["turns"] = {},
@@ -282,13 +265,35 @@ function DynamicNewsManager:__init()
             ["start_time"] = nil
         }
         
+        self.faction_conversation_state = {
+            ["active"] = false,
+            ["speaker1"] = nil,
+            ["speaker1_id"] = nil,
+            ["speaker1_name"] = nil,
+            ["speaker1_comm"] = nil,
+            ["speaker2"] = nil,
+            ["speaker2_id"] = nil,
+            ["speaker2_name"] = nil,
+            ["speaker2_comm"] = nil,
+            ["conversation_id"] = nil,
+            ["total_turns"] = 0,
+            ["current_turn"] = 1,
+            ["messages"] = {},
+            ["min_delay"] = 8,
+            ["max_delay"] = 15,
+            ["start_time"] = nil,
+            ["faction"] = nil
+        }
+        
         -- Initialize all conversation tables
         self.extended_conversations = {}
         self.conversations = {}
-        self.group_conversations = {}  -- ADD THIS
+        self.group_conversations = {}
+        self.faction_conversations = {}
         self.conversations_loaded = false
+        self.faction_conversations_loaded = false
         
-        -- CRITICAL: Initialize all the missing variables that cause crashes
+        -- Initialize spam prevention variables
         self.spammer = {	
             ["show_about_death"] = 0,
             ["show_about_kill_wounded"] = 0,
@@ -306,6 +311,11 @@ function DynamicNewsManager:__init()
         self.surge_type = ""
         self.sentences_fnames = {}
         self.sentences_snames = {}
+        
+        -- NEW: Initialize spam prevention variables
+        self.message_timestamps = {}
+        self.last_conversation_time = 0
+        self.last_maintenance_time = time_global()
         
         -- Load sentence data safely
         if utils_data and utils_data.collect_translations then
@@ -329,15 +339,26 @@ function DynamicNewsManager:__init()
         CreateTimeEvent("DynamicNewsManager","TickConversation", timer_delay + 60, self.TickConversation, self)
         CreateTimeEvent("DynamicNewsManager","TickExtendedConversation", timer_delay + 70, self.TickExtendedConversation, self)
         
+        -- NEW: Add periodic maintenance timer
+        CreateTimeEvent("DynamicNewsManager","PeriodicMaintenance", 300, self.PeriodicMaintenance, self)
+        
+        -- NEW: Add spam check timer
+        CreateTimeEvent("DynamicNewsManager","SpamCheck", 60, function()
+            self:CheckForSpamCondition()
+            return false -- Continue checking
+        end)
+        
         -- Load conversation data with delay to ensure everything is ready
         CreateTimeEvent("DynamicNewsManager","DelayedConversationLoad", timer_delay + 80, function()
             printf("[U.D.E] Debug: Loading conversations...")
             local load_success, load_err = pcall(function()
                 self:LoadConversations()
                 self:LoadExtendedConversations()
-                self:LoadGroupConversations()  -- ADDED: Load group conversations
+                self:LoadGroupConversations()
+                self:LoadFactionConversations()
                 self.conversations_loaded = true
-                printf("[U.D.E] Debug: Conversations loaded successfully")
+                self.faction_conversations_loaded = true
+                printf("[U.D.E] Debug: All conversations loaded successfully (including faction)")
             end)
             if not load_success then
                 printf("[U.D.E] ERROR: Failed to load conversations: %s", tostring(load_err))
@@ -350,14 +371,14 @@ function DynamicNewsManager:__init()
         RegisterScriptCallback("npc_on_death_callback", self)
         RegisterScriptCallback("npc_on_get_all_from_corpse", self)
         
-        printf("[U.D.E] Debug: DynamicNewsManager initialization completed with conversations enabled")
+        printf("[U.D.E] Debug: DynamicNewsManager initialization completed with spam prevention")
     end)
     
     if not success then
         printf("[U.D.E] CRITICAL ERROR in DynamicNewsManager:__init: %s", tostring(err))
         -- Initialize critical variables even if there's an error to prevent crashes
         self.counter = 0
-        self.max_cnt = 3
+        self.max_cnt = 30
         self.loot = {}
         self.spammer = {	
             ["show_about_death"] = 0,
@@ -366,9 +387,10 @@ function DynamicNewsManager:__init()
             ["show_about_death_response"] = 0,
             ["show_about_loot"] = 0
         }
+        self.message_timestamps = {}
+        self.queue = {}
     end
 end
-
 
 function DynamicNewsManager:destroy()
     printf("[U.D.E] Debug: DynamicNewsManager:destroy called")
@@ -394,8 +416,7 @@ function DynamicNewsManager:destroy()
             pcall(function() RemoveTimeEvent("DynamicNewsManager", "ExtendedConvNext_" .. i) end)
             pcall(function() RemoveTimeEvent("DynamicNewsManager", "ExtendedConversationContinue_" .. i) end)
             pcall(function() RemoveTimeEvent("DynamicNewsManager", "ExtendedConversationEnd_" .. i) end)
-            
-            -- ADD THESE NEW LINES:
+            pcall(function() RemoveTimeEvent("DynamicNewsManager", "ConversationResponse_" .. i) end)
             pcall(function() RemoveTimeEvent("DynamicNewsManager", "TickConversationResponse_" .. i) end)
         end
         
@@ -424,7 +445,7 @@ function DynamicNewsManager:LoadExtendedConversations()
 	local total_loaded = 0
 	
 	-- Load up to 150 extended conversations
-	for conv_num = 1, 100 do
+	for conv_num = 1, 132 do
 		local conv_id = "st_dyn_news_extended_conv_" .. conv_num
 		local conv_data = {
 			id = conv_num,
@@ -786,7 +807,143 @@ end
 
 
 
+function DynamicNewsManager:FindExtendedConversationSpeakers(tension_conversation)
+    printf("[U.D.E] Debug: FindExtendedConversationSpeakers called (tension: %s)", tostring(tension_conversation))
+    
+    local speakers_by_faction = {}
+    local available_count = 0
+    
+    -- Collect all available speakers by faction
+    for i = 1, #db.OnlineStalkers do
+        local st = db.storage[db.OnlineStalkers[i]]
+        local npc = st and st.object or level.object_by_id(db.OnlineStalkers[i])
+        
+        if npc and IsStalker(npc, npc:clsid()) and npc:alive() then
+            local npc_id = npc:id()
+            local npc_comm = npc:character_community()
+            
+            -- Check if NPC is valid for conversation
+            if not get_object_story_id(npc_id) and 
+               not npc:best_enemy() and 
+               not self:IsSpecialNPC(npc) and 
+               not self:IsMonoCommunity(npc) and
+               not self:IsNPCRecentlyUsed(npc_id) and
+               self.channel_status[npc_comm] then
+                
+                if not speakers_by_faction[npc_comm] then
+                    speakers_by_faction[npc_comm] = {}
+                end
+                
+                table.insert(speakers_by_faction[npc_comm], npc)
+                available_count = available_count + 1
+            end
+        end
+    end
+    
+    printf("[U.D.E] Debug: Found %d available speakers across factions", available_count)
+    
+    if available_count < 2 then
+        printf("[U.D.E] Debug: Not enough speakers available")
+        return nil, nil
+    end
+    
+    -- For tension conversations, find speakers from different factions
+    if tension_conversation then
+        local faction_list = {}
+        for faction, speakers in pairs(speakers_by_faction) do
+            if #speakers > 0 then
+                table.insert(faction_list, faction)
+            end
+        end
+        
+        if #faction_list >= 2 then
+            -- Pick two different factions
+            local faction1 = faction_list[math.random(#faction_list)]
+            local faction2
+            
+            for attempt = 1, 10 do
+                faction2 = faction_list[math.random(#faction_list)]
+                if faction2 ~= faction1 then
+                    break
+                end
+            end
+            
+            if faction1 ~= faction2 then
+                local speaker1 = speakers_by_faction[faction1][math.random(#speakers_by_faction[faction1])]
+                local speaker2 = speakers_by_faction[faction2][math.random(#speakers_by_faction[faction2])]
+                
+                self:AddRecentlyUsedNPC(speaker1:id())
+                self:AddRecentlyUsedNPC(speaker2:id())
+                
+                return speaker1, speaker2
+            end
+        end
+    end
+    
+    -- For non-tension or if tension failed, try same faction
+    for faction, speakers in pairs(speakers_by_faction) do
+        if #speakers >= 2 then
+            -- Pick two different speakers from same faction
+            local idx1 = math.random(#speakers)
+            local idx2
+            
+            for attempt = 1, 10 do
+                idx2 = math.random(#speakers)
+                if idx2 ~= idx1 then
+                    break
+                end
+            end
+            
+            if idx1 ~= idx2 then
+                self:AddRecentlyUsedNPC(speakers[idx1]:id())
+                self:AddRecentlyUsedNPC(speakers[idx2]:id())
+                
+                return speakers[idx1], speakers[idx2]
+            end
+        end
+    end
+    
+    -- Final fallback: any two different speakers
+    local all_speakers = {}
+    for faction, speakers in pairs(speakers_by_faction) do
+        for _, speaker in ipairs(speakers) do
+            table.insert(all_speakers, speaker)
+        end
+    end
+    
+    if #all_speakers >= 2 then
+        local idx1 = math.random(#all_speakers)
+        local idx2
+        
+        for attempt = 1, 10 do
+            idx2 = math.random(#all_speakers)
+            if idx2 ~= idx1 then
+                break
+            end
+        end
+        
+        if idx1 ~= idx2 then
+            self:AddRecentlyUsedNPC(all_speakers[idx1]:id())
+            self:AddRecentlyUsedNPC(all_speakers[idx2]:id())
+            
+            return all_speakers[idx1], all_speakers[idx2]
+        end
+    end
+    
+    return nil, nil
+end
 
+-- Add the missing SplitName helper function if it doesn't exist
+function DynamicNewsManager:SplitName(full_name)
+    if not full_name then return "Unknown", "Unknown" end
+    
+    local first, last = full_name:match("^(%S+)%s+(.+)$")
+    if first and last then
+        return first, last
+    else
+        return full_name, full_name
+    end
+end
 
 
 function DynamicNewsManager:FindExtendedConversationSpeakers(tags)
@@ -1002,7 +1159,7 @@ function DynamicNewsManager:LoadConversations()
 	self.conversations = {}
 	
 	-- Define conversation topics
-	local topics = {"artifacts", "mutants", "trading", "humor", "equipment", "stalker_life", "mysteries", "politics", "survival", "anomaly", "stories", "gear", "medical", "economy", "phenomena", "rookie",  }
+	local topics = {"artifacts", "mutants", "trading", "humor", "equipment", "stalker_life", "mysteries", "politics", "survival", "anomaly", "stories", "gear", "medical", "economy", "phenomena", "rookie","angry"  }
 	
 	local total_loaded = 0
 	
@@ -1011,7 +1168,7 @@ function DynamicNewsManager:LoadConversations()
 		self.conversations[topic] = { messages = {} }
 		local msg_count = 0
 		
-		-- Try to load messages for this topic (up to 20 messages per topic)
+		-- Try to load messages for this topic (up to 100 messages per topic)
 		for msg_num = 1, 100 do
 			local msg_id = "st_dyn_news_conversation_" .. topic .. "_msg_" .. msg_num
 			local message_text = game.translate_string(msg_id)
@@ -1056,54 +1213,60 @@ end
 
 
 function DynamicNewsManager:TickNews()
-	if (enable_news == false) then
-		return true
-	end
-	
-	ResetTimeEvent("DynamicNewsManager","TickNews",math.random(5,20))
-	
-	-- news state check
-	if self:NewsToggle() or (not item_device.is_pda_charged(true)) then
-		return false
-	end
-	
-	-- SAFETY CHECK: Initialize counter if it's somehow nil
-	if not self.counter then
-		printf("[U.D.E] ERROR: counter was nil, initializing to 0")
-		self.counter = 0
-	end
-	if not self.max_cnt then
-		printf("[U.D.E] ERROR: max_cnt was nil, initializing to 3")
-		self.max_cnt = 3
-	end
-	
-	-- sending news
-	self.counter = self.counter - 1
-	if (self.counter < 0) then
-		self.counter = 0
-	end
-	
-	for ch,messages in pairs(self.queue) do
-		local c = #messages
-		local message = messages[c]  -- REVERTED: Take from END (oldest message first)
-		if (message) then
-			dynamic_news_helper.send_tip(message.Mg,message.Se, message.Dl, msg_duration,message.Ic,message.Snd,message.It)
-			
-			-- Prepare proper reaction
-			if message.Ty then
-				self.response["type"] = message.Ty
-				if message.Id then 
-					self.response["who"] = message.Id 
-				end
-				ResetTimeEvent("DynamicNewsManager","TickQuick",math.random(5,6))
-			end
-			
-			messages[c] = nil  -- REVERTED: Remove from END
-			return false
-		end
-	end
-	
-	return false
+    if (enable_news == false) then
+        return true
+    end
+    
+    ResetTimeEvent("DynamicNewsManager","TickNews",math.random(5,20))
+    
+    -- news state check
+    if self:NewsToggle() or (not item_device.is_pda_charged(true)) then
+        return false
+    end
+    
+    -- SAFETY CHECK: Initialize counter if it's somehow nil
+    if not self.counter then
+        printf("[U.D.E] ERROR: counter was nil, initializing to 0")
+        self.counter = 0
+    end
+    if not self.max_cnt then
+        printf("[U.D.E] ERROR: max_cnt was nil, initializing to 3")
+        self.max_cnt = 3
+    end
+    
+    -- FIX: Don't decrement counter here - only manage it in PushToChannel
+    -- This prevents the counter from getting stuck at 0 or going negative
+    
+    -- Process ONE message per tick to prevent spam
+    local message_sent = false
+    for ch,messages in pairs(self.queue) do
+        if not message_sent and #messages > 0 then
+            local message = messages[#messages]  -- Take from END (oldest message first)
+            if (message) then
+                dynamic_news_helper.send_tip(message.Mg,message.Se, message.Dl, msg_duration,message.Ic,message.Snd,message.It)
+                
+                -- Prepare proper reaction
+                if message.Ty then
+                    self.response["type"] = message.Ty
+                    if message.Id then 
+                        self.response["who"] = message.Id 
+                    end
+                    ResetTimeEvent("DynamicNewsManager","TickQuick",math.random(5,6))
+                end
+                
+                messages[#messages] = nil  -- Remove from END
+                
+                -- Decrement counter after sending
+                if self.counter > 0 then
+                    self.counter = self.counter - 1
+                end
+                
+                message_sent = true
+            end
+        end
+    end
+    
+    return false
 end
 
 function DynamicNewsManager:TickQuick()
@@ -1408,27 +1571,27 @@ function DynamicNewsManager:TickConversation()
     end
     
     -- Random chance to start a conversation (don't always start one)
-    if math.random(100) > 70 then  -- 70% chance to start chat
+    if math.random(100) > 80 then  -- 80% chance to start chat
         printf("[U.D.E] Debug: Random chance failed, no conversation this time")
         return false
     end
     
--- Decide between regular, extended, and group conversations
+-- Decide between regular, extended, and group conversations (33%, 33%, 34%)
 local conversation_type = math.random(100)
 local success, result = false, false  -- Capture BOTH return values from pcall
 
-if conversation_type <= 20 then  -- 20% chance for group conversations
-    printf("[U.D.E] Debug: Attempting to start group conversation")
+if conversation_type <= 33 then  -- 33% chance for faction conversations (1–33)
+    printf("[U.D.E] Debug: Attempting to start faction conversation")
     success, result = pcall(function()
-        return self:StartGroupConversation()
+        return self:StartFactionConversation()
     end)
-    if success and result then  -- Check both: no error AND function returned true
-        printf("[U.D.E] Debug: Group conversation started successfully")
+    if success and result then
+        printf("[U.D.E] Debug: Faction conversation started successfully")
     else
-        printf("[U.D.E] Debug: Failed to start group conversation")
+        printf("[U.D.E] Debug: Failed to start Faction conversation")
     end
 
-elseif conversation_type <= 60 then  -- 40% chance for extended conversations (21–60)
+elseif conversation_type <= 66 then  -- 33% chance for extended conversations (34–66)
     printf("[U.D.E] Debug: Attempting to start extended conversation")
     success, result = pcall(function()
         return self:StartExtendedConversation()
@@ -1439,7 +1602,7 @@ elseif conversation_type <= 60 then  -- 40% chance for extended conversations (2
         printf("[U.D.E] Debug: Failed to start extended conversation")
     end
 
-else  -- 40% chance for regular conversations (61–100)
+else  -- 34% chance for regular conversations (67–100)
     printf("[U.D.E] Debug: Attempting to start regular conversation")
     success, result = pcall(function()
         return self:StartConversation()
@@ -1601,7 +1764,11 @@ function DynamicNewsManager:TickConversationResponse()
 	self.conversation_state.response_delay = nil
 	
 	printf("[U.D.E] Debug: Conversation state reset")
-	
+	self.conversation_state.active = false
+
+	self.regular_conversation_active = false
+
+	self.conversation_state.active = false
 	return true
 end
 
@@ -1609,188 +1776,222 @@ end
 
 
 function DynamicNewsManager:StartConversation()
-	printf(">>> DEBUG: StartConversation called")
-	
-	-- Check if we have conversations loaded
-	if not self.conversations or next(self.conversations) == nil then
-		printf(">>> DEBUG: No conversations loaded")
-		return false
-	end
-	
-	-- Get list of topics
-	local topics = {}
-	for topic, _ in pairs(self.conversations) do
-		table.insert(topics, topic)
-	end
-	
-	if #topics == 0 then
-		printf(">>> DEBUG: No topics available")
-		return false
-	end
-	
-	-- Pick a random topic
-	local topic = topics[math.random(#topics)]
-	local topic_data = self.conversations[topic]
-	
-	printf(">>> DEBUG: Selected topic: " .. topic)
-	
-	if not topic_data or not topic_data.messages or #topic_data.messages == 0 then
-		printf(">>> DEBUG: No messages in topic")
-		return false
-	end
-	
-	-- Pick a random message from the topic
-	local message_index = math.random(#topic_data.messages)
-	local message_data = topic_data.messages[message_index]
-	
-	if not message_data or not message_data.responses or #message_data.responses == 0 then
-		printf(">>> DEBUG: No responses for message")
-		return false
-	end
-	
-	-- Find initial speaker
-	local speaker1 = self:FindConversationSpeakers()
-	
-	if not speaker1 then
-		printf(">>> DEBUG: No speaker found")
-		return false
-	end
-	
-	printf(">>> DEBUG: Found initial speaker: " .. speaker1:character_name())
-	
-	-- Store conversation state
-	self.conversation_state = self.conversation_state or {}
-	self.conversation_state.active = true
-	self.conversation_state.initial_speaker = speaker1
-	self.conversation_state.topic = topic
-	self.conversation_state.message_index = message_index
-	self.conversation_state.initial_speaker_id = speaker1:id()
-	
-	-- Send the initial message
-	local Se = speaker1:character_name() .. ", " .. dynamic_news_helper.GetCommunityDescription(speaker1, 6)
-	local msg = message_data.message
-	
-	-- Parse any dynamic variables in the message
-	msg = self:ParseConversationMessage(msg, speaker1, nil)
-	
-	self:PushToChannel(speaker1:character_community(), {
-		Mg = msg,
-		Ic = speaker1:character_icon(),
-		Snd = "news",
-		Se = Se,
-		It = "npc"
-	})
-	
-	-- NEW: Determine response count with weighted probability
-	local response_count = 1  -- Default to 1 response
-	local chance = math.random(100)
-	
-if chance <= 10 then
-    response_count = 1      -- 10% chance: single response (very rare)
-elseif chance <= 60 then
-    response_count = 2      -- 50% chance: two responses (normal)
-else
-    response_count = 3      -- 40% chance: three responses (rare)
-end
-	
-	printf(">>> DEBUG: Scheduling %d responses (chance roll: %d)", response_count, chance)
-	
-	-- Store response data for multiple responses
-	self.conversation_state.response_count = response_count
-	self.conversation_state.responses_sent = 0
-	self.conversation_state.used_response_indices = {}  -- Track used responses to avoid repeats
-	
-	for i = 1, response_count do
-		local base_delay = 20  -- Base delay of 5 seconds
-		local response_delay = base_delay + (i - 1) * math.random(3, 7)  -- Staggered: 5s, 8-12s, 11-19s
-		
-		printf(">>> DEBUG: Scheduling response %d in %d seconds", i, response_delay)
-		
-		-- Create unique timer name for each response
-		local timer_name = "TickConversationResponse_" .. i
-		
-		CreateTimeEvent("DynamicNewsManager", timer_name, response_delay, function()
-			return self:TickMultiConversationResponse(i)
-		end)
-	end
-	
-	return true
-end
-
-
-function DynamicNewsManager:TickMultiConversationResponse(response_number)
-    printf(">>> DEBUG: TickMultiConversationResponse called for response #%d", response_number)
+    printf(">>> DEBUG: StartConversation called")
     
-    if not self.conversation_state or not self.conversation_state.active then
-        printf(">>> DEBUG: No active conversation state")
-        return true -- Remove timer
+    -- Safety check: don't start if already active
+    if self.regular_conversation_active then
+        printf(">>> DEBUG: Regular conversation already active")
+        return false
     end
     
-    -- Ensure conversation_state has all required fields
+    -- Check if we have conversations loaded
+    if not self.conversations or next(self.conversations) == nil then
+        printf(">>> DEBUG: No conversations loaded")
+        return false
+    end
+    
+    -- Get list of topics
+    local topics = {}
+    for topic, _ in pairs(self.conversations) do
+        table.insert(topics, topic)
+    end
+    
+    if #topics == 0 then
+        printf(">>> DEBUG: No topics available")
+        return false
+    end
+    
+    -- Pick a random topic
+    local topic = topics[math.random(#topics)]
+    local topic_data = self.conversations[topic]
+    
+    printf(">>> DEBUG: Selected topic: " .. topic)
+    
+    if not topic_data or not topic_data.messages or #topic_data.messages == 0 then
+        printf(">>> DEBUG: No messages in topic")
+        return false
+    end
+    
+    -- Pick a random message from the topic
+    local message_index = math.random(#topic_data.messages)
+    local message_data = topic_data.messages[message_index]
+    
+    if not message_data or not message_data.responses or #message_data.responses == 0 then
+        printf(">>> DEBUG: No responses for message")
+        return false
+    end
+    
+    -- Find initial speaker using the correct function
+    local speaker1 = self:FindSpeakerRandom(true) -- true = not in combat
+    
+    if not speaker1 then
+        printf(">>> DEBUG: No speaker found")
+        return false
+    end
+    
+    printf(">>> DEBUG: Found initial speaker: " .. speaker1:character_name())
+    
+    -- IMPORTANT: Set the active flag!
+    self.regular_conversation_active = true
+    
+    -- Store conversation state
+    self.conversation_state = {
+        active = true,
+        initial_speaker = speaker1,
+        initial_speaker_id = speaker1:id(),
+        topic = topic,
+        message_index = message_index,
+        response_count = math.min(#message_data.responses, math.random(2, 4)), -- 2-4 responses
+        responses_sent = 0,
+        used_response_indices = {},
+        used_speaker_ids = {[speaker1:id()] = true}  -- Mark initial speaker as used
+    }
+    
+    printf(">>> DEBUG: Conversation state initialized with %d planned responses", self.conversation_state.response_count)
+    
+    -- Send initial message
+    local Se = strformat("%s, %s", speaker1:character_name(), 
+                        dynamic_news_helper and dynamic_news_helper.GetCommunityDescription(speaker1, 6) or "Unknown")
+    local msg = message_data.message
+    
+    -- Parse any variables in the message if function exists
+    if self.ParseConversationMessage then
+        msg = self:ParseConversationMessage(msg, speaker1)
+    end
+    
+    printf(">>> DEBUG: Sending initial message to channel: " .. speaker1:character_community())
+    
+    self:PushToChannel(speaker1:character_community(), {
+        Mg = msg,
+        Ic = speaker1:character_icon(),
+        Snd = "news",
+        Se = Se,
+        It = "npc"
+    })
+    
+    -- Add initial speaker to recently used
+    self:AddRecentlyUsedNPC(speaker1:id())
+    
+    -- Schedule first response
+    local response_delay = math.random(10, 20)
+    printf(">>> DEBUG: Scheduling first response in %d seconds", response_delay)
+    
+    CreateTimeEvent("DynamicNewsManager", "ConversationResponse_1", response_delay, function()
+        return self:TickMultiConversationResponse(1) -- Pass response number!
+    end)
+    
+    return true
+end
+
+function DynamicNewsManager:EndRegularConversation()
+    printf(">>> DEBUG: EndRegularConversation called")
+    
+    -- Clean up all timers
+    if self.CleanupConversationTimers then
+        self:CleanupConversationTimers()
+    end
+    
+    -- Remove any response timers (be thorough)
+    for i = 1, 10 do
+        RemoveTimeEvent("DynamicNewsManager", "ConversationResponse_" .. i)
+        RemoveTimeEvent("DynamicNewsManager", "TickConversationResponse_" .. i)
+    end
+    
+    -- Remove base conversation timers
+    RemoveTimeEvent("DynamicNewsManager", "TickConversationResponse")
+    RemoveTimeEvent("DynamicNewsManager", "ResetConversationState")
+    RemoveTimeEvent("DynamicNewsManager", "ConversationCooldown")
+    
+    -- Reset flags and state
+    self.regular_conversation_active = false
+    
+    if self.conversation_state then
+        self.conversation_state.active = false
+        self.conversation_state = nil
+    end
+    
+    -- Optional: Add a small cooldown before allowing new conversations
+    CreateTimeEvent("DynamicNewsManager", "ConversationCooldown", 5, function()
+        printf(">>> DEBUG: Conversation cooldown complete")
+        return true
+    end)
+    
+    printf(">>> DEBUG: Regular conversation ended and cleaned up")
+end
+
+function DynamicNewsManager:TickMultiConversationResponse(response_number)
+    printf(">>> DEBUG: TickMultiConversationResponse called for response #%d", response_number or 0)
+
+    -- If there's no active conversation, tear down and exit
+    if not self.conversation_state or not self.conversation_state.active then
+        printf(">>> DEBUG: No active conversation state, ending")
+        self:EndRegularConversation()
+        return true  -- remove this timer
+    end
+
+    -- Ensure used_speaker_ids table exists
     if not self.conversation_state.used_speaker_ids then
         self.conversation_state.used_speaker_ids = {}
     end
-    
-    -- Get conversation data
+
+    -- Fetch topic & message data
     local topic_data = self.conversations[self.conversation_state.topic]
     if not topic_data then
-        printf(">>> DEBUG: No topic data found")
+        printf(">>> DEBUG: No topic data found, ending")
+        self:EndRegularConversation()
         return true
     end
-    
+
     local message_data = topic_data.messages[self.conversation_state.message_index]
     if not message_data or not message_data.responses then
-        printf(">>> DEBUG: No message data or responses")
+        printf(">>> DEBUG: No message or responses found, ending")
+        self:EndRegularConversation()
         return true
     end
-    
-    printf(">>> DEBUG: Message has %d available responses", #message_data.responses)
-    
-    -- Select a response that hasn't been used yet
+
+    printf(">>> DEBUG: Message has %d total responses", #message_data.responses)
+
+    -- Build list of unused responses
     local available_responses = {}
     for i, response in ipairs(message_data.responses) do
         if not self.conversation_state.used_response_indices[i] then
-            table.insert(available_responses, {index = i, text = response})
+            table.insert(available_responses, { index = i, text = response })
         end
     end
-    
+
     if #available_responses == 0 then
-        printf(">>> DEBUG: No available unused responses")
+        printf(">>> DEBUG: No unused responses left, ending conversation")
+        self:EndRegularConversation()
         return true
     end
-    
-    -- Pick random unused response
-    local selected_response = available_responses[math.random(#available_responses)]
-    local response_text = selected_response.text
-    local response_index = selected_response.index
-    
-    -- Mark this response as used
+
+    -- Pick and mark a random unused response
+    local choice = available_responses[math.random(#available_responses)]
+    local response_index, response_text = choice.index, choice.text
     self.conversation_state.used_response_indices[response_index] = true
-    
-    printf(">>> DEBUG: Selected unused response #%d: %s", response_index, response_text)
-    
-    -- Find a responder (excluding recently used NPCs)
-    local responder = self:FindMultiConversationResponder(response_number)
-    
+    printf(">>> DEBUG: Selected response #%d: %s", response_index, response_text)
+
+    -- Find who will speak this response
+    local responder = (self.FindMultiConversationResponder and self:FindMultiConversationResponder(response_number))
+                      or self:FindSpeakerRandom(true)
     if not responder then
-        printf(">>> DEBUG: No responder found for response #%d", response_number)
-        -- Still increment counter to prevent infinite loop
-        self.conversation_state.responses_sent = (self.conversation_state.responses_sent or 0) + 1
+        printf(">>> DEBUG: No responder found, ending conversation")
+        self:EndRegularConversation()
         return true
     end
-    
-    printf(">>> DEBUG: Found responder #%d: %s", response_number, responder:character_name())
-    
-    -- Send the response
-    local Se = responder:character_name() .. ", " .. dynamic_news_helper.GetCommunityDescription(responder, 6)
+
+    printf(">>> DEBUG: Responder for #%d: %s", response_number, responder:character_name())
+
+    -- Prepare and send the message
+    local Se = responder:character_name() .. ", " ..
+               (dynamic_news_helper and dynamic_news_helper.GetCommunityDescription(responder, 6) or "Unknown")
     local msg = response_text
-    
-    -- Parse any dynamic variables in the response
-    local initial_speaker = self.conversation_state.initial_speaker
-    msg = self:ParseConversationMessage(msg, responder, initial_speaker)
-    
-    printf(">>> DEBUG: Sending response #%d to channel: %s", response_number, responder:character_community())
-    
+    local initial = self.conversation_state.initial_speaker
+    if self.ParseConversationMessage and initial and initial:alive() then
+        msg = self:ParseConversationMessage(msg, responder, initial)
+    end
+
+    printf(">>> DEBUG: Sending response #%d to channel %s", response_number, responder:character_community())
     self:PushToChannel(responder:character_community(), {
         Mg = msg,
         Ic = responder:character_icon(),
@@ -1798,31 +1999,54 @@ function DynamicNewsManager:TickMultiConversationResponse(response_number)
         Se = Se,
         It = "npc"
     })
-    
-    -- Update response counter
+
+    -- Track usage
     self.conversation_state.responses_sent = (self.conversation_state.responses_sent or 0) + 1
-    
-    -- Add responder to recently used list
-    self:AddRecentlyUsedNPC(responder:id())
-    
-    -- Check if this was the last response
-    if self.conversation_state.responses_sent >= self.conversation_state.response_count then
-        printf(">>> DEBUG: All responses sent (%d/%d), ending conversation", 
-               self.conversation_state.responses_sent, self.conversation_state.response_count)
+    if self.AddRecentlyUsedNPC then
+        self:AddRecentlyUsedNPC(responder:id())
+    end
+
+    -- If we've hit the planned number, end it
+    local sent = self.conversation_state.responses_sent
+    local planned = self.conversation_state.response_count or self.conversation_state.num_responses or 0
+    printf(">>> DEBUG: Responses sent %d/%d", sent, planned)
+
+    if sent >= planned then
+        printf(">>> DEBUG: All responses sent, cleaning up")
+        self:EndRegularConversation()
+    else
+        -- SCHEDULE NEXT RESPONSE
+        local next_delay = math.random(10, 20)
+        local next_response_num = sent + 1  -- Next response number
         
-        -- Clean up timers
-        self:CleanupConversationTimers()
+        printf(">>> DEBUG: Scheduling response #%d in %d seconds", next_response_num, next_delay)
         
-        -- Reset conversation state after short delay
-        CreateTimeEvent("DynamicNewsManager", "ResetConversationState", 2, function()
-            self:ResetConversationState()
-            return true
+        CreateTimeEvent("DynamicNewsManager", "ConversationResponse_" .. next_response_num, 
+                       next_delay, function()
+            return self:TickMultiConversationResponse(next_response_num)
         end)
     end
-    
-    return true -- Remove this timer
-end
 
+    return true  -- remove this timer
+end
+    
+
+function DynamicNewsManager:EndActiveRegularConversation()
+    printf(">>> DEBUG: Forcibly ending regular conversation")
+    self.regular_conversation_active = false
+    self.conversation_state = nil
+    
+    -- Clean up any scheduled response timers
+    for i = 1, 10 do
+        RemoveTimeEvent("DynamicNewsManager", "ConversationResponse_" .. i)
+    end
+    
+    -- Add cooldown
+    CreateTimeEvent("DynamicNewsManager", "ConversationCooldown", 5, function()
+        printf(">>> DEBUG: Conversation cooldown complete")
+        return true
+    end)
+end
 
 function DynamicNewsManager:FindMultiConversationResponder(response_number)
     local initial_speaker = self.conversation_state.initial_speaker
@@ -1924,11 +2148,12 @@ end
 
 function DynamicNewsManager:CleanupConversationTimers()
 	-- Remove any leftover conversation timers
-	for i = 1, 5 do  -- Clean up to 5 possible response timers
-		RemoveTimeEvent("DynamicNewsManager", "TickConversationResponse_" .. i)
-	end
-	RemoveTimeEvent("DynamicNewsManager", "TickConversationResponse")
-	RemoveTimeEvent("DynamicNewsManager", "ResetConversationState")
+ for i = 1, 10 do
+    RemoveTimeEvent("DynamicNewsManager", "ConversationResponse_" .. i)
+    RemoveTimeEvent("DynamicNewsManager", "TickConversationResponse_" .. i)
+  end
+  RemoveTimeEvent("DynamicNewsManager", "TickConversationResponse")
+  RemoveTimeEvent("DynamicNewsManager", "ResetConversationState")
 end
 
 function DynamicNewsManager:FindConversationSpeakers()
@@ -2306,42 +2531,131 @@ end
 -- Utilities
 ------------------------------------------------------------
 function DynamicNewsManager:PushToChannel(name,t,fifo,bypass_counter) 
-	--printf("[U.D.E] Dyn News: PushToChannel call")
-	-- news state check
-	if (not enable_news)
-	or self:NewsToggle() -- necessary to prevent news stacking after surges.
-	or (not item_device.is_pda_charged(true))
-	then
-		return false
-	end
-	
-	-- BYPASS COUNTER CHECK FOR CONVERSATIONS
-	if not bypass_counter and (self.counter > self.max_cnt) then
-		printf("[U.D.E] Debug: Message rejected - counter limit reached (%d > %d)", self.counter, self.max_cnt)
-		return false
-	end
-	
-	local q = self.queue[name]	-- load the faction table in queue table
-	if (q) then
-		if (t.Mg) then 
-			for s in string.gmatch(t.Mg,"(st_dyn_news_ch_[%w%d_]*)") do
-				t.Mg = string.gsub(t.Mg,s,game.translate_string(s))
-			end
-		end
-		if (fifo) then
-			q[#q+1] = t
-		else
-			table.insert(q,1,t)
-		end
-		
-		-- Only increment counter if not bypassing
-		if not bypass_counter then
-			self.counter = self.counter + 1
-		end
-		
-		printf("[U.D.E] Debug: Message added to %s queue (bypass: %s, counter: %d)", 
-			   name, tostring(bypass_counter or false), self.counter)
-	end
+    -- news state check
+    if (not enable_news)
+    or self:NewsToggle()
+    or (not item_device.is_pda_charged(true))
+    then
+        return false
+    end
+    
+    -- Initialize counter if needed
+    if not self.counter then
+        self.counter = 0
+    end
+    if not self.max_cnt then
+        self.max_cnt = 30
+    end
+    
+    -- FIX: Check queue size to prevent overflow
+    local q = self.queue[name]
+    if not q then
+        return false
+    end
+    
+    -- Prevent queue overflow - limit queue size per channel
+    local MAX_QUEUE_SIZE = 50
+    if #q >= MAX_QUEUE_SIZE then
+        printf("[U.D.E] WARNING: Queue for channel %s is full (%d messages), dropping oldest", name, #q)
+        table.remove(q, 1)  -- Remove oldest message
+    end
+    
+    -- BYPASS COUNTER CHECK FOR CONVERSATIONS
+    if not bypass_counter then
+        -- FIX: Use a rolling window counter instead of simple counter
+        if (self.counter >= self.max_cnt) then
+            printf("[U.D.E] Debug: Message rejected - counter limit reached (%d >= %d)", self.counter, self.max_cnt)
+            return false
+        end
+    end
+    
+    -- Process message
+    if (t.Mg) then 
+        for s in string.gmatch(t.Mg,"(st_dyn_news_ch_[%w%d_]*)") do
+            t.Mg = string.gsub(t.Mg,s,game.translate_string(s))
+        end
+    end
+    
+    if (fifo) then
+        q[#q+1] = t
+    else
+        table.insert(q,1,t)
+    end
+    
+    -- Only increment counter if not bypassing
+    if not bypass_counter then
+        self.counter = self.counter + 1
+    end
+    
+    printf("[U.D.E] Debug: Message added to %s queue (bypass: %s, counter: %d, queue size: %d)", 
+           name, tostring(bypass_counter or false), self.counter, #q)
+    
+    return true
+end
+
+
+function DynamicNewsManager:PeriodicMaintenance()
+    -- Check for spam condition
+    local total_messages = 0
+    for ch, messages in pairs(self.queue) do
+        total_messages = total_messages + #messages
+    end
+    
+    -- If we have way too many messages, trigger emergency reset
+    if total_messages > 150 then
+        printf("[U.D.E] SPAM DETECTED: %d messages in queue, triggering emergency reset", total_messages)
+        self:EmergencyReset()
+        return true
+    end
+    
+    -- Reset counter if it's negative
+    if self.counter < 0 then
+        printf("[U.D.E] WARNING: Counter was negative (%d), resetting to 0", self.counter)
+        self.counter = 0
+    end
+    
+    -- Clean up oversized queues
+    for ch, messages in pairs(self.queue) do
+        if #messages > 100 then
+            printf("[U.D.E] WARNING: Cleaning oversized queue for channel %s (had %d messages)", ch, #messages)
+            -- Keep only the 50 most recent messages
+            local new_messages = {}
+            for i = #messages - 49, #messages do
+                if messages[i] then
+                    table.insert(new_messages, messages[i])
+                end
+            end
+            self.queue[ch] = new_messages
+        end
+    end
+    
+    -- Schedule next maintenance
+    CreateTimeEvent("DynamicNewsManager", "PeriodicMaintenance", 300, function()
+        return self:PeriodicMaintenance()
+    end)
+    
+    return true
+end
+
+
+
+
+function DynamicNewsManager:CleanupOldTimers()
+    -- This should be called periodically to clean up any orphaned timers
+    local timer_prefixes = {
+        "ConversationResponse_",
+        "TickConversationResponse_",
+        "ExtendedConversationTurn_",
+        "ExtendedConvNext_",
+        "GroupConversationTurn_",
+        "FactionConversationTurn_"
+    }
+    
+    for _, prefix in ipairs(timer_prefixes) do
+        for i = 1, 100 do
+            RemoveTimeEvent("DynamicNewsManager", prefix .. i)
+        end
+    end
 end
 
 function DynamicNewsManager:FindSpeakerNoVictim(who,same_as_who,not_in_combat) -- Find a speaker ( [game_object] the guy of interest | [boolean] if true, speaker must be from guy's community | [boolean] if true, speaker must not be in combat )
@@ -3766,13 +4080,18 @@ function DynamicNewsManager:GossipWeather() -- talk about the weather
 end
 
 function DynamicNewsManager:GossipNearbyActivity() -- talk about movement of nearby enemy
+	-- 50% chance to skip
+	if math.random() < 0.5 then
+		return false
+	end
+
 	--printf("[U.D.E] Dyn News: GossipNearbyActivity - call")
-	
+
 	local sender,target = self:FindSpeakerAndTarget(true,250)
 	if (not sender) or (not target) then
 		return false
 	end
-	
+
 	if self:IsSpecialNPC(sender) or self:IsMonoCommunity(sender) then
 		return false
 	end
@@ -3781,7 +4100,7 @@ function DynamicNewsManager:GossipNearbyActivity() -- talk about movement of nea
 	local activity = "enemy_activity_"
 	if IsStalker(target,target:clsid()) then
 		local target_comm = target:character_community()
-		
+
 		if self.unknown[target_comm] then
 			return false
 		end
@@ -3795,25 +4114,32 @@ function DynamicNewsManager:GossipNearbyActivity() -- talk about movement of nea
 		else
 			who = dynamic_news_helper.GetCommunityDescription(target,math.random(1,4))
 		end
-		
+
 	elseif IsMonster(target,target:clsid()) then
 		local cls = dynamic_news_helper.GetMonsterDescription(target)
 		local tier = dynamic_news_helper.GetMutant(cls,"tier")
 		activity = activity .. "mutant_" .. tostring(tier)
 		who = dynamic_news_helper.GetMonsterDescription(target,1)
 	end
-	
-	
+
 	local tbl = utils_data.collect_translations("st_dyn_news_" .. activity .. "_",true)
 	if (not tbl) or (not who) then
 		return false
 	end
-	
-	local msg = utils_data.parse_string_keys( tbl[math.random(#tbl)] , {["who"]=who} )
+
+	local msg = utils_data.parse_string_keys(tbl[math.random(#tbl)], {["who"]=who})
 	local Se = strformat("%s, %s",sender:character_name(),dynamic_news_helper.GetCommunityDescription(sender,6))
-	
-	self:PushToChannel(sender:character_community(),{Mg=msg,Ic=sender:character_icon(),Snd="beep_2",Se=Se,It="npc",Ty=activity,Id=sender})
-	
+
+	self:PushToChannel(sender:character_community(), {
+		Mg=msg,
+		Ic=sender:character_icon(),
+		Snd="beep_2",
+		Se=Se,
+		It="npc",
+		Ty=activity,
+		Id=sender
+	})
+
 	return true
 end
 
@@ -4225,22 +4551,38 @@ function DynamicNewsManager:ResponseOnBoughtItems(who) -- react to people who bo
 end
 
 function DynamicNewsManager:ResponseOnGossipNearbyActivity(who,activity) -- react to people reporting nearby activity
-	--printf("[U.D.E] Dyn News: ResponseOnGossipNearbyActivity - call")
-	local sender = self:FindSpeakerNoVictim(who,true,true)
-	if (not sender) then
-		return false
-	end
+    -- 50% chance to skip reacting
+    if math.random() < 0.5 then
+        return false
+    end
 
-	local tbl = utils_data.collect_translations("st_dyn_news_res_" .. activity .. "_",true)
-	if (not tbl) then
-		return false
-	end
-	
-	local Se = strformat("%s, %s",sender:character_name(),dynamic_news_helper.GetCommunityDescription(sender,6))
-	
-	self.response["message"] = {Mg=tbl[math.random(#tbl)],Ic=sender:character_icon(),Snd="beep_1",Se=Se,It="npc",To=false,St=msg_duration}
+    --printf("[U.D.E] Dyn News: ResponseOnGossipNearbyActivity - call")
+    local sender = self:FindSpeakerNoVictim(who,true,true)
+    if (not sender) then
+        return false
+    end
 
-	return true
+    local tbl = utils_data.collect_translations("st_dyn_news_res_" .. activity .. "_",true)
+    if (not tbl) then
+        return false
+    end
+
+    local Se = strformat("%s, %s",
+        sender:character_name(),
+        dynamic_news_helper.GetCommunityDescription(sender,6)
+    )
+
+    self.response["message"] = {
+        Mg  = tbl[math.random(#tbl)],
+        Ic  = sender:character_icon(),
+        Snd = "beep_1",
+        Se  = Se,
+        It  = "npc",
+        To  = false,
+        St  = msg_duration
+    }
+
+    return true
 end
 
 function DynamicNewsManager:ResponseOnDumbZombie() -- react to dumb zombies being dumb
@@ -4371,6 +4713,513 @@ function DynamicNewsManager:ResponseOnDeathBySurges_Fake() -- react to stalker's
 	self.response["message"] = {Mg=tbl[math.random(#tbl)],Ic="common",Snd="no_sound",Se=Se,It="gr",To=30,St=msg_duration}
 
 	return true
+end
+
+------------------------------------------------------------
+-- UDE faction conversations
+------------------------------------------------------------
+
+-- Helper function to trim strings 
+local function trim(s)
+    if not s then return "" end
+    return (s:gsub("^%s*(.-)%s*$", "%1"))
+end
+
+
+function DynamicNewsManager:InitializeFactionConversations()
+    if not self.faction_conversations_loaded then
+        self:LoadFactionConversations()
+        self.faction_conversations_loaded = true
+    end
+end
+
+function DynamicNewsManager:LoadFactionConversations()
+    printf("[U.D.E] Debug: Loading faction-specific conversations...")
+    
+    -- Initialize faction conversations table
+    self.faction_conversations = {
+        ["loner"] = {},
+        ["dolg"] = {},
+        ["freedom"] = {},
+        ["army"] = {},
+        ["killer"] = {},
+        ["bandit"] = {},
+        ["ecolog"] = {},
+        ["monolith"] = {},
+        ["csky"] = {},
+        ["greh"] = {},
+		["monolith"] = {},
+		["isg"] = {}		
+
+    }
+    
+    local total_loaded = 0
+    
+    -- Define factions to load
+    local factions = {"loner", "dolg", "freedom", "army", "killer", "bandit", "ecolog", "monolith", "csky"}
+    
+    for _, faction in ipairs(factions) do
+        local faction_loaded = 0
+        
+        -- Try to load up to 50 conversations per faction
+        for conv_num = 1, 50 do
+            local conv_id = "st_dyn_news_conversation_faction_" .. faction .. "_" .. conv_num
+            local conv_data = {
+                id = conv_id,
+                faction = faction,
+                conv_num = conv_num,
+                messages = {},
+                tags = {},
+                turn_count = 0
+            }
+            
+            -- Check for conversation metadata
+            local meta_id = conv_id .. "_meta"
+            local meta_text = game.translate_string(meta_id)
+            if meta_text ~= meta_id then
+                -- Parse metadata tags
+                for tag in string.gmatch(meta_text, "([^,]+)") do
+                    local trimmed_tag = trim(tag)
+                    table.insert(conv_data.tags, trimmed_tag)
+                end
+                printf("[U.D.E] Debug: Conv %s metadata: %s", conv_id, meta_text)
+            end
+            
+            -- Load conversation turns
+            local turn_count = 0
+            for turn_num = 1, 15 do
+                local turn_id = conv_id .. "_turn_" .. turn_num
+                local turn_text = game.translate_string(turn_id)
+                
+                if turn_text ~= turn_id and turn_text:len() > 0 then
+                    table.insert(conv_data.messages, turn_text)
+                    turn_count = turn_count + 1
+                else
+                    break
+                end
+            end
+            
+            -- Only add if we have at least 2 messages
+            if turn_count >= 2 then
+                conv_data.turn_count = turn_count
+                table.insert(self.faction_conversations[faction], conv_data)
+                faction_loaded = faction_loaded + 1
+                total_loaded = total_loaded + 1
+                printf("[U.D.E] Debug: Loaded conversation %s with %d turns", conv_id, turn_count)
+            end
+        end
+        
+        -- Map alternative faction names
+        if faction == "loner" then
+            self.faction_conversations["stalker"] = self.faction_conversations["loner"]
+        elseif faction == "clear_sky" then
+            self.faction_conversations["csky"] = self.faction_conversations["clear_sky"]
+        elseif faction == "mercenary" then
+            self.faction_conversations["killer"] = self.faction_conversations["mercenary"]
+        end
+        
+        if faction_loaded > 0 then
+            printf("[U.D.E] Debug: Loaded %d conversations for faction: %s", faction_loaded, faction)
+        end
+    end
+    
+    printf("[U.D.E] Debug: Successfully loaded %d total faction conversations", total_loaded)
+    return total_loaded > 0
+end
+
+function DynamicNewsManager:StartFactionConversation()
+    printf("[U.D.E] Debug: StartFactionConversation called")
+    
+    if not enable_news then
+        printf("[U.D.E] Debug: News disabled")
+        return false
+    end
+    
+    -- Initialize if needed
+    self:InitializeFactionConversations()
+    
+    -- Get player's faction
+    local player_faction = get_actor_true_community()
+    printf("[U.D.E] Debug: Player faction: %s", player_faction)
+    
+    -- Handle actor_[faction] format
+    if string.find(player_faction, "actor_") then
+        player_faction = string.sub(player_faction, 7)
+    end
+    
+    -- Get conversations for player's faction
+    local faction_convs = self.faction_conversations[player_faction]
+    if not faction_convs or #faction_convs == 0 then
+        printf("[U.D.E] Debug: No faction conversations found for: %s", player_faction)
+        return false
+    end
+    
+    -- Select a random conversation
+    local selected = faction_convs[math.random(#faction_convs)]
+    printf("[U.D.E] Debug: Selected faction conversation: %s with %d turns", 
+           selected.id, selected.turn_count)
+    
+    -- Find speakers from the same faction
+    local s1, s2 = self:FindFactionConversationSpeakers(player_faction)
+    
+    if not s1 or not s2 then
+        printf("[U.D.E] Debug: Could not find two speakers from faction: %s", player_faction)
+        return false
+    end
+    
+    -- Validate speakers
+    if not s1.character_name or not s1.character_community or not s1.id then
+        printf("[U.D.E] Debug: Speaker1 missing required methods")
+        return false
+    end
+    
+    if not s2.character_name or not s2.character_community or not s2.id then
+        printf("[U.D.E] Debug: Speaker2 missing required methods")
+        return false
+    end
+    
+    printf("[U.D.E] Debug: Faction conversation will be between %s (%s) and %s (%s)", 
+           s1:character_name(), s1:character_community(),
+           s2:character_name(), s2:character_community())
+    
+    -- Initialize faction conversation state
+    self.faction_conversation_state = {
+        active = true,
+        speaker1 = s1,
+        speaker1_id = s1:id(),
+        speaker1_name = s1:character_name(),
+        speaker1_comm = s1:character_community(),
+        speaker2 = s2,
+        speaker2_id = s2:id(),
+        speaker2_name = s2:character_name(),
+        speaker2_comm = s2:character_community(),
+        conversation_id = selected.id,
+        total_turns = selected.turn_count,
+        messages = selected.messages,
+        current_turn = 1,
+        min_delay = 8,
+        max_delay = 15,
+        start_time = time_global(),
+        faction = player_faction
+    }
+    
+    printf("[U.D.E] Debug: Starting %d-turn faction conversation for %s", 
+           self.faction_conversation_state.total_turns, player_faction)
+    
+    -- Start conversation timer
+    CreateTimeEvent("DynamicNewsManager", "FactionConversationStart", 3, function()
+        return self:TickFactionConversationMaster()
+    end)
+    
+    return true
+end
+
+
+
+
+function DynamicNewsManager:FindFactionConversationSpeakers()
+    local speakers_by_faction = {}
+    
+    for i = 1, #db.OnlineStalkers do
+        local st = db.storage[db.OnlineStalkers[i]]
+        local npc = st and st.object or level.object_by_id(db.OnlineStalkers[i])
+        
+        if npc and IsStalker(npc, npc:clsid()) and npc:alive() and not get_object_story_id(db.OnlineStalkers[i]) then
+            if not npc:best_enemy() then
+                local comm = npc:character_community()
+                local npc_id = npc:id()
+                
+                -- Less restrictive filtering for faction conversations
+                if self.channel_status[comm] and 
+                   not self:IsSpecialNPC(npc) and 
+                   not self:IsMonoCommunity(npc) then
+                    -- Don't check IsRecentlyUsedNPC here - we'll check it when selecting
+                    speakers_by_faction[comm] = speakers_by_faction[comm] or {}
+                    table.insert(speakers_by_faction[comm], npc)
+                end
+            end
+        end
+    end
+    
+    -- Try to find a faction with at least 2 speakers
+    for faction, speakers in pairs(speakers_by_faction) do
+        if #speakers >= 2 then
+            -- Now check for recently used when selecting specific speakers
+            local available = {}
+            for _, speaker in ipairs(speakers) do
+                if not self:IsRecentlyUsedNPC(speaker:id()) then
+                    table.insert(available, speaker)
+                end
+            end
+            
+            -- If we have at least 2 non-recently-used, use them
+            if #available >= 2 then
+                local idx1 = math.random(#available)
+                local idx2 = idx1
+                while idx2 == idx1 and #available > 1 do
+                    idx2 = math.random(#available)
+                end
+                
+                self:AddRecentlyUsedNPC(available[idx1]:id())
+                self:AddRecentlyUsedNPC(available[idx2]:id())
+                
+                return available[idx1], available[idx2]
+            -- Otherwise, if recently used cooldown is preventing us, use any 2 speakers
+            elseif #speakers >= 2 then
+                printf("[U.D.E] Debug: Not enough non-recently-used speakers, using any available")
+                local idx1 = math.random(#speakers)
+                local idx2 = idx1
+                while idx2 == idx1 and #speakers > 1 do
+                    idx2 = math.random(#speakers)
+                end
+                
+                self:AddRecentlyUsedNPC(speakers[idx1]:id())
+                self:AddRecentlyUsedNPC(speakers[idx2]:id())
+                
+                return speakers[idx1], speakers[idx2]
+            end
+        end
+    end
+    
+    -- Fallback: find any speaker
+    local all_speakers = {}
+    for faction, speakers in pairs(speakers_by_faction) do
+        for _, speaker in ipairs(speakers) do
+            table.insert(all_speakers, speaker)
+        end
+    end
+    
+    if #all_speakers > 0 then
+        local speaker = all_speakers[math.random(#all_speakers)]
+        self:AddRecentlyUsedNPC(speaker:id())
+        return speaker, nil
+    end
+    
+    return nil, nil
+end
+
+function DynamicNewsManager:TickFactionConversationMaster()
+    if not self.faction_conversation_state or not self.faction_conversation_state.active then
+        printf("[U.D.E] Debug: No active faction conversation state")
+        return true
+    end
+    
+    local st = self.faction_conversation_state
+    
+    -- Check if conversation should end
+    if st.current_turn > st.total_turns then
+        printf("[U.D.E] Debug: Faction conversation completed all turns")
+        self:EndFactionConversation()
+        return true
+    end
+    
+    -- Get current speaker and message
+    local speaker_num = ((st.current_turn - 1) % 2) + 1
+    local current_speaker = self:GetFactionSpeaker(speaker_num)
+    local other_speaker = self:GetFactionSpeaker(speaker_num == 1 and 2 or 1)
+    
+    if not current_speaker or not current_speaker:alive() then
+        printf("[U.D.E] Debug: Current speaker dead or missing")
+        self:EndFactionConversation()
+        return true
+    end
+    
+    -- Get and parse message
+    local message = st.messages[st.current_turn]
+    if not message then
+        printf("[U.D.E] Debug: No message for turn %d", st.current_turn)
+        self:EndFactionConversation()
+        return true
+    end
+    
+    -- Parse message variables
+    message = self:ParseFactionMessage(message, current_speaker, other_speaker)
+    
+    -- Send message
+    local success = self:SendFactionConversationMessage(current_speaker, message)
+    
+    if not success then
+        printf("[U.D.E] Debug: Failed to send faction message")
+        self:EndFactionConversation()
+        return true
+    end
+    
+    -- Increment turn
+    st.current_turn = st.current_turn + 1
+    
+    -- Schedule next turn if not done
+    if st.current_turn <= st.total_turns then
+        local delay = math.random(st.min_delay, st.max_delay)
+        CreateTimeEvent("DynamicNewsManager", "FactionConversationTurn_" .. st.current_turn, 
+                       delay, function()
+            return self:TickFactionConversationMaster()
+        end)
+    else
+        self:EndFactionConversation()
+    end
+    
+    return true
+end
+
+
+function DynamicNewsManager:GetFactionSpeaker(n)
+    local st = self.faction_conversation_state
+    if not st then return nil end
+    
+    local id = (n == 1 and st.speaker1_id or st.speaker2_id)
+    if not id then return nil end
+    
+    -- Try to get fresh reference
+    local obj = nil
+    
+    -- Try storage first
+    local stored = db.storage and db.storage[id]
+    if stored and stored.object then
+        obj = stored.object
+    end
+    
+    -- Try level lookup if storage failed
+    if not obj and level and level.object_by_id then
+        obj = level.object_by_id(id)
+    end
+    
+    -- Validate object
+    if obj and obj.alive and obj:alive() then
+        return obj
+    end
+    
+    return nil
+end
+
+function DynamicNewsManager:ParseFactionMessage(msg, speaker, other)
+    if not msg then return "" end
+    
+    -- Parse speaker tokens
+    if speaker and speaker.character_name then
+        local speaker_full = speaker:character_name()
+        local speaker_first, speaker_last = self:SplitName(speaker_full)
+        
+        msg = string.gsub(msg, "%%speaker_name%%", speaker_full)
+        msg = string.gsub(msg, "%%speaker_first_name%%", speaker_first)
+        msg = string.gsub(msg, "%%speaker_last_name%%", speaker_last)
+        msg = string.gsub(msg, "%%my_name%%", speaker_full)
+        msg = string.gsub(msg, "%%my_first_name%%", speaker_first)
+        msg = string.gsub(msg, "%%my_last_name%%", speaker_last)
+        
+        if speaker.character_community then
+            local faction_name = game.translate_string("st_faction_" .. speaker:character_community())
+            msg = string.gsub(msg, "%%speaker_faction%%", faction_name)
+            msg = string.gsub(msg, "%%my_faction%%", faction_name)
+        end
+    end
+    
+    -- Parse other speaker tokens
+    if other and other.character_name then
+        local other_full = other:character_name()
+        local other_first, other_last = self:SplitName(other_full)
+        
+        msg = string.gsub(msg, "%%other_name%%", other_full)
+        msg = string.gsub(msg, "%%other_first_name%%", other_first)
+        msg = string.gsub(msg, "%%other_last_name%%", other_last)
+        
+        if other.character_community then
+            local faction_name = game.translate_string("st_faction_" .. other:character_community())
+            msg = string.gsub(msg, "%%other_faction%%", faction_name)
+        end
+    end
+    
+    -- Parse location
+    if speaker and speaker.position then
+        msg = string.gsub(msg, "%%location%%", dynamic_news_helper.GetPointDescription(speaker))
+    end
+    
+    return msg
+end
+
+function DynamicNewsManager:SendFactionConversationMessage(speaker, message)
+    if not speaker or not message then return false end
+    
+    local st = self.faction_conversation_state
+    if not st then return false end
+    
+    -- Check speaker methods
+    if not speaker.character_name or not speaker.character_community or not speaker.character_icon then
+        printf("[U.D.E] Debug: Speaker missing required methods")
+        return false
+    end
+    
+    local name = speaker:character_name()
+    local comm = speaker:character_community()
+    local icon = speaker:character_icon()
+    
+    printf("[U.D.E] Debug: Sending faction message from %s (%s): %s", name, comm, message)
+    
+    local Se = strformat("%s, %s", name, dynamic_news_helper.GetCommunityDescription(speaker, 6))
+    
+    -- Send to faction channel with counter bypass
+    self:PushToChannel(comm, {
+        Mg = message,
+        Ic = icon,
+        Snd = "news",
+        Se = Se,
+        It = "npc"
+    }, false, true)  -- bypass_counter = true
+    
+    return true
+end
+
+function DynamicNewsManager:EndFactionConversation()
+    printf("[U.D.E] Debug: EndFactionConversation called")
+    
+    if self.faction_conversation_state then
+        self.faction_conversation_state.active = false
+        self.faction_conversation_state = nil
+        printf("[U.D.E] Debug: Faction conversation state reset")
+    end
+    
+    -- Remove all timers
+    RemoveTimeEvent("DynamicNewsManager", "FactionConversationStart")
+    RemoveTimeEvent("DynamicNewsManager", "FactionConversationMaster")
+    for i = 1, 20 do
+        RemoveTimeEvent("DynamicNewsManager", "FactionConversationTurn_" .. i)
+    end
+    
+    -- Add cooldown before next conversation
+    local cooldown_delay = math.random(cycle_TickConversation * 1, cycle_TickConversation * 2)
+    printf("[U.D.E] Debug: Setting conversation cooldown for %d seconds", cooldown_delay)
+    ResetTimeEvent("DynamicNewsManager", "TickConversation", cooldown_delay)
+end
+
+
+function DynamicNewsManager:IsRecentlyUsedNPC(npc_id)
+    if not self.recently_used_npcs then
+        self.recently_used_npcs = {}
+        return false
+    end
+
+    local current_time = time_global()
+    local last_used    = self.recently_used_npcs[npc_id]
+
+    -- if used within last 5 minutes, consider “recent”
+    return last_used and (current_time - last_used) < 300000
+end
+
+
+-- Helper function to add NPC to recently used list
+function DynamicNewsManager:AddRecentlyUsedNPC(npc_id)
+    if not self.recently_used_npcs then
+        self.recently_used_npcs = {}
+    end
+    
+    self.recently_used_npcs[npc_id] = time_global()
+    
+    -- Clean up old entries
+    local current_time = time_global()
+    for id, last_used in pairs(self.recently_used_npcs) do
+        if (current_time - last_used) > 600000 then -- 10 minutes
+            self.recently_used_npcs[id] = nil
+        end
+    end
 end
 ------------------------------------------------------------
 -- UDE group conversations
@@ -5387,43 +6236,85 @@ function DynamicNewsManager:SplitName(full_name)
 end
 
 
-
-
-function DynamicNewsManager:AddRecentlyUsedNPC(npc_id)
-    if not npc_id then return end
+function DynamicNewsManager:EmergencyReset()
+    printf("[U.D.E] EMERGENCY RESET TRIGGERED")
     
-    -- Remove if already in list (to move to front)
-    for i, id in ipairs(self.recently_used_npcs) do
-        if id == npc_id then
-            table.remove(self.recently_used_npcs, i)
-            break
-        end
+    -- End all conversations
+    self:SafeEndAllConversations()
+    
+    -- Clear all queues
+    for ch, _ in pairs(self.queue) do
+        self.queue[ch] = {}
     end
     
-    -- Add to front of list
-    table.insert(self.recently_used_npcs, 1, npc_id)
+    -- Reset counter
+    self.counter = 0
     
-    -- Keep list size limited
-    while #self.recently_used_npcs > self.max_recent_npcs do
-        table.remove(self.recently_used_npcs)
-    end
+    -- Clear message timestamps
+    self.message_timestamps = {}
     
-    printf("[U.D.E] Debug: Added NPC %d to recently used list (total: %d)", npc_id, #self.recently_used_npcs)
+    -- Clear response data
+    self.response = {
+        ["type"] = false,
+        ["who"] = false,
+        ["message"] = false
+    }
+    
+    printf("[U.D.E] Emergency reset complete")
 end
 
-function DynamicNewsManager:IsRecentlyUsedNPC(npc_id)
-    if not npc_id then return false end
-    
-    for _, id in ipairs(self.recently_used_npcs) do
-        if id == npc_id then
-            return true
-        end
+function DynamicNewsManager:SafeEndAllConversations()
+    -- End extended conversation
+    if self.extended_conversation_state then
+        self.extended_conversation_state.active = false
+        self.extended_conversation_state = nil
     end
+    
+    -- End regular conversation
+    if self.conversation_state then
+        self.conversation_state.active = false
+        self.conversation_state = nil
+    end
+    self.regular_conversation_active = false
+    
+    -- Clean up ALL conversation timers
+    local timer_names = {
+        "TickConversationResponse",
+        "ResetConversationState",
+        "ConversationCooldown",
+        "ExtendedConversationMaster",
+        "ExtendedConversationStart"
+    }
+    
+    for _, timer_name in ipairs(timer_names) do
+        RemoveTimeEvent("DynamicNewsManager", timer_name)
+    end
+    
+    -- Clean up numbered timers
+    for i = 1, 100 do
+        RemoveTimeEvent("DynamicNewsManager", "ConversationResponse_" .. i)
+        RemoveTimeEvent("DynamicNewsManager", "TickConversationResponse_" .. i)
+        RemoveTimeEvent("DynamicNewsManager", "ExtendedConversationTurn_" .. i)
+        RemoveTimeEvent("DynamicNewsManager", "ExtendedConvNext_" .. i)
+    end
+end
+
+function DynamicNewsManager:CheckForSpamCondition()
+    -- Count total messages in all queues
+    local total_messages = 0
+    for ch, messages in pairs(self.queue) do
+        total_messages = total_messages + #messages
+    end
+    
+    -- If we have way too many messages, trigger emergency reset
+    if total_messages > 150 then
+        printf("[U.D.E] SPAM DETECTED: %d messages in queue, triggering emergency reset", total_messages)
+        self:EmergencyReset()
+        return true
+    end
+    
     return false
 end
-
-
-
 
 
 function DynamicNewsManager:TableSize(t)

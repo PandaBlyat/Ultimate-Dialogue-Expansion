@@ -2618,7 +2618,7 @@
     <text>Alert! We're under siege from</text>
 </string>
 <string id="st_dyn_news_builder_attacked_17">
-    <text>TAKING DAMAGE by</text>
+    <text>TAKING HITS by</text>
 </string>
 
 
@@ -2771,7 +2771,7 @@
     <text>I’ve just been tipped off about</text>
 </string>
 <string id="st_dyn_news_builder_hear_50">
-    <text>My bullshit detector’s off the charts with this whisper about</text>
+    <text>My bullshit detector’s off the charts with this rumour about</text>
 </string>
 <string id="st_dyn_news_builder_hear_51">
     <text>I heard a nasty rumor about</text>
@@ -6308,61 +6308,61 @@
 		<text>Ground-unit to Air-unit, requesting aid $where. We are being assaulted by $what!</text>
 	</string>
 <string id="st_dyn_news_gossip_heli_8">
-    <text>Need immediate air support at $where. Heavy resistance encountered.</text>
+    <text>Need immediate air support $where. Heavy resistance encountered.</text>
 </string>
 <string id="st_dyn_news_gossip_heli_9">
     <text>Coordinates $where confirmed. Requesting air strike on enemy positions.</text>
 </string>
 <string id="st_dyn_news_gossip_heli_10">
-    <text>Pinpointed enemy at $where. Call in the choppers!</text>
+    <text>Pinpointed enemy $where. Call in the choppers!</text>
 </string>
 <string id="st_dyn_news_gossip_heli_11">
     <text>$where is hot! Requesting air support to clear the area.</text>
 </string>
 <string id="st_dyn_news_gossip_heli_12">
-    <text>We're pinned down at $where by $what. Need air support to break out!</text>
+    <text>We're pinned down $where by $what. Need air support to break out!</text>
 </string>
 <string id="st_dyn_news_gossip_heli_13">
-    <text>Target marked at $where. Bring in the rain!</text>
+    <text>Target marked $where. Bring in the rain!</text>
 </string>
 <string id="st_dyn_news_gossip_heli_14">
-    <text>Hostiles have us cornered at $where. Requesting immediate chopper support!</text>
+    <text>Hostiles have us cornered $where. Requesting immediate chopper support!</text>
 </string>
 <string id="st_dyn_news_gossip_heli_15">
     <text>$where has become a death trap. We need those birds in the sky now!</text>
 </string>
 <string id="st_dyn_news_gossip_heli_16">
-    <text>This is Ground Leader to 'Sky Knight', requesting flyover and engagement at $where.</text>
+    <text>This is Ground Leader to 'Sky Knight', requesting flyover and engagement $where.</text>
 </string>
 <string id="st_dyn_news_gossip_heli_17">
-    <text>Enemy fortifications spotted at $where. Aerial strike requested on coordinates.</text>
+    <text>Enemy fortifications spotted $where. Aerial strike requested on coordinates.</text>
 </string>
 <string id="st_dyn_news_gossip_heli_18">
     <text>$where is crawling with $what. Need some wings to sweep 'em out!</text>
 </string>
 <string id="st_dyn_news_gossip_heli_19">
-    <text>We've got $what on our tail at $where. Can we get some air support?</text>
+    <text>We've got $what on our tail $where. Can we get some air support?</text>
 </string>
 <string id="st_dyn_news_gossip_heli_20">
-    <text>Calling for air recon and support at $where, situation is dire.</text>
+    <text>Calling for air recon and support $where, situation is dire.</text>
 </string>
 <string id="st_dyn_news_gossip_heli_21">
-    <text>Overrun at $where! We're screaming for those choppers!</text>
+    <text>Overrun $where! We're screaming for those choppers!</text>
 </string>
 <string id="st_dyn_news_gossip_heli_22">
-    <text>Any birds nearby? We're getting shredded at $where!</text>
+    <text>Any birds nearby? We're getting shredded $where!</text>
 </string>
 <string id="st_dyn_news_gossip_heli_23">
-    <text>Zone hot at $where, requesting immediate chopper gun-run.</text>
+    <text>Zone hot $where, requesting immediate chopper gun-run.</text>
 </string>
 <string id="st_dyn_news_gossip_heli_24">
-    <text>Request flyby at $where. Ground unit taking heavy fire, we need those rotors!</text>
+    <text>Request flyby $where. Ground unit taking heavy fire, we need those rotors!</text>
 </string>
 <string id="st_dyn_news_gossip_heli_25">
     <text>$where is a killing field! Send air cavalry now!</text>
 </string>
 <string id="st_dyn_news_gossip_heli_26">
-    <text>Enemy movements confirmed at $where. Requesting aerial bombardment.</text>
+    <text>Enemy movements confirmed $where. Requesting aerial bombardment.</text>
 </string>
 <string id="st_dyn_news_gossip_heli_27">
     <text>SOS from $where! We're sandwiched by $what. Bring in the choppers!</text>
@@ -6380,28 +6380,28 @@
     <text>Light up $where with those choppers. It's do or die here!</text>
 </string>
 <string id="st_dyn_news_gossip_heli_32">
-    <text>Ground to sky, urgent! Heavy engagement at $where. We need support yesterday!</text>
+    <text>Ground to sky, urgent! Heavy engagement $where. We need support yesterday!</text>
 </string>
 <string id="st_dyn_news_gossip_heli_33">
     <text>Send the whirlwinds! $where is overrun by $what. Airstrike needed ASAP!</text>
 </string>
 <string id="st_dyn_news_gossip_heli_34">
-    <text>Helis needed at $where, it’s a clusterfuck!</text>
+    <text>Helis needed $where, it’s a clusterfuck!</text>
 </string>
 <string id="st_dyn_news_gossip_heli_35">
-    <text>Our asses are grass at $where without chopper fire!</text>
+    <text>Our asses are grass $where without chopper fire!</text>
 </string>
 <string id="st_dyn_news_gossip_heli_36">
-    <text>Marking targets at $where. Choppers, sort 'em out!</text>
+    <text>Marking targets $where. Choppers, sort 'em out!</text>
 </string>
 <string id="st_dyn_news_gossip_heli_37">
-    <text>Request aerial sweep at $where. Enemy presence is overwhelming.</text>
+    <text>Request aerial sweep $where. Enemy presence is overwhelming.</text>
 </string>
 <string id="st_dyn_news_gossip_heli_38">
     <text>If any pilot's got balls, hit $where hard. We're buckling!</text>
 </string>
 <string id="st_dyn_news_gossip_heli_39">
-    <text>Skies needed at $where. Ground troops pinned down by $what.</text>
+    <text>Skies needed $where. Ground troops pinned down by $what.</text>
 </string>
 <string id="st_dyn_news_gossip_heli_40">
     <text>$where is hell on earth! Chopper strikes needed to clear this mess.</text>
@@ -9469,7 +9469,7 @@
     <text>Keep this under your hat, but $who's not just paranoid. There's a real bounty out for him.</text>
 </string>
 <string id="st_dyn_news_gossip_bounty_20">
-    <text>$who better watch his back. I overheard some Mercs talking about a bounty on him while I was at $where.</text>
+    <text>$who better watch his back. I overheard some Mercs talking about a bounty on him while I was $where.</text>
 </string>
 <string id="st_dyn_news_gossip_bounty_21">
     <text>If you're looking to make some quick cash, $who might be your golden ticket, last seen around $where.</text>
@@ -9481,7 +9481,7 @@
     <text>Word on the wind is $who's got a price on his head. Better not show your face too much around $where, buddy.</text>
 </string>
 <string id="st_dyn_news_gossip_bounty_24">
-    <text>Looks like $who's been marked. Anyone wanting to cash in should start searching at $where.</text>
+    <text>Looks like $who's been marked. Anyone wanting to cash in should start searching $where.</text>
 </string>
 <string id="st_dyn_news_gossip_bounty_25">
     <text>Some say $who is running scared. Wouldn't you, with a bounty like that? Last seen hiding out in $where.</text>
@@ -9499,7 +9499,7 @@
     <text>If the rumors are true, $who shouldn't wander too far from $where unless he wants to meet the business end of a rifle.</text>
 </string>
 <string id="st_dyn_news_gossip_bounty_30">
-    <text>Heard through the grapevine that $who's become quite valuable. There's a bounty on his head that's got folks buzzing at $where.</text>
+    <text>Heard through the grapevine that $who's become quite valuable. There's a bounty on his head that's got folks buzzing $where.</text>
 </string>
 <string id="st_dyn_news_gossip_bounty_31">
     <text>Tick-tock, $who. With a bounty like yours, I wouldn't spend too much time in $where.</text>
@@ -9652,7 +9652,7 @@
     <text>$who's now worth a fortune, dead or alive. Perfect job for a risk-taker like you, Artem. Last seen around $where.</text>
 </string>
 <string id="st_dyn_news_gossip_bounty_81">
-    <text>Thinking of a bounty hunt, Andriy? $who's a prime target with a juicy prize on his head, currently at $where.</text>
+    <text>Thinking of a bounty hunt, Andriy? $who's a prime target with a juicy prize on his head, currently $where.</text>
 </string>
 <string id="st_dyn_news_gossip_bounty_82">
     <text>$who? That bastard's on everyone's hit list, including yours, Volodymyr. Might want to check $where.</text>
@@ -9682,13 +9682,13 @@
     <text>With a bounty like $who's, I'd fake my own death and skip town. Bet he won't last long in $where. What say you, Maksym?</text>
 </string>
 <string id="st_dyn_news_gossip_bounty_91">
-    <text>Hey Denys, the word's out that $who's head is worth a fortune. If you're man enough, you could find him at $where and make a killing.</text>
+    <text>Hey Denys, the word's out that $who's head is worth a fortune. If you're man enough, you could find him $where and make a killing.</text>
 </string>
 <string id="st_dyn_news_gossip_bounty_92">
-    <text>$who's on everyone's shit list, and there's a fat wad of cash for the bastard who finds him. Serhiy, that bastard might as well be you. He's last seen at $where.</text>
+    <text>$who's on everyone's shit list, and there's a fat wad of cash for the bastard who finds him. Serhiy, that bastard might as well be you. He's last seen $where.</text>
 </string>
 <string id="st_dyn_news_gossip_bounty_93">
-    <text>Listen up, Rostyslav! $who's become quite the prize with a hefty bounty. Fancy hunting his ass down at $where?</text>
+    <text>Listen up, Rostyslav! $who's become quite the prize with a hefty bounty. Fancy hunting his ass down $where?</text>
 </string>
 <string id="st_dyn_news_gossip_bounty_94">
     <text>That fucker $who is ripe for the taking, and guess what? The bounty's massive. Kyrylo, you could use some extra cash, right? Check $where.</text>
@@ -9709,7 +9709,7 @@
     <text>With a bounty that big, $who's practically begging to be put down. Oleksandr, why don’t you do the honors? Check around $where.</text>
 </string>
 <string id="st_dyn_news_gossip_bounty_100">
-    <text>That son of a bitch $who has got his days numbered. Andriy, you feel like hunting? There's good money in it. He was last seen at $where.</text>
+    <text>That son of a bitch $who has got his days numbered. Andriy, you feel like hunting? There's good money in it. He was last seen $where.</text>
 </string>
 <string id="st_dyn_news_gossip_bounty_101">
     <text>$who's bounty is the talk of the town. Yaroslav, up for some action? Head over to $where.</text>
@@ -9733,7 +9733,7 @@
     <text>Looks like $who’s luck has run out. Pavlo, wanna cash in? Last seen near $where.</text>
 </string>
 <string id="st_dyn_news_gossip_bounty_108">
-    <text>Word's out, $who's a wanted man. Maksym, if you're feeling brave, start your hunt at $where.</text>
+    <text>Word's out, $who's a wanted man. Maksym, if you're feeling brave, start your hunt $where.</text>
 </string>
 <string id="st_dyn_news_gossip_bounty_109">
     <text>$who’s bounty is a fortune waiting to be claimed. Denys, what’s stopping you? He’s in $where.</text>
@@ -9769,7 +9769,7 @@
     <text>Hey Anton, $who's got a bounty that’s turning heads. $where's the place to find him.</text>
 </string>
 <string id="st_dyn_news_gossip_bounty_120">
-    <text>Danylo, if you’re looking for a payday, $who's your target. Last seen at $where.</text>
+    <text>Danylo, if you’re looking for a payday, $who's your target. Last seen $where.</text>
 </string>
 <string id="st_dyn_news_gossip_bounty_121">
     <text>Stanislav, the bounty on $who is too tempting to ignore. He’s lurking in $where.</text>
@@ -9808,7 +9808,7 @@
     <text>If you're feeling brave, Borys, $who's bounty is the biggest yet. Check $where.</text>
 </string>
 <string id="st_dyn_news_gossip_bounty_133">
-    <text>That fucker $who has got his days numbered. Serhiy, you feel like hunting? There's good money in it. He was last seen at $where.</text>
+    <text>That fucker $who has got his days numbered. Serhiy, you feel like hunting? There's good money in it. He was last seen $where.</text>
 </string>
 <string id="st_dyn_news_gossip_bounty_134">
     <text>Dmytro, there's gold to be made if you can snag $who. Everyone says he's hiding out in $where.</text>
@@ -9850,7 +9850,7 @@
     <text>Another bounty's been slapped on $who. Fuck, this guy's in deep shit if he's hanging around $where.</text>
 </string>
 <string id="st_dyn_news_gossip_bounty_147">
-    <text>Heard the latest? Some poor bastard named $who has a bounty on his head. Last seen at $where.</text>
+    <text>Heard the latest? Some poor bastard named $who has a bounty on his head. Last seen $where.</text>
 </string>
 <string id="st_dyn_news_gossip_bounty_148">
     <text>Word is $who's pissing his pants over a new bounty. He's trying to lay low in $where. Good luck with that.</text>
@@ -10015,7 +10015,7 @@
     <text>Another fucking bounty's been slapped on $who. Fuck, this asshole's in deep shit if he's hanging around $where.</text>
 </string>
 <string id="st_dyn_news_gossip_bounty_202">
-    <text>Heard the latest? Some poor fucker named $who has a bounty on his head. Last seen at $where.</text>
+    <text>Heard the latest? Some poor fucker named $who has a bounty on his head. Last seen $where.</text>
 </string>
 <string id="st_dyn_news_gossip_bounty_203">
     <text>Word is $who's pissing his pants over a new bounty. That fucker's trying to lay low in $where. Good luck with that.</text>
@@ -16224,34 +16224,34 @@
     <text>Reminder: All research proposals must be submitted to the review board for approval before commencing experiments.</text>
 </string>
 <string id="st_dyn_news_spam_faction_ecolog_181">
-    <text>Hey everyone, there's a meteor shower tonight! If the sky's clear, let's meet outside the west lab after dark.</text>
+    <text>Attention: A training session on advanced anomaly detection equipment will be held on Monday at 1000 hours.</text>
 </string>
 <string id="st_dyn_news_spam_faction_ecolog_182">
-    <text>Good news, the coffee machine in the main lounge is back up and running. Enjoy your caffeine fixes!</text>
+    <text>Attention: A training session on advanced anomaly detection equipment will be held on Monday at 1000 hours.</text>
 </string>
 <string id="st_dyn_news_spam_faction_ecolog_183">
-    <text>We're organizing a book club for those interested in discussing literature during downtime. First meeting is next Wednesday.</text>
+    <text>Attention: A training session on advanced anomaly detection equipment will be held on Monday at 1000 hours.</text>
 </string>
 <string id="st_dyn_news_spam_faction_ecolog_184">
-    <text>Anyone up for a friendly game of football this weekend? Meet at the clearing by the north fence.</text>
+    <text>Anyone up for an artifact run deep west?</text>
 </string>
 <string id="st_dyn_news_spam_faction_ecolog_185">
-    <text>Thanks to whoever restocked the snack drawer in the common room. Much appreciated!</text>
+    <text>Congratulations to Dr. Smirnov and his team on their successful field expedition. Your efforts advance our understanding of the Zone.</text>
 </string>
 <string id="st_dyn_news_spam_faction_ecolog_186">
     <text>Found a stray dog near the base. Seems friendly. Does anyone know if it's safe to keep it around?</text>
 </string>
 <string id="st_dyn_news_spam_faction_ecolog_187">
-    <text>Movie night suggestion box is up in the cafeteria. Drop in your favorite titles!</text>
+    <text>Attention: A training session on advanced anomaly detection equipment will be held on Monday at 1000 hours.</text>
 </string>
 <string id="st_dyn_news_spam_faction_ecolog_188">
-    <text>Thanks to all who participated in the charity run last week. We raised funds for a great cause!</text>
+    <text>Congratulations to Dr. Smirnov and his team on their successful field expedition. Your efforts advance our understanding of the Zone.</text>
 </string>
 <string id="st_dyn_news_spam_faction_ecolog_189">
-    <text>We're planning a campfire gathering on Saturday night. Bring stories and maybe an instrument if you play one.</text>
+    <text>Reminder: Regular backups of your research data are crucial. Ensure your files are synced to the central server.</text>
 </string>
 <string id="st_dyn_news_spam_faction_ecolog_190">
-    <text>Anyone interested in starting a chess club? Sign up on the sheet in the main hall.</text>
+    <text>Reminder: Regular backups of your research data are crucial. Ensure your files are synced to the central server.</text>
 </string>
 <string id="st_dyn_news_spam_faction_ecolog_191">
     <text>Attention: A training session on advanced anomaly detection equipment will be held on Monday at 1000 hours.</text>
@@ -16356,7 +16356,7 @@
     <text>Upcoming lecture on the ethical considerations of Zone exploration. Attendance is recommended.</text>
 </string>
 <string id="st_dyn_news_spam_faction_ecolog_225">
-    <text>Notice: The gym facilities will be closed for maintenance on Saturday.</text>
+    <text>Notice: The lab facilities will be closed for maintenance on Saturday.</text>
 </string>
 <string id="st_dyn_news_spam_faction_ecolog_226">
     <text>All personnel must complete the annual cybersecurity training module by month's end.</text>
@@ -16380,7 +16380,7 @@
     <text>Personnel are encouraged to submit feedback on facility operations through official channels.</text>
 </string>
 <string id="st_dyn_news_spam_faction_ecolog_233">
-    <text>We are hosting an open house for prospective recruits next week. Volunteers needed to show them around.</text>
+    <text>Personnel are encouraged to submit feedback on facility operations through official channels.</text>
 </string>
 <string id="st_dyn_news_spam_faction_ecolog_234">
     <text>All lab waste must be properly labeled before disposal. Incorrect labeling causes delays and hazards.</text>
@@ -16528,7 +16528,6 @@
 	<string id="st_dyn_news_spam_faction_freedom_31">
 		<text>Chaps, guess what! The ganja, the one growing near da springboard! It hits like a truck! Hahahaaa!!!</text>
 	</string>
-	
 	<string id="st_dyn_news_spam_faction_freedom_32">
 		<text>Ok, we need to wake the fuck up - clocking out is fine around the base, but not if people are counting on you to defend the Barrier. I'm going to have Gatekeeper going around planting his foot in the asses of any slackers.</text>
 	</string>
@@ -16610,582 +16609,7 @@
 <string id="st_dyn_news_spam_faction_freedom_58">
     <text>If you've got problems with mutants, make a bigger problem for them. Or just run faster than the stalker next to you.</text>
 </string>
-<string id="st_dyn_news_spam_faction_freedom_59">
-    <text>Last one to the safe house is buying the first round tonight!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_60">
-    <text>This just in: We're officially declaring tomorrow 'Do Nothing Day'. Except for Ivan, because he did nothing today. Get your shit together, Ivan.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_61">
-    <text>So, who's up for a scavenger hunt? First prize: The last of my homemade vodka. Second prize: A pat on the back from yours truly!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_62">
-    <text>Warning: Someone's been swiping socks from the laundry line again. If your feet stink, it's on you, buddy.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_63">
-    <text>Heads up! There's a fresh patch of Bloodsuckers south of the camp. Bring more than a knife, unless you're as dumb as you look.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_64">
-    <text>Dude, where's my artifact? Last seen with Boris near the swamps. Finder’s fee includes a bottle of the good stuff and my eternal gratitude.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_65">
-    <text>If the radiation doesn’t kill you, the hangover tomorrow will. Drink responsibly, or at least less embarrassingly!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_66">
-    <text>To the guy who tried to microwave metal: Congratulations! You're now banned from using any tech that isn't a rock.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_67">
-    <text>Big shoutout to the newbie who brought a guitar. Campfires just got 100% less depressing. Tune it up, let's make some noise!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_68">
-    <text>Rumor has it, Duty’s plotting to steal our stash. Joke's on them, we smoked it all last night. Try stealing our vibes next time!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_69">
-    <text>Anyone up for a little target practice? And by target practice, I mean throwing rocks at old cans. Ammo's too expensive to shoot willy-nilly!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_70">
-    <text>Lost: One mind. Last seen before joining Freedom. If found, please keep it. We're all mad here anyway!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_71">
-    <text>That feeling when you find an artifact only to realize it's just a really shiny rock. Better luck next time, folks!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_72">
-    <text>For anyone who’s feeling blue, remember: At least you’re not a Dutyer. They only smile when they get new boots.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_73">
-    <text>Hey, if anyone sees a floating can of beans, do me a favor and don't shoot. That's just Alex experimenting with anomalies again.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_74">
-    <text>Meet me at the old ferris wheel for a surprise. Bring your own Geiger counter and maybe a gas mask... Just in case.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_75">
-    <text>Shout out to everyone who helped clean up the Anomaly Field. Next time, let’s try not to lose our boots, eh?</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_76">
-    <text>Breaking News: We're out of coffee. This is not a drill. I repeat, this is NOT a drill!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_77">
-    <text>Morning mantra: I will not feed the Snorks. I will not feed the Snorks. I will not... oh hell, who left the gate open?!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_78">
-    <text>If you can read this, you're in range. If you can't read this, well, you're probably blissfully unaware anyway.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_79">
-    <text>Note to self: Don't trust a Bandit with your vodka. Don't trust a Duty with your freedom. And never, ever trust a Merc with your secret stash.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_80">
-    <text>Is it just me, or does the Zone feel a bit off today? Like it partied too hard last night and now regrets it.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_81">
-    <text>Word on the street is Duty's been eyeing our stash spots. Time to relocate and leave them scratching their heads!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_82">
-    <text>Got some fresh moonshine brewing in the back. Who's ready to get lit tonight?!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_83">
-    <text>If you're not catching artifacts, you're missing out on life, my friends. Life's too short to not collect glowing rocks.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_84">
-    <text>Alert: More anomalies detected near our south perimeter. Let's just say, if you see any flying cows, it's probably not good.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_85">
-    <text>Reminder: If you're going to sleep on guard duty, at least have the decency to snore quietly. You're disturbing the real fighters.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_86">
-    <text>Rumor has it there's a stash of old-world tech buried near the old bridge. Who's up for a treasure hunt?</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_87">
-    <text>For anyone feeling lucky, I've got a game of cards going tonight. Winner gets the last of my MREs!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_88">
-    <text>We may not have Duty's fancy gear, but at least we don't have sticks up our asses.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_89">
-    <text>Heads up, folks: I've got a stash of pre-war comics that need a good home. First come, first served!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_90">
-    <text>Keep an eye out for any suspicious activity near our borders. We've got Duty dogs sniffing around, and we don't need them marking their territory on our turf.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_91">
-    <text>We've got a live broadcast of old-world movies happening tonight. Who needs reality when you've got Hollywood?</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_92">
-    <text>Just got a fresh batch of homemade jerky in. Better snag some before the Dutyers get wind of it.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_93">
-    <text>Hey, remember when we used to worry about mutants and anomalies? Now it's just other factions trying to steal our shit. Times sure have changed...</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_94">
-    <text>Big shoutout to the guys who fixed up the old radio tower. Now we can broadcast our awesomeness to the whole damn Zone!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_95">
-    <text>If anyone's looking for a side hustle, I've got a line on some primo artifact trading. Let's make some roubles!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_96">
-    <text>Lost another pair of boots to those damn anomalies. Anyone got a spare size 11?</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_97">
-    <text>So, who's up for a little game of blackjack? Loser buys the next round!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_98">
-    <text>Breaking News: It's still dangerous as hell out there. Stay safe, stay smart, and stay stocked up on meds!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_99">
-    <text>If anyone's seen my lucky hat, please return it ASAP. I'm starting to think it's the only thing keeping me alive out here!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_100">
-    <text>Attention all stalkers: We've got a fresh batch of official Freedom gear in. Show your allegiance and look damn good doing it!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_101">
-    <text>Word of advice: If you see a rookie heading out with just a knife, do us all a favor and lend them a gun. We're not trying to pad the mutant population.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_102">
-    <text>Hey, who's been raiding my stash of canned meat? That stuff's my lifeline, damn it!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_103">
-    <text>Just had a run-in with a pack of pseudodogs. Let's just say, my pants are a little lighter now.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_104">
-    <text>For anyone feeling homesick, I've got a taste of home cooking waiting back at the camp. Just like mom used to irradiate!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_105">
-    <text>Today's agenda: Wake up, create meat cubes, repeat. And by meat cubes, I mean take out any Duty patrols that come our way!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_106">
-    <text>Reminder: We've got a strict 'No Duty Allowed' policy. If you see one of those black-clad-cock-sucking-mutant-fuckers, kindly show them the end of your barrel.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_107">
-    <text>Feeling a little too comfortable lately? That's just the calm before the storm. Stay sharp, stay vigilant, and stay ready to kick some ass!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_108">
-    <text>Got a lead on a stash of premium vodka. Who's in?</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_109">
-    <text>Attention all Freedom fighters: We've got a special ops mission coming up. Details to follow. Prepare for some fireworks!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_110">
-    <text>Just spotted a couple of rookie stalkers heading out with nothing but a dream. Let's hope they come back with more than just nightmares.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_111">
-    <text>Rumor has it Duty's been stockpiling ammo. Looks like they're gearing up for something big. Time to rain on their parade!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_112">
-    <text>Anyone seen my lucky charm? I've got a sneaking suspicion it's the only thing keeping me alive out here...</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_113">
-    <text>We may not have Duty's fancy gear, but at least we've got freedom on our side. And that's worth more than any suit of power armor.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_114">
-    <text>Lost another game of cards last night. Guess I'll be living off canned meat for the next week...</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_115">
-    <text>Reminder: If you see any Duty patrols, remember they're not your friends. They're just potential loot waiting to be liberated!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_116">
-    <text>Just heard some newbie asking about the safest route through the Red Forest. I laughed so hard, I nearly choked on my vodka.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_117">
-    <text>For anyone feeling a little too cozy in their bunk, remember: Comfort kills. Stay sharp, stay alert, and stay ready to kick some ass!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_118">
-    <text>Attention all stalkers: We've got a fresh batch of artifacts coming in. Get ready to snag some for yourselves - and watch your backs while you're at it!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_119">
-    <text>Word of advice: If you're feeling brave, head on over to the Army Warehouses. Rumor has it Duty's been a little lax with their patrols lately...</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_120">
-    <text>Just spotted a band of Dutyers heading our way. Looks like they're itching for a fight. Well, let's give them one they won't forget!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_121">
-    <text>Lost my lucky charm last night. If anyone finds a rabbit's foot covered in blood, it's probably mine. And no, I don't want to know how it got there.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_122">
-    <text>Got a tip on a stash of premium vodka. Who's ready to get absolutely wasted?</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_123">
-    <text>Just heard some Dutyer talking shit about our faction. Let's show them what real freedom looks like - by sawing their fucking tongues!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_124">
-    <text>Rumor has it Duty's been stockpiling ammo. Looks like they're getting ready for war. Well, we'll be ready to give them one!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_125">
-    <text>Lost my lucky charm last night. If anyone finds a rabbit's foot covered in blood, it's probably mine. And no, I don't want to know how it got there.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_126">
-    <text>Got a tip on a stash of premium vodka. Who's ready to get absolutely wasted?</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_127">
-    <text>Just heard some Dutyer talking smack about our faction. Let's show them what real freedom looks like - by kicking their sorry asses!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_128">
-    <text>Rumor has it Duty's been stockpiling ammo. Looks like they're getting ready for war. Well, we'll be ready to give them one!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_129">
-    <text>Hey, who's up for a little target practice? Winner gets bragging rights - and maybe a sip of my vodka stash.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_130">
-    <text>Just heard some rookie asking for directions to the Bloodsucker Village. I hope they like being on the menu...</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_131">
-    <text>Lost another game of cards last night. Guess I'll be living off canned meat for the next week...</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_132">
-    <text>Just spotted a band of Dutyers heading our way. Looks like they're itching for a fight. Well, let's give them one they won't forget!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_133">
-    <text>Lost my lucky charm last night. If anyone finds a rabbit's foot covered in blood, it's probably mine. And no, I don't want to know how it got there.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_134">
-    <text>Got a tip on a stash of premium vodka. Who's ready to get absolutely wasted?</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_135">
-    <text>Just heard some Dutyer talking smack about our faction. Let's show them what real freedom looks like - by kicking their sorry asses!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_136">
-    <text>Rumor has it Duty's been stockpiling ammo. Looks like they're getting ready for war. Well, we'll be ready to give them one!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_137">
-    <text>Hey, who's up for a little target practice? Winner gets bragging rights - and maybe a sip of my vodka stash.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_138">
-    <text>Just heard some rookie asking for directions to the Bloodsucker Village. I hope they like being on the menu...</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_139">
-    <text>Lost another game of cards last night. Guess I'll be living off canned meat for the next week...</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_140">
-    <text>Just spotted a band of Dutyers heading our way. Looks like they're itching for a fight. Well, let's give them one they won't forget!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_141">
-    <text>Lost my lucky charm last night. If anyone finds a rabbit's foot covered in blood, it's probably mine. And no, I don't want to know how it got there.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_142">
-    <text>Got a tip on a massive stash of weed, maryjane, devil's lettuce, wacky baccy. Who's ready to get absolutely wasted?</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_143">
-    <text>Just heard some Dutyer talking smack about our faction. Let's show them what real freedom looks like - by kicking their sorry asses!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_144">
-    <text>Rumor has it Duty's been stockpiling ammo. Looks like they're getting ready for war. Well, we'll be ready to give them one!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_145">
-    <text>Hey, who's up for a little target practice? Winner gets bragging rights - and maybe a sip of my vodka stash.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_146">
-    <text>Just heard some rookie asking for directions to the Bloodsucker Village. I hope they like being on the menu...</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_147">
-    <text>Lost another game of cards last night. Guess I'll be living off canned meat for the next week...</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_148">
-    <text>Just spotted a band of Dutyers heading our way. Looks like they're itching for a fight. Well, let's give them one they won't forget!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_149">
-    <text>Lost my lucky charm last night. If anyone finds a rabbit's foot covered in blood, it's probably mine. And no, I don't want to know how it got there.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_150">
-    <text>Got a tip on a stash of premium vodka. Who's ready to get absolutely wasted?</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_151">
-    <text>Just heard some Dutyer talking smack about our faction. Let's show them what real freedom looks like - by kicking their sorry asses!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_152">
-    <text>Rumor has it Duty's been stockpiling ammo. Looks like they're getting ready for war. Well, we'll be ready to give them one!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_153">
-    <text>Hey, who's up for a little target practice? Winner gets bragging rights - and maybe a sip of my vodka stash.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_154">
-    <text>Just heard some rookie asking for directions to the Bloodsucker Village. I hope they like being on the menu...</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_155">
-    <text>Lost another game of cards last night. Guess I'll be living off canned meat for the next week...</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_156">
-    <text>Just spotted a band of Dutyers heading our way. Looks like they're itching for a fight. Well, let's give them one they won't forget!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_157">
-    <text>Lost my lucky charm last night. If anyone finds a rabbit's foot covered in blood, it's probably mine. And no, I don't want to know how it got there.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_158">
-    <text>Got a tip on a stash of premium vodka. Who's ready to get absolutely wasted?</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_159">
-    <text>Just heard some Dutyer talking smack about our faction. Let's show them what real freedom looks like - by kicking their sorry asses!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_160">
-    <text>Rumor has it Duty's been stockpiling ammo. Looks like they're getting ready for war. Well, we'll be ready to give them one!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_161">
-    <text>Hey, who's up for a little target practice? Winner gets bragging rights - and maybe a sip of my vodka stash.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_162">
-    <text>Just heard some rookie asking for directions to the Bloodsucker Village. I hope they like being on the menu...</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_163">
-    <text>Lost another game of cards last night. Guess I'll be living off canned meat for the next week...</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_164">
-    <text>Just spotted a band of Dutyers heading our way. Looks like they're itching for a fight. Well, let's give them one they won't forget!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_165">
-    <text>Lost my lucky charm last night. If anyone finds a rabbit's foot covered in blood, it's probably mine. And no, I don't want to know how it got there.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_166">
-    <text>Got a tip on a stash of premium vodka. Who's ready to get absolutely wasted?</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_167">
-    <text>Just heard some Dutyer talking smack about our faction. Let's show them what real freedom looks like - by kicking their sorry asses!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_168">
-    <text>Rumor has it Duty's been stockpiling ammo. Looks like they're getting ready for war. Well, we'll be ready to give them one!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_169">
-    <text>Hey, who's up for a little target practice? Winner gets bragging rights - and maybe a sip of my vodka stash.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_170">
-    <text>Just heard some rookie asking for directions to the Bloodsucker Village. I hope they like being on the menu...</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_171">
-    <text>Lost another game of cards last night. Guess I'll be living off canned meat for the next week...</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_172">
-    <text>Just spotted a band of Dutyers heading our way. Looks like they're itching for a fight. Well, let's give them one they won't forget!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_173">
-    <text>To all Freedom members: We've secured a new stash of medical supplies. If you're low on meds, swing by the camp to resupply.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_174">
-    <text>Attention: We've received intel about increased mutant activity near the Garbage. Stay alert and travel in groups.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_175">
-    <text>Hey folks, campfire stories tonight at the usual spot. Bring your best tales and let's keep the spirit alive!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_176">
-    <text>Just a heads up: The old factory seems to be emitting strange noises again. Probably nothing, but avoid it just in case.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_177">
-    <text>We've got some fresh recruits joining us. Let's give them a warm Freedom welcome and show them the ropes.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_178">
-    <text>Reminder: Keep your weapons clean and in good condition. A jammed gun is the last thing you need out there.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_179">
-    <text>To all medics: We're organizing a first aid training session tomorrow. Participation is encouraged.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_180">
-    <text>Attention: We've spotted some Duty patrols near our western perimeter. Keep an eye out and report any sightings.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_181">
-    <text>Hey everyone, let's have a friendly shooting competition this weekend. Time to show off your skills!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_182">
-    <text>We've got new shipments of gear coming in. Check with the quartermaster for any equipment upgrades you need.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_183">
-    <text>Remember to check in with your squad leaders regularly. Communication keeps us strong and united.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_184">
-    <text>Anyone interested in a scouting mission to the Dark Valley? We're looking for volunteers.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_185">
-    <text>Reminder: The Zone is unpredictable. Stay prepared for anything and watch each other's backs.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_186">
-    <text>Good news! We've managed to repair the radio tower. Communications should be clearer now.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_187">
-    <text>Looking for a mechanic to help with vehicle maintenance. If you have the skills, let us know.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_188">
-    <text>Anyone up for a game of cards tonight? Meet at the main hall after dinner.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_189">
-    <text>We've noticed some anomalies shifting locations. Stay alert and update your maps accordingly.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_190">
-    <text>To all sharpshooters: We're setting up a new lookout post. Your expertise would be appreciated.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_191">
-    <text>Attention Freedom members: Keep an eye out for any stalkers in need of assistance. Let's lend a helping hand where we can.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_192">
-    <text>We've received reports of valuable artifacts near the abandoned mill. Interested parties, coordinate with the exploration team.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_193">
-    <text>Reminder: Avoid unnecessary conflicts. Our goal is freedom for all, not needless violence.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_194">
-    <text>To all cooks: We're running low on supplies. Please submit your requisition lists by end of day.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_195">
-    <text>Anyone skilled in electronics? We need help repairing some of our equipment.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_196">
-    <text>Friendly reminder: The camp cleanup is scheduled for tomorrow morning. Let's keep our home tidy.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_197">
-    <text>Attention: There's a storm approaching. Secure any loose equipment and prepare for heavy rain.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_198">
-    <text>We're organizing a training session on anomaly detection. All are welcome to join and share knowledge.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_199">
-    <text>Reminder: Keep your personal belongings secure. We've had some items misplaced recently.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_200">
-    <text>To all artists: We're decorating the main hall. Share your creativity and help brighten the place up.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_201">
-    <text>Important: If you encounter any strange phenomena, report it immediately. Safety first.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_202">
-    <text>Hey everyone, there's a meteor shower tonight. Let's gather and enjoy the show.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_203">
-    <text>We've had a few equipment malfunctions lately. If you notice any issues, report them to maintenance.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_204">
-    <text>Looking for volunteers to help expand our vegetable garden. Green thumbs appreciated!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_205">
-    <text>Reminder: Stay hydrated and take breaks when needed. The Zone can be harsh on the unprepared.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_206">
-    <text>We've got a friendly soccer match scheduled for this weekend. Come join in the fun!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_207">
-    <text>Attention: Be cautious around the old mines. They've become unstable recently.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_208">
-    <text>We're planning a fishing trip by the lake. Anyone interested, meet at the docks tomorrow morning.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_209">
-    <text>To all Freedom members: Let's remember why we're here. Unity and freedom for all in the Zone.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_210">
-    <text>Reminder: If you have any suggestions for improving life in the camp, don't hesitate to share them.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_211">
-    <text>Good news! We've secured additional medical supplies thanks to our allies. Let's make sure to use them wisely.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_212">
-    <text>Anyone up for a night of stargazing? The sky is clear, and the view is amazing.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_213">
-    <text>Reminder: Keep the campfires controlled. We don't want any accidents.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_214">
-    <text>We've set up a new notice board in the main hall. Check it regularly for updates and announcements.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_215">
-    <text>Attention: If you have any mechanical expertise, we could use help repairing the generator.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_216">
-    <text>To all Freedom members: Let's continue to support each other and make our community stronger.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_217">
-    <text>We're organizing a workshop on first aid and survival skills. Highly recommended for all.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_218">
-    <text>Friendly reminder: Respect the local wildlife. Unnecessary harm goes against our principles.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_219">
-    <text>We've set up a suggestion box in the main hall. Your feedback is valuable.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_220">
-    <text>Attention: If you're feeling unwell, visit the medics. Don't ignore any symptoms.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_221">
-    <text>We're planning a group hike to the overlook point. Join us for some fresh air and great views.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_222">
-    <text>Reminder: Keep noise levels down during the night. Let’s ensure everyone gets proper rest.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_223">
-    <text>We've had reports of beautiful wildflowers blooming near the northern trails. Worth checking out!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_224">
-    <text>To all musicians: Let's have a jam session this evening by the campfire. Bring your instruments.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_225">
-    <text>Attention: The water supply will be undergoing maintenance tomorrow. Plan accordingly.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_226">
-    <text>We've received a message of goodwill from some friendly stalkers. Let's keep building positive relationships.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_227">
-    <text>Reminder: Always carry a map and compass when heading out. Technology can fail, but basics don't.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_228">
-    <text>We're organizing a cleanup of the nearby riverbank. Volunteers are welcome.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_229">
-    <text>Attention all: Be wary of quicksand near the marshes. Stay on the marked paths.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_230">
-    <text>To our friends celebrating birthdays this month, happy birthday! Let's have a celebration soon.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_231">
-    <text>Reminder: Keep your campfires extinguished when unattended. Safety is everyone's responsibility.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_232">
-    <text>We've set up a lending library in the main hall. Feel free to borrow and donate books.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_233">
-    <text>Attention: If you're skilled in sewing or tailoring, we could use help repairing some gear.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_234">
-    <text>Hey everyone, we're hosting a storytelling night tomorrow. Share your adventures and experiences.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_235">
-    <text>Reminder: Always check your equipment before heading out. Better safe than sorry.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_236">
-    <text>We've arranged for a trading caravan to visit us soon. Get your trade items ready.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_237">
-    <text>To all Freedom members: Let's stay united and remember our common goals.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_238">
-    <text>Looking for volunteers to help expand our shelter. Many hands make light work.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_239">
-    <text>Attention: There's been an increase in emissions. Stay informed and take precautions.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_240">
-    <text>We're planning a night of stargazing and astronomy lessons. Join us under the stars.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_241">
-    <text>Reminder: If you encounter any hostile factions, avoid unnecessary confrontation. Let's focus on our mission.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_242">
-    <text>We've received some new board games for the common area. Enjoy during your downtime.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_243">
-    <text>To all chefs: We're having a cooking contest this weekend. Show off your culinary skills!</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_244">
-    <text>Attention: The latest weather reports predict heavy fog. Use caution when traveling.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_245">
-    <text>We're compiling a journal of our experiences. If you'd like to contribute, see the scribe.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_246">
-    <text>Reminder: Stay positive and support one another. Together, we can overcome any challenge.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_247">
-    <text>We've arranged for a friendly soccer match with some neighboring stalkers. Let's enjoy the camaraderie.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_248">
-    <text>To all Freedom members: Keep exploring, keep learning, and embrace the freedom the Zone offers.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_249">
-    <text>Attention: Our annual Freedom festival is approaching. Preparations are underway, and all are invited to participate.</text>
-</string>
-<string id="st_dyn_news_spam_faction_freedom_250">
-    <text>Thank you all for your dedication. Together, we make Freedom what it is. Stay safe out there!</text>
-</string>
+
 
 
 	<string id="st_dyn_news_spam_faction_killer_1">
@@ -17634,7 +17058,7 @@
     <text>Attention all you Freedom motherfuckers! Still living in your little hippie commune, pretending to fight the good fight? Newsflash: nobody gives a shit about your tree-hugging antics. Get with the program or get out of the way.</text>
 </string>
 <string id="st_dyn_news_spam_faction_killer_149">
-    <text>Hey, Monolith freaks! Still worshiping your brain-dead cult leader like a bunch of brainwashed zombies? How about you try thinking for yourselves for once? Oh, wait, you can't. Too bad.</text>
+    <text>Hey, Monolith freaks! Still worshiping your brain-dead cult leader like a bunch of brainwashed bitches?</text>
 </string>
 
 
@@ -18729,10 +18153,10 @@
 
 	<!-- Zone Activity -->
 	<string id="st_dyn_news_zone_activity_troop_none_1">
-		<text>Weird... the emergency signal I received was pointing to this location $location.\nI have been searching for ten minutes at least, not a single trace of the missing squad was found...</text>
+		<text>Weird... the emergency signal I received was pointing to this location $map.\nI have been searching for ten minutes at least, not a single trace of the missing squad was found...</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_troop_none_2">
-		<text>I was supposed to meet the other squad $location. Two hours have passed and there is no sign of them yet.</text>
+		<text>I was supposed to meet the other squad $map. Two hours have passed and there is no sign of them yet.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_troop_none_3">
 		<text>$mechanic speaking. Stop bringing your broken crap over here. I'm a mechanic, not a magician. I've got dozens to fix already and there isn't enough replacement parts for everybody around.</text>
@@ -18760,7 +18184,7 @@
 		<text>Ok, we can confirm that we're at the insertion point. You can send $speaker over here with the engineers.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_troop_none_11">
-		<text>This is $speaker's squad, we just arrived at $location and the enemy force isn't here. Their equipment is scattered all around, they must have seen us coming.\nPlease advise, we're setting up a perimeter.</text>
+		<text>This is $speaker's squad, we just arrived at $map and the enemy force isn't here. Their equipment is scattered all around, they must have seen us coming.\nPlease advise, we're setting up a perimeter.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_troop_none_12">
 		<text>$mechanic just told me that the plates are ready for the armour re-fitting. Someone please get in contact with $trader, he's not answering direct messages.</text>
@@ -18869,154 +18293,154 @@
     <text>Hey, $speaker, we've been waiting here for hours. Starting to feel like we're being stood up.</text>
 </string>
 <string id="st_dyn_news_zone_activity_troop_none_47">
-    <text>Got to $location, but it's deserted. No sign of $speaker's squad. Anyone else getting bad vibes?</text>
+    <text>Got to $map, but it's deserted. No sign of $speaker's squad. Anyone else getting bad vibes?</text>
 </string>
 <string id="st_dyn_news_zone_activity_troop_none_48">
-    <text>We've been at $location for over an hour. Not a peep from $speaker's squad. Starting to get a little freaked out.</text>
+    <text>We've been at $map for over an hour. Not a peep from $speaker's squad. Starting to get a little freaked out.</text>
 </string>
 <string id="st_dyn_news_zone_activity_troop_none_49">
-    <text>This is $speaker's squad. We're at $location, but there's no one here. Did we miss something?</text>
+    <text>This is $speaker's squad. We're at $map, but there's no one here. Did we miss something?</text>
 </string>
 <string id="st_dyn_news_zone_activity_troop_none_50">
-    <text>Feels like we've been waiting forever at $location. Where the hell is $speaker?</text>
+    <text>Feels like we've been waiting forever at $map. Where the hell is $speaker?</text>
 </string>
 <string id="st_dyn_news_zone_activity_troop_none_51">
-    <text>Reached $location, but no sign of $speaker's squad. This place is giving me the creeps.</text>
+    <text>Reached $map, but no sign of $speaker's squad. This place is giving me the creeps.</text>
 </string>
 <string id="st_dyn_news_zone_activity_troop_none_52">
-    <text>Still no sign of $speaker at $location. We're starting to wonder if they even got the message.</text>
+    <text>Still no sign of $speaker at $map. We're starting to wonder if they even got the message.</text>
 </string>
 <string id="st_dyn_news_zone_activity_troop_none_53">
-    <text>Arrived at $location. It's dead quiet here. No sign of $speaker's squad. Something doesn't feel right.</text>
+    <text>Arrived at $map. It's dead quiet here. No sign of $speaker's squad. Something doesn't feel right.</text>
 </string>
 <string id="st_dyn_news_zone_activity_troop_none_54">
     <text>Hey, $speaker, we're getting a little worried. We've been here for hours and there's still no sign of your squad.</text>
 </string>
 <string id="st_dyn_news_zone_activity_troop_none_55">
-    <text>Reached $location, but it's empty. No sign of $speaker's squad. Starting to think we should head back.</text>
+    <text>Reached $map, but it's empty. No sign of $speaker's squad. Starting to think we should head back.</text>
 </string>
 <string id="st_dyn_news_zone_activity_troop_none_56">
-    <text>At $location, but no sign of $speaker or their squad. Anyone else getting a bad feeling about this?</text>
+    <text>At $map, but no sign of $speaker or their squad. Anyone else getting a bad feeling about this?</text>
 </string>
 <string id="st_dyn_news_zone_activity_troop_none_57">
-    <text>We've been waiting at $location for over an hour. No sign of $speaker's squad. Starting to feel like we're being watched.</text>
+    <text>We've been waiting at $map for over an hour. No sign of $speaker's squad. Starting to feel like we're being watched.</text>
 </string>
 <string id="st_dyn_news_zone_activity_troop_none_58">
-    <text>At $location, but it's completely deserted. No sign of $speaker's squad. Starting to get a little uneasy.</text>
+    <text>At $map, but it's completely deserted. No sign of $speaker's squad. Starting to get a little uneasy.</text>
 </string>
 <string id="st_dyn_news_zone_activity_troop_none_59">
-    <text>Reached $location, but there's no one here. No sign of $speaker's squad. Anyone else getting the chills?</text>
+    <text>Reached $map, but there's no one here. No sign of $speaker's squad. Anyone else getting the chills?</text>
 </string>
 <string id="st_dyn_news_zone_activity_troop_none_60">
-    <text>We've been at $location for over an hour. No sign of $speaker's squad. This place feels like a ghost town.</text>
+    <text>We've been at $map for over an hour. No sign of $speaker's squad. This place feels like a ghost town.</text>
 </string>
 <string id="st_dyn_news_zone_activity_troop_none_61">
-    <text>Reached $location, but it's empty. No sign of $speaker's squad. Starting to think we should head back.</text>
+    <text>Reached $map, but it's empty. No sign of $speaker's squad. Starting to think we should head back.</text>
 </string>
 <string id="st_dyn_news_zone_activity_troop_none_62">
-    <text>At $location, but no sign of $speaker's squad. Starting to get a bad feeling about this.</text>
+    <text>At $map, but no sign of $speaker's squad. Starting to get a bad feeling about this.</text>
 </string>
 <string id="st_dyn_news_zone_activity_troop_none_63">
-    <text>We've been waiting at $location for hours. No sign of $speaker's squad. Starting to feel like we're being watched.</text>
+    <text>We've been waiting at $map for hours. No sign of $speaker's squad. Starting to feel like we're being watched.</text>
 </string>
 <string id="st_dyn_news_zone_activity_troop_none_64">
-    <text>Reached $location, but it's deserted. No sign of $speaker's squad. This place is giving me the creeps.</text>
+    <text>Reached $map, but it's deserted. No sign of $speaker's squad. This place is giving me the creeps.</text>
 </string>
 <string id="st_dyn_news_zone_activity_troop_none_65">
-    <text>Reached $location, but it's empty. No sign of $speaker's squad. Starting to feel like we're being stood up.</text>
+    <text>Reached $map, but it's empty. No sign of $speaker's squad. Starting to feel like we're being stood up.</text>
 </string>
 <string id="st_dyn_news_zone_activity_troop_none_66">
-    <text>We've been at $location for over an hour. No sign of $speaker's squad. This place feels like a ghost town.</text>
+    <text>We've been at $map for over an hour. No sign of $speaker's squad. This place feels like a ghost town.</text>
 </string>
 <string id="st_dyn_news_zone_activity_troop_none_67">
-    <text>At $location, but no sign of $speaker's squad. Starting to get a little uneasy about this.</text>
+    <text>At $map, but no sign of $speaker's squad. Starting to get a little uneasy about this.</text>
 </string>
 <string id="st_dyn_news_zone_activity_troop_none_68">
-    <text>We've been waiting at $location for hours. No sign of $speaker's squad. Starting to feel like we're being watched.</text>
+    <text>We've been waiting at $map for hours. No sign of $speaker's squad. Starting to feel like we're being watched.</text>
 </string>
 <string id="st_dyn_news_zone_activity_troop_none_69">
-    <text>Reached $location, but it's deserted. No sign of $speaker's squad. This place is giving me the creeps.</text>
+    <text>Reached $map, but it's deserted. No sign of $speaker's squad. This place is giving me the creeps.</text>
 </string>
 <string id="st_dyn_news_zone_activity_troop_none_70">
-    <text>Reached $location, but it's empty. No sign of $speaker's squad. Starting to get a bad feeling about this.</text>
+    <text>Reached $map, but it's empty. No sign of $speaker's squad. Starting to get a bad feeling about this.</text>
 </string>
 <string id="st_dyn_news_zone_activity_troop_none_71">
-    <text>At $location, but no sign of $speaker's squad. Starting to feel like we're being stood up.</text>
+    <text>At $map, but no sign of $speaker's squad. Starting to feel like we're being stood up.</text>
 </string>
 <string id="st_dyn_news_zone_activity_troop_none_72">
-    <text>We've been waiting at $location for over an hour. No sign of $speaker's squad. This place feels like a ghost town.</text>
+    <text>We've been waiting at $map for over an hour. No sign of $speaker's squad. This place feels like a ghost town.</text>
 </string>
 <string id="st_dyn_news_zone_activity_troop_none_73">
-    <text>Reached $location, but it's empty. No sign of $speaker's squad. Starting to think we should head back.</text>
+    <text>Reached $map, but it's empty. No sign of $speaker's squad. Starting to think we should head back.</text>
 </string>
 <string id="st_dyn_news_zone_activity_troop_none_74">
-    <text>At $location, but no sign of $speaker's squad. Starting to get a little uneasy about this.</text>
+    <text>At $map, but no sign of $speaker's squad. Starting to get a little uneasy about this.</text>
 </string>
 <string id="st_dyn_news_zone_activity_troop_none_75">
-    <text>We've been waiting at $location for hours. No sign of $speaker's squad. Starting to feel like we're being watched.</text>
+    <text>We've been waiting at $map for hours. No sign of $speaker's squad. Starting to feel like we're being watched.</text>
 </string>
 <string id="st_dyn_news_zone_activity_troop_none_76">
-    <text>Reached $location, but it's deserted. No sign of $speaker's squad. This place is giving me the creeps.</text>
+    <text>Reached $map, but it's deserted. No sign of $speaker's squad. This place is giving me the creeps.</text>
 </string>
 <string id="st_dyn_news_zone_activity_troop_none_77">
-    <text>Reached $location, but it's empty. No sign of $speaker's squad. Starting to get a bad feeling about this.</text>
+    <text>Reached $map, but it's empty. No sign of $speaker's squad. Starting to get a bad feeling about this.</text>
 </string>
 <string id="st_dyn_news_zone_activity_troop_none_78">
-    <text>At $location, but no sign of $speaker's squad. Starting to feel like we're being stood up.</text>
+    <text>At $map, but no sign of $speaker's squad. Starting to feel like we're being stood up.</text>
 </string>
 <string id="st_dyn_news_zone_activity_troop_none_79">
-    <text>We've been waiting at $location for over an hour. No sign of $speaker's squad. This place feels like a ghost town.</text>
+    <text>We've been waiting at $map for over an hour. No sign of $speaker's squad. This place feels like a ghost town.</text>
 </string>
 <string id="st_dyn_news_zone_activity_troop_none_80">
-    <text>Reached $location, but it's empty. No sign of $speaker's squad. Starting to think we should head back.</text>
+    <text>Reached $map, but it's empty. No sign of $speaker's squad. Starting to think we should head back.</text>
 </string>
 <string id="st_dyn_news_zone_activity_troop_none_81">
-    <text>At $location, but no sign of $speaker's squad. Starting to get a little uneasy about this.</text>
+    <text>At $map, but no sign of $speaker's squad. Starting to get a little uneasy about this.</text>
 </string>
 <string id="st_dyn_news_zone_activity_troop_none_82">
-    <text>We've been waiting at $location for hours. No sign of $speaker's squad. Starting to feel like we're being watched.</text>
+    <text>We've been waiting at $map for hours. No sign of $speaker's squad. Starting to feel like we're being watched.</text>
 </string>
 <string id="st_dyn_news_zone_activity_troop_none_83">
-    <text>Reached $location, but it's deserted. No sign of $speaker's squad. This place is giving me the creeps.</text>
+    <text>Reached $map, but it's deserted. No sign of $speaker's squad. This place is giving me the creeps.</text>
 </string>
 <string id="st_dyn_news_zone_activity_troop_none_84">
-    <text>Reached $location, but it's empty. No sign of $speaker's squad. Starting to get a bad feeling about this.</text>
+    <text>Reached $map, but it's empty. No sign of $speaker's squad. Starting to get a bad feeling about this.</text>
 </string>
 <string id="st_dyn_news_zone_activity_troop_none_85">
-    <text>At $location, but no sign of $speaker's squad. Starting to feel like we're being stood up.</text>
+    <text>At $map, but no sign of $speaker's squad. Starting to feel like we're being stood up.</text>
 </string>
 <string id="st_dyn_news_zone_activity_troop_none_86">
-    <text>We've been waiting at $location for over an hour. No sign of $speaker's squad. This place feels like a ghost town.</text>
+    <text>We've been waiting at $map for over an hour. No sign of $speaker's squad. This place feels like a ghost town.</text>
 </string>
 <string id="st_dyn_news_zone_activity_troop_none_87">
-    <text>Reached $location, but it's empty. No sign of $speaker's squad. Starting to think we should head back.</text>
+    <text>Reached $map, but it's empty. No sign of $speaker's squad. Starting to think we should head back.</text>
 </string>
 <string id="st_dyn_news_zone_activity_troop_none_88">
-    <text>At $location, but no sign of $speaker's squad. Starting to get a little uneasy about this.</text>
+    <text>At $map, but no sign of $speaker's squad. Starting to get a little uneasy about this.</text>
 </string>
 <string id="st_dyn_news_zone_activity_troop_none_89">
-    <text>We've been waiting at $location for hours. No sign of $speaker's squad. Starting to feel like we're being watched.</text>
+    <text>We've been waiting at $map for hours. No sign of $speaker's squad. Starting to feel like we're being watched.</text>
 </string>
 <string id="st_dyn_news_zone_activity_troop_none_90">
-    <text>Reached $location, but it's deserted. No sign of $speaker's squad. This place is giving me the creeps.</text>
+    <text>Reached $map, but it's deserted. No sign of $speaker's squad. This place is giving me the creeps.</text>
 </string>
 
 	
 	
 	<string id="st_dyn_news_zone_activity_troop_mutant_1">
-		<text>This is $speaker... My squad has been attacked by $target several minutes ago $location. Requesting assistance immediately!</text>
+		<text>This is $speaker... My squad has been attacked by $target several minutes ago $map. Requesting assistance immediately!</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_troop_mutant_2">
-		<text>Help! We got jumped by $target $location.\nTwo of our squad are suffering from serious injury, we can't hold it any longer!</text>
+		<text>Help! We got jumped by $target $map.\nTwo of our squad are suffering from serious injury, we can't hold it any longer!</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_troop_mutant_3">
-		<text>Attention! This is $leader. I got a report from one of the squads $location. Apparently they have been attacked by $target.\nTroops nearby must provide necessary assistance at once.</text>
+		<text>Attention! This is $leader. I got a report from one of the squads $map. Apparently they have been attacked by $target.\nTroops nearby must provide necessary assistance at once.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_troop_mutant_4">
-		<text>One of our squads went missing $location.\nThe last message I received from them was about spotting $target moving their way... Can any of our troops nearby check their location?</text>
+		<text>One of our squads went missing $map.\nThe last message I received from them was about spotting $target moving their way... Can any of our troops nearby check their location?</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_troop_mutant_5">
-		<text>$speaker reporting in. A few minutes ago, I saw $target approaching our square. They are in big numbers, it's unusual...\nWe are $location. Send nearby troops over our location.</text>
+		<text>$speaker reporting in. A few minutes ago, I saw $target approaching our square. They are in big numbers, it's unusual...\nWe are $map. Send nearby troops over our location.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_troop_mutant_6">
 		<text>What's going on there? We lost contact with the squad $map?.\nSomeone saw $target roaming the place, I need more info about the situation there.</text>
@@ -19038,7 +18462,7 @@
 		<text>Attention $leader, this is $speaker's squad. We just lost contact with our forward element after we saw $target heading that way.\nWe're pairing up with the adjacent squad to go relieve them.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_troop_mutant_12">
-		<text>This is $leader. Any patrols in $map should pull back to a position $location immediately. We've received intel of hostile movement, probably $target.\nStart moving immediately; it may be nothing, but we need to take precautions.</text>
+		<text>This is $leader. Any patrols in $map should pull back to a position $map immediately. We've received intel of hostile movement, probably $target.\nStart moving immediately; it may be nothing, but we need to take precautions.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_troop_mutant_13">
     <text>$speaker here. We just encountered a pack of $target near the old factory. They're tearing through everything in sight. We need backup, ASAP!</text>
@@ -19047,28 +18471,28 @@
 	
 	
 	<string id="st_dyn_news_zone_activity_troop_enemy_1">
-		<text>This is $speaker. Requesting assistance immediately!\nMy squad in $map has been attacked by $target a few minutes ago. We took position $location, hurry up!</text>
+		<text>This is $speaker. Requesting assistance immediately!\nMy squad in $map has been attacked by $target a few minutes ago. We took position $map, hurry up!</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_troop_enemy_2">
 		<text>Help! We got attacked by $target in $map. Three men from our squad are suffering from serious injuries, we can't hold it any longer!</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_troop_enemy_3">
-		<text>We have spotted $target approaching our location $location. $leader, what are your orders?</text>
+		<text>We have spotted $target approaching our location $map. $leader, what are your orders?</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_troop_enemy_4">
-		<text>A few minutes ago, my squad engaged $target $location. They fell back after killing two of them. One of my men got a serious injury.</text>
+		<text>A few minutes ago, my squad engaged $target $map. They fell back after killing two of them. One of my men got a serious injury.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_troop_enemy_5">
-		<text>$leader speaking. It seems that $target are spreading $location, they might be preparing for something.\nAll squads near the place should take caution, report any unusual movement.</text>
+		<text>$leader speaking. It seems that $target are spreading $map, they might be preparing for something.\nAll squads near the place should take caution, report any unusual movement.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_troop_enemy_6">
-		<text>One of my men spotted $target heading our way. We took position $location. If they try something funny, they will pay for it. $speaker out.</text>
+		<text>One of my men spotted $target heading our way. We took position $map. If they try something funny, they will pay for it. $speaker out.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_troop_enemy_7">
 		<text>I got a report from unknown source about $target preparing for an ambush in $map. All squads at the location must take extreme caution.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_troop_enemy_8">
-		<text>We opened fire on $target in $map after ignoring our clear warnings.\nLooks like more of them are heading this way, so we'll fall back and take position $location for now. $speaker out.</text>
+		<text>We opened fire on $target in $map after ignoring our clear warnings.\nLooks like more of them are heading this way, so we'll fall back and take position $map for now. $speaker out.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_troop_enemy_9">
 		<text>I've received information about possible raid in $map. Looks like $target are looking for trouble. Eyes peeled.</text>
@@ -19078,59 +18502,59 @@
 	</string>
 	
 	<string id="st_dyn_news_zone_activity_troop_enemy_11">
-		<text>$leader, come in! We were ambushed by $target $location! We got into a cross-fire and we lost half of the squad!\nMost of us are injured and we pulled back to a defensive position.\nWe need reinforcements immediately! They're still coming in!</text>
+		<text>$leader, come in! We were ambushed by $target $map! We got into a cross-fire and we lost half of the squad!\nMost of us are injured and we pulled back to a defensive position.\nWe need reinforcements immediately! They're still coming in!</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_troop_enemy_12">
-		<text>$speaker here. The enemy incursion has been wiped out; all of the $target have been neutralized.\nMost of them fell $location but we pursued the rest to the south. Orders?</text>
+		<text>$speaker here. The enemy incursion has been wiped out; all of the $target have been neutralized.\nMost of them fell $map but we pursued the rest to the south. Orders?</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_troop_enemy_13">
-		<text>This is the second recon patrol, we're taking fire from a sniper $location! We haven't got a good look, but we're pretty sure it's $target.\nWe can't move from this position. If you have any nearby squads that can approach the hostile from behind, send them!</text>
+		<text>This is the second recon patrol, we're taking fire from a sniper $map! We haven't got a good look, but we're pretty sure it's $target.\nWe can't move from this position. If you have any nearby squads that can approach the hostile from behind, send them!</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_troop_enemy_14">
-		<text>Third fire-team in $map reporting: we're holding $location, but it looks like they're regrouping for another assault.\nWe're good on ammo, but most of my men have injuries.\nThey're starting again!</text>
+		<text>Third fire-team in $map reporting: we're holding $map, but it looks like they're regrouping for another assault.\nWe're good on ammo, but most of my men have injuries.\nThey're starting again!</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_troop_enemy_15">
 		<text>Report on the situation in $map: we haven't been fired on for several minutes and we don't know where they went.\nWe can confirm that all of the $target are not accounted for and we can't move forward without separating.\nPlease send backup, we will hold this position.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_troop_enemy_16">
-		<text>$speaker to $leader: we're keeping up the attack on $target $location, but they're holding firm. We've only suffered one casualty.\nIn a few minutes, we'll try an assault from multiple angles, will update.</text>
+		<text>$speaker to $leader: we're keeping up the attack on $target $map, but they're holding firm. We've only suffered one casualty.\nIn a few minutes, we'll try an assault from multiple angles, will update.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_troop_enemy_17">
-		<text>We've been skirmishing with $target for several hours now. No casualties to report and we think we've killed two of them.\nRight now, it looks like they're holing up $location. Do you want us to stay on them?</text>
+		<text>We've been skirmishing with $target for several hours now. No casualties to report and we think we've killed two of them.\nRight now, it looks like they're holing up $map. Do you want us to stay on them?</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_troop_enemy_18">
-    <text>$speaker here. We just encountered $target in $location. They're dug in pretty deep, and we're taking heavy fire. Send backup, pronto!</text>
+    <text>$speaker here. We just encountered $target in $map. They're dug in pretty deep, and we're taking heavy fire. Send backup, pronto!</text>
 	</string>
 
 	
 	
 	<string id="st_dyn_news_zone_activity_troop_friend_1">
-		<text>This is $speaker. We met $target $location. One of them is suffering from a bad injury.\nI marked the location of our base for them. Make sure to provide them with medical assistance.</text>
+		<text>This is $speaker. We met $target $map. One of them is suffering from a bad injury.\nI marked the location of our base for them. Make sure to provide them with medical assistance.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_troop_friend_2">
 		<text>We got assistance from $target in $map.\n They have extra medical supplies. You can allow them to get into our base.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_troop_friend_3">
-		<text>$target were asking for extra ammo. I met them $location. Looks like they're preparing for a hunting trip.</text>
+		<text>$target were asking for extra ammo. I met them $map. Looks like they're preparing for a hunting trip.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_troop_friend_4">
-		<text>I saw $target roaming $location. They are searching for artefacts.\nOne of them, called $speaker, has found two at least. What do you think $leader? Sounds like a good deal.</text>
+		<text>I saw $target roaming $map. They are searching for artefacts.\nOne of them, called $speaker, has found two at least. What do you think $leader? Sounds like a good deal.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_troop_friend_5">
-		<text>I was talking to $target we met $location. Their commander, $speaker, mentioned unusual number of mutants heading this way.\nMy squad took position and they agreed to provide necessary assistance. Waiting for orders.</text>
+		<text>I was talking to $target we met $map. Their commander, $speaker, mentioned unusual number of mutants heading this way.\nMy squad took position and they agreed to provide necessary assistance. Waiting for orders.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_troop_friend_6">
-		<text>Just found dead bodies of $target here in $map, or what's left of them... Seems like some wild mutants got those poor guys.\nI'm about to reach my destination $location. $speaker out.</text>
+		<text>Just found dead bodies of $target here in $map, or what's left of them... Seems like some wild mutants got those poor guys.\nI'm about to reach my destination $map. $speaker out.</text>
 	</string>
 	
 	<string id="st_dyn_news_zone_activity_troop_friend_7">
-		<text>$speaker here. The hostiles we were tracking turned out to be $target.\nWe asked them if they had seen any activity and they hadn't. We're leaving them $location and finishing our patrol.</text>
+		<text>$speaker here. The hostiles we were tracking turned out to be $target.\nWe asked them if they had seen any activity and they hadn't. We're leaving them $map and finishing our patrol.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_troop_friend_8">
-		<text>We just ran across $target when they were under attack by mutants $location. Together, we managed to fight them off.\nOne of their men is in critical condition. Requesting permission to take them back to our outpost for treatment.</text>
+		<text>We just ran across $target when they were under attack by mutants $map. Together, we managed to fight them off.\nOne of their men is in critical condition. Requesting permission to take them back to our outpost for treatment.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_troop_friend_9">
-		<text>$leader: we were looking for our lost man and we found him with $target $location. They had found him and patched him up.\nWe're giving them some ammo because they're low. $speaker out.</text>
+		<text>$leader: we were looking for our lost man and we found him with $target $map. They had found him and patched him up.\nWe're giving them some ammo because they're low. $speaker out.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_troop_friend_10">
 		<text>This is $speaker's team reporting! After a whole day without comms or navigation, we were found by $target and they took us back to their camp.\nWe should be able to head out in a few hours thanks to their help.</text>
@@ -19139,22 +18563,22 @@
 		<text>We just found those missing $target wandering around in $map. They appear to be suffering from some sort of mental condition, maybe psy damage.\nOrders? We'll keep a close eye on them.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_troop_friend_12">
-		<text>Fourth assault squad: We arrived $location and found $target already there. They're willing to help us out. We'll contact you as soon as we set up a perimeter.</text>
+		<text>Fourth assault squad: We arrived $map and found $target already there. They're willing to help us out. We'll contact you as soon as we set up a perimeter.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_troop_friend_13">
-		<text>We came by $target on our way back. They're preparing for a raid on mutants spotted $location.\nWe'll join them and split the meat.</text>
+		<text>We came by $target on our way back. They're preparing for a raid on mutants spotted $map.\nWe'll join them and split the meat.</text>
 	</string>		
 	<string id="st_dyn_news_zone_activity_troop_friend_14">
-    <text>$speaker here. We encountered $target while scouting $location. They offered us some spare ammo and medical supplies, which we gladly accepted.</text>
+    <text>$speaker here. We encountered $target while scouting $map. They offered us some spare ammo and medical supplies, which we gladly accepted.</text>
 	</string>
 
 	
 	
 	<string id="st_dyn_news_zone_activity_group_none_1">
-		<text>Weird... the emergency signal I received was pointing to this location $location.\nI have been searching for ten minutes at least, not a single trace of the missing group was found... I wonder what happened.</text>
+		<text>Weird... the emergency signal I received was pointing to this location $map.\nI have been searching for ten minutes at least, not a single trace of the missing group was found... I wonder what happened.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_group_none_2">
-		<text>I was supposed to meet the rest of my group $location. Two hours have passed and there is no sign of them yet.</text>
+		<text>I was supposed to meet the rest of my group $map. Two hours have passed and there is no sign of them yet.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_group_none_3">
 		<text>$mechanic speaking. Stop bringing broken shit to me. What I'm supposed to do with an gun missing half the parts?!</text>
@@ -19169,7 +18593,7 @@
 		<text>$trader here. Don't expect the next outfit shipment to arrive any time soon. We lost contact with our local supplier.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_group_none_7">
-		<text>It's $speaker. Something is not right... Electro anomalies are spreading $location.\nJust watch your step when you want to pass by.</text>
+		<text>It's $speaker. Something is not right... Electro anomalies are spreading $map.\nJust watch your step when you want to pass by.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_group_none_8">
 		<text>$mechanic here. I'm missing steel plates and carbon fibre.\nIf you came by any damaged armours, make sure to bring them to me and I will give you discounts on repairing services.</text>
@@ -19191,7 +18615,7 @@
 		<text>Shit, somebody better get a hold of $mechanic; our secondary power grid went down - completely dead, we don't know what to do.\nWhy can he never just pick up his damn radio?</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_group_none_14">
-		<text>$trader here, checking in on the situation $location. It's been over an hour since we've had a report, what gives?</text>
+		<text>$trader here, checking in on the situation $map. It's been over an hour since we've had a report, what gives?</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_group_none_15">
 		<text>Hey, $speaker, there's no change with that developing anomaly. It hasn't moved closer to the ground, but it does appear to be increasing in intensity.\nI think it's probably some sort of space anomaly, but others are saying it looks like a gravity concentrate. I don't think it will impede our business.</text>
@@ -19199,135 +18623,135 @@
 
 	
 	<string id="st_dyn_news_zone_activity_group_mutant_1">
-		<text>This is $speaker... My group has been attacked by $target a few minutes ago $location. Is there anyone nearby!</text>
+		<text>This is $speaker... My group has been attacked by $target a few minutes ago $map. Is there anyone nearby!</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_group_mutant_2">
-		<text>Help! We got jumped by $target $location. I lost two of my men already, we can't hold it any more...</text>
+		<text>Help! We got jumped by $target $map. I lost two of my men already, we can't hold it any more...</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_group_mutant_3">
-		<text>$leader here. I got a report from the group $location.\nApparently they have been attacked by $target. I'm not sure if they made it, is there any group nearby who can assist them?</text>
+		<text>$leader here. I got a report from the group $map.\nApparently they have been attacked by $target. I'm not sure if they made it, is there any group nearby who can assist them?</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_group_mutant_4">
-		<text>$speaker speaking. One of our groups went missing $location.\nThe last message I received from them was about spotting $target moving their way... I'm gonna check out their location, any volunteers around?</text>
+		<text>$speaker speaking. One of our groups went missing $map.\nThe last message I received from them was about spotting $target moving their way... I'm gonna check out their location, any volunteers around?</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_group_mutant_5">
-		<text>Hey! it's $speaker. A few minutes ago, I saw $target heading our way. They are in big numbers, it doesn't seem good at all...\nWe are $location. Wish us some luck.</text>
+		<text>Hey! it's $speaker. A few minutes ago, I saw $target heading our way. They are in big numbers, it doesn't seem good at all...\nWe are $map. Wish us some luck.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_group_mutant_6">
-		<text>What's going on? We lost contact with the group $location.\nSomeone saw $target roaming the place, is there anyone around who can give us more info about the situation?</text>
+		<text>What's going on? We lost contact with the group $map.\nSomeone saw $target roaming the place, is there anyone around who can give us more info about the situation?</text>
 	</string>	
 	
 	<string id="st_dyn_news_zone_activity_group_mutant_7">
 		<text>Uh, $leader, it's $speaker. We're moving east in $map because we're being shadowed by some sort of mutant pack, $target maybe.\nWe're not equipped to handle this many, what should we do?</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_group_mutant_8">
-		<text>This is $speaker speaking. My guys haven't been able to move out from their position $location for several hours because of $target. We're holding fine, but there's no way we're going out there.\nPlease send someone to help as soon as you can.</text>
+		<text>This is $speaker speaking. My guys haven't been able to move out from their position $map for several hours because of $target. We're holding fine, but there's no way we're going out there.\nPlease send someone to help as soon as you can.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_group_mutant_9">
-		<text>Hello, come in! $speaker is dead, but we managed to kill the $target that ambushed us. We're $location and we have no other casualties.\nWe're heading back to base as soon as possible.</text>
+		<text>Hello, come in! $speaker is dead, but we managed to kill the $target that ambushed us. We're $map and we have no other casualties.\nWe're heading back to base as soon as possible.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_group_mutant_10">
-		<text>Hey, this is the group $location reporting in. We attacked those mutants as ordered, but they seem to have run off.\nWe're looking now, if we can get a spot on them, we'll let you know.</text>
+		<text>Hey, this is the group $map reporting in. We attacked those mutants as ordered, but they seem to have run off.\nWe're looking now, if we can get a spot on them, we'll let you know.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_group_mutant_11">
-		<text>$leader, are you there? This is $speaker! The entire team is fucking dead! They got killed by $target.\nI'm holding $location, but they might come back. Orders?</text>
+		<text>$leader, are you there? This is $speaker! The entire team is fucking dead! They got killed by $target.\nI'm holding $map, but they might come back. Orders?</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_group_mutant_12">
-		<text>This is $leader to all of our guys in $map. We just had $speaker and his squad go check out some noises $location and we lost contact with them.\nAnyone in the area: I want some eyes on that location; don't go charging in, just watch it for a while.</text>
+		<text>This is $leader to all of our guys in $map. We just had $speaker and his squad go check out some noises $map and we lost contact with them.\nAnyone in the area: I want some eyes on that location; don't go charging in, just watch it for a while.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_group_mutant_13">
-    <text>This is $speaker. We're pinned down by a mutant ambush $location. We need immediate extraction!</text>
+    <text>This is $speaker. We're pinned down by a mutant ambush $map. We need immediate extraction!</text>
 </string>
 <string id="st_dyn_news_zone_activity_group_mutant_14">
-    <text>Help! We're under heavy attack by $target $location. We can't hold them off much longer!</text>
+    <text>Help! We're under heavy attack by $target $map. We can't hold them off much longer!</text>
 </string>
 <string id="st_dyn_news_zone_activity_group_mutant_15">
-    <text>$leader here. One of our groups encountered a mutant horde $location. They're outnumbered and need reinforcements. Any nearby units, move in and provide support!</text>
+    <text>$leader here. One of our groups encountered a mutant horde $map. They're outnumbered and need reinforcements. Any nearby units, move in and provide support!</text>
 </string>
 <string id="st_dyn_news_zone_activity_group_mutant_16">
-    <text>This is $speaker reporting. We've sustained heavy casualties from a mutant ambush $location. We're retreating to regroup and lick our wounds.</text>
+    <text>This is $speaker reporting. We've sustained heavy casualties from a mutant ambush $map. We're retreating to regroup and lick our wounds.</text>
 </string>
 <string id="st_dyn_news_zone_activity_group_mutant_17">
-    <text>$speaker here. We've managed to repel a mutant attack $location, but we're low on ammo and supplies. Requesting immediate resupply and medical assistance.</text>
+    <text>$speaker here. We've managed to repel a mutant attack $map, but we're low on ammo and supplies. Requesting immediate resupply and medical assistance.</text>
 </string>
 <string id="st_dyn_news_zone_activity_group_mutant_18">
     <text>Attention all units. We've received reports of a large mutant pack roaming $map. Exercise extreme caution and be prepared for potential engagements.</text>
 </string>
 <string id="st_dyn_news_zone_activity_group_mutant_19">
-    <text>$leader speaking. Our scouts have spotted a mutant nest $location. We need a strike team to neutralize the threat before it becomes a larger problem.</text>
+    <text>$leader speaking. Our scouts have spotted a mutant nest $map. We need a strike team to neutralize the threat before it becomes a larger problem.</text>
 </string>
 <string id="st_dyn_news_zone_activity_group_mutant_20">
-    <text>This is $speaker. We've encountered a mutant ambush $location. We're holding our ground, but we need reinforcements to push them back.</text>
+    <text>This is $speaker. We've encountered a mutant ambush $map. We're holding our ground, but we need reinforcements to push them back.</text>
 </string>
 <string id="st_dyn_news_zone_activity_group_mutant_21">
-    <text>Hey, it's $speaker. We stumbled upon a mutant lair $location. It's heavily guarded, but we believe it may contain valuable resources. Requesting permission to investigate further.</text>
+    <text>Hey, it's $speaker. We stumbled upon a mutant lair $map. It's heavily guarded, but we believe it may contain valuable resources. Requesting permission to investigate further.</text>
 </string>
 <string id="st_dyn_news_zone_activity_group_mutant_22">
-    <text>$leader here. One of our groups has gone silent $location after encountering a mutant patrol. We need a rescue team to locate them and bring them back safely.</text>
+    <text>$leader here. One of our groups has gone silent $map after encountering a mutant patrol. We need a rescue team to locate them and bring them back safely.</text>
 </string>
 <string id="st_dyn_news_zone_activity_group_mutant_23">
-    <text>$speaker speaking. We're surrounded by mutants $location. We're making a last stand, but we could use some backup. Any assistance would be appreciated!</text>
+    <text>$speaker speaking. We're surrounded by mutants $map. We're making a last stand, but we could use some backup. Any assistance would be appreciated!</text>
 </string>
 <string id="st_dyn_news_zone_activity_group_mutant_24">
-    <text>This is $leader. We've lost contact with $speaker's group after they reported a mutant sighting $location. We need to find them and assess the situation.</text>
+    <text>This is $leader. We've lost contact with $speaker's group after they reported a mutant sighting $map. We need to find them and assess the situation.</text>
 </string>
 <string id="st_dyn_news_zone_activity_group_mutant_25">
-    <text>$speaker here. We're in a desperate situation. Mutants are closing in on our position $location. We need immediate evac!</text>
+    <text>$speaker here. We're in a desperate situation. Mutants are closing in on our position $map. We need immediate evac!</text>
 </string>
 <string id="st_dyn_news_zone_activity_group_mutant_26">
-    <text>Attention all units. A mutant horde is approaching $location. We need all available firepower to repel the attack.</text>
+    <text>Attention all units. A mutant horde is approaching $map. We need all available firepower to repel the attack.</text>
 </string>
 <string id="st_dyn_news_zone_activity_group_mutant_27">
-    <text>$speaker reporting. We've encountered a mutant scouting party $location. We managed to evade them, but they're likely reporting our position to the main pack.</text>
+    <text>$speaker reporting. We've encountered a mutant scouting party $map. We managed to evade them, but they're likely reporting our position to the main pack.</text>
 </string>
 <string id="st_dyn_news_zone_activity_group_mutant_28">
-    <text>This is $leader. Our recon team has encountered heavy resistance from mutants $location. We need reinforcements to complete our mission.</text>
+    <text>This is $leader. Our recon team has encountered heavy resistance from mutants $map. We need reinforcements to complete our mission.</text>
 </string>
 <string id="st_dyn_news_zone_activity_group_mutant_29">
-    <text>$speaker here. We're low on ammo and surrounded by mutants $location. If anyone can hear this, we need immediate assistance!</text>
+    <text>$speaker here. We're low on ammo and surrounded by mutants $map. If anyone can hear this, we need immediate assistance!</text>
 </string>
 <string id="st_dyn_news_zone_activity_group_mutant_30">
-    <text>Help! We're being overrun by mutants $location. We can't hold them off much longer!</text>
+    <text>Help! We're being overrun by mutants $map. We can't hold them off much longer!</text>
 </string>
 
 
 	
 	<string id="st_dyn_news_zone_activity_group_enemy_1">
-		<text>This is $speaker. We need backup!\nMy group has been attacked by $target a few minutes ago. We're taking cover $location, hurry up!</text>
+		<text>This is $speaker. We need backup!\nMy group has been attacked by $target a few minutes ago. We're taking cover $map, hurry up!</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_group_enemy_2">
 		<text>Shit.... Help! We got attacked by $target in $map. I lost two guys already, we can't hold it any longer!</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_group_enemy_3">
-		<text>We just saw $target heading over here, $location. $leader, what's going on???</text>
+		<text>We just saw $target heading over here, $map. $leader, what's going on???</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_group_enemy_4">
-		<text>A few minutes ago, my group opened fire at $target $location. They fell back after killing two of them at least.\nWe can't stay here, I'm moving somewhere else...</text>
+		<text>A few minutes ago, my group opened fire at $target $map. They fell back after killing two of them at least.\nWe can't stay here, I'm moving somewhere else...</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_group_enemy_5">
-		<text>$leader speaking. It seems that $target are spreading $location, they might be preparing for something.\nGroups near that place should take extra caution.</text>
+		<text>$leader speaking. It seems that $target are spreading $map, they might be preparing for something.\nGroups near that place should take extra caution.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_group_enemy_6">
-		<text>One of my men spotted $target heading our way $location. If they tried something stupid, they're gonna pay for it. $speaker out.</text>
+		<text>One of my men spotted $target heading our way $map. If they tried something stupid, they're gonna pay for it. $speaker out.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_group_enemy_7">
 		<text>Guess what? I just heard that $target are preparing for an ambush in $map.\nDon't take a walk in there, get your ass out.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_group_enemy_8">
-		<text>We opened fire on $target, those idiots were pointing their guns toward us.\nLooks like more of them are coming this way.... Shit, we'll fall back and wait for them $location for now. $speaker out.</text>
+		<text>We opened fire on $target, those idiots were pointing their guns toward us.\nLooks like more of them are coming this way.... Shit, we'll fall back and wait for them $map for now. $speaker out.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_group_enemy_9">
 		<text>What's the deal? Just got some info about possible raid in $map. Looks like $target are looking for trouble. Watch out guys.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_group_enemy_10">
-		<text>$leader, this is $speaker. We had a big gunfight with $target $location. We made it alive, and we have two captives right here.\nWhat should we do with them?</text>
+		<text>$leader, this is $speaker. We had a big gunfight with $target $map. We made it alive, and we have two captives right here.\nWhat should we do with them?</text>
 	</string>
 	
 	<string id="st_dyn_news_zone_activity_group_enemy_11">
 		<text>Ok, this is $speaker. $target in the area have been taking potshots at us for half an hour.\nWe're not sure what they're up to - we don't want to start a firefight.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_group_enemy_12">
-		<text>This is the garrison $location and we just caught some sort of spy in our camp, can't say who he is yet.\nWhat should we do with him? You should probably send someone to pick him up.</text>
+		<text>This is the garrison $map and we just caught some sort of spy in our camp, can't say who he is yet.\nWhat should we do with him? You should probably send someone to pick him up.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_group_enemy_13">
 		<text>$leader, come in! We've been noticing $target in large numbers around $map.\nThe last info we got said that it was safe to move. We're staying put.</text>
@@ -19339,140 +18763,140 @@
 		<text>Ok, this is $speaker and we just received an unprovoked attack by $target.\nThey got wiped out, no idea what they were thinking.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_group_enemy_16">
-		<text>Shit! We were just about to set up $location when we found out that this place is crawling with $target.\nWe need $leader to send help!</text>
+		<text>Shit! We were just about to set up $map when we found out that this place is crawling with $target.\nWe need $leader to send help!</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_group_enemy_17">
-		<text>$speaker here. We managed to push those $target out of their position $location.\nWe're worried that they might get support and counterattack.</text>
+		<text>$speaker here. We managed to push those $target out of their position $map.\nWe're worried that they might get support and counterattack.</text>
 	</string>
 <string id="st_dyn_news_zone_activity_group_enemy_18">
-    <text>This is $leader. Our scouts have spotted a large group of $target mobilizing near $location. Prepare for possible confrontation.</text>
+    <text>This is $leader. Our scouts have spotted a large group of $target mobilizing near $map. Prepare for possible confrontation.</text>
 </string>
 <string id="st_dyn_news_zone_activity_group_enemy_19">
-    <text>$speaker here. We've encountered a heavily armed group of $target $location. They seem to be fortifying their position. Advise caution.</text>
+    <text>$speaker here. We've encountered a heavily armed group of $target $map. They seem to be fortifying their position. Advise caution.</text>
 </string>
 <string id="st_dyn_news_zone_activity_group_enemy_20">
-    <text>Attention all units. $target have set up an ambush $location. Exercise extreme caution when moving through the area.</text>
+    <text>Attention all units. $target have set up an ambush $map. Exercise extreme caution when moving through the area.</text>
 </string>
 <string id="st_dyn_news_zone_activity_group_enemy_21">
-    <text>This is $speaker. We engaged $target in a firefight $location. They've retreated for now, but we expect them to regroup and counterattack.</text>
+    <text>This is $speaker. We engaged $target in a firefight $map. They've retreated for now, but we expect them to regroup and counterattack.</text>
 </string>
 <string id="st_dyn_news_zone_activity_group_enemy_22">
-    <text>$leader speaking. Our group encountered hostile activity $location. We're holding our ground, but we need reinforcements to secure the area.</text>
+    <text>$leader speaking. Our group encountered hostile activity $map. We're holding our ground, but we need reinforcements to secure the area.</text>
 </string>
 <string id="st_dyn_news_zone_activity_group_enemy_23">
-    <text>Hey, it's $speaker. We stumbled upon a fortified position manned by $target $location. They're heavily armed and hostile. Requesting backup.</text>
+    <text>Hey, it's $speaker. We stumbled upon a fortified position manned by $target $map. They're heavily armed and hostile. Requesting backup.</text>
 </string>
 <string id="st_dyn_news_zone_activity_group_enemy_24">
-    <text>This is $leader. Our group has engaged $target $location. We're holding them off for now, but we need support to maintain our position.</text>
+    <text>This is $leader. Our group has engaged $target $map. We're holding them off for now, but we need support to maintain our position.</text>
 </string>
 <string id="st_dyn_news_zone_activity_group_enemy_25">
-    <text>$speaker here. We've spotted a patrol of $target moving towards our location $location. We're preparing to defend our position.</text>
+    <text>$speaker here. We've spotted a patrol of $target moving towards our location $map. We're preparing to defend our position.</text>
 </string>
 <string id="st_dyn_news_zone_activity_group_enemy_26">
-    <text>Attention all units. We've intercepted radio chatter indicating $target are planning a coordinated attack $location. Prepare for combat.</text>
+    <text>Attention all units. We've intercepted radio chatter indicating $target are planning a coordinated attack $map. Prepare for combat.</text>
 </string>
 <string id="st_dyn_news_zone_activity_group_enemy_27">
-    <text>This is $leader. Our group has been ambushed by $target $location. We're taking heavy casualties and require immediate assistance!</text>
+    <text>This is $leader. Our group has been ambushed by $target $map. We're taking heavy casualties and require immediate assistance!</text>
 </string>
 <string id="st_dyn_news_zone_activity_group_enemy_28">
-    <text>$speaker speaking. We've encountered resistance from $target while on patrol $location. We're holding our ground, but the situation is tense.</text>
+    <text>$speaker speaking. We've encountered resistance from $target while on patrol $map. We're holding our ground, but the situation is tense.</text>
 </string>
 <string id="st_dyn_news_zone_activity_group_enemy_29">
-    <text>Hey, this is $speaker. We've been under fire from $target snipers $location. We're pinned down and need support to neutralize the threat.</text>
+    <text>Hey, this is $speaker. We've been under fire from $target snipers $map. We're pinned down and need support to neutralize the threat.</text>
 </string>
 <string id="st_dyn_news_zone_activity_group_enemy_30">
-    <text>$leader here. Our group has encountered hostile activity $location. We're engaging the enemy, but we need reinforcements to secure the area.</text>
+    <text>$leader here. Our group has encountered hostile activity $map. We're engaging the enemy, but we need reinforcements to secure the area.</text>
 </string>
 
 
 	<string id="st_dyn_news_zone_activity_group_friend_1">
-		<text>This is $speaker. We met $target $location. One of them is suffering from a bad injury.\nI'm gonna point out our hideout for them, you can give them some medkits.</text>
+		<text>This is $speaker. We met $target $map. One of them is suffering from a bad injury.\nI'm gonna point out our hideout for them, you can give them some medkits.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_group_friend_2">
 		<text>We got assistance from $target in $map.\nThey're nice people, we got some extra medical supplies from them as well. We will stick with them for a while until we reach our destination.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_group_friend_3">
-		<text>$target were asking for extra ammo. I met them $location. Looks like they're preparing for a hunting trip.</text>
+		<text>$target were asking for extra ammo. I met them $map. Looks like they're preparing for a hunting trip.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_group_friend_4">
-		<text>Hey guys, check this out. $target are roaming $location. Looks like they are searching for artefacts.\nOne of them, called $speaker, has found two at least.\nGoddamn it... I wish I didn't forget my Bear detector.</text>
+		<text>Hey guys, check this out. $target are roaming $map. Looks like they are searching for artefacts.\nOne of them, called $speaker, has found two at least.\nGoddamn it... I wish I didn't forget my Bear detector.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_group_friend_5">
-		<text>I was talking to $target we met $location. Their commander, $speaker, mentioned an unusual number of mutants heading this way.\nLooks like those guys are gonna help us out. We will take cover and prepare our guns.</text>
+		<text>I was talking to $target we met $map. Their commander, $speaker, mentioned an unusual number of mutants heading this way.\nLooks like those guys are gonna help us out. We will take cover and prepare our guns.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_group_friend_6">
-		<text>Damn... Just found dead bodies of $target here in $map, or what's left of them at least... Seems like some freaking mutant ate those poor guys.\nI'm about to reach my destination $location. $speaker out.</text>
+		<text>Damn... Just found dead bodies of $target here in $map, or what's left of them at least... Seems like some freaking mutant ate those poor guys.\nI'm about to reach my destination $map. $speaker out.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_group_friend_7">
-		<text>So we came by $target on our way back. They're preparing for a big raid on mutants $location.\nWe'll join them and split the meat... hehe...</text>
+		<text>So we came by $target on our way back. They're preparing for a big raid on mutants $map.\nWe'll join them and split the meat... hehe...</text>
 	</string>
 	
 	<string id="st_dyn_news_zone_activity_group_friend_8">
 		<text>Well, thanks to $target, we avoided walking into an ambush.\nWe're going to wait with them for awhile until we continue our journey to $map.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_group_friend_9">
-		<text>$speaker here. We found a group of $target holding a position $location.\nApparently, they've been fighting off a mutant attack since last night. We're going to team up and make sure the threat is over.</text>
+		<text>$speaker here. We found a group of $target holding a position $map.\nApparently, they've been fighting off a mutant attack since last night. We're going to team up and make sure the threat is over.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_group_friend_10">
-		<text>Hey, we just received a visitor $location.\nHe said that he and his team of $target were searching for artefacts when they got ambushed. He's pretty sure that he's the last survivor.\nWe're going to let him stay with us.</text>
+		<text>Hey, we just received a visitor $map.\nHe said that he and his team of $target were searching for artefacts when they got ambushed. He's pretty sure that he's the last survivor.\nWe're going to let him stay with us.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_group_friend_11">
 		<text>$speaker never showed up and we can't wait around any longer.\nWe teamed-up with $target that were hanging around and they're going to help us search the place.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_group_friend_12">
-		<text>Alright, this is $speaker. We just ran into a group of $target and they told us that they saw the missing squad $location just a few hours ago.\nShould we take a look?</text>
+		<text>Alright, this is $speaker. We just ran into a group of $target and they told us that they saw the missing squad $map just a few hours ago.\nShould we take a look?</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_group_friend_13">
-    <text>This is $speaker. We stumbled upon $target while scouting $location.\nThey're gearing up for a mutant hunt and offered us some extra ammo. We're sticking with them for now.</text>
+    <text>This is $speaker. We stumbled upon $target while scouting $map.\nThey're gearing up for a mutant hunt and offered us some extra ammo. We're sticking with them for now.</text>
 </string>
 <string id="st_dyn_news_zone_activity_group_friend_14">
     <text>We encountered $target in $map. They're friendly and offered us medical supplies. We'll stick with them until we reach our destination.</text>
 </string>
 <string id="st_dyn_news_zone_activity_group_friend_15">
-    <text>$speaker here. We came across $target in $location. They're preparing for a raid on mutant territory and invited us to join them. We're helping them out.</text>
+    <text>$speaker here. We came across $target in $map. They're preparing for a raid on mutant territory and invited us to join them. We're helping them out.</text>
 </string>
 <string id="st_dyn_news_zone_activity_group_friend_16">
-    <text>Hey, it's $speaker. We met $target $location. One of their members is injured. We're directing them to our hideout and providing medical assistance.</text>
+    <text>Hey, it's $speaker. We met $target $map. One of their members is injured. We're directing them to our hideout and providing medical assistance.</text>
 </string>
 <string id="st_dyn_news_zone_activity_group_friend_17">
     <text>We encountered $target in $map. They're heading our way and offered us assistance. We're accepting their help and sticking together for safety.</text>
 </string>
 <string id="st_dyn_news_zone_activity_group_friend_18">
-    <text>$speaker speaking. We met $target $location. They mentioned an impending mutant attack and offered to team up. We're pooling our resources and preparing for defense.</text>
+    <text>$speaker speaking. We met $target $map. They mentioned an impending mutant attack and offered to team up. We're pooling our resources and preparing for defense.</text>
 </string>
 <string id="st_dyn_news_zone_activity_group_friend_19">
     <text>Attention all units. $target encountered us while on patrol. They've offered assistance against a potential mutant threat. We're coordinating with them for mutual defense.</text>
 </string>
 <string id="st_dyn_news_zone_activity_group_friend_20">
-    <text>This is $speaker. We found a group of $target holding a defensive position $location. They're under attack by mutants. We're joining forces to repel the threat.</text>
+    <text>This is $speaker. We found a group of $target holding a defensive position $map. They're under attack by mutants. We're joining forces to repel the threat.</text>
 </string>
 <string id="st_dyn_news_zone_activity_group_friend_21">
-    <text>$speaker here. We encountered $target $location. They're preparing for a scavenging mission and offered to share any findings. We're cooperating with them.</text>
+    <text>$speaker here. We encountered $target $map. They're preparing for a scavenging mission and offered to share any findings. We're cooperating with them.</text>
 </string>
 <string id="st_dyn_news_zone_activity_group_friend_22">
     <text>We encountered $target in $map. They're preparing for an expedition and offered us support. We're teaming up for safety and mutual benefit.</text>
 </string>
 <string id="st_dyn_news_zone_activity_group_friend_23">
-    <text>Hey, it's $speaker. We ran into $target while investigating $location. They're dealing with a mutant threat and asked for our assistance. We're lending our support.</text>
+    <text>Hey, it's $speaker. We ran into $target while investigating $map. They're dealing with a mutant threat and asked for our assistance. We're lending our support.</text>
 </string>
 <string id="st_dyn_news_zone_activity_group_friend_24">
-    <text>This is $speaker. We met $target $location. They're low on supplies and requested aid. We're sharing our resources and traveling together for protection.</text>
+    <text>This is $speaker. We met $target $map. They're low on supplies and requested aid. We're sharing our resources and traveling together for protection.</text>
 </string>
 
 
 
 	
 	<string id="st_dyn_news_zone_activity_scientist_none_1">
-		<text>Weird... the emergency signal I received was pointing to this location $location.\nI have been searching for ten minutes at least, not a single trace of the missing group was found...</text>
+		<text>Weird... the emergency signal I received was pointing to this location $map.\nI have been searching for ten minutes at least, not a single trace of the missing group was found...</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_scientist_none_2">
-		<text>This is $speaker. We are supposed to meet the other scientists $location. Two hours have passed and there is no sign of them yet.</text>
+		<text>This is $speaker. We are supposed to meet the other scientists $map. Two hours have passed and there is no sign of them yet.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_scientist_none_3">
 		<text>$mechanic speaking. I've noticed a lot of people bring me broken Bear detectors to fix. Keep in mind that those devices are limited, I don't have the necessary parts for every detector out there. Take care of your detectors guys.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_scientist_none_4">
-		<text>It seems that the last emission has completely ruined the psi-reader I planted $location. Sad... This one was quite expensive.</text>
+		<text>It seems that the last emission has completely ruined the psi-reader I planted $map. Sad... This one was quite expensive.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_scientist_none_5">
 		<text>$trader speaking. We received new supply of gas masks.\nDon't worry, there is enough for everybody around.</text>
@@ -19500,10 +18924,10 @@
 		<text>This is $speaker and the technical team reporting that the new sensors are now active in $map.\nIf anyone has any problems, I would talk to $mechanic first - it's probably on his end.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_scientist_none_13">
-    <text>This is $speaker. We're encountering unexpected fluctuations in the electromagnetic field $location.\nWe're deploying sensors to gather data. Stay alert for any anomalies.</text>
+    <text>This is $speaker. We're encountering unexpected fluctuations in the electromagnetic field $map.\nWe're deploying sensors to gather data. Stay alert for any anomalies.</text>
 </string>
 <string id="st_dyn_news_zone_activity_scientist_none_14">
-    <text>We just detected a spike in radiation levels near $location.\nStay clear of that area until we investigate further. $speaker out.</text>
+    <text>We just detected a spike in radiation levels near $map.\nStay clear of that area until we investigate further. $speaker out.</text>
 </string>
 <string id="st_dyn_news_zone_activity_scientist_none_15">
     <text>This is $mechanic. I'm in urgent need of thermal insulation materials for the experimental suit upgrades.\nIf anyone finds suitable materials, bring them to me immediately.</text>
@@ -19512,7 +18936,7 @@
     <text>$trader speaking. We're running low on anti-radiation medication.\nIf anyone comes across any, prioritize its acquisition and bring it to me for distribution.</text>
 </string>
 <string id="st_dyn_news_zone_activity_scientist_none_17">
-    <text>This is $speaker. We've encountered a previously unknown anomaly $location.\nProceed with caution, and report any unusual readings immediately.</text>
+    <text>This is $speaker. We've encountered a previously unknown anomaly $map.\nProceed with caution, and report any unusual readings immediately.</text>
 </string>
 <string id="st_dyn_news_zone_activity_scientist_none_18">
     <text>$mechanic here. I'm working on a prototype detector upgrade, but I need more data.\nIf anyone can gather readings from anomalies, it would greatly aid our research.</text>
@@ -19521,13 +18945,13 @@
     <text>$speaker here. I've identified a potential artifact hotspot in $map.\nScout teams, prioritize exploration of this area and report any findings promptly.</text>
 </string>
 <string id="st_dyn_news_zone_activity_scientist_none_20">
-    <text>This is $trader. We've received reports of unusual creature sightings in the vicinity of $location.\nExercise caution and be prepared for potential encounters.</text>
+    <text>This is $trader. We've received reports of unusual creature sightings in the vicinity of $map.\nExercise caution and be prepared for potential encounters.</text>
 </string>
 <string id="st_dyn_news_zone_activity_scientist_none_21">
     <text>We've deployed monitoring drones to assess the anomaly activity in $map.\nStay vigilant and report any abnormal behavior or readings.</text>
 </string>
 <string id="st_dyn_news_zone_activity_scientist_none_22">
-    <text>$speaker here. We're experiencing interference with our communications equipment $location.\nTroubleshoot and report any issues to the technical team immediately.</text>
+    <text>$speaker here. We're experiencing interference with our communications equipment $map.\nTroubleshoot and report any issues to the technical team immediately.</text>
 </string>
 <string id="st_dyn_news_zone_activity_scientist_none_23">
     <text>This is $mechanic. I've developed a new prototype gadget for anomaly detection.\nSeek me out if you're interested in testing it in the field.</text>
@@ -19540,26 +18964,26 @@
 	
 	
 	<string id="st_dyn_news_zone_activity_scientist_mutant_1">
-		<text>This is $speaker... My group has been attacked by $target a few minutes ago $location. Requesting assistance immediately!</text>
+		<text>This is $speaker... My group has been attacked by $target a few minutes ago $map. Requesting assistance immediately!</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_scientist_mutant_2">
-		<text>Help! we got jumped by $target $location. Two of my science group are suffering from serious injury, we can't afford more casualties!</text>
+		<text>Help! we got jumped by $target $map. Two of my science group are suffering from serious injury, we can't afford more casualties!</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_scientist_mutant_3">
-		<text>This is $leader speaking. I received a report from our group $location.\nApparently they have been attacked by $target. They need immediate assistance!</text>
+		<text>This is $leader speaking. I received a report from our group $map.\nApparently they have been attacked by $target. They need immediate assistance!</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_scientist_mutant_4">
-		<text>One of our scientists went missing $location.\nThe last message I received from him was about spotting $target moving his way... Is there anyone nearby who can check out his location?</text>
+		<text>One of our scientists went missing $map.\nThe last message I received from him was about spotting $target moving his way... Is there anyone nearby who can check out his location?</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_scientist_mutant_5">
-		<text>$speaker reporting in. A few minutes ago, I saw $target approaching our square. They are in big numbers, that seems really bad...\nWe are $location. Send some backup to our location.</text>
+		<text>$speaker reporting in. A few minutes ago, I saw $target approaching our square. They are in big numbers, that seems really bad...\nWe are $map. Send some backup to our location.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_scientist_mutant_6">
-		<text>What's going on? We lost contact with the group $location.\nSomeone saw $target roaming the place, I need more info about the situation there.</text>
+		<text>What's going on? We lost contact with the group $map.\nSomeone saw $target roaming the place, I need more info about the situation there.</text>
 	</string>
 	
 	<string id="st_dyn_news_zone_activity_scientist_mutant_7">
-		<text>This is the rescue team sent to find the missing expedition $location.\nSorry to say that we found the remains of $speaker and five of his men.\nLooks like they were overrun by $target.</text>
+		<text>This is the rescue team sent to find the missing expedition $map.\nSorry to say that we found the remains of $speaker and five of his men.\nLooks like they were overrun by $target.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_scientist_mutant_8">
 		<text>Please come in! This is $speaker and my research group has just fought off an attack of $target.\nWe're intact, but we're dangerously low on ammunition. Please advise!</text>
@@ -19568,32 +18992,32 @@
 		<text>Can anyone hear this? This is $speaker and I got cut-off from my team.\nWe were fighting off $target when I got separated and had to fight my way out.\nAny news from them?</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_scientist_mutant_10">
-		<text>$leader, I can hear heavy gunfire, sounds like it's from our colleagues $location.\nI think they may have run into those $target after all. We're on our way to support them.</text>
+		<text>$leader, I can hear heavy gunfire, sounds like it's from our colleagues $map.\nI think they may have run into those $target after all. We're on our way to support them.</text>
 	</string>
 	
 	<string id="st_dyn_news_zone_activity_scientist_enemy_1">
-		<text>This is $speaker. Requesting assistance immediately!\nMy group been attacked by $target a few minutes ago. We took position $location, hurry up!</text>
+		<text>This is $speaker. Requesting assistance immediately!\nMy group been attacked by $target a few minutes ago. We took position $map, hurry up!</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_scientist_enemy_2">
 		<text>Help us! we got attacked by $target in $map. Three researchers are suffering from serious injuries, we can't hold it any longer!</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_scientist_enemy_3">
-		<text>We have spotted $target approaching our location $location.\n$leader, is there any group nearby who can provide assassination?</text>
+		<text>We have spotted $target approaching our location $map.\n$leader, is there any group nearby who can provide assassination?</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_scientist_enemy_4">
-		<text>A few minutes ago, my group engaged $target $location.\nThey fell back after killing two of them. One of the scientists got a serious injury.</text>
+		<text>A few minutes ago, my group engaged $target $map.\nThey fell back after killing two of them. One of the scientists got a serious injury.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_scientist_enemy_5">
-		<text>$leader speaking. It seems that $target are spreading $location, they might be preparing for something. All groups near the place should leave at once.</text>
+		<text>$leader speaking. It seems that $target are spreading $map, they might be preparing for something. All groups near the place should leave at once.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_scientist_enemy_6">
-		<text>One of my group spotted $target heading our way. We took position $location. If they try something nasty, they will pay for it. $speaker out.</text>
+		<text>One of my group spotted $target heading our way. We took position $map. If they try something nasty, they will pay for it. $speaker out.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_scientist_enemy_7">
 		<text>I got a report from unknown source about $target preparing for an ambush in $map. All groups at the location must take extreme caution.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_scientist_enemy_8">
-		<text>We opened fire on $target after ignoring our clear warnings.\nLooks like more of them are heading this way, so we'll fall back and take position $location for now. $speaker out.</text>
+		<text>We opened fire on $target after ignoring our clear warnings.\nLooks like more of them are heading this way, so we'll fall back and take position $map for now. $speaker out.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_scientist_enemy_9">
 		<text>I've received information about possible raid in $map. Seems like $target are looking for trouble. Stay safe.</text>
@@ -19603,39 +19027,39 @@
 		<text>$leader, we're abandoning our mission after we spotted a large group of $target headed our way.\nThey might still be after us. We're not armed for this kind of thing!</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_scientist_enemy_11">
-		<text>This is $speaker with the observation post $location.\nWe've just witnessed a large firefight between $target and someone else. It's died down and we're hoping they don't come our way.</text>
+		<text>This is $speaker with the observation post $map.\nWe've just witnessed a large firefight between $target and someone else. It's died down and we're hoping they don't come our way.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_scientist_enemy_12">
 		<text>Attention field teams: this is $leader.\n$speaker and his group have been attacked in $map.\nIf there is anyone near by who is willing to help, I can assure extraordinary compensation.</text>
 	</string>
 	
 	<string id="st_dyn_news_zone_activity_scientist_friend_1">
-		<text>This is $speaker. We met $target $location. One of them is suffering from a bad injury.\nI marked the location of our base for them. Make sure to provide them with medical assistance.</text>
+		<text>This is $speaker. We met $target $map. One of them is suffering from a bad injury.\nI marked the location of our base for them. Make sure to provide them with medical assistance.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_scientist_friend_2">
 		<text>We got assistance from $target in $map.\n They have extra medical supplies. You can allow them to get into our base.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_scientist_friend_3">
-		<text>$target were asking for extra ammo. I met them $location. Looks like they're preparing for a hunting trip.</text>
+		<text>$target were asking for extra ammo. I met them $map. Looks like they're preparing for a hunting trip.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_scientist_friend_4">
-		<text>I saw $target roaming $location. They are searching for artefacts.\nOne of them, called $speaker, was asking us for extra Bear detectors. $leader, what do you think?</text>
+		<text>I saw $target roaming $map. They are searching for artefacts.\nOne of them, called $speaker, was asking us for extra Bear detectors. $leader, what do you think?</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_scientist_friend_5">
-		<text>I was talking to $target we met $location. Their commander, $speaker, mentioned an unusual number of mutants heading this way.\nMy group took position and they agreed to provide necessary assistance.</text>
+		<text>I was talking to $target we met $map. Their commander, $speaker, mentioned an unusual number of mutants heading this way.\nMy group took position and they agreed to provide necessary assistance.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_scientist_friend_6">
-		<text>We found dead bodies of $target here in $map, everything is messy... Seems like they got killed by unusual mutants.\nI'm about to reach my destination $location. $speaker out.</text>
+		<text>We found dead bodies of $target here in $map, everything is messy... Seems like they got killed by unusual mutants.\nI'm about to reach my destination $map. $speaker out.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_scientist_friend_7">
-		<text>We came by $target on our way to the anomaly field. They're preparing for a raid on mutants spotted $location.\nWe'll join them for now, the research will be continued later.</text>
+		<text>We came by $target on our way to the anomaly field. They're preparing for a raid on mutants spotted $map.\nWe'll join them for now, the research will be continued later.</text>
 	</string>
 	
 	<string id="st_dyn_news_zone_activity_scientist_friend_8">
 		<text>This is the research team in $map.\nWe met some $target searching for artefacts and we decided to share the information we had about updated anomaly maps.\nHopefully $leader will permit this sort of thing.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_scientist_friend_9">
-		<text>After fleeing from hostile activity, we came to shelter $location and found a force of $target already there.\nRight now we're just waiting to see what happens. $speaker out.</text>
+		<text>After fleeing from hostile activity, we came to shelter $map and found a force of $target already there.\nRight now we're just waiting to see what happens. $speaker out.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_scientist_friend_10">
 		<text>Please inform $leader that the squad of $target who were kind enough to provide security for our sampling activities has now left.\nWe're headed back, it's too exposed here.</text>
@@ -19644,7 +19068,7 @@
 		<text>This is $speaker with the second observation team.\nWe came across a group of $target and nearly all of them are injured, some sort of mutant attack.\nWe're going to give them first aid.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_scientist_friend_12">
-		<text>After staying $location for awhile, we noticed some passing $target and they've agreed to guide us.\nWe're starting off now, wish us luck!</text>
+		<text>After staying $map for awhile, we noticed some passing $target and they've agreed to guide us.\nWe're starting off now, wish us luck!</text>
 	</string>
 <string id="st_dyn_news_zone_activity_scientist_friend_13">
     <text>Received aid in the Dark Valley. They have surplus medical supplies. Grant them access to our base for resupply.</text>
@@ -19743,7 +19167,7 @@
 		<text>$clr_1Anonymous\n$clr_2A group of five people are moving toward the Barrier, in all likelihood, Monolith. Take measures.</text>
 	</string>
 	<string id="st_dyn_news_spam_21">
-		<text>$clr_1Unknown source:\n$clr_2Just saw a big chimera who put a group of stalkers on a spectacular circus show. So you want to wander around, think twice. Turning around and leaving is better than lying here with an opened ass, like what just happened to these poor bastards.</text>
+		<text>$clr_1Unknown source:\n$clr_2Heard sidrovich is paying double for locked PDAs.</text>
 	</string>
 	<string id="st_dyn_news_spam_22">
 		<text>$clr_1Anonymous\n$clr_2Haha, loser. Why'd you leave your farm? And we've already cashed in.</text>
@@ -22648,7 +22072,7 @@
 		<text>Night has a way of hitting right when you're in the middle of an anomaly field, so make sure to plan things out.</text>
 	</string>
 	<string id="st_dyn_news_time_noon_18">
-		<text>I'm getting sick of this shit all day. Never wanted to see home more.</text>
+		<text>I'm getting sick of this shit more and more.</text>
 	</string>
 	<string id="st_dyn_news_time_noon_19">
 		<text>Now's a good time to get going - still plenty of daytime left.</text>
@@ -23470,7 +22894,7 @@
     <text>Alert: $who is lurking around our sector.</text>
 </string>
 <string id="st_dyn_news_enemy_activity_stalker_59">
-    <text>We've got movement. $who has been seen near our perimeter.</text>
+    <text>We've got movement, $who has been seen near our perimeter.</text>
 </string>
 <string id="st_dyn_news_enemy_activity_stalker_60">
     <text>Warning: $who's been seen in our vicinity. Stay cautious.</text>
@@ -30438,146 +29862,146 @@
 </string>
 <!-- Warfare -->
 	<string id="st_dyn_news_warfare_capture_troop_1">
-		<text>$speaker speaking. The area $location is secured. Waiting for new orders.</text>
+		<text>$speaker speaking. The area $map is secured. Waiting for new orders.</text>
 	</string>
 	<string id="st_dyn_news_warfare_capture_troop_2">
-		<text>This is $speaker. War is still on going in $map. We captured the area $location successfully. Everything is under control for the current time.</text>
+		<text>This is $speaker. War is still on going in $map. We captured the area $map successfully. Everything is under control for the current time.</text>
 	</string>
 	<string id="st_dyn_news_warfare_capture_troop_3">
-		<text>Reporting to the general headquarters. The situation in $map has taken a new turn, enemies have retreated following the planned ambush $location. We will guard the place while waiting for new orders.</text>
+		<text>Reporting to the general headquarters. The situation in $map has taken a new turn, enemies have retreated following the planned ambush $map. We will guard the place while waiting for new orders.</text>
 	</string>
 	<string id="st_dyn_news_warfare_capture_troop_4">
-    <text>$speaker reporting: We've fortified $location and set up surveillance. The zone is calm for now, but we're prepared for any incursions. Awaiting next orders to expand our control or defend our position.</text>
+    <text>$speaker reporting: We've fortified $map and set up surveillance. The zone is calm for now, but we're prepared for any incursions. Awaiting next orders to expand our control or defend our position.</text>
 </string>
 <string id="st_dyn_news_warfare_capture_troop_5">
-    <text>This is $speaker. Our forces have entrenched themselves at $location within $map. Logistics and supply lines are established. We're in a good position to hold or push forward as needed. Command's directives expected soon.</text>
+    <text>This is $speaker. Our forces have entrenched themselves at $map within $map. Logistics and supply lines are established. We're in a good position to hold or push forward as needed. Command's directives expected soon.</text>
 </string>
 <string id="st_dyn_news_warfare_capture_troop_6">
-    <text>Command update from $speaker: $location is under our control with minimal resistance met. We are now sweeping for IEDs and remaining hostiles. It's quiet, but stay sharp. We're not done here yet.</text>
+    <text>Command update from $speaker: $map is under our control with minimal resistance met. We are now sweeping for IEDs and remaining hostiles. It's quiet, but stay sharp. We're not done here yet.</text>
 </string>
 <string id="st_dyn_news_warfare_capture_troop_7">
-    <text>$speaker checking in: Secure hold at $location has been achieved. Recon teams are active, and we are monitoring enemy channels for any sign of a counter-attack. The situation is stable but tense. Ready for further commands.</text>
+    <text>$speaker checking in: Secure hold at $map has been achieved. Recon teams are active, and we are monitoring enemy channels for any sign of a counter-attack. The situation is stable but tense. Ready for further commands.</text>
 </string>
 <string id="st_dyn_news_warfare_capture_troop_8">
-    <text>This is $speaker. $location is locked down. We've repelled several probing attacks and expect more. All units are on high alert, and our defenses are solid. Continuing to monitor enemy movements and strengthen our positions.</text>
+    <text>This is $speaker. $map is locked down. We've repelled several probing attacks and expect more. All units are on high alert, and our defenses are solid. Continuing to monitor enemy movements and strengthen our positions.</text>
 </string>
 <string id="st_dyn_news_warfare_capture_troop_9">
-    <text>$speaker here: Complete control of $location has been established after a robust offensive. We're now in the process of mining access points and setting up long-range patrols. Awaiting further strategic orders.</text>
+    <text>$speaker here: Complete control of $map has been established after a robust offensive. We're now in the process of mining access points and setting up long-range patrols. Awaiting further strategic orders.</text>
 </string>
 <string id="st_dyn_news_warfare_capture_troop_10">
-    <text>From $speaker at $location: Area is secured, and all enemy equipment has been confiscated or destroyed. We are preparing for possible night raids and maintaining constant vigilance. Ready for any additional tasks.</text>
+    <text>From $speaker at $map: Area is secured, and all enemy equipment has been confiscated or destroyed. We are preparing for possible night raids and maintaining constant vigilance. Ready for any additional tasks.</text>
 </string>
 <string id="st_dyn_news_warfare_capture_troop_11">
-    <text>$speaker on the line: $location is now ours, fuckers couldn't hold their ground. We're dug in like ticks and waiting to jump on the next batch of poor bastards who try us. What's the next move?</text>
+    <text>$speaker on the line: $map is now ours, fuckers couldn't hold their ground. We're dug in like ticks and waiting to jump on the next batch of poor bastards who try us. What's the next move?</text>
 </string>
 <string id="st_dyn_news_warfare_capture_troop_12">
-    <text>This is $speaker. We've stomped the enemy at $location, and now this shit-hole is under our boot. Supplies are secure, and we're ready to kick ass as needed. Bring on the orders, command.</text>
+    <text>This is $speaker. We've stomped the enemy at $map, and now this shit-hole is under our boot. Supplies are secure, and we're ready to kick ass as needed. Bring on the orders, command.</text>
 </string>
 <string id="st_dyn_news_warfare_capture_troop_13">
-    <text>Command, $speaker reporting: Captured $location with a bloody fight. The ground's soaked with their blood, and we're not moving an inch. We'll hold this hellhole till hell freezes over. Awaiting your shit.</text>
+    <text>Command, $speaker reporting: Captured $map with a bloody fight. The ground's soaked with their blood, and we're not moving an inch. We'll hold this hellhole till hell freezes over. Awaiting your shit.</text>
 </string>
 <string id="st_dyn_news_warfare_capture_troop_14">
-    <text>$speaker here: We’ve locked down $location. The enemy's had their asses handed to them and we're sniffing around for stragglers. This place will be a graveyard before we let it go. What’s next?</text>
+    <text>$speaker here: We’ve locked down $map. The enemy's had their asses handed to them and we're sniffing around for stragglers. This place will be a graveyard before we let it go. What’s next?</text>
 </string>
 <string id="st_dyn_news_warfare_capture_troop_15">
-    <text>It's $speaker: $location is under control, barricades are up and the mines are set. Anyone tries to take it back is getting a bullet or a blast. Ready for further fucking around with these goons.</text>
+    <text>It's $speaker: $map is under control, barricades are up and the mines are set. Anyone tries to take it back is getting a bullet or a blast. Ready for further fucking around with these goons.</text>
 </string>
 <string id="st_dyn_news_warfare_capture_troop_16">
-    <text>$speaker calling in: Secured $location after tearing through the enemy like a hot knife through butter. Our guns are up and roaring; let's see who dares to step up next. Command, your orders?</text>
+    <text>$speaker calling in: Secured $map after tearing through the enemy like a hot knife through butter. Our guns are up and roaring; let's see who dares to step up next. Command, your orders?</text>
 </string>
 <string id="st_dyn_news_warfare_capture_troop_17">
-    <text>This is $speaker. $location's ours, and we're not just sitting ducks here; we've got traps set all around. Let those bastards come back and see what's waiting. Ready for the next kill order.</text>
+    <text>This is $speaker. $map's ours, and we're not just sitting ducks here; we've got traps set all around. Let those bastards come back and see what's waiting. Ready for the next kill order.</text>
 </string>
 <string id="st_dyn_news_warfare_capture_troop_18">
-    <text>Hey, it's $speaker. We've made $location our bitch. Got the perimeter wired with explosives and watching the shadows. Anyone comes sniffing around will get a face full of lead. Awaiting what fun comes next.</text>
+    <text>Hey, it's $speaker. We've made $map our bitch. Got the perimeter wired with explosives and watching the shadows. Anyone comes sniffing around will get a face full of lead. Awaiting what fun comes next.</text>
 </string>
 <string id="st_dyn_news_warfare_capture_troop_19">
-    <text>$speaker reporting: Took $location with extreme prejudice. Enemies are wiped, and we’re watching the rats run. All set for a night of long knives if they try their luck. Command, where to unleash us next?</text>
+    <text>$speaker reporting: Took $map with extreme prejudice. Enemies are wiped, and we’re watching the rats run. All set for a night of long knives if they try their luck. Command, where to unleash us next?</text>
 </string>
 <string id="st_dyn_news_warfare_capture_troop_20">
-    <text>From $speaker at $location: Area’s locked tighter than a drum. We blasted those fucks out and now we're ready to paint the map red with anyone dumb enough to retake it. What's our next pleasure?</text>
+    <text>From $speaker at $map: Area’s locked tighter than a drum. We blasted those fucks out and now we're ready to paint the map red with anyone dumb enough to retake it. What's our next pleasure?</text>
 </string>
 
 	
 	<string id="st_dyn_news_warfare_capture_scientist_1">
-		<text>$speaker speaking. The area $location is secured. Waiting for new orders.</text>
+		<text>$speaker speaking. The area $map is secured. Waiting for new orders.</text>
 	</string>
 	<string id="st_dyn_news_warfare_capture_scientist_2">
-		<text>This is $speaker. War is still on going in $map. We captured the area $location successfully. Everything is under control for the current time.</text>
+		<text>This is $speaker. War is still on going in $map. We captured the area $map successfully. Everything is under control for the current time.</text>
 	</string>
 	<string id="st_dyn_news_warfare_capture_scientist_3">
-		<text>Reporting to the general headquarters. The situation in $map has taken a new turn, enemies have retreated following the planned ambush $location. We will guard the place while waiting for new orders.</text>
+		<text>Reporting to the general headquarters. The situation in $map has taken a new turn, enemies have retreated following the planned ambush $map. We will guard the place while waiting for new orders.</text>
 	</string>
 	<string id="st_dyn_news_warfare_capture_scientist_4">
-    <text>This is $speaker. We have successfully secured $location. Awaiting further instructions.</text>
+    <text>This is $speaker. We have successfully secured $map. Awaiting further instructions.</text>
 </string>
 <string id="st_dyn_news_warfare_capture_scientist_5">
-    <text>Attention, $speaker here. The area $location is now under our control. What's the next move?</text>
+    <text>Attention, $speaker here. The area $map is now under our control. What's the next move?</text>
 </string>
 <string id="st_dyn_news_warfare_capture_scientist_6">
-    <text>Reporting in, $speaker. $location is secure, and we're standing by for new orders.</text>
+    <text>Reporting in, $speaker. $map is secure, and we're standing by for new orders.</text>
 </string>
 <string id="st_dyn_news_warfare_capture_scientist_7">
-    <text>We've managed to capture $location. All clear for now. Awaiting further commands.</text>
+    <text>We've managed to capture $map. All clear for now. Awaiting further commands.</text>
 </string>
 <string id="st_dyn_news_warfare_capture_scientist_8">
-    <text>$speaker reporting. $location is now secure. Please advise on the next steps.</text>
+    <text>$speaker reporting. $map is now secure. Please advise on the next steps.</text>
 </string>
 <string id="st_dyn_news_warfare_capture_scientist_9">
-    <text>This is $speaker. We have control of $location. Standing by for new directives.</text>
+    <text>This is $speaker. We have control of $map. Standing by for new directives.</text>
 </string>
 <string id="st_dyn_news_warfare_capture_scientist_10">
-    <text>Attention HQ, $speaker speaking. The situation in $map is stable, and $location is secured. Awaiting further instructions.</text>
+    <text>Attention HQ, $speaker speaking. The situation in $map is stable, and $map is secured. Awaiting further instructions.</text>
 </string>
 <string id="st_dyn_news_warfare_capture_scientist_11">
-    <text>$speaker here. The enemy has retreated, and we have taken control of $location. Awaiting new orders.</text>
+    <text>$speaker here. The enemy has retreated, and we have taken control of $map. Awaiting new orders.</text>
 </string>
 <string id="st_dyn_news_warfare_capture_scientist_12">
-    <text>Reporting to HQ, $speaker. $location is under our control. Standing by for further commands.</text>
+    <text>Reporting to HQ, $speaker. $map is under our control. Standing by for further commands.</text>
 </string>
 <string id="st_dyn_news_warfare_capture_scientist_13">
-    <text>This is $speaker. The operation in $map was successful, and we have secured $location. Awaiting further directives.</text>
+    <text>This is $speaker. The operation in $map was successful, and we have secured $map. Awaiting further directives.</text>
 </string>
 
 	
 	<string id="st_dyn_news_warfare_capture_group_1">
-		<text>$speaker's here. The area $location is under control. The ambush was a big success.</text>
+		<text>$speaker's here. The area $map is under control. The ambush was a big success.</text>
 	</string>
 	<string id="st_dyn_news_warfare_capture_group_2">
-		<text>The situation in $map is on fire! We took over the area $location, enemies fell down quickly. $speaker out.</text>
+		<text>The situation in $map is on fire! We took over the area $map, enemies fell down quickly. $speaker out.</text>
 	</string>
 	<string id="st_dyn_news_warfare_capture_group_3">
-		<text>We did it. The place $location is held captive, and those cowards just threw their guns and ran away.</text>
+		<text>We did it. The place $map is held captive, and those cowards just threw their guns and ran away.</text>
 	</string>
 <string id="st_dyn_news_warfare_capture_group_4">
-    <text>This is $speaker. $location is ours, the ambush was flawless.</text>
+    <text>This is $speaker. $map is ours, the ambush was flawless.</text>
 </string>
 <string id="st_dyn_news_warfare_capture_group_5">
-    <text>$speaker reporting. We have successfully taken over $location. Enemies didn't stand a chance.</text>
+    <text>$speaker reporting. We have successfully taken over $map. Enemies didn't stand a chance.</text>
 </string>
 <string id="st_dyn_news_warfare_capture_group_6">
-    <text>Reporting in, $speaker here. $location is under our control. Awaiting further instructions.</text>
+    <text>Reporting in, $speaker here. $map is under our control. Awaiting further instructions.</text>
 </string>
 <string id="st_dyn_news_warfare_capture_group_7">
-    <text>The area $location is secured. The ambush worked perfectly. This is $speaker.</text>
+    <text>The area $map is secured. The ambush worked perfectly. This is $speaker.</text>
 </string>
 <string id="st_dyn_news_warfare_capture_group_8">
-    <text>We've captured $location. The enemies fell quickly. This is $speaker, signing off.</text>
+    <text>We've captured $map. The enemies fell quickly. This is $speaker, signing off.</text>
 </string>
 <string id="st_dyn_news_warfare_capture_group_9">
-    <text>$speaker here. We've taken control of $location. The ambush was a success.</text>
+    <text>$speaker here. We've taken control of $map. The ambush was a success.</text>
 </string>
 <string id="st_dyn_news_warfare_capture_group_10">
-    <text>This is $speaker. $location is ours. The enemies retreated in disarray.</text>
+    <text>This is $speaker. $map is ours. The enemies retreated in disarray.</text>
 </string>
 <string id="st_dyn_news_warfare_capture_group_11">
-    <text>Reporting to HQ, $speaker here. The situation in $map is under control. We captured $location successfully.</text>
+    <text>Reporting to HQ, $speaker here. The situation in $map is under control. We captured $map successfully.</text>
 </string>
 <string id="st_dyn_news_warfare_capture_group_12">
-    <text>The ambush in $location was a big success. The area is now secure. $speaker out.</text>
+    <text>The ambush in $map was a big success. The area is now secure. $speaker out.</text>
 </string>
 <string id="st_dyn_news_warfare_capture_group_13">
-    <text>$speaker speaking. We have successfully captured $location. Awaiting new orders.</text>
+    <text>$speaker speaking. We have successfully captured $map. Awaiting new orders.</text>
 </string>
 
 <!-- Extra -->

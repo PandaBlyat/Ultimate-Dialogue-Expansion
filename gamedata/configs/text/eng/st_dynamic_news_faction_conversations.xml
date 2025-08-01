@@ -133,105 +133,165 @@
 	<string id="st_dyn_news_conversation_faction_loner_15_turn_7"><text>No debts between loners trade favors not IOUs.</text></string>
 
 
-<string id="st_dyn_news_conversation_faction_loner_16_meta"><text>mutant,escape,strategy,loner</text></string>
-<string id="st_dyn_news_conversation_faction_loner_16_turn_1"><text>Nearly got jumped by a pack of snorks near the abandoned factory. Those bastards are learning to flank.</text></string>
-<string id="st_dyn_news_conversation_faction_loner_16_turn_2"><text>You still breathing? What was your exit strategy?</text></string>
-<string id="st_dyn_news_conversation_faction_loner_16_turn_3"><text>Ducked into that underground pipe network. They won't follow through narrow spaces.</text></string>
-<string id="st_dyn_news_conversation_faction_loner_16_turn_4"><text>Smart play. Just watch for bloodsuckers down there. Heard they nest in the deeper sections.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_16_meta"><text>mutant,escape,strategy,loner</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_16_turn_1"><text>Nearly got jumped by a pack of snorks near the abandoned factory. Those bastards are learning to flank.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_16_turn_2"><text>You still breathing? What was your exit strategy?</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_16_turn_3"><text>Ducked into that underground pipe network. They won't follow through narrow spaces.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_16_turn_4"><text>Smart play. Just watch for bloodsuckers down there. Heard they nest in the deeper sections.</text></string>
 
 
-<string id="st_dyn_news_conversation_faction_loner_17_meta"><text>radiation,hotspot,warning,loner</text></string>
-<string id="st_dyn_news_conversation_faction_loner_17_turn_1"><text>Heads up - the northern swamp sector's radiation levels spiked overnight. My detector maxed out at 500 roentgen.</text></string>
-<string id="st_dyn_news_conversation_faction_loner_17_turn_2"><text>Shit. That's where I was headed for artifact hunting. Alternative routes?</text></string>
-<string id="st_dyn_news_conversation_faction_loner_17_turn_3"><text>Stick to the railroad embankment. Longer but safer. Bring extra iodine.</text></string>
-<string id="st_dyn_news_conversation_faction_loner_17_turn_4"><text>Appreciate the warning. Almost walked into a death trap.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_17_meta"><text>radiation,hotspot,warning,loner</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_17_turn_1"><text>Heads up - the northern swamp sector's radiation levels spiked overnight. My detector maxed out at 500 roentgen.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_17_turn_2"><text>Shit. That's where I was headed for artifact hunting. Alternative routes?</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_17_turn_3"><text>Stick to the railroad embankment. Longer but safer. Bring extra iodine.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_17_turn_4"><text>Appreciate the warning. Almost walked into a death trap.</text></string>
 
 
-<string id="st_dyn_news_conversation_faction_loner_18_meta"><text>stash,discovery,sharing,loner</text></string>
-<string id="st_dyn_news_conversation_faction_loner_18_turn_1"><text>Found an untouched military stash under the collapsed bridge. Ammo, meds, even some grenades.</text></string>
-<string id="st_dyn_news_conversation_faction_loner_18_turn_2"><text>You sharing coordinates or keeping it to yourself?</text></string>
-<string id="st_dyn_news_conversation_faction_loner_18_turn_3"><text>Marking it on the shared map. But hurry - Duty scouts are patrolling nearby.</text></string>
-<string id="st_dyn_news_conversation_faction_loner_18_turn_4"><text>That's why I love this community. Paying it forward saves lives.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_18_meta"><text>stash,discovery,sharing,loner</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_18_turn_1"><text>Found an untouched military stash under the collapsed bridge. Ammo, meds, even some grenades.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_18_turn_2"><text>You sharing coordinates or keeping it to yourself?</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_18_turn_3"><text>Marking it on the shared map. But hurry - Duty scouts are patrolling nearby.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_18_turn_4"><text>That's why I love this community. Paying it forward saves lives.</text></string>
 
 
-<string id="st_dyn_news_conversation_faction_loner_19_meta"><text>emission,aftermath,help,loner</text></string>
-<string id="st_dyn_news_conversation_faction_loner_19_turn_1"><text>That last emission scrambled half my gear. Anyone got spare bolts or detector parts?</text></string>
-<string id="st_dyn_news_conversation_faction_loner_19_turn_2"><text>I've got extra bolts. Meet at the usual spot. You still owe me from the snork incident though.</text></string>
-<string id="st_dyn_news_conversation_faction_loner_19_turn_3"><text>Fair enough. Bringing that artifact fragment I promised as payment.</text></string>
-<string id="st_dyn_news_conversation_faction_loner_19_turn_4"><text>Deal. And I'll throw in some bandages - you look like shit.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_19_meta"><text>emission,aftermath,help,loner</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_19_turn_1"><text>That last emission scrambled half my gear. Anyone got spare bolts or detector parts?</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_19_turn_2"><text>I've got extra bolts. Meet at the usual spot. You still owe me from the snork incident though.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_19_turn_3"><text>Fair enough. Bringing that artifact fragment I promised as payment.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_19_turn_4"><text>Deal. And I'll throw in some bandages - you look like shit.</text></string>
 
 
-<string id="st_dyn_news_conversation_faction_loner_20_meta"><text>barter,economy,trading,loner</text></string>
-<string id="st_dyn_news_conversation_faction_loner_20_turn_1"><text>What's the current exchange rate? Got 5.45 ammo but need 9x39 for my Vintorez.</text></string>
-<string id="st_dyn_news_conversation_faction_loner_20_turn_2"><text>Three to one last I checked. Better off trading for filters first, then swapping those.</text></string>
-<string id="st_dyn_news_conversation_faction_loner_20_turn_3"><text>Ugh. This is why I miss pre-emission markets. Anyone seen Sidorovich lately?</text></string>
-<string id="st_dyn_news_conversation_faction_loner_20_turn_4"><text>Alive but paranoid. Demands blood tests before trading now. Radiation paranoia.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_20_meta"><text>barter,economy,trading,loner</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_20_turn_1"><text>What's the current exchange rate? Got 5.45 ammo but need 9x39 for my Vintorez.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_20_turn_2"><text>Three to one last I checked. Better off trading for filters first, then swapping those.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_20_turn_3"><text>Ugh. This is why I miss pre-emission markets. Anyone seen Sidorovich lately?</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_20_turn_4"><text>Alive but paranoid. Demands blood tests before trading now. Radiation paranoia.</text></string>
 
 
-<string id="st_dyn_news_conversation_faction_loner_21_meta"><text>newbie,advice,survival,loner</text></string>
-<string id="st_dyn_news_conversation_faction_loner_21_turn_1"><text>Fresh meat here. Any veteran stalkers willing to share essential Zone wisdom?</text></string>
-<string id="st_dyn_news_conversation_faction_loner_21_turn_2"><text>Rule one: Trust your detector more than your eyes. Rule two: Never run toward gunfire.</text></string>
-<string id="st_dyn_news_conversation_faction_loner_21_turn_3"><text>And for Christ's sake, check your six constantly. The Zone kills the careless.</text></string>
-<string id="st_dyn_news_conversation_faction_loner_21_turn_4"><text>Noted. What about shelter during emissions?</text></string>
-<string id="st_dyn_news_conversation_faction_loner_21_turn_5"><text>Underground is best. No basement? Hide between two large metal objects. Improvised Faraday cage.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_21_meta"><text>newbie,advice,survival,loner</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_21_turn_1"><text>Fresh meat here. Any veteran stalkers willing to share essential Zone wisdom?</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_21_turn_2"><text>Rule one: Trust your detector more than your eyes. Rule two: Never run toward gunfire.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_21_turn_3"><text>Noted.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_21_turn_4"><text>And for Christ's sake, check your six constantly. The Zone kills the careless.</text></string>	
 
 
-<string id="st_dyn_news_conversation_faction_loner_22_meta"><text>false_alarm,relief,loner</text></string>
-<string id="st_dyn_news_conversation_faction_loner_22_turn_1"><text>Thought I saw Monolith scouts near the sawmill. Nearly shit myself.</text></string>
-<string id="st_dyn_news_conversation_faction_loner_22_turn_2"><text>And?</text></string>
-<string id="st_dyn_news_conversation_faction_loner_22_turn_3"><text>Just Freedom idiots in stolen armor. Nearly blew their heads off before recognizing the patches.</text></string>
-<string id="st_dyn_news_conversation_faction_loner_22_turn_4"><text>Those morons are gonna get themselves killed playing dress-up.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_22_meta"><text>false_alarm,relief,loner</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_22_turn_1"><text>Thought I saw Monolith scouts near the sawmill. Nearly shit myself.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_22_turn_2"><text>And?</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_22_turn_3"><text>Just Freedom idiots in stolen armor. Nearly blew their heads off before recognizing the patches.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_22_turn_4"><text>Those morons are gonna get themselves killed playing dress-up.</text></string>
 
 
-<string id="st_dyn_news_conversation_faction_loner_23_meta"><text>repair,gear,help,loner</text></string>
-<string id="st_dyn_news_conversation_faction_loner_23_turn_1"><text>My detector's acting up after that electrical anomaly. Anyone good with electronics?</text></string>
-<string id="st_dyn_news_conversation_faction_loner_23_turn_2"><text>Try reseating the crystal contacts. Common issue after EMP-type exposures.</text></string>
-<string id="st_dyn_news_conversation_faction_loner_23_turn_3"><text>Already did. Still giving false negatives on grav anomalies.</text></string>
-<string id="st_dyn_news_conversation_faction_loner_23_turn_4"><text>Bring it by my camp. Got a spare multimeter. Payment in ammo or filters.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_23_meta"><text>repair,gear,help,loner</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_23_turn_1"><text>My detector's acting up after that electrical anomaly. Anyone good with electronics?</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_23_turn_2"><text>Try reseating the crystal contacts. Common issue after EMP-type exposures.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_23_turn_3"><text>Already did. Still giving false negatives on grav anomalies.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_23_turn_4"><text>Bring it by my camp. Got a spare multimeter. Payment in ammo or filters.</text></string>
 
 
-<string id="st_dyn_news_conversation_faction_loner_24_meta"><text>lore,rumors,history,loner</text></string>
-<string id="st_dyn_news_conversation_faction_loner_24_turn_1"><text>Heard an old tale about the X-7 lab. Some say the first emission originated there.</text></string>
-<string id="st_dyn_news_conversation_faction_loner_24_turn_2"><text>Bullshit. Everyone knows it was the CNPP reactor. The lab was just another failed experiment.</text></string>
-<string id="st_dyn_news_conversation_faction_loner_24_turn_3"><text>Then why do all artifacts near X-7 test positive for unique isotopes?</text></string>
-<string id="st_dyn_news_conversation_faction_loner_24_turn_4"><text>...Okay, that's actually interesting. Maybe worth investigating.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_24_meta"><text>lore,rumors,history,loner</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_24_turn_1"><text>Heard an old tale about the X-7 lab. Some say the first emission originated there.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_24_turn_2"><text>Bullshit. Everyone knows it was the CNPP reactor. The lab was just another failed experiment.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_24_turn_3"><text>Then why do all artifacts near X-7 test positive for unique isotopes?</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_24_turn_4"><text>...Okay, that's actually interesting. Maybe worth investigating.</text></string>
 
 
-<string id="st_dyn_news_conversation_faction_loner_25_meta"><text>watch,shift,security,loner</text></string>
-<string id="st_dyn_news_conversation_faction_loner_25_turn_1"><text>Taking first watch tonight. Saw fresh boot prints near the perimeter.</text></string>
-<string id="st_dyn_news_conversation_faction_loner_25_turn_2"><text>Bandits or worse?</text></string>
-<string id="st_dyn_news_conversation_faction_loner_25_turn_3"><text>Could be military scouts. Prints had that distinctive tread pattern.</text></string>
-<string id="st_dyn_news_conversation_faction_loner_25_turn_4"><text>I'll take second watch then. Two sets of eyes better than one.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_25_meta"><text>watch,shift,security,loner</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_25_turn_1"><text>Taking first watch tonight. Saw fresh boot prints near the perimeter.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_25_turn_2"><text>Bandits or worse?</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_25_turn_3"><text>Could be military scouts. Prints had that distinctive tread pattern.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_25_turn_4"><text>I'll take second watch then. Two sets of eyes better than one.</text></string>
 
 
-<string id="st_dyn_news_conversation_faction_loner_26_meta"><text>food,scarcity,hunting,loner</text></string>
-<string id="st_dyn_news_conversation_faction_loner_26_turn_1"><text>Down to my last ration pack. Any good hunting grounds that aren't mutant-infested?</text></string>
-<string id="st_dyn_news_conversation_faction_loner_26_turn_2"><text>West of the rail yard. Boars still roam there, and the meat tests clean.</text></string>
-<string id="st_dyn_news_conversation_faction_loner_26_turn_3"><text>Watch for snorks though. They've started hunting the same herds.</text></string>
-<string id="st_dyn_news_conversation_faction_loner_26_turn_4"><text>Always something. Thanks for the tip - I'll take my silenced rifle.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_26_meta"><text>food,scarcity,hunting,loner</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_26_turn_1"><text>Down to my last ration pack. Any good hunting grounds that aren't mutant-infested?</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_26_turn_2"><text>West of the rail yard. Boars still roam there, and the meat tests clean.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_26_turn_3"><text>Watch for snorks though. They've started hunting the same herds.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_26_turn_4"><text>Always something. Thanks for the tip - I'll take my silenced rifle.</text></string>
 
 
-<string id="st_dyn_news_conversation_faction_loner_27_meta"><text>injury,recovery,help,loner</text></string>
-<string id="st_dyn_news_conversation_faction_loner_27_turn_1"><text>Took a graze from a bandit ambush. Nothing serious but my medkits expired.</text></string>
-<string id="st_dyn_news_conversation_faction_loner_27_turn_2"><text>You at the old depot? I've got fresh bandages and antiseptic.</text></string>
-<string id="st_dyn_news_conversation_faction_loner_27_turn_3"><text>Yeah, holed up in the guard shack. Door's rigged with a tin can alarm.</text></string>
-<string id="st_dyn_news_conversation_faction_loner_27_turn_4"><text>On my way. Save me some of that vodka you're definitely drinking.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_27_meta"><text>injury,recovery,help,loner</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_27_turn_1"><text>Took a graze from a bandit ambush. Nothing serious but my medkits expired.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_27_turn_2"><text>You at the old depot? I've got fresh bandages and antiseptic.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_27_turn_3"><text>Yeah, holed up in the guard shack. Door's rigged with a tin can alarm.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_27_turn_4"><text>On my way. Save me some of that vodka you're definitely drinking.</text></string>
 
 
-<string id="st_dyn_news_conversation_faction_loner_28_meta"><text>missing,search,remembrance,loner</text></string>
-<string id="st_dyn_news_conversation_faction_loner_28_turn_1"><text>Anyone seen Markov? Was supposed to meet at the checkpoint three days ago.</text></string>
-<string id="st_dyn_news_conversation_faction_loner_28_turn_2"><text>Last spotted heading toward the chemical plant. That was before the emission though.</text></string>
-<string id="st_dyn_news_conversation_faction_loner_28_turn_3"><text>Damn. He knew the risks but... he was a good stalker.</text></string>
-<string id="st_dyn_news_conversation_faction_loner_28_turn_4"><text>Toast his memory at the campfire tonight. Zone claims us all eventually.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_28_meta"><text>missing,search,remembrance,loner</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_28_turn_1"><text>Anyone seen Markov? Was supposed to meet at the checkpoint three days ago.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_28_turn_2"><text>Last spotted heading toward the chemical plant. That was before the emission though.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_28_turn_3"><text>Damn. He knew the risks but... he was a good stalker.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_28_turn_4"><text>Toast his memory at the campfire tonight. Zone claims us all eventually.</text></string>
 
 
-<string id="st_dyn_news_conversation_faction_loner_29_meta"><text>sighting,strange,rumor,loner</text></string>
-<string id="st_dyn_news_conversation_faction_loner_29_turn_1"><text>Saw something... weird near the dead city. Like a stalker, but moving all wrong.</text></string>
-<string id="st_dyn_news_conversation_faction_loner_29_turn_2"><text>Another Monolith fanatic?</text></string>
-<string id="st_dyn_news_conversation_faction_loner_29_turn_3"><text>No. This was different. Glitchy, like a broken hologram. Then it just... vanished.</text></string>
-<string id="st_dyn_news_conversation_faction_loner_29_turn_4"><text>Lay off the vodka before patrols. But... I've heard similar stories lately.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_29_meta"><text>sighting,strange,rumor,loner</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_29_turn_1"><text>Saw something... weird near the dead city. Like a stalker, but moving all wrong.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_29_turn_2"><text>Another Monolith fanatic?</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_29_turn_3"><text>No. This was different. Glitchy, like a broken hologram. Then it just... vanished.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_29_turn_4"><text>Lay off the vodka before patrols. But... I've heard similar stories lately.</text></string>
 
 
+	<string id="st_dyn_news_conversation_faction_loner_30_meta"><text>artifact,discovery,danger,loner</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_30_turn_1"><text>Found a cluster of Sparklers in the anomaly field near the construction site. Never seen so many in one place.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_30_turn_2"><text>That's the third report this week. The Zone is coughing up artifacts like never before.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_30_turn_3"><text>Yeah, and that's what worries me. Last time this happened was right before the '06 blowout.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_30_turn_4"><text>Then we stock up while we can. I'm making one last run before sunset.</text></string>
+
+
+	<string id="st_dyn_news_conversation_faction_loner_31_meta"><text>betrayal,caution,trust,loner</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_31_turn_1"><text>Watch out for a stalker called "Viper". Turned in two loners to Duty for the bounty last night.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_31_turn_2"><text>What? He shared our campfire just three days ago!</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_31_turn_3"><text>Mark his description - red sunrise patch on his backpack. Word is he's working with the traders now.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_31_turn_4"><text>Another reason to trust only your rifle and your detector in the Zone.</text></string>
+
+
+	<string id="st_dyn_news_conversation_faction_loner_32_meta"><text>equipment,modification,advice,loner</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_32_turn_1"><text>Anyone know how to stabilize a Gauss rifle without the proper parts? Mine's kicking like a mule.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_32_turn_2"><text>Try wrapping the barrel with rubber strips from old tires. Cuts vibration by 40%.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_32_turn_3"><text>Where'd you learn that trick?</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_32_turn_4"><text>Ex-military engineer. The Zone makes improvisers of us all.</text></string>
+
+
+	<string id="st_dyn_news_conversation_faction_loner_33_meta"><text>dreams,zone,psychic,loner</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_33_turn_1"><text>Been having... strange dreams since that last emission. Like the Zone is whispering.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_33_turn_2"><text>Not this shit again. Next you'll be preaching about the Monolith.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_33_turn_3"><text>No, not like that. More like... patterns. Like it's trying to show me safe routes.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_33_turn_4"><text>Get your head checked at the ecologist camp. Radiation psychosis starts subtle.</text></string>
+
+
+	<string id="st_dyn_news_conversation_faction_loner_34_meta"><text>traps,bandits,warning,loner</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_34_turn_1"><text>Bandits are rigging abandoned stashes now. Saw two rookies get blown sky high near the car park.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_34_turn_2"><text>Old tactic. Always scan for tripwires and pressure plates before approaching.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_34_turn_3"><text>These were new - motion sensors hooked to RPG rounds. Military grade shit.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_34_turn_4"><text>Then we spread the word. And maybe leave some... surprises of our own along their routes.</text></string>
+
+
+	<string id="st_dyn_news_conversation_faction_loner_35_meta"><text>bunker,discovery,history,loner</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_35_turn_1"><text>Found an intact Soviet-era bunker under the old farmhouse. Walls are lined with lead - perfect emission shelter.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_35_turn_2"><text>Claimed or up for grabs?</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_35_turn_3"><text>Shared space. Left the coordinates at the 100 Rads bulletin board. Just don't trash the place.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_35_turn_4"><text>Real stalker spirit. I'll bring some supplies to stock it next time I pass through.</text></string>
+
+
+	<string id="st_dyn_news_conversation_faction_loner_36_meta"><text>mutant,evolution,danger,loner</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_36_turn_1"><text>Bloodsuckers are changing. Saw one phase through a solid wall near Yantar.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_36_turn_2"><text>Bullshit. They're fast, not ghostly.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_36_turn_3"><text>Wish I was joking. My bullet passed right through it before it solidified again.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_36_turn_4"><text>If the mutants are evolving, we need new tactics. Flamethrowers might be the only answer now.</text></string>
+
+
+	<string id="st_dyn_news_conversation_faction_loner_37_meta"><text>faction,tensions,warning,loner</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_37_turn_1"><text>Duty and Freedom are gearing up for another skirmish near the army warehouses.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_37_turn_2"><text>Great. Just when artifact hunting was getting good there.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_37_turn_3"><text>Word is they're conscripting loners at gunpoint now. Avoid the area for a week.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_37_turn_4"><text>Thanks for the heads up. I'll reroute through the swamps.</text></string>
+
+
+	<string id="st_dyn_news_conversation_faction_loner_38_meta"><text>technology,discovery,danger,loner</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_38_turn_1"><text>Found a weird device in the X-18 lab. Looks like a detector but shows... something else.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_38_turn_2"><text>Turn it off. Now. That's psy-tech from the C-Con project.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_38_turn_3"><text>Too late. It... showed me things. The structure of the Zone. Like a map but alive.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_38_turn_4"><text>Get to the ecologists immediately. That's how the Monolith recruits start.</text></string>
 
 
     <!-- DOLG FACTION CONVERSATIONS -->
@@ -1154,15 +1214,137 @@
 	<string id="st_dyn_news_conversation_faction_monolith_17_turn_5"><text>Especially that one. The Monolith must feed.</text></string>
 
     <!-- Clear Sky FACTION CONVERSATIONS -->
-    <string id="st_dyn_news_conversation_faction_csky_1_meta"><text>radiation,alerts,csky</text></string>
-    <string id="st_dyn_news_conversation_faction_csky_1_turn_1"><text>Radiation spike detected in sector 5. Advising all units to don full protection.</text></string>
-    <string id="st_dyn_news_conversation_faction_csky_1_turn_2"><text>Copy that. Mobilizing decontamination team now.</text></string>
-    <string id="st_dyn_news_conversation_faction_csky_1_turn_3"><text>Stay sharp. Secondary anomalies expected.</text></string>
+<string id="st_dyn_news_conversation_faction_csky_1_meta"><text>emission,research,anomaly,csky</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_1_turn_1"><text>Latest emission scans show distortion patterns near the Swamps. The Zone is rewriting its own rules.</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_1_turn_2"><text>Confirmed. Anomaly density increased 47% since last week. Lebedev won’t like this.</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_1_turn_3"><text>We need to recalibrate the detectors. If the emissions keep escalating, even our bunkers won’t hold.</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_1_turn_4"><text>Then we work faster. The Zone won’t wait for us to catch up.</text></string>  
 
-    <string id="st_dyn_news_conversation_faction_csky_2_meta"><text>monitoring,anomalies,csky</text></string>
-    <string id="st_dyn_news_conversation_faction_csky_2_turn_1"><text>We've set up new sensor arrays near the Eastern anomalies.</text></string>
-    <string id="st_dyn_news_conversation_faction_csky_2_turn_2"><text>Data streaming in. Looks stable for now.</text></string>
-    <string id="st_dyn_news_conversation_faction_csky_2_turn_3"><text>Good. Keep me posted on any fluctuations.</text></string>
+
+<string id="st_dyn_news_conversation_faction_csky_2_meta"><text>strelok,hunt,mission,csky</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_2_turn_1"><text>Scar’s team found Strelok’s trail near the Dark Valley. He’s heading toward the Brain Scorcher.</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_2_turn_2"><text>That madman’s going to trigger another emission if he keeps pushing deeper.</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_2_turn_3"><text>Lebedev’s orders stand: intercept and detain. No matter the cost.</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_2_turn_4"><text>Then we move now. Before Duty or Freedom get involved.</text></string>  
+
+
+<string id="st_dyn_news_conversation_faction_csky_3_meta"><text>freedom,negotiation,truce,csky</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_3_turn_1"><text>Freedom’s offering a temporary truce. They want access to our emission data.</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_3_turn_2"><text>And in return?</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_3_turn_3"><text>Their scouts will report Monolith movements. We need eyes everywhere.</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_3_turn_4"><text>Fine. But no artifact trades. We’re not turning into Bandits.</text></string>  
+
+
+<string id="st_dyn_news_conversation_faction_csky_3_meta"><text>freedom,negotiation,truce,csky</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_3_turn_1"><text>Freedom’s offering a temporary truce. They want access to our emission data.</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_3_turn_2"><text>And in return?</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_3_turn_3"><text>Their scouts will report Monolith movements. We need eyes everywhere.</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_3_turn_4"><text>Fine. But no artifact trades. We’re not turning into Bandits.</text></string>  
+
+
+<string id="st_dyn_news_conversation_faction_csky_5_meta"><text>mutant,research,specimen,csky</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_5_turn_1"><text>Dissected that Chimera from Red Forest. Its cells are mutating faster than anything we’ve seen.</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_5_turn_2"><text>Like the emissions are rewriting biology in real time?</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_5_turn_3"><text>Exactly. If this spreads beyond the Zone…</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_5_turn_4"><text>Then we double containment efforts. Burn every corpse.</text></string>  
+
+
+<string id="st_dyn_news_conversation_faction_csky_6_meta"><text>duty,conflict,border,csky</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_6_turn_1"><text>Duty patrols are blocking our scouts near Rostok. They claim we’re "spreading panic."</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_6_turn_2"><text>Of course. They’d rather pretend the Zone is static.</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_6_turn_3"><text>Do we push back or reroute?</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_6_turn_4"><text>Reroute. Fighting them wastes time we don’t have.</text></string>  
+
+
+<string id="st_dyn_news_conversation_faction_csky_7_meta"><text>tech,failure,repair,csky</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_7_turn_1"><text>Psi-shield generators are failing near Yantar. The emissions are overloading them.</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_7_turn_2"><text>How long until they burn out completely?</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_7_turn_3"><text>Days, maybe hours. Without them, our field teams are sitting ducks.</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_7_turn_4"><text>Then we fall back to manual scans. Old-school bolts and markers.</text></string>  
+
+
+<string id="st_dyn_news_conversation_faction_csky_8_meta"><text>recruitment,loners,alliance,csky</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_8_turn_1"><text>Found three Loners willing to join. Experienced hunters, but skeptical of our mission.</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_8_turn_2"><text>Do they understand the risks? We’re not just artifact traders.</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_8_turn_3"><text>They know. One lost his brother to an emission. He wants answers.</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_8_turn_4"><text>Then train them. The Zone won’t stop for doubters.</text></string>  
+
+
+<string id="st_dyn_news_conversation_faction_csky_9_meta"><text>storm,radiation,evacuation,csky</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_9_turn_1"><text>Radiation storm incoming from the CNPP. Levels will hit 1000+ roentgen.</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_9_turn_2"><text>Evacuate all field teams. Seal the bunkers.</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_9_turn_3"><text>What about the scouts near Limansk?</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_9_turn_4"><text>…Pray they find cover.</text></string>  
+
+
+<string id="st_dyn_news_conversation_faction_csky_10_meta"><text>traitor,leak,investigate,csky</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_10_turn_1"><text>Someone leaked our anomaly maps to Bandits. They’re setting up ambushes.</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_10_turn_2"><text>Who had access?</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_10_turn_3"><text>Only inner circle. But one of the new recruits was ex-Freedom.</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_10_turn_4"><text>Interrogate him. If guilty, he answers to Lebedev.</text></string>  
+
+
+<string id="st_dyn_news_conversation_faction_csky_11_meta"><text>artifact,experiment,risk,csky</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_11_turn_1"><text>"Sparkler" artifact reacts violently to emission waves. Could be a key to predicting them.</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_11_turn_2"><text>Or it could blow up the lab. Safety protocols?</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_11_turn_3"><text>Lead-lined chamber, remote sensors. But we need a live test.</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_11_turn_4"><text>…Do it. But evacuate the east wing first.</text></string>  
+
+
+<string id="st_dyn_news_conversation_faction_csky_12_meta"><text>monolith,scout,threat,csky</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_12_turn_1"><text>Monolith forces spotted near the Swamps. They’re not attacking—just watching.</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_12_turn_2"><text>Since when do fanatics scout? They usually charge blindly.</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_12_turn_3"><text>Something’s changed. Maybe the emissions are affecting them too.</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_12_turn_4"><text>Or someone’s controlling them. Either way, we need intel.</text></string>  
+
+
+<string id="st_dyn_news_conversation_faction_csky_13_meta"><text>supplies,ration,emergency,csky</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_13_turn_1"><text>Medkits running low. Radiation poisoning cases are spiking.</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_13_turn_2"><text>Prioritize field teams. Everyone else gets basics only.</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_13_turn_3"><text>And if we can’t resupply?</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_13_turn_4"><text>Then we start trading artifacts. Survival comes first.</text></string>  
+
+
+<string id="st_dyn_news_conversation_faction_csky_14_meta"><text>rescue,loner,ethics,csky</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_14_turn_1"><text>Loner group trapped in an anomaly field near the Circus. They’re begging for help.</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_14_turn_2"><text>Can we reach them without losing our own?</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_14_turn_3"><text>Maybe. But it’ll burn half our detector stock.</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_14_turn_4"><text>Do it. We’re not Monolith—we don’t leave people to die.</text></string>  
+
+
+<string id="st_dyn_news_conversation_faction_csky_15_meta"><text>emission,prediction,urgency,csky</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_15_turn_1"><text>New algorithm predicts emissions are accelerating. Next one could hit in 48 hours.</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_15_turn_2"><text>That’s impossible. The gaps were widening, not shrinking.</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_15_turn_3"><text>Unless something—or someone—is triggering them early.</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_15_turn_4"><text>…Strelok. Warn all teams. The Zone’s about to erupt.</text></string>  
+
+
+<string id="st_dyn_news_conversation_faction_csky_16_meta"><text>duty,truce,research,csky</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_16_turn_1"><text>Duty’s offering shared anomaly data—if we give them our emission research.</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_16_turn_2"><text>They’ll weaponize it. You know how they operate.</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_16_turn_3"><text>But we need their patrol logs. They’ve mapped hotspots we haven’t.</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_16_turn_4"><text>Fine. But redact anything about emission triggers. That stays with us.</text></string>  
+
+
+<string id="st_dyn_news_conversation_faction_csky_17_meta"><text>psi,research,discovery,csky</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_17_turn_1"><text>Psi-shield prototype worked. Test subject survived 10 seconds in Scorcher range.</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_17_turn_2"><text>Side effects?</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_17_turn_3"><text>Memory loss, nosebleeds. But he’s alive.</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_17_turn_4"><text>Then we push further. The CNPP won’t wait.</text></string>  
+
+
+<string id="st_dyn_news_conversation_faction_csky_19_meta"><text>zone,expansion,warning,csky</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_19_turn_1"><text>Perimeter scans confirm it—the Zone’s borders are expanding. Slowly, but surely.</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_19_turn_2"><text>How far?</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_19_turn_3"><text>50 meters this month. If it keeps going, Cordon will be uninhabitable in a year.</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_19_turn_4"><text>Then we work faster. Before the world notices.</text></string>  
+
+
+<string id="st_dyn_news_conversation_faction_csky_20_meta"><text>lebdev,orders,laststand,csky</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_20_turn_1"><text>Lebedev’s final command: all teams converge on the CNPP. Strelok’s there. So are the answers.</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_20_turn_2"><text>We’ll be slaughtered. Monolith controls that territory.</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_20_turn_3"><text>Then we die trying. The Zone’s dying too—we just don’t know it yet.</text></string>  
+<string id="st_dyn_news_conversation_faction_csky_20_turn_4"><text>…Understood. For Clear Sky.</text></string>  
 
     <!-- GREH FACTION CONVERSATIONS -->
     <string id="st_dyn_news_conversation_faction_greh_1_meta"><text>trade,network,greh</text></string>

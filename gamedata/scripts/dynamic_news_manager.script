@@ -323,24 +323,31 @@ function DynamicNewsManager:__init()
             self.sentences_snames = utils_data.collect_translations("lname_private_", true) or {}
         end
         
-        printf("[U.D.E] Debug: Creating all timers including conversations...")
+            -- CRITICAL: Initialize timer tracking BEFORE creating any timers
+			self.active_timers = {}
+			self.timer_count = 0
+			self.max_timers = 50
+			self.timer_creation_throttle = {}
+			self.last_timer_cleanup = time_global()
+			
+			printf("[U.D.E] Debug: Creating all timers including conversations...")
         
-        -- Create all timers with proper delays
-        local timer_delay = 30  -- Wait 30 seconds before starting
+			-- Create all timers with proper delays
+			local timer_delay = 30  -- Wait 30 seconds before starting
         
-        CreateTimeEvent("DynamicNewsManager","TickNews", timer_delay, self.TickNews, self)
-        CreateTimeEvent("DynamicNewsManager","TickQuick", timer_delay + 10, self.TickQuick, self)
-        CreateTimeEvent("DynamicNewsManager","TickSpecial", timer_delay + 20, self.TickSpecial, self)
-        CreateTimeEvent("DynamicNewsManager","TickTask", timer_delay + 30, self.TickTask, self)
-        CreateTimeEvent("DynamicNewsManager","TickRandom", timer_delay + 40, self.TickRandom, self)
-        CreateTimeEvent("DynamicNewsManager","TickCompanion", timer_delay + 50, self.TickCompanion, self)
-        
-        -- RE-ENABLE CONVERSATION TIMERS
-        CreateTimeEvent("DynamicNewsManager","TickConversation", timer_delay + 60, self.TickConversation, self)
-        CreateTimeEvent("DynamicNewsManager","TickExtendedConversation", timer_delay + 70, self.TickExtendedConversation, self)
-        
-        -- NEW: Add periodic maintenance timer
-        CreateTimeEvent("DynamicNewsManager","PeriodicMaintenance", 300, self.PeriodicMaintenance, self)
+				CreateTimeEvent("DynamicNewsManager","TickNews", timer_delay, self.TickNews, self)
+				CreateTimeEvent("DynamicNewsManager","TickQuick", timer_delay + 10, self.TickQuick, self)
+				CreateTimeEvent("DynamicNewsManager","TickSpecial", timer_delay + 20, self.TickSpecial, self)
+				CreateTimeEvent("DynamicNewsManager","TickTask", timer_delay + 30, self.TickTask, self)
+				CreateTimeEvent("DynamicNewsManager","TickRandom", timer_delay + 40, self.TickRandom, self)
+				CreateTimeEvent("DynamicNewsManager","TickCompanion", timer_delay + 50, self.TickCompanion, self)
+				
+				-- RE-ENABLE CONVERSATION TIMERS
+				CreateTimeEvent("DynamicNewsManager","TickConversation", timer_delay + 60, self.TickConversation, self)
+				CreateTimeEvent("DynamicNewsManager","TickExtendedConversation", timer_delay + 70, self.TickExtendedConversation, self)
+				
+				-- NEW: Add periodic maintenance timer
+				CreateTimeEvent("DynamicNewsManager","PeriodicMaintenance", 300, self.PeriodicMaintenance, self)
         
         -- NEW: Add spam check timer
         CreateTimeEvent("DynamicNewsManager","SpamCheck", 60, function()
@@ -1622,6 +1629,10 @@ end
 function DynamicNewsManager:StartExtendedConversation()
     printf("[U.D.E] Debug: StartExtendedConversation called")
 
+		if not self:CanStartNewConversation() then
+			return false
+		end
+
     -- Safety check: don't start if already active
     if self.extended_conversation_state and self.extended_conversation_state.active then
         printf("[U.D.E] Debug: Conversation already active")
@@ -1704,13 +1715,17 @@ function DynamicNewsManager:StartExtendedConversation()
         start_time     = time_global()
     }
 
+	if self.extended_conversation_state and self.extended_conversation_state.active then
+        printf("[U.D.E] Debug: Ending existing extended conversation before starting new one")
+        self:EndExtendedConversation()
+    end
     printf("[U.D.E] Debug: Starting %d-turn conversation between factions %s and %s", 
            self.extended_conversation_state.total_turns,
            self.extended_conversation_state.speaker1_comm,
            self.extended_conversation_state.speaker2_comm)
 
     -- Start with single, safe timer
-    CreateTimeEvent("DynamicNewsManager", "ExtendedConversationStart", 3, function()
+    self:SafeCreateTimer("ExtendedConversationStart", 3, function()
         return self:TickExtendedConversationMaster()
     end)
 
@@ -1777,7 +1792,9 @@ end
 
 function DynamicNewsManager:StartConversation()
     printf(">>> DEBUG: StartConversation called")
-    
+    if not self:CanStartNewConversation() then
+    return false
+	end
     -- Safety check: don't start if already active
     if self.regular_conversation_active then
         printf(">>> DEBUG: Regular conversation already active")
@@ -1886,35 +1903,33 @@ end
 function DynamicNewsManager:EndRegularConversation()
     printf(">>> DEBUG: EndRegularConversation called")
     
-    -- Clean up all timers
-    if self.CleanupConversationTimers then
-        self:CleanupConversationTimers()
-    end
-    
-    -- Remove any response timers (be thorough)
-    for i = 1, 10 do
-        RemoveTimeEvent("DynamicNewsManager", "ConversationResponse_" .. i)
+    -- Clean up all possible response timers
+    for i = 1, 20 do  -- Increased range
+        local timer_name = "ConversationResponse_" .. i
+        if self.active_timers and self.active_timers[timer_name] then
+            RemoveTimeEvent("DynamicNewsManager", timer_name)
+            self.active_timers[timer_name] = nil
+            self.timer_count = math.max(0, self.timer_count - 1)
+        else
+            -- Try to remove anyway in case tracking failed
+            RemoveTimeEvent("DynamicNewsManager", timer_name)
+        end
+        
+        -- Also remove tick response timers
         RemoveTimeEvent("DynamicNewsManager", "TickConversationResponse_" .. i)
     end
     
-    -- Remove base conversation timers
+    -- Remove base timers
     RemoveTimeEvent("DynamicNewsManager", "TickConversationResponse")
     RemoveTimeEvent("DynamicNewsManager", "ResetConversationState")
     RemoveTimeEvent("DynamicNewsManager", "ConversationCooldown")
     
-    -- Reset flags and state
+    -- Reset all state
     self.regular_conversation_active = false
-    
     if self.conversation_state then
         self.conversation_state.active = false
         self.conversation_state = nil
     end
-    
-    -- Optional: Add a small cooldown before allowing new conversations
-    CreateTimeEvent("DynamicNewsManager", "ConversationCooldown", 5, function()
-        printf(">>> DEBUG: Conversation cooldown complete")
-        return true
-    end)
     
     printf(">>> DEBUG: Regular conversation ended and cleaned up")
 end
@@ -4719,6 +4734,44 @@ end
 -- UDE faction conversations
 ------------------------------------------------------------
 
+function DynamicNewsManager:CanStartNewConversation()
+    -- Check all conversation states
+    local active_count = 0
+    
+    if self.regular_conversation_active then
+        active_count = active_count + 1
+    end
+    
+    if self.extended_conversation_state and self.extended_conversation_state.active then
+        active_count = active_count + 1
+    end
+    
+    if self.group_conversation_state and self.group_conversation_state.active then
+        active_count = active_count + 1
+    end
+    
+    if self.faction_conversation_state and self.faction_conversation_state.active then
+        active_count = active_count + 1
+    end
+    
+    if active_count > 0 then
+        printf("[U.D.E] Cannot start conversation: %d already active", active_count)
+        return false
+    end
+    
+    -- Check timer count
+    if self.timer_count >= (self.max_timers * 0.8) then -- 80% of max
+        printf("[U.D.E] Cannot start conversation: too many timers (%d)", self.timer_count)
+        return false
+    end
+    
+    return true
+end
+
+
+
+
+
 -- Helper function to trim strings 
 local function trim(s)
     if not s then return "" end
@@ -4829,7 +4882,11 @@ end
 
 function DynamicNewsManager:StartFactionConversation()
     printf("[U.D.E] Debug: StartFactionConversation called")
-    
+	
+    if not self:CanStartNewConversation() then
+    return false
+	end
+
     if not enable_news then
         printf("[U.D.E] Debug: News disabled")
         return false

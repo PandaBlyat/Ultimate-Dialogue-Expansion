@@ -1205,7 +1205,7 @@
 <string id="dm_hello_general_100">
     <text>Hi there. Got a story for me?</text>
 	</string>
-	
+
 	<string id="dm_hello_1">
 		<text>Hello, brother.</text>
 	</string>
@@ -1883,7 +1883,7 @@
     <text>What’s the best advice for surviving anomalies and finding artifacts?</text>
 </string>
 
-	
+
 <string id="dm_anomalies_0">
     <text>Why would I tell you? Trust is hard to come by in the Zone.</text>
 </string>
@@ -2041,13 +2041,13 @@
 
 	<!-- Information -->
 <string id="dm_information_general_1">
-    <text>What’s new in the Zone?</text>
+    <text>What's new in the Zone?</text>
 </string>
 <string id="dm_information_general_2">
-    <text>You know what’s going on around here?</text>
+    <text>You know what's going on around here?</text>
 </string>
 <string id="dm_information_general_3">
-    <text>I’m looking for information.</text>
+    <text>I'm looking for information.</text>
 </string>
 <string id="dm_information_general_4">
     <text>What’s the word out here?</text>
@@ -2269,7 +2269,6 @@
 <string id="dm_information_25">
     <text>Lab recoveries? Fuck that. You get sent down there, you’re not coming back. And if you do, you’ll wish you hadn’t. I’ve seen guys come out of those labs with their minds fried, babbling nonsense until they finally ate a bullet.</text>
 </string>
-
 <string id="dm_information_26">
     <text>Your PDA guide is a lifesaver, man. Whoever keeps that thing updated must have balls of steel—or no brain at all. But hey, don’t trust it completely. Maps can’t dodge mutants or anomalies for you.</text>
 </string>
@@ -2985,7 +2984,6 @@
 <string id="dm_information_255">
     <text>What do you think of this assignment? Here’s the reality: we’re woefully ill-equipped for what the Zone throws at us. Back when it all started, we had proper reinforcements, cutting-edge equipment, even decent food supplies. Now, it’s like they’re deliberately setting us up to fail. They hand you a second-hand rifle that jams if you look at it wrong, a summer uniform that doesn’t stop the cold or radiation, and a can of expired bread. "Now go fight mutants, criminals, and anomalies that defy physics," they say. Oh, and try not to step into that shimmery patch of air. You’ll lose your legs—if you’re lucky, just your legs.</text>
 </string>
-
 <string id="dm_information_256">
     <text>I’ll admit it, I signed up for this voluntarily. Life in the reserves was dull—endless drills, nothing to look forward to. I thought the Zone would be different, exciting even. And it is, but not in the way I imagined. It’s chaos out here. Just last week, my squad went on four different raids: bandits in Garbage, mutant nests in Dark Valley, and a botched recon into Pripyat. We lost people each time, but there’s no chance to mourn. Things happen fast here. Too fast.</text>
 </string>
@@ -2993,55 +2991,42 @@
 <string id="dm_information_257">
     <text>You ever wonder who gets sent to the Zone? I’ll tell you. The brass uses this place as a dumping ground for people they want out of the way. Got a soldier who doesn’t follow orders? Off to the Zone. A squad that embarrasses their CO? Zone. It’s a punishment detail disguised as a deployment. The only exception is those Spetsnaz psychos. They come here willingly, and they thrive. God knows how or why.</text>
 </string>
-
 <string id="dm_information_258">
     <text>It’s hard not to think about what could’ve been. If we’d acted decisively when the Zone first appeared, maybe we wouldn’t be in this mess. Imagine: secure borders, the anomalies contained, and all we’d have to do is guard the perimeter. Instead, the Zone grew while we fumbled around like idiots. Now it feels like we’re an occupying force in someone else’s territory—except the ‘someone’ is a living, breathing nightmare that doesn’t want us here. Meanwhile, stalkers act like they own the place. It's maddening.</text>
 </string>
-
 <string id="dm_information_259">
     <text>My father was a soldier too. He fought in Afghanistan and died in a vehicle ambush. I used to think he had it rough, but the shit we face here? It makes Afghanistan look like a vacation. Last month, an entire squad got wiped out in Dark Valley by bloodsuckers. They didn’t stand a chance—picked off one by one in the pitch black. Sometimes I think about my dad and wonder what he’d make of this. Would he have been able to survive it? I doubt it.</text>
 </string>
-
 <string id="dm_information_260">
     <text>If there’s one thing that makes this hellhole worth it, it’s the sound of a gunship clearing the skies. A few weeks ago, we spotted a massive horde of zombies shambling through Wild Territory. We radioed it in, and within minutes, the chopper arrived. Rockets streaked through the sky, the cannon ripped through the air, and the entire horde was obliterated in seconds. It was glorious—briefly made me forget where we were. Until the next nightmare showed up, of course.</text>
 </string>
-
 <string id="dm_information_261">
     <text>The brass wants every squad to have someone trained to use anomaly detectors now. As if we didn’t already have enough on our plates. It’s not enough to dodge bullets and outrun mutants—now we have to worry about invisible death traps that can fry you, crush you, or turn you inside out. This should be a scientist’s job, not ours. But the Zone doesn’t care about shoulds, does it?</text>
 </string>
-
 <string id="dm_information_262">
     <text>You know, the Zone isn’t always terrible. Sometimes, when you’re sitting around a campfire with your squad inside the safety of Agroprom’s walls, it almost feels normal. Almost. But the moment you step outside, the Zone reminds you what it really is—a waking nightmare. And nightmares don’t let you rest for long.</text>
 </string>
-
 <string id="dm_information_263">
     <text>Corruption? It’s rampant. You’ve got patrols taking bribes to let stalkers through, officers selling artefacts on the black market, even some guys working with Mercs or Bandits. It’s a disgrace. But what do you expect? The Zone brings out the worst in people. It’s not just the mutants that’ll get you—it’s your own so-called comrades. Trust no one.</text>
 </string>
-
 <string id="dm_information_264">
     <text>Monolith. The word alone makes my skin crawl. When I first got stationed here, I thought we’d be dealing with petty criminals and scavengers. Nobody told me about a battalion of brainwashed zealots armed to the teeth and hell-bent on killing anything that isn’t them. They don’t retreat, they don’t surrender, and they sure as hell don’t miss. Every time we encounter them, we lose more men. And the scariest part? They’re getting stronger.</text>
 </string>
-
 <string id="dm_information_265">
     <text>I’ve seen combat before—Chechnya, back in the day. Thought I’d seen it all. Then I came to the Zone. This place is something else entirely. It doesn’t matter how tough or experienced you are—the Zone breaks you. I’ve seen guys who’ve been through hell shoot themselves just to get out of here. And honestly? I can’t say I blame them.</text>
 </string>
-
 <string id="dm_information_266">
     <text>The Zone is too big, too dangerous for us to control completely. So we hold what we can—strategic locations like Agroprom, the Cordon, and a few outposts in the north. But even those are tenuous. Every day feels like a holding action, a desperate attempt to maintain what little ground we have. We’re not winning this war. We’re just trying to survive it.</text>
 </string>
-
 <string id="dm_information_267">
     <text>You ever hear of Rogovets? Quiet guy, keeps to himself. But don’t let that fool you—he’s a legend. Survived Operation Fairway, fought alongside Kovalsky in Pripyat, even met Strelok himself. If you ever get the chance, ask him about it. His stories will make your hair stand on end.</text>
 </string>
-
 <string id="dm_information_268">
     <text>Sgt. Spooner’s the kind of guy you want on your side. Runs the supply depot at Agroprom, but he’s got his fingers in all sorts of pies. Rumor has it he’s in contact with some Military Stalkers operating deep in the Zone. If you ever need something—ammo, intel, even a favor—he’s the man to see. Just don’t cross him. He didn’t earn his reputation by being nice.</text>
 </string>
-
 <string id="dm_information_269">
     <text>Monolith encounters? Let me give you some advice: avoid them. You’re on patrol, everything’s quiet, then suddenly—gunfire, explosions, and those chilling chants. "The will of the Monolith commands you to die," they say, over and over. They don’t stop, they don’t falter, and they don’t run out of ammo. It’s like fighting ghosts. If you’re smart, you’ll run the other way. If you’re lucky, you might survive.</text>
 </string>
-
 	<string id="dm_information_270">
 		<text>How far have you been towards the center of the Zone? Seems to get worse the further in you go. First, you only have to deal with little loners and petty bandits. Further, you run across the permanent battlefield of the organized factions: Mercs, Duty and the anarchists. After that... it's pretty much monsters and fanatics all the way to the plant. I wonder what's up there. Nothing good, obviously. The Zone gets more pure as you go further in, and more evil. The center's got to be the most pure and evil of all.</text>
 	</string>

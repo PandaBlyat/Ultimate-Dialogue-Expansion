@@ -1272,7 +1272,10 @@
     <text>Zone changes like it's alive. Never trust old paths.</text>
 </string>
 <string id="st_dyn_news_conversation_phenomena_resp_3_2">
-    <text>Get new maps from that guide at Skadovsk. Worth the rubles.</text
+    <text>Get new maps from that guide at Skadovsk. Worth the rubles.</text>
+</string>
+<string id="st_dyn_news_conversation_phenomena_resp_3_3">
+    <text>Those maps are scams.</text>
 </string>
 
 

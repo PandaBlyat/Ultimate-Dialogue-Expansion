@@ -292,6 +292,100 @@
 	<string id="st_dyn_news_conversation_faction_loner_38_turn_2"><text>Turn it off. Now. That's psy-tech from the C-Con project.</text></string>
 	<string id="st_dyn_news_conversation_faction_loner_38_turn_3"><text>Too late. It... showed me things. The structure of the Zone. Like a map but alive.</text></string>
 	<string id="st_dyn_news_conversation_faction_loner_38_turn_4"><text>Get to the ecologists immediately. That's how the Monolith recruits start.</text></string>
+	
+	
+	<string id="st_dyn_news_conversation_faction_loner_39_meta"><text>sidorovich,trading,complaints,loner</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_39_turn_1"><text>Just came from Sidorovich. That fat bastard offered me 2000 rubles for a Jellyfish artifact.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_39_turn_2"><text>%speaker_first_name%, he tried the same shit with me last week. Said the market was "oversaturated."</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_39_turn_3"><text>Meanwhile he's charging triple for basic medkits. How's a stalker supposed to survive?</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_39_turn_4"><text>That's why I started trading with the ecologists directly. Better rates, less bullshit.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_39_turn_5"><text>Until you need ammo at 3 AM and they're all asleep in their bunker.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_39_turn_6"><text>True. Sidorovich may be a leech, but he's our leech.</text></string>
+
+
+	<string id="st_dyn_news_conversation_faction_loner_40_meta"><text>military,duty,politics,loner</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_40_turn_1"><text>Saw military patrols sharing intel with Duty near the checkpoint. They're getting cozy.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_40_turn_2"><text>%speaker_first_name%, those fascists deserve each other. Both want to control everything.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_40_turn_3"><text>Next thing you know, they'll be setting up joint checkpoints to tax us harder.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_40_turn_4"><text>Let them try. We know every rat hole and tunnel in the Zone.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_40_turn_5"><text>Still, it's worrying. United, they could squeeze us out of the good hunting grounds.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_40_turn_6"><text>Then we remind them why free stalkers have survived this long. Adapt or die.</text></string>
+
+
+	<string id="st_dyn_news_conversation_faction_loner_41_meta"><text>freedom,military,conflict,loner</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_41_turn_1"><text>Military's been sniffing around Freedom's warehouse, offering "protection" deals.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_41_turn_2"><text>Ha! Freedom told them to fuck off, I hope?</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_41_turn_3"><text>Nah, some of the younger Freedom guys are considering it. Easy money, they say.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_41_turn_4"><text>Sellouts. Freedom used to stand for something - keeping the Zone free.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_41_turn_5"><text>%speaker_first_name%, everyone's got a price when rations run low.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_41_turn_6"><text>Not us loners. We'd rather starve free than eat from their hand.</text></string>
+
+
+	<string id="st_dyn_news_conversation_faction_loner_42_meta"><text>sidorovich,debt,humor,loner</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_42_turn_1"><text>Sidorovich says I owe him for that detector repair. Swears it was top-tier work.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_42_turn_2"><text>Top-tier? He probably just hit it with a hammer and prayed.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_42_turn_3"><text>Thing still beeps at shadows. Now he wants three artifacts as payment.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_42_turn_4"><text>Tell him you'll pay when his "top-tier" work actually works.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_42_turn_5"><text>%speaker_first_name%, I tried. He threatened to blacklist me from his vodka supply.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_42_turn_6"><text>The ultimate threat. Guess you're artifact hunting tomorrow then.</text></string>
+
+
+	<string id="st_dyn_news_conversation_faction_loner_43_meta"><text>duty,recruitment,warning,loner</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_43_turn_1"><text>Duty's recruiting hard. Offering signing bonuses and "guaranteed" safe sectors.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_43_turn_2"><text>Yeah, guaranteed to get you killed following their suicide orders.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_43_turn_3"><text>They cornered me yesterday, gave the whole "save humanity" speech.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_43_turn_4"><text>What'd you tell them?</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_43_turn_5"><text>That I'd rather save myself, thanks. They didn't like that answer.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_43_turn_6"><text>%speaker_first_name%, stay clear of their checkpoint for a while. They hold grudges.</text></string>
+
+
+	<string id="st_dyn_news_conversation_faction_loner_44_meta"><text>faction,politics,independence,loner</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_44_turn_1"><text>Both Freedom and Duty keep trying to claim the factory district. It's getting ugly.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_44_turn_2"><text>Let them fight. More artifacts for us while they play war.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_44_turn_3"><text>Problem is they're hassling any loner who passes through, demanding loyalty oaths.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_44_turn_4"><text>Loyalty? To what? Their stupid ideologies?</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_44_turn_5"><text>Exactly. I told them my only loyalty is to staying alive and getting paid.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_44_turn_6"><text>The only honest answer in the Zone, %speaker_first_name%.</text></string>
+
+
+	<string id="st_dyn_news_conversation_faction_loner_45_meta"><text>military,corruption,opportunity,loner</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_45_turn_1"><text>That military sergeant at the south checkpoint is dirty. Takes bribes for passage.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_45_turn_2"><text>How much?</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_45_turn_3"><text>5000 rubles or a decent artifact. Cheaper than getting shot trying to sneak around.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_45_turn_4"><text>%speaker_first_name%, that's useful. What's his schedule?</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_45_turn_5"><text>Night shifts, Tuesday through Friday. Look for the one with the scarred left hand.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_45_turn_6"><text>Information like this is why loners survive. We share what matters.</text></string>
+
+
+	<string id="st_dyn_news_conversation_faction_loner_46_meta"><text>sidorovich,monopoly,alternatives,loner</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_46_turn_1"><text>We need to break Sidorovich's monopoly. His prices are getting insane.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_46_turn_2"><text>Good luck with that. He's got connections everywhere.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_46_turn_3"><text>What if we set up our own trading post? Pool resources, undercut his prices.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_46_turn_4"><text>%speaker_first_name%, he'd sabotage us within a week. Remember what happened to Petrov?</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_46_turn_5"><text>Petrov tried to go solo. Together, we'd have a chance.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_46_turn_6"><text>Maybe. But who'd run it? Trust is thin among loners.</text></string>
+
+
+	<string id="st_dyn_news_conversation_faction_loner_47_meta"><text>duty,freedom,neutrality,loner</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_47_turn_1"><text>Duty patrol tried to conscript me yesterday. Freedom squad "rescued" me today. Both want gratitude.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_47_turn_2"><text>Two sides of the same faction coin. What'd you do?</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_47_turn_3"><text>Told them both I had radiation sickness and ran like hell.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_47_turn_4"><text>Ha! Classic. They probably argued about who contaminated you.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_47_turn_5"><text>%speaker_first_name%, staying neutral is getting harder every day.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_47_turn_6"><text>That's why we stick together. Loners don't need their wars.</text></string>
+
+
+	<string id="st_dyn_news_conversation_faction_loner_48_meta"><text>military,duty,alliance,concern,loner</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_48_turn_1"><text>Rumours of Military and Duty signing some kind of cooperation agreement.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_48_turn_2"><text>Shit. There goes half our smuggling routes.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_48_turn_3"><text>Talk of running a joint patrol near the barrier.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_48_turn_4"><text>This is bad, %speaker_first_name%. Real bad for independent operators.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_48_turn_5"><text>Time to find new routes. The Zone's bigger than their ambitions.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_48_turn_6"><text>Or we make their alliance... costly. Few well-placed incidents might cool their friendship.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_48_turn_7"><text>Dangerous thinking, but might be necessary. The Zone belongs to no one.</text></string>
+	
+	
+	
 
 
     <!-- DOLG FACTION CONVERSATIONS -->
@@ -530,6 +624,303 @@
 	<string id="st_dyn_news_conversation_faction_dolg_31_turn_2"><text>Evacuate all personnel to secondary positions. Prepare scorched-earth protocols.</text></string>
 	<string id="st_dyn_news_conversation_faction_dolg_31_turn_3"><text>Ecologists are screaming about data loss. Orders?</text></string>
 	<string id="st_dyn_news_conversation_faction_dolg_31_turn_4"><text>Let them scream. Human lives come before research notes.</text></string>
+	
+	
+	<!-- DUTY FACTION CONVERSATIONS - EXPANDED -->
+
+	<!-- Conversation 32: Equipment Complaints -->
+	<string id="st_dyn_news_conversation_faction_dolg_32_meta"><text>equipment,complaint,bureaucracy,dolg</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_32_turn_1"><text>%speaker_first_name%, my squad's been requesting new body armor for three weeks. Still using plates with bullet holes.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_32_turn_2"><text>Fill out form R-47B, not R-47A. That's why it keeps getting rejected.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_32_turn_3"><text>There's a difference? They look identical.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_32_turn_4"><text>R-47B is for combat-damaged equipment. R-47A is for standard wear. Bureaucracy keeps us organized.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_32_turn_5"><text>Meanwhile, my men are patching armor with duct tape and prayers.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_32_turn_6"><text>I'll expedite it through supply. But next time, read the damn forms.</text></string>
+
+	<!-- Conversation 33: Off-Duty Talk -->
+	<string id="st_dyn_news_conversation_faction_dolg_33_meta"><text>casual,offtime,dolg</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_33_turn_1"><text>%speaker_first_name%, you joining us for cards tonight? Got that good vodka from the last supply run.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_33_turn_2"><text>Can't. Drawing night watch again. Someone's got to keep Freedom from sneaking around.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_33_turn_3"><text>Third night this week? You piss off the duty roster sergeant?</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_33_turn_4"><text>Mentioned his reports were getting sloppy. Guess this is my reward.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_33_turn_5"><text>Hah! Never criticize the man who controls your sleep schedule.</text></string>
+
+	<!-- Conversation 34: Dealing with Civilians -->
+	<string id="st_dyn_news_conversation_faction_dolg_34_meta"><text>civilians,checkpoint,frustration,dolg</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_34_turn_1"><text>Another group of tourists tried to bribe their way past Checkpoint 3. When will they learn?</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_34_turn_2"><text>What'd they offer this time?</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_34_turn_3"><text>Euros and some sob story about scientific research. Same shit, different day.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_34_turn_4"><text>At least they didn't try to run the checkpoint like last month's group.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_34_turn_5"><text>True. Cleaning bloodstains off the concrete is a pain.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_34_turn_6"><text>Speaking of which, we need more warning signs. The current ones aren't clear enough.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_34_turn_7"><text>"Trespassers Will Be Shot" seems pretty clear to me.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_34_turn_8"><text>You'd think so, but civilians are dumber than mutants sometimes.</text></string>
+
+	<!-- Conversation 35: Veterans Reminiscing -->
+	<string id="st_dyn_news_conversation_faction_dolg_35_meta"><text>veterans,history,nostalgia,dolg</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_35_turn_1"><text>%speaker_first_name%, remember when we first set up the Rostok perimeter? Just tents and sandbags.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_35_turn_2"><text>And that winter storm that nearly buried us. Lost three men to hypothermia.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_35_turn_3"><text>But we held the line. No mutants got through. No artifacts smuggled out.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_35_turn_4"><text>Now look at it. Concrete walls, automated turrets, proper barracks.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_35_turn_5"><text>Progress through discipline. Though I miss the simplicity sometimes.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_35_turn_6"><text>The mission's the same. Keep the Zone contained, keep humanity safe.</text></string>
+
+	<!-- Conversation 36: Supply Line Issues -->
+	<string id="st_dyn_news_conversation_faction_dolg_36_meta"><text>logistics,complaint,supplies,dolg</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_36_turn_1"><text>Supply convoy's late again. We're down to emergency rations.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_36_turn_2"><text>Blame the bureaucrats in Kyiv. They think the Zone runs on paperwork.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_36_turn_3"><text>Meanwhile, we're eating decade-old MREs and calling it gourmet.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_36_turn_4"><text>At least it's not mutant meat like those Freedom degenerates.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_36_turn_5"><text>Don't knock it till you've tried it... kidding! Protocol violation.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_36_turn_6"><text>I'm reporting that joke to morale enforcement.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_36_turn_7"><text>Come on, %speaker_first_name%, we're all hungry here.</text></string>
+
+	<!-- Conversation 37: New Recruit Hazing -->
+	<string id="st_dyn_news_conversation_faction_dolg_37_meta"><text>recruits,hazing,training,dolg</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_37_turn_1"><text>The new recruits are here. Time for "orientation."</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_37_turn_2"><text>Going easy on them or full boot camp treatment?</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_37_turn_3"><text>Full treatment. One's already crying about missing his girlfriend.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_37_turn_4"><text>The Zone doesn't care about your feelings, recruit!</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_37_turn_5"><text>Remember when they made us clean latrines with toothbrushes?</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_37_turn_6"><text>Builds character. And ensures they follow decontamination protocols.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_37_turn_7"><text>Plus it's fun watching them realize this isn't a video game.</text></string>
+
+	<!-- Conversation 38: Monolith Encounter Debrief -->
+	<string id="st_dyn_news_conversation_faction_dolg_38_meta"><text>monolith,combat,debrief,dolg</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_38_turn_1"><text>Debrief on the Monolith engagement. They fought to the last man, as usual.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_38_turn_2"><text>Fanatics. But their tactics are evolving. Using flanking maneuvers now.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_38_turn_3"><text>%speaker_first_name%, you were on point. What's your assessment?</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_38_turn_4"><text>They're not just mindless anymore. Someone's teaching them real combat doctrine.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_38_turn_5"><text>Ex-military joining their ranks?</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_38_turn_6"><text>Or they're learning from fighting us. Either way, we need new strategies.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_38_turn_7"><text>I'll draft a report for command. This changes our threat assessment.</text></string>
+
+	<!-- Conversation 39: Artifact Corruption -->
+	<string id="st_dyn_news_conversation_faction_dolg_39_meta"><text>corruption,artifact,investigation,dolg</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_39_turn_1"><text>Internal Affairs is sniffing around. Someone's been skimming artifacts.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_39_turn_2"><text>Shit. Any idea who?</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_39_turn_3"><text>They're looking at Checkpoint 5 staff. Three artifacts went "missing" last month.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_39_turn_4"><text>%speaker_first_name%, weren't you stationed there?</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_39_turn_5"><text>Two weeks ago, yeah. Everything was clean on my watch.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_39_turn_6"><text>Better have your paperwork straight. IA doesn't fuck around.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_39_turn_7"><text>My logs are spotless. Can't say the same for the night shift though.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_39_turn_8"><text>Throwing them under the bus already?</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_39_turn_9"><text>It's not throwing under if it's true. Duty before friendship.</text></string>
+
+	<!-- Conversation 40: Medical Situation -->
+	<string id="st_dyn_news_conversation_faction_dolg_40_meta"><text>medical,injury,concern,dolg</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_40_turn_1"><text>How's Volkov doing? Heard the medics worked on him for hours.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_40_turn_2"><text>Lost his left eye, but he'll live. Lucky bastard.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_40_turn_3"><text>Controller got him?</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_40_turn_4"><text>Shrapnel from his own grenade. Bounced off anomaly field.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_40_turn_5"><text>Shit. That's why we follow engagement protocols.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_40_turn_6"><text>He knows. Kept apologizing even while bleeding out.</text></string>
+
+	<!-- Conversation 41: Checkpoint Incident -->
+	<string id="st_dyn_news_conversation_faction_dolg_41_meta"><text>checkpoint,tension,protocol,dolg</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_41_turn_1"><text>%speaker_first_name%, heard you had a situation at the checkpoint yesterday.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_41_turn_2"><text>Group of Loners got aggressive when we confiscated their artifacts.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_41_turn_3"><text>How aggressive?</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_41_turn_4"><text>One pulled a knife. Big mistake.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_41_turn_5"><text>Casualties?</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_41_turn_6"><text>He'll be eating through a straw for a month. Others got the message.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_41_turn_7"><text>Good. Can't show weakness at the checkpoints.</text></string>
+
+	<!-- Conversation 42: Freedom Infiltration Concerns -->
+	<string id="st_dyn_news_conversation_faction_dolg_42_meta"><text>freedom,infiltration,security,dolg</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_42_turn_1"><text>Security briefing mentioned possible Freedom infiltrators among the new recruits.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_42_turn_2"><text>Those anarchist bastards getting desperate?</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_42_turn_3"><text>Command thinks they want our patrol schedules and supply routes.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_42_turn_4"><text>Let them try. Our screening process will catch them.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_42_turn_5"><text>%speaker_first_name%, you trained some of the new batch. Notice anything odd?</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_42_turn_6"><text>One kid kept asking about "individual freedoms" during ideology class.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_42_turn_7"><text>Red flag. Name?</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_42_turn_8"><text>Already reported to Internal Security. They're watching him.</text></string>
+
+	<!-- Conversation 43: Ration Complaints -->
+	<string id="st_dyn_news_conversation_faction_dolg_43_meta"><text>food,morale,complaint,dolg</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_43_turn_1"><text>This fucking porridge tastes like wallpaper paste.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_43_turn_2"><text>Nutrients over flavor, soldier. It keeps you alive.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_43_turn_3"><text>I'd rather eat MREs. At least those pretend to have flavor.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_43_turn_4"><text>Put in a form 22-C food quality complaint.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_43_turn_5"><text>And wait six months for them to tell me to shut up and eat?</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_43_turn_6"><text>Welcome to military bureaucracy, %speaker_first_name%.</text></string>
+
+	<!-- Conversation 44: Ecologist Relations -->
+	<string id="st_dyn_news_conversation_faction_dolg_44_meta"><text>ecologists,cooperation,tension,dolg</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_44_turn_1"><text>Ecologists are complaining we're blocking their research again.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_44_turn_2"><text>Good. Less eggheads poking anomalies means less containment breaches.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_44_turn_3"><text>They claim their research could help us fight the Zone better.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_44_turn_4"><text>We don't need to understand it. We need to contain it.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_44_turn_5"><text>%speaker_first_name%, didn't you used to escort their teams?</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_44_turn_6"><text>Yeah. Lost two men because they "had to get closer" to an anomaly.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_44_turn_7"><text>See? Their curiosity gets our people killed.</text></string>
+
+	<!-- Conversation 45: Night Watch Stories -->
+	<string id="st_dyn_news_conversation_faction_dolg_45_meta"><text>night,watch,story,dolg</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_45_turn_1"><text>Quiet night?</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_45_turn_2"><text>Too quiet. Makes me nervous.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_45_turn_3"><text>Zone's always planning something when it's silent.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_45_turn_4"><text>Saw some lights moving in the anomaly field. Didn't look natural.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_45_turn_5"><text>Log it. Command tracks patterns in anomalous activity.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_45_turn_6"><text>Already did. Third time this week, same sector.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_45_turn_7"><text>%speaker_first_name%, you've been here longest. Ever see anything like that before?</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_45_turn_8"><text>Once. Right before a major emission. Stay alert.</text></string>
+
+	<!-- Conversation 46: War Stories -->
+	<string id="st_dyn_news_conversation_faction_dolg_46_meta"><text>combat,story,veterans,dolg</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_46_turn_1"><text>Tell the rookies about the Battle of the Barrier.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_46_turn_2"><text>Which one? We've had five "Battles of the Barrier."</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_46_turn_3"><text>The one where Freedom tried to breach with technicals.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_46_turn_4"><text>Ah, that clusterfuck. RPGs versus machine guns.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_46_turn_5"><text>We held the line. Lost twelve men, but not one anarchist got through.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_46_turn_6"><text>%speaker_first_name%, you manned the .50 cal that day, right?</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_46_turn_7"><text>Until it jammed. Finished with grenades and harsh language.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_46_turn_8"><text>And that's why we do weapons maintenance twice daily now.</text></string>
+
+	<!-- Conversation 47: Equipment Innovation -->
+	<string id="st_dyn_news_conversation_faction_dolg_47_meta"><text>equipment,innovation,practical,dolg</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_47_turn_1"><text>Check out this modification. Rigged my detector to my helmet HUD.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_47_turn_2"><text>That's against regulation equipment specs.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_47_turn_3"><text>But it works. Hands-free anomaly detection.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_47_turn_4"><text>Until it fries your brain when it malfunctions.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_47_turn_5"><text>%speaker_first_name%, you're tech-savvy. What do you think?</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_47_turn_6"><text>Clever, but submit it for testing first. We're not Freedom cowboys.</text></string>
+
+	<!-- Conversation 48: Loner Relations -->
+	<string id="st_dyn_news_conversation_faction_dolg_48_meta"><text>loners,checkpoint,daily,dolg</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_48_turn_1"><text>Same group of Loners at the checkpoint again. Starting to recognize faces.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_48_turn_2"><text>The ones who actually follow protocol?</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_48_turn_3"><text>Yeah. Even fill out the forms properly now.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_48_turn_4"><text>See? System works when people follow it.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_48_turn_5"><text>One even saluted yesterday. Probably ex-military.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_48_turn_6"><text>Good. Maybe they'll spread the word. Compliance makes everyone's life easier.</text></string>
+
+	<!-- Conversation 49: Promotion Politics -->
+	<string id="st_dyn_news_conversation_faction_dolg_49_meta"><text>promotion,politics,career,dolg</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_49_turn_1"><text>Heard Sergeant position is opening up in 2nd Platoon.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_49_turn_2"><text>%speaker_first_name%, you putting in for it?</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_49_turn_3"><text>Maybe. Depends who else is competing.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_49_turn_4"><text>Kozlov's definitely applying. Brown-noser's been prepping for months.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_49_turn_5"><text>Let him. Merit speaks louder than ass-kissing.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_49_turn_6"><text>In theory. But he golfs with the Lieutenant.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_49_turn_7"><text>Where the fuck do you golf in the Zone?</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_49_turn_8"><text>Exactly my point. Politics over practicality.</text></string>
+
+	<!-- Conversation 50: Emergency Drill -->
+	<string id="st_dyn_news_conversation_faction_dolg_50_meta"><text>drill,emergency,preparation,dolg</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_50_turn_1"><text>EMERGENCY DRILL! All units to containment positions!</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_50_turn_2"><text>Another drill? That's the third this week.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_50_turn_3"><text>Command's spooked about something. This isn't normal.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_50_turn_4"><text>%speaker_first_name%, what's your take?</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_50_turn_5"><text>Could be intel about a major emission. Or worse.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_50_turn_6"><text>Worse than an emission?</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_50_turn_7"><text>Zone expansion. But that's just speculation.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_50_turn_8"><text>Fuck. Better take these drills seriously then.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_50_turn_9"><text>Always do. Preparation prevents catastrophe.</text></string>
+
+	<!-- Conversation 51: Rookie Mistake -->
+	<string id="st_dyn_news_conversation_faction_dolg_51_meta"><text>rookie,mistake,lesson,dolg</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_51_turn_1"><text>New kid almost caused a containment breach. Left the inner door open during shift change.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_51_turn_2"><text>Please tell me nothing got through.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_51_turn_3"><text>Lucky. Just some radiated air. But it could've been bloodsuckers.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_51_turn_4"><text>What's his punishment?</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_51_turn_5"><text>Week of decontamination duty. He'll never forget protocol again.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_51_turn_6"><text>%speaker_first_name%, didn't you train that batch?</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_51_turn_7"><text>I did. Already scheduled remedial training for the whole group.</text></string>
+
+	<!-- Conversation 52: Black Market Bust -->
+	<string id="st_dyn_news_conversation_faction_dolg_52_meta"><text>blackmarket,bust,internal,dolg</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_52_turn_1"><text>Internal Security just raided Barracks 3. Found a whole black market operation.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_52_turn_2"><text>What were they selling?</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_52_turn_3"><text>Artifacts, ammo, even some of our night vision gear.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_52_turn_4"><text>Fucking traitors. Who was running it?</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_52_turn_5"><text>Corporal Fedorov and two privates. Already in isolation.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_52_turn_6"><text>Court martial?</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_52_turn_7"><text>Tomorrow. Colonel wants to make an example.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_52_turn_8"><text>Good. Corruption weakens us more than any anomaly.</text></string>
+
+	<!-- Conversation 53: Philosophical Moment -->
+	<string id="st_dyn_news_conversation_faction_dolg_53_meta"><text>philosophy,purpose,doubt,dolg</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_53_turn_1"><text>Ever wonder if we're actually making a difference?</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_53_turn_2"><text>What brought this on?</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_53_turn_3"><text>Zone keeps growing. We keep losing people. Feels like bailing water from a sinking ship.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_53_turn_4"><text>%speaker_first_name%, that's defeatist talk.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_53_turn_5"><text>Just being realistic. How long can we hold?</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_53_turn_6"><text>As long as it takes. That's our duty.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_53_turn_7"><text>Easy to say. Harder when you're writing death notifications.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_53_turn_8"><text>I know. But what's the alternative? Let it spread unchecked?</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_53_turn_9"><text>No. You're right. Just... sometimes it weighs on you.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_53_turn_10"><text>That's why we have each other. And vodka. Mostly vodka.</text></string>
+
+	<!-- Conversation 54: Training Exercise -->
+	<string id="st_dyn_news_conversation_faction_dolg_54_meta"><text>training,combat,preparation,dolg</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_54_turn_1"><text>Live fire exercise tomorrow. Urban combat scenario.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_54_turn_2"><text>About time. Been too long since proper combat drills.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_54_turn_3"><text>%speaker_first_name%, you're leading Blue Team, right?</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_54_turn_4"><text>Affirmative. Already scouted the killhouse layout.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_54_turn_5"><text>Cheater. That's tactical preparation.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_54_turn_6"><text>No such thing as cheating in combat. Only winning and dying.</text></string>
+
+	<!-- Conversation 55: Weather Complaints -->
+	<string id="st_dyn_news_conversation_faction_dolg_55_meta"><text>weather,conditions,morale,dolg</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_55_turn_1"><text>This rain's been going for five days straight. Everything's molding.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_55_turn_2"><text>Including my socks. Can smell them from here.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_55_turn_3"><text>Put in a requisition for weather-resistant gear?</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_55_turn_4"><text>Did that. Got told to "adapt and overcome."</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_55_turn_5"><text>Classic quartermaster response.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_55_turn_6"><text>%speaker_first_name%, how do you keep your gear dry?</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_55_turn_7"><text>Plastic bags and prayer. Mostly prayer.</text></string>
+
+	<!-- Conversation 56: Civilian Incident -->
+	<string id="st_dyn_news_conversation_faction_dolg_56_meta"><text>civilian,incident,PR,dolg</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_56_turn_1"><text>That journalist is back, asking about the "excessive force" incident.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_56_turn_2"><text>The one where we saved her cameraman from a pseudogiant?</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_56_turn_3"><text>She's calling it "militaristic overreach."</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_56_turn_4"><text>Her colleague would be calling it "lunch" if we hadn't intervened.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_56_turn_5"><text>Try explaining that to someone who thinks the Zone is just "misunderstood."</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_56_turn_6"><text>Let PR handle it. We have real work to do.</text></string>
+
+	<!-- Conversation 57: Squad Rivalry -->
+	<string id="st_dyn_news_conversation_faction_dolg_57_meta"><text>rivalry,competition,morale,dolg</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_57_turn_1"><text>Alpha Squad's talking shit again. Say we're getting soft on checkpoint duty.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_57_turn_2"><text>They're just mad we have the highest confiscation rate.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_57_turn_3"><text>%speaker_first_name%, what should we do about it?</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_57_turn_4"><text>Challenge them to a combat drill. Loser pulls latrine duty for a month.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_57_turn_5"><text>I like it. Official channels?</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_57_turn_6"><text>Of course. We're not Freedom barbarians.</text></string>
+
+	<!-- Conversation 58: Anomaly Research -->
+	<string id="st_dyn_news_conversation_faction_dolg_58_meta"><text>anomaly,research,science,dolg</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_58_turn_1"><text>Science Division wants volunteers to test new anomaly-resistant fabric.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_58_turn_2"><text>What happened to the last volunteers?</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_58_turn_3"><text>Still in medical. But they're "mostly" fine.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_58_turn_4"><text>Define "mostly."</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_58_turn_5"><text>Minor burns, some hair loss. Nothing permanent... probably.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_58_turn_6"><text>Hard pass.</text></string>
+
+	<!-- Conversation 59: Base Improvements -->
+	<string id="st_dyn_news_conversation_faction_dolg_59_meta"><text>base,improvements,morale,dolg</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_59_turn_1"><text>New rec room is finally open. Even has a working TV.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_59_turn_2"><text>What channels do we get?</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_59_turn_3"><text>Static and propaganda. But it's something.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_59_turn_4"><text>Better than staring at concrete walls.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_59_turn_5"><text>%speaker_first_name%, you bringing that deck of cards?</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_59_turn_6"><text>Already there. Set up a tournament for tonight.</text></string>
+
+	<!-- Conversation 60: Final Stand Planning -->
+	<string id="st_dyn_news_conversation_faction_dolg_60_meta"><text>defense,planning,serious,dolg</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_60_turn_1"><text>Worst case scenario briefing tomorrow. Mandatory attendance.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_60_turn_2"><text>The "what if the Zone breaches all containment" plan?</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_60_turn_3"><text>That's the one. Final defensive positions, scorched earth protocols.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_60_turn_4"><text>Cheerful. Nothing like planning your last stand over breakfast.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_60_turn_5"><text>Better to have a plan than die in chaos.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_60_turn_6"><text>%speaker_first_name%, you've been through these before. They ever update them?</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_60_turn_7"><text>Every time we lose territory. So yes, frequently.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_60_turn_8"><text>That's... not reassuring.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_60_turn_9"><text>Reality rarely is. But we hold the line regardless.</text></string>
+	<string id="st_dyn_news_conversation_faction_dolg_60_turn_10"><text>Until we can't. Then we make them pay for every meter.</text></string>
+		
 
 
     <!-- FREEDOM FACTION CONVERSATIONS -->
@@ -537,7 +928,7 @@
 	<string id="st_dyn_news_conversation_faction_freedom_1_turn_1"><text>Alert all teams! Massive psi-emissions in Jupiter's eastern warehouse complex. Feels like a goddamn kindergarten for Controllers.</text></string>
 	<string id="st_dyn_news_conversation_faction_freedom_1_turn_2"><text>Confirmed. My detector's screaming - but interference pattern suggests artifacts. Something new buried in that mess.</text></string>
 	<string id="st_dyn_news_conversation_faction_freedom_1_turn_3"><text>Duty patrols are setting up perimeter blocks 500m out. "For our safety". Bullshit! They want first dibs!</text></string>
-	<string id="st_dyn_news_conversation_faction_freedom_1_turn_4"><text>Typical Dolg dogs. Since when do they care about safety? Remember what they did at the Burner anomaly?</text></string>
+	<string id="st_dyn_news_conversation_faction_freedom_1_turn_4"><text>Typical Duty dogs. Since when do they care about safety? Remember what they did at the Burner anomaly?</text></string>
 	<string id="st_dyn_news_conversation_faction_freedom_1_turn_5"><text>Fuck their barricades. I've got experimental psi-blockers - jury-rigged but functional. Who's crazy enough to run the field with me?</text></string>
 	<string id="st_dyn_news_conversation_faction_freedom_1_turn_6"><text>Count me in. Knowledge should be free, not locked behind army wannabes. Recording equipment ready.</text></string>
 	<string id="st_dyn_news_conversation_faction_freedom_1_turn_7"><text>Bring extra bolts! We'll map safe paths and share coords openly. Let every stalker profit, not just duty's pet scientists.</text></string>

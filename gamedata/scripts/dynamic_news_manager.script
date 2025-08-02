@@ -1566,16 +1566,16 @@ function DynamicNewsManager:TickConversation()
     end
     
     -- Random chance to start a conversation (don't always start one)
-    if math.random(100) > 80 then  -- 80% chance to start chat
+    if math.random(100) > 85 then  -- 85% chance to start chat
         printf("[U.D.E] Debug: Random chance failed, no conversation this time")
         return false
     end
     
--- Decide between regular, extended, and faction conversations (33%, 33%, 34%)
+-- Decide between regular, extended, and faction conversations (50%, 25%, 25%)
 local conversation_type = math.random(100)
 local success, result = false, false  -- Capture BOTH return values from pcall
 
-if conversation_type <= 33 then  -- 33% chance for faction conversations (1–33)
+if conversation_type <= 50 then  -- 50% chance for faction conversations (1–50)
     printf("[U.D.E] Debug: Attempting to start faction conversation")
     success, result = pcall(function()
         return self:StartFactionConversation()
@@ -1586,7 +1586,7 @@ if conversation_type <= 33 then  -- 33% chance for faction conversations (1–33
         printf("[U.D.E] Debug: Failed to start Faction conversation")
     end
 
-elseif conversation_type <= 66 then  -- 33% chance for extended conversations (34–66)
+elseif conversation_type <= 75 then  -- 25% chance for extended conversations (51–75)
     printf("[U.D.E] Debug: Attempting to start extended conversation")
     success, result = pcall(function()
         return self:StartExtendedConversation()
@@ -1597,7 +1597,7 @@ elseif conversation_type <= 66 then  -- 33% chance for extended conversations (3
         printf("[U.D.E] Debug: Failed to start extended conversation")
     end
 
-else  -- 34% chance for regular conversations (67–100)
+else  -- 25% chance for regular conversations (76–100)
     printf("[U.D.E] Debug: Attempting to start regular conversation")
     success, result = pcall(function()
         return self:StartConversation()
@@ -1610,6 +1610,7 @@ else  -- 34% chance for regular conversations (67–100)
 end
 
 return false
+
 
 
 end

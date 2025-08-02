@@ -460,7 +460,7 @@
     <text> %other_first_name%! My bset friend! Hve I told you...youre my fucking brat!?</text>
 </string>
 <string id="st_dyn_news_extended_conv_25_turn_2">
-    <text>Jesus, how much vodka did you drink?</text>
+    <text>Cyka, how much vodka did you drink?</text>
 </string>
 <string id="st_dyn_news_extended_conv_25_turn_3">
     <text>Not enouhg! The Zone... shes singing to me! Come! JOIN</text>
@@ -665,7 +665,7 @@
     <text>I saw myself on the other side. But older. Much older. He waved at me to stay away.</text>
 </string>
 <string id="st_dyn_news_extended_conv_35_turn_6">
-    <text>Jesus Christ. Where was this?</text>
+    <text>Cyka... Where was this?</text>
 </string>
 <string id="st_dyn_news_extended_conv_35_turn_7">
     <text>Not saying. Some things should stay lost.</text>
@@ -875,7 +875,7 @@
     <text>Middle of fucking nowhere. Had to hide under a rusted car chassis</text>
 </string>
 <string id="st_dyn_news_extended_conv_45_turn_4">
-    <text>Jesus, that's not proper shelter!</text>
+    <text>Cyka! that's not proper shelter!</text>
 </string>
 <string id="st_dyn_news_extended_conv_45_turn_5">
     <text>Tell me about it. My hair's falling out and I can taste metal. But I'm alive.</text>
@@ -2463,7 +2463,7 @@
     <text>They came at us from below the ground, giant mole rats! At least couple dozen of them.</text>
 </string>
 <string id="st_dyn_news_extended_conv_109_turn_2">
-    <text>Jesus. We barely handled the blind dogs yesterday.</text>
+    <text>Cyka. We barely handled the blind dogs yesterday.</text>
 </string>
 <string id="st_dyn_news_extended_conv_109_turn_3">
     <text>Yeah, but the moles dig. No line of sight, just sudden gouges and screeches.</text>
@@ -2675,7 +2675,7 @@
     <text>Some group deals in organs. grab, cut, sell. No questions asked.</text>
 </string>
 <string id="st_dyn_news_extended_conv_118_turn_4">
-    <text>Jesus. Makes you wonder what's worse mutants or humans.</text>
+    <text>Blyat... Makes you wonder what's worse mutants or humans.</text>
 </string>
 <string id="st_dyn_news_extended_conv_118_turn_5">
     <text>Humans, every time. Zone’s deadly, but at least it doesn’t stab you in the back.</text>
@@ -2972,6 +2972,284 @@
 <string id="st_dyn_news_extended_conv_132_turn_4">
     <text>Conspiracies grow by the day. I see.</text>
 </string>
+
+
+<string id="st_dyn_news_extended_conv_143_meta">
+    <text>regret,war,ptsd</text>
+</string>
+<string id="st_dyn_news_extended_conv_143_turn_1">
+    <text>You ever think about life before the Zone? Real life, I mean.</text>
+</string>
+<string id="st_dyn_news_extended_conv_143_turn_2">
+    <text>Sometimes. Mostly at night. The memories are... sharper then.</text>
+</string>
+<string id="st_dyn_news_extended_conv_143_turn_3">
+    <text>I was a schoolteacher. Can you believe that? Now I’m here, trading bullets for bread.</text>
+</string>
+<string id="st_dyn_news_extended_conv_143_turn_4">
+    <text>The Zone doesn’t care what we were. Only what we’ve become.</text>
+</string>
+<string id="st_dyn_news_extended_conv_143_turn_5">
+    <text>And what’s that, exactly?</text>
+</string>
+<string id="st_dyn_news_extended_conv_143_turn_6">
+    <text>Survivors. Or ghosts. Depends on the day.</text>
+</string>
+
+
+
+<string id="st_dyn_news_extended_conv_144_meta">
+    <text>betrayal,revenge,morality</text>
+</string>
+<string id="st_dyn_news_extended_conv_144_turn_1">
+    <text>I know who left you to die at the warehouse. Saw his patch clear as day.</text>
+</string>
+<string id="st_dyn_news_extended_conv_144_turn_2">
+    <text>Tell me. Now.</text>
+</string>
+<string id="st_dyn_news_extended_conv_144_turn_3">
+    <text>What’ll you do? Hunt him? Become just another killer in the Zone?</text>
+</string>
+<string id="st_dyn_news_extended_conv_144_turn_4">
+    <text>He made his choice when he walked away.</text>
+</string>
+<string id="st_dyn_news_extended_conv_144_turn_5">
+    <text>And this is yours. Think carefully—blood doesn’t wash off easy.</text>
+</string>
+
+
+
+<string id="st_dyn_news_extended_conv_145_meta">
+    <text>guilt,violence,initiation</text>
+</string>
+<string id="st_dyn_news_extended_conv_145_turn_1">
+    <text>First time you shot a man? Not mutants, not bandits—a real person.</text>
+</string>
+<string id="st_dyn_news_extended_conv_145_turn_2">
+    <text>...some patrol guy. He was checking IDs at a bridge. I had contraband. Long time ago.</text>
+</string>
+<string id="st_dyn_news_extended_conv_145_turn_3">
+    <text>Still see his face?</text>
+</string>
+<string id="st_dyn_news_extended_conv_145_turn_4">
+    <text>Every damn night. His helmet visor was cracked. Saw his eyes widen.</text>
+</string>
+<string id="st_dyn_news_extended_conv_145_turn_5">
+    <text>Welcome to the Zone. Where we trade pieces of our soul for one more day.</text>
+</string>
+
+
+<string id="st_dyn_news_extended_conv_146_meta">
+    <text>madness,psychosis,paranoia</text>
+</string>
+<string id="st_dyn_news_extended_conv_146_turn_1">
+    <text>You hear it too, don’t you? That... humming. Like a broken radio.</text>
+</string>
+<string id="st_dyn_news_extended_conv_146_turn_2">
+    <text>It’s not real. Your brain’s cooking from the anomalies.</text>
+</string>
+<string id="st_dyn_news_extended_conv_146_turn_3">
+    <text>It’s real. It calls to me. Says things—my name, places, dates...</text>
+</string>
+<string id="st_dyn_news_extended_conv_146_turn_4">
+    <text>Get to the Ecologists. Now. Before you end up like the Monolith.</text>
+</string>
+<string id="st_dyn_news_extended_conv_146_turn_5">
+    <text>...What if they’re right? What if it *is* speaking?</text>
+</string>
+
+
+
+<string id="st_dyn_news_extended_conv_147_meta">
+    <text>loss,grief,brotherhood</text>
+</string>
+<string id="st_dyn_news_extended_conv_147_turn_1">
+    <text>Buried another one today. Stalker named Vikhr. Good man.</text>
+</string>
+<string id="st_dyn_news_extended_conv_147_turn_2">
+    <text>How’d it happen?</text>
+</string>
+<string id="st_dyn_news_extended_conv_147_turn_3">
+    <text>Electro anomaly near Jupiter. Mistook it for an artifact glow.</text>
+</string>
+<string id="st_dyn_news_extended_conv_147_turn_4">
+    <text>He deserved better than a shallow grave and a rusted tag.</text>
+</string>
+<string id="st_dyn_news_extended_conv_147_turn_5">
+    <text>We all do. But the Zone doesn’t give what we deserve.</text>
+</string>
+
+
+
+<string id="st_dyn_news_extended_conv_148_meta">
+    <text>morality,sacrifice,hard_choices</text>
+</string>
+<string id="st_dyn_news_extended_conv_148_turn_1">
+    <text>Found a kid yesterday, maybe 18/19, trying to loot a military patrol. Stupid.</text>
+</string>
+<string id="st_dyn_news_extended_conv_148_turn_2">
+    <text>You stop him?</text>
+</string>
+<string id="st_dyn_news_extended_conv_148_turn_3">
+    <text>No. Let him go. Figured the bullets would teach him better than I could.</text>
+</string>
+<string id="st_dyn_news_extended_conv_148_turn_4">
+    <text>Christ. That’s cold.</text>
+</string>
+<string id="st_dyn_news_extended_conv_148_turn_5">
+    <text>No. Cold would’ve been putting him down myself to spare the suffering.</text>
+</string>
+
+
+
+<string id="st_dyn_news_extended_conv_149_meta">
+    <text>fatalism,last_rites,acceptance</text>
+</string>
+<string id="st_dyn_news_extended_conv_149_turn_1">
+    <text>You're coughing blood again.</text>
+</string>
+<string id="st_dyn_news_extended_conv_149_turn_2">
+    <text>Ecologists confirmed it this morning. The Zone's finally claiming me.</text>
+</string>
+<string id="st_dyn_news_extended_conv_149_turn_3">
+    <text>Cyka...How long?</text>
+</string>
+<string id="st_dyn_news_extended_conv_149_turn_4">
+    <text>Long enough to settle accounts. Short enough that it hurts to breathe.</text>
+</string>
+<string id="st_dyn_news_extended_conv_149_turn_5">
+    <text>Name what you need.</text>
+</string>
+<string id="st_dyn_news_extended_conv_149_turn_6">
+    <text>Just keep the vodka coming. And don't let them bury me in some unmarked ditch.</text>
+</string>
+
+
+
+<string id="st_dyn_news_extended_conv_150_meta">
+    <text>cnpp,suicide_mission,legacy</text>
+</string>
+<string id="st_dyn_news_extended_conv_150_turn_1">
+    <text>Heading north tomorrow. All the way to the reactor.</text>
+</string>
+<string id="st_dyn_news_extended_conv_150_turn_2">
+    <text>You’ll die. No one comes back from there.</text>
+</string>
+<string id="st_dyn_news_extended_conv_150_turn_3">
+    <text>Maybe. But if I make it... imagine the stories.</text>
+</string>
+<string id="st_dyn_news_extended_conv_150_turn_4">
+    <text>Stories don’t feed the worms. Turn back.</text>
+</string>
+<string id="st_dyn_news_extended_conv_150_turn_5">
+    <text>Can’t. Something’s calling me there. Always has been.</text>
+</string>
+
+
+<!-- Extended Conversation 151: Zone's Appetite -->
+<string id="st_dyn_news_extended_conv_151_meta">
+    <text>mutants,loss,adaptation</text>
+</string>
+<string id="st_dyn_news_extended_conv_151_turn_1">
+    <text>Saw a pack of pseudodogs take down 2 stalkers near the swamps yesterday.</text>
+</string>
+<string id="st_dyn_news_extended_conv_151_turn_2">
+    <text>New to the Zone? Mutants learn faster than we do.</text>
+</string>
+<string id="st_dyn_news_extended_conv_151_turn_3">
+    <text>They flanked them... like fucking tacticians.</text>
+</string>
+<string id="st_dyn_news_extended_conv_151_turn_4">
+    <text>Stop seeing animals. See predators. Or you'll feed them too.</text>
+</string>
+
+<!-- Extended Conversation 152: Anomaly Sickness -->
+<string id="st_dyn_news_extended_conv_152_meta">
+    <text>radiation,sickness,denial</text>
+</string>
+<string id="st_dyn_news_extended_conv_152_turn_1">
+    <text>%other_last_name% when did you last check your dosimeter?</text>
+</string>
+<string id="st_dyn_news_extended_conv_152_turn_2">
+    <text>Battery died weeks ago. What's the point?</text>
+</string>
+<string id="st_dyn_news_extended_conv_152_turn_3">
+    <text>The point is knowing whether to dig your grave now or later.</text>
+</string>
+<string id="st_dyn_news_extended_conv_152_turn_4">
+    <text>We're all dying. Just some faster than others.</text>
+</string>
+<string id="st_dyn_news_extended_conv_152_turn_5">
+    <text>Then at least die useful. Hand me that detector before you collapse.</text>
+</string>
+
+<!-- Extended Conversation 153: False Hope -->
+<string id="st_dyn_news_extended_conv_153_meta">
+    <text>artifacts,deception,desperation</text>
+</string>
+<string id="st_dyn_news_extended_conv_153_turn_1">
+    <text>Heard about that "golden ball" artifact near the cement factory?</text>
+</string>
+<string id="st_dyn_news_extended_conv_153_turn_2">
+    <text>Another fairy tale for rookies.</text>
+</string>
+<string id="st_dyn_news_extended_conv_153_turn_3">
+    <text>A team went looking last week. None came back.</text>
+</string>
+<string id="st_dyn_news_extended_conv_153_turn_4">
+    <text>The Zone doesn't make miracles. It makes corpses.</text>
+</string>
+<string id="st_dyn_news_extended_conv_153_turn_5">
+    <text>Then why do we keep believing?</text>
+</string>
+<string id="st_dyn_news_extended_conv_153_turn_6">
+    <text>Because the alternative is admitting this is all for nothing.</text>
+</string>
+
+<!-- Extended Conversation 154: Debt Collector -->
+<string id="st_dyn_news_extended_conv_154_meta">
+    <text>debt,consequences,hard_lessons</text>
+</string>
+<string id="st_dyn_news_extended_conv_154_turn_1">
+    <text>%other_last_name%, Markov's looking for you. Says you owe him two artifact shares.</text>
+</string>
+<string id="st_dyn_news_extended_conv_154_turn_2">
+    <text>Tell him I'll pay after my next run.</text>
+</string>
+<string id="st_dyn_news_extended_conv_154_turn_3">
+    <text>You've ran out of "runs". Wants payment now... or your fingers.</text>
+</string>
+<string id="st_dyn_news_extended_conv_154_turn_4">
+    <text>Fucking vulture. Tell him he'll get paid when I drag something valuable out of a corpse.</text>
+</string>
+<string id="st_dyn_news_extended_conv_154_turn_5">
+    <text>Make it soon. His collectors shoot first these days.</text>
+</string>
+
+<!-- Extended Conversation 155: Unmarked Graves -->
+<string id="st_dyn_news_extended_conv_155_meta">
+    <text>remembrance,loss,tradition</text>
+</string>
+<string id="st_dyn_news_extended_conv_155_turn_1">
+    <text>Why do you leave those bullet casings on the roadside crosses?</text>
+</string>
+<string id="st_dyn_news_extended_conv_155_turn_2">
+    <text>So the dead know we haven't forgotten. So we remember it could be us next.</text>
+</string>
+<string id="st_dyn_news_extended_conv_155_turn_3">
+    <text>They're just rotting wood and rusted metal.</text>
+</string>
+<string id="st_dyn_news_extended_conv_155_turn_4">
+    <text>Everything rots here. Still matters to leave a mark.</text>
+</string>
+<string id="st_dyn_news_extended_conv_155_turn_5">
+    <text>...Got a spare casing?</text>
+</string>
+
+
+
+
+
 
 
 

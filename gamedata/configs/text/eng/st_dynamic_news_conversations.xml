@@ -756,7 +756,7 @@
     <text>Best bet is the canned goods from supply drops, they're very rare though. Forage only if you know your botanicals.</text>
 </string>
 
-<!-- ZONE MYSTERIES (1-10) -->
+<!-- ZONE MYSTERIES  -->
 <string id="st_dyn_news_conversation_mysteries_msg_1">
     <text>Anyone else see those green lights floating over the cooling towers last night?</text>
 </string>
@@ -811,7 +811,7 @@
     <text>I wouldn't probe it.</text>
 </string>
 
-<!-- FACTION POLITICS (11-20) -->
+<!-- FACTION POLITICS -->
 <string id="st_dyn_news_conversation_politics_msg_1">
     <text>Heard Duty and Freedom are negotiating a ceasefire.</text>
 </string>
@@ -838,10 +838,10 @@
     <text>Its a trap. They will use you then dispose of you.</text>
 </string>
 <string id="st_dyn_news_conversation_politics_resp_2_4">
-    <text>Already know three guys who took the deal. Havent heard from them since.</text>
+    <text>Already know two guys who took the deal. Havent heard from them since.</text>
 </string>
 
-<!-- SURVIVAL TIPS (21-30) -->
+<!-- SURVIVAL TIPS  -->
 <string id="st_dyn_news_conversation_survival_msg_1">
     <text>Whats the best way to treat radiation sickness without proper meds?</text>
 </string>
@@ -868,7 +868,7 @@
     <text>Trade for it. I'm sure there'll be someone overcharging for somewhat clean water.</text>
 </string>
 
-<!-- ANOMALY ENCOUNTERS (31-40) -->
+<!-- ANOMALY ENCOUNTERS-->
 <string id="st_dyn_news_conversation_anomaly_msg_1">
     <text>New type of anomaly spotted. Turns organic matter to crystal.</text>
 </string>
@@ -896,7 +896,203 @@
 </string>
 
 
-<!-- STALKER STORIES (41-50) -->
+<string id="st_dyn_news_conversation_anomaly_msg_3">
+    <text>My buddy got caught in a space bubble yesterday. Took three hours to get him down from twenty meters up.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_3_1">
+    <text>Space bubbles are tricky. Once you're floating, just wait it out. Fighting makes it worse.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_3_2">
+    <text>Lucky bastard. Last guy I saw in one got launched into a brick wall.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_3_3">
+    <text>Should've thrown him a rope. Always carry climbing gear near gravity fields.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_3_4">
+    <text>Three hours? I would have shot him down out of mercy after one.</text>
+</string>
+
+<string id="st_dyn_news_conversation_anomaly_msg_4">
+    <text>Walked into an electro field without noticing. Hair still standing up and my detector's fried.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_4_1">
+    <text>Electros mess with your nervous system too. You might have tremors for days.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_4_2">
+    <text>Look for the blue shimmer next time. Electros always give off that glow.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_4_3">
+    <text>Your detector's toast but at least you're not. Count your blessings.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_4_4">
+    <text>Heard rubber boots help with electros. Might be bullshit though.</text>
+</string>
+
+<string id="st_dyn_news_conversation_anomaly_msg_5">
+    <text>Found a whirligig that spins in reverse. Been watching it for an hour, mesmerizing as hell.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_5_1">
+    <text>Reverse whirligigs spit out artifacts instead of sucking them in. Jackpot.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_5_2">
+    <text>Don't stare too long. Some anomalies hypnotize you into walking closer.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_5_3">
+    <text>Might be a temporal anomaly. Time could be flowing backward in that spot.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_5_4">
+    <text>Zone's full of weird shit. Take a picture and get out before it changes.</text>
+</string>
+
+
+<string id="st_dyn_news_conversation_anomaly_msg_6">
+    <text>Stepped on what looked like solid ground. Turned out to be a flesh-eating anomaly. Boot's gone, foot's barely attached.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_6_1">
+    <text>Meat grinders are invisible until you're in them. Always test ground with bolts first.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_6_2">
+    <text>Get to a medic now. Those things inject acid that keeps eating.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_6_3">
+    <text>Pour vodka on it to neutralize the acid. Burns like hell but stops the spread.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_6_4">
+    <text>Should have watched for the brown stains around the edges. Dead giveaway.</text>
+</string>
+
+<string id="st_dyn_news_conversation_anomaly_msg_7">
+    <text>There's a new anomaly type near the factory. Looks like a mirror but shows your death instead of reflection.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_7_1">
+    <text>Death mirrors are psi anomalies. They feed on fear and despair.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_7_2">
+    <text>What did you see? Sometimes they show possible futures you can avoid.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_7_3">
+    <text>Break it with a rock from distance. Don't look directly at the shards.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_7_4">
+    <text>I'd rather not know how I'm gonna die. Ignorance is bliss in the Zone.</text>
+</string>
+
+<string id="st_dyn_news_conversation_anomaly_msg_8">
+    <text>Got caught in a time loop anomaly for what felt like hours. Same ten seconds repeating over and over.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_8_1">
+    <text>Time loops are rare but dangerous. Your mind remembers even if reality resets.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_8_2">
+    <text>How'd you break out? Most people go insane before finding the exit.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_8_3">
+    <text>Those things mess with your perception of time for weeks afterward.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_8_4">
+    <text>At least you got out. Some stalkers are still stuck in loops from years ago.</text>
+</string>
+
+<string id="st_dyn_news_conversation_anomaly_msg_9">
+    <text>Found an anomaly that ages everything it touches. Threw in a fresh apple, came out as dust.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_9_1">
+    <text>Yeah..I wouldn't be near it.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_9_2">
+    <text>Could be useful for aging alcohol or breaking down materials quickly.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_9_3">
+    <text>Mark that spot on your map. Scientists pay good money for temporal anomaly data.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_9_4">
+    <text>Zone's way of reminding us that time's always running out.</text>
+</string>
+
+<string id="st_dyn_news_conversation_anomaly_msg_10">
+    <text>There's an anomaly that shows you alternate versions of yourself. Saw myself as a scientist, a bandit, even a mutant.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_10_1">
+    <text>Probability mirrors show possible life paths. Don't stare too long or you might swap places.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_10_2">
+    <text>Which version looked happiest? Sometimes they show what we should have been.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_10_3">
+    <text>Zone reminding us that our choices define us. Could have been worse, could have been better.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_10_4">
+    <text>Don't trust those visions. Zone loves to mess with our heads about 'what if'.</text>
+</string>
+
+<string id="st_dyn_news_conversation_anomaly_msg_11">
+    <text>There's an anomaly that makes duplicates of whatever you throw into it. Real or fake, can't tell the difference.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_11_1">
+    <text>Duplication anomalies are unstable. The copies usually decay within hours.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_11_2">
+    <text>Try throwing in something valuable and see if the copy works the same.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_11_3">
+    <text>Don't throw in anything living. The results are... disturbing.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_11_4">
+    <text>Zone giving us false hope. Even its gifts are lies.</text>
+</string>
+
+<string id="st_dyn_news_conversation_anomaly_msg_12">
+    <text>Stepped into an anomaly that showed me my memories in reverse. Lived my whole life backward in seconds.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_12_1">
+    <text>Memory rewind anomalies can cause permanent psychological damage. See a medic.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_12_2">
+    <text>Did you remember things you'd forgotten? I hear ometimes they unlock repressed memories.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_12_3">
+    <text>That sounds terrifying. Experiencing death and then birth in reverse order.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_12_4">
+    <text>Zone's way of making you confront your past. Whether you want to or not.</text>
+</string>
+
+<string id="st_dyn_news_conversation_anomaly_msg_13">
+    <text>Found an anomaly that turns solid objects into liquid. Watched a concrete block melt like ice cream.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_13_1">
+    <text>Haven't seen those yet, hm.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_13_2">
+    <text>Could be useful for breaking through obstacles or disposing of evidence.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_13_3">
+    <text>Mark it well. That's a death trap for anyone wearing metal armor.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_13_4">
+    <text>Zone loves to break down everything we think is permanent.</text>
+</string>
+
+<string id="st_dyn_news_conversation_anomaly_msg_14">
+    <text>Walked through an anomalous area that made everything silent. Couldn't hear gunshots, explosions, nothing.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_14_1">
+    <text>Sounds like it can be turned into a tactical advantage.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_14_2">
+    <text>How long did it last? Permanent hearing loss from those is common.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_14_3">
+    <text>Perfect for ambushes. Mark that location for future operations.</text>
+</string>
+<string id="st_dyn_news_conversation_anomaly_resp_14_4">
+    <text>Silence in the Zone is more terrifying than any noise. At least you know you're alive when you can hear.</text>
+</string>
+
+
+
+
+<!-- STALKER STORIES  -->
 <string id="st_dyn_news_conversation_stories_msg_1">
     <text>You guys hear what happened to Yuris squad in the Red Forest?</text>
 </string>

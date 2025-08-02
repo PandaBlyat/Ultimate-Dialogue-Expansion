@@ -440,7 +440,7 @@ function DynamicNewsManager:LoadExtendedConversations()
 	local total_loaded = 0
 	
 	-- Load up to 150 extended conversations
-	for conv_num = 1, 155 do
+	for conv_num = 1, 172 do
 		local conv_id = "st_dyn_news_extended_conv_" .. conv_num
 		local conv_data = {
 			id = conv_num,
@@ -4799,7 +4799,7 @@ function DynamicNewsManager:LoadFactionConversations()
     for _, faction in ipairs(factions) do
         local faction_loaded = 0
         
-        -- Try to load up to 50 conversations per faction
+        -- Try to load up to 100 conversations per faction
         for conv_num = 1, 100 do
             local conv_id = "st_dyn_news_conversation_faction_" .. faction .. "_" .. conv_num
             local conv_data = {

@@ -352,9 +352,9 @@
 	<string id="st_dyn_news_conversation_faction_loner_45_turn_1"><text>That military sergeant at the south checkpoint is dirty. Takes bribes for passage.</text></string>
 	<string id="st_dyn_news_conversation_faction_loner_45_turn_2"><text>How much?</text></string>
 	<string id="st_dyn_news_conversation_faction_loner_45_turn_3"><text>5000 rubles or a decent artifact. Cheaper than getting shot trying to sneak around.</text></string>
-	<string id="st_dyn_news_conversation_faction_loner_45_turn_4"><text>%speaker_first_name%, that's useful. What's his schedule?</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_45_turn_4"><text>That's really useful. What's his schedule?</text></string>
 	<string id="st_dyn_news_conversation_faction_loner_45_turn_5"><text>Night shifts, Tuesday through Friday. Look for the one with the scarred left hand.</text></string>
-	<string id="st_dyn_news_conversation_faction_loner_45_turn_6"><text>Information like this is why loners survive. We share what matters.</text></string>
+	<string id="st_dyn_news_conversation_faction_loner_45_turn_6"><text>Information like this is why loners survive. We share what matters, thank you brat.</text></string>
 
 
 	<string id="st_dyn_news_conversation_faction_loner_46_meta"><text>sidorovich,monopoly,alternatives,loner</text></string>
@@ -625,8 +625,6 @@
 	<string id="st_dyn_news_conversation_faction_dolg_31_turn_3"><text>Ecologists are screaming about data loss. Orders?</text></string>
 	<string id="st_dyn_news_conversation_faction_dolg_31_turn_4"><text>Let them scream. Human lives come before research notes.</text></string>
 	
-	
-	<!-- DUTY FACTION CONVERSATIONS - EXPANDED -->
 
 	<!-- Conversation 32: Equipment Complaints -->
 	<string id="st_dyn_news_conversation_faction_dolg_32_meta"><text>equipment,complaint,bureaucracy,dolg</text></string>
@@ -1377,7 +1375,7 @@
 	<string id="st_dyn_news_conversation_faction_bandit_8_turn_2"><text>Pfft, easy. Watch this—*glug glug glug*</text></string>
 	<string id="st_dyn_news_conversation_faction_bandit_8_turn_3"><text>...Okay, now shoot that can over there.</text></string>
 	<string id="st_dyn_news_conversation_faction_bandit_8_turn_4"><text>*BLAM* ...Did I hit it?</text></string>
-	<string id="st_dyn_news_conversation_faction_bandit_8_turn_5"><text>No, you shot the vodka stash. We’re all gonna die sober now, thanks.</text></string>
+	<string id="st_dyn_news_conversation_faction_bandit_8_turn_5"><text>No, you shot the vodka stash. Cyka Blyat.</text></string>
 	
 	
 	<string id="st_dyn_news_conversation_faction_bandit_9_meta"><text>loot,argument,knife,bandit,greed</text></string>

@@ -3250,4 +3250,584 @@
 </string>
 
 
+<!-- Extended Conversation 156: Artifact Scam -->
+<string id="st_dyn_news_extended_conv_156_meta">
+    <text>artifacts,scam,anger</text>
+</string>
+<string id="st_dyn_news_extended_conv_156_turn_1">
+    <text>%speaker1_first_name% here. That "Firefly" you sold me is fake as fuck!</text>
+</string>
+<string id="st_dyn_news_extended_conv_156_turn_2">
+    <text>What? No way, I tested it myself before selling.</text>
+</string>
+<string id="st_dyn_news_extended_conv_156_turn_3">
+    <text>It's a fucking glowing rock with radiation! You trying to kill me?</text>
+</string>
+<string id="st_dyn_news_extended_conv_156_turn_4">
+    <text>Look, maybe it degraded. Artifacts do that sometimes...</text>
+</string>
+<string id="st_dyn_news_extended_conv_156_turn_5">
+    <text>Bullshit! I want my 30k back or we're gonna have problems.</text>
+</string>
+<string id="st_dyn_news_extended_conv_156_turn_6">
+    <text>All sales are final, you know the rules.</text>
+</string>
+<string id="st_dyn_news_extended_conv_156_turn_7">
+    <text>Then I'll take it out of your skinny ass next time I see you.</text>
+</string>
+
+
+<!-- Extended Conversation 157: Stalker Competition -->
+<string id="st_dyn_news_extended_conv_157_meta">
+    <text>competition,territory,tension</text>
+</string>
+<string id="st_dyn_news_extended_conv_157_turn_1">
+    <text>Hey %other_first_name%, heard you were working my sector. Not cool.</text>
+</string>
+<string id="st_dyn_news_extended_conv_157_turn_2">
+    <text>Your sector? Since when do you own the Zone?</text>
+</string>
+<string id="st_dyn_news_extended_conv_157_turn_3">
+    <text>Since I've been working it for three months. Find your own hunting grounds.</text>
+</string>
+<string id="st_dyn_news_extended_conv_157_turn_4">
+    <text>Fuck off. First come, first served. Zone doesn't belong to anyone.</text>
+</string>
+<string id="st_dyn_news_extended_conv_157_turn_5">
+    <text>Keep pushing and see what happens.</text>
+</string>
+
+
+
+<!-- Extended Conversation 158: Monolith Sighting -->
+<string id="st_dyn_news_extended_conv_158_meta">
+    <text>monolith,danger,warning</text>
+</string>
+<string id="st_dyn_news_extended_conv_158_turn_1">
+    <text>URGENT: Monolith patrol spotted heading out %location%!</text>
+</string>
+<string id="st_dyn_news_extended_conv_158_turn_2">
+    <text>How many? Armed with what?</text>
+</string>
+<string id="st_dyn_news_extended_conv_158_turn_3">
+    <text>At least 4, maybe more. Exoskeletons and heavy weapons.</text>
+</string>
+<string id="st_dyn_news_extended_conv_158_turn_4">
+    <text>Cyka. That's a heavy scout squad. Stay on high alert.</text>
+</string>
+<string id="st_dyn_news_extended_conv_158_turn_5">
+    <text>They're chanting something... gives me the fucking creeps.</text>
+</string>
+<string id="st_dyn_news_extended_conv_158_turn_6">
+    <text>Don't listen to it, Just get the fuck out of there!</text>
+</string>
+
+
+
+<!-- Extended Conversation 159: Pseudodog Pack Leader -->
+<string id="st_dyn_news_extended_conv_159_meta">
+    <text>mutants,hunting,warning</text>
+</string>
+<string id="st_dyn_news_extended_conv_159_turn_1">
+    <text>Just saw the biggest fucking pseudodog I've ever seen.</text>
+</string>
+<string id="st_dyn_news_extended_conv_159_turn_2">
+    <text>How big we talking?</text>
+</string>
+<string id="st_dyn_news_extended_conv_159_turn_3">
+    <text>Size of a small car. Pure white. Leading a pack of at least 20.</text>
+</string>
+<string id="st_dyn_news_extended_conv_159_turn_4">
+    <text>That's the albino alpha everyone's been talking about. Worth 50k dead.</text>
+</string>
+<string id="st_dyn_news_extended_conv_159_turn_5">
+    <text>Yeah? Well whoever wants that bounty can have it. Thing looked smart.</text>
+</string>
+<string id="st_dyn_news_extended_conv_159_turn_6">
+    <text>Smart how?</text>
+</string>
+<string id="st_dyn_news_extended_conv_159_turn_7">
+    <text>It saw me scoping it and backed the whole pack into cover. Like it knew what a rifle was.</text>
+</string>
+
+
+<!-- Extended Conversation 160: Faction Politics -->
+<string id="st_dyn_news_extended_conv_160_meta">
+    <text>faction,betrayal,politics</text>
+</string>
+<string id="st_dyn_news_extended_conv_160_turn_1">
+    <text>Word is %other_faction% pricks are planning something big against us.</text>
+</string>
+<string id="st_dyn_news_extended_conv_160_turn_2">
+    <text>Let them try. We've held this territory for years.</text>
+</string>
+<string id="st_dyn_news_extended_conv_160_turn_3">
+    <text>No, I mean BIG. Someone saw them moving heavy ordinance.</text>
+</string>
+<string id="st_dyn_news_extended_conv_160_turn_4">
+    <text>Where'd you hear this?</text>
+</string>
+<string id="st_dyn_news_extended_conv_160_turn_5">
+    <text>Trader at the bar. Said one of their guys got drunk and talked too much.</text>
+</string>
+<string id="st_dyn_news_extended_conv_160_turn_6">
+    <text>Could be disinformation. But we should prepare anyway.</text>
+</string>
+<string id="st_dyn_news_extended_conv_160_turn_7">
+    <text>Already started. Got the boys checking all defensive positions.</text>
+</string>
+<string id="st_dyn_news_extended_conv_160_turn_8">
+    <text>Good. If they want a war, we'll give them one.</text>
+</string>
+
+
+<!-- Extended Conversation 156: Artifact Scam -->
+<string id="st_dyn_news_extended_conv_156_meta">
+    <text>artifacts,scam,anger</text>
+</string>
+<string id="st_dyn_news_extended_conv_156_turn_1">
+    <text>%speaker1_first_name% here. That "Firefly" you sold me is fake as fuck!</text>
+</string>
+<string id="st_dyn_news_extended_conv_156_turn_2">
+    <text>What? No way, I tested it myself before selling.</text>
+</string>
+<string id="st_dyn_news_extended_conv_156_turn_3">
+    <text>It's a fucking glowing rock with radiation! You trying to kill me?</text>
+</string>
+<string id="st_dyn_news_extended_conv_156_turn_4">
+    <text>Look, maybe it degraded. Artifacts do that sometimes...</text>
+</string>
+<string id="st_dyn_news_extended_conv_156_turn_5">
+    <text>Bullshit! I want my 30k back or we're gonna have problems.</text>
+</string>
+<string id="st_dyn_news_extended_conv_156_turn_6">
+    <text>All sales are final, you know the rules.</text>
+</string>
+<string id="st_dyn_news_extended_conv_156_turn_7">
+    <text>Then I'll take it out of your hide next time I see you.</text>
+</string>
+
+<!-- Extended Conversation 157: Stalker Competition -->
+<string id="st_dyn_news_extended_conv_157_meta">
+    <text>competition,territory,tension</text>
+</string>
+<string id="st_dyn_news_extended_conv_157_turn_1">
+    <text>Hey %other_first_name%, heard you were working my sector. Not cool.</text>
+</string>
+<string id="st_dyn_news_extended_conv_157_turn_2">
+    <text>Your sector? Since when do you own the Zone?</text>
+</string>
+<string id="st_dyn_news_extended_conv_157_turn_3">
+    <text>Since I've been working it for three months. Find your own hunting grounds.</text>
+</string>
+<string id="st_dyn_news_extended_conv_157_turn_4">
+    <text>Fuck off. First come, first served. Zone doesn't belong to anyone.</text>
+</string>
+<string id="st_dyn_news_extended_conv_157_turn_5">
+    <text>Keep pushing and see what happens.</text>
+</string>
+
+<!-- Extended Conversation 158: Monolith Sighting -->
+<string id="st_dyn_news_extended_conv_158_meta">
+    <text>monolith,danger,warning</text>
+</string>
+<string id="st_dyn_news_extended_conv_158_turn_1">
+    <text>URGENT: Monolith patrol spotted moving towards %location%!</text>
+</string>
+<string id="st_dyn_news_extended_conv_158_turn_2">
+    <text>How many? Armed with what?</text>
+</string>
+<string id="st_dyn_news_extended_conv_158_turn_3">
+    <text>At least 8, maybe more. Exoskeletons and heavy weapons.</text>
+</string>
+<string id="st_dyn_news_extended_conv_158_turn_4">
+    <text>Shit. That's a death squad. Everyone needs to clear out NOW.</text>
+</string>
+<string id="st_dyn_news_extended_conv_158_turn_5">
+    <text>They're chanting something... gives me the fucking creeps.</text>
+</string>
+<string id="st_dyn_news_extended_conv_158_turn_6">
+    <text>Don't listen to it! Just get the fuck out of there!</text>
+</string>
+
+<!-- Extended Conversation 159: Pseudodog Pack Leader -->
+<string id="st_dyn_news_extended_conv_159_meta">
+    <text>mutants,hunting,warning</text>
+</string>
+<string id="st_dyn_news_extended_conv_159_turn_1">
+    <text>Just saw the biggest fucking pseudodog I've ever seen.</text>
+</string>
+<string id="st_dyn_news_extended_conv_159_turn_2">
+    <text>How big we talking?</text>
+</string>
+<string id="st_dyn_news_extended_conv_159_turn_3">
+    <text>Size of a small car. Pure white. Leading a pack of at least 20.</text>
+</string>
+<string id="st_dyn_news_extended_conv_159_turn_4">
+    <text>That's the albino alpha everyone's been talking about. Worth 100k dead.</text>
+</string>
+<string id="st_dyn_news_extended_conv_159_turn_5">
+    <text>Yeah? Well whoever wants that bounty can have it. Thing looked smart.</text>
+</string>
+<string id="st_dyn_news_extended_conv_159_turn_6">
+    <text>Smart how?</text>
+</string>
+<string id="st_dyn_news_extended_conv_159_turn_7">
+    <text>It saw me scoping it and backed the whole pack into cover. Like it knew what a rifle was.</text>
+</string>
+
+<!-- Extended Conversation 160: Faction Politics -->
+<string id="st_dyn_news_extended_conv_160_meta">
+    <text>faction,betrayal,politics</text>
+</string>
+<string id="st_dyn_news_extended_conv_160_turn_1">
+    <text>Word is %other_faction% is planning something big against us.</text>
+</string>
+<string id="st_dyn_news_extended_conv_160_turn_2">
+    <text>Let them try. We've held this territory for years.</text>
+</string>
+<string id="st_dyn_news_extended_conv_160_turn_3">
+    <text>No, I mean BIG. Someone saw them moving heavy ordinance.</text>
+</string>
+<string id="st_dyn_news_extended_conv_160_turn_4">
+    <text>Where'd you hear this?</text>
+</string>
+<string id="st_dyn_news_extended_conv_160_turn_5">
+    <text>Trader at the bar. Said one of their guys got drunk and talked too much.</text>
+</string>
+<string id="st_dyn_news_extended_conv_160_turn_6">
+    <text>Could be disinformation. But we should prepare anyway.</text>
+</string>
+<string id="st_dyn_news_extended_conv_160_turn_7">
+    <text>Already started. Got the boys checking all defensive positions.</text>
+</string>
+<string id="st_dyn_news_extended_conv_160_turn_8">
+    <text>Good. If they want a war, we'll give them one.</text>
+</string>
+
+<!-- Extended Conversation 161: Artifact Cooking -->
+<string id="st_dyn_news_extended_conv_161_meta">
+    <text>artifacts,dangerous,experiment</text>
+</string>
+<string id="st_dyn_news_extended_conv_161_turn_1">
+    <text>%other_first_name%, ever tried "cooking" artifacts?</text>
+</string>
+<string id="st_dyn_news_extended_conv_161_turn_2">
+    <text>Cooking? What the fuck does that mean?</text>
+</string>
+<string id="st_dyn_news_extended_conv_161_turn_3">
+    <text>Exposing them to specific anomalies to change their properties.</text>
+</string>
+<string id="st_dyn_news_extended_conv_161_turn_4">
+    <text>Sounds like a good way to blow yourself up.</text>
+</string>
+<string id="st_dyn_news_extended_conv_161_turn_5">
+    <text>Maybe. But I turned a cheap Stone Blood into something worth triple.</text>
+</string>
+<string id="st_dyn_news_extended_conv_161_turn_6">
+    <text>How?</text>
+</string>
+<string id="st_dyn_news_extended_conv_161_turn_7">
+    <text>Electro anomaly, 30 seconds. Changes the radiation signature completely.</text>
+</string>
+<string id="st_dyn_news_extended_conv_161_turn_8">
+    <text>And if it goes wrong?</text>
+</string>
+<string id="st_dyn_news_extended_conv_161_turn_9">
+    <text>Then you're picking pieces of yourself off the ceiling.</text>
+</string>
+
+
+
+<!-- Extended Conversation 163: Medical Emergency -->
+<string id="st_dyn_news_extended_conv_162_meta">
+    <text>medical,emergency,radiation</text>
+</string>
+<string id="st_dyn_news_extended_conv_162_turn_1">
+    <text>Need anti-rad NOW! %speaker1_first_name%, I'm burning up!</text>
+</string>
+<string id="st_dyn_news_extended_conv_162_turn_2">
+    <text>Where are you? What happened?</text>
+</string>
+<string id="st_dyn_news_extended_conv_162_turn_3">
+    <text>Fell into a rad pocket near the old trucks. Geiger's screaming!</text>
+</string>
+<string id="st_dyn_news_extended_conv_162_turn_4">
+    <text>Get to the medic at %location%! I'll radio ahead!</text>
+</string>
+<string id="st_dyn_news_extended_conv_162_turn_5">
+    <text>Can't... see straight. Everything's spinning.</text>
+</string>
+<string id="st_dyn_news_extended_conv_162_turn_6">
+    <text>MOVE YOUR ASS! You stop moving, you're dead!</text>
+</string>
+
+
+<!-- Extended Conversation 163: Anomaly Research -->
+<string id="st_dyn_news_extended_conv_163_meta">
+    <text>anomaly,research,discovery</text>
+</string>
+<string id="st_dyn_news_extended_conv_163_turn_1">
+    <text>Those eggheads at the mobile lab made a breakthrough.</text>
+</string>
+<string id="st_dyn_news_extended_conv_163_turn_2">
+    <text>About what? More useless theories?</text>
+</string>
+<string id="st_dyn_news_extended_conv_163_turn_3">
+    <text>No, they figured out how to predict anomaly movements.</text>
+</string>
+<string id="st_dyn_news_extended_conv_163_turn_4">
+    <text>Bullshit. Anomalies don't move in patterns.</text>
+</string>
+<string id="st_dyn_news_extended_conv_163_turn_5">
+    <text>That's what we thought. But apparently they follow some kind of cycle.</text>
+</string>
+<string id="st_dyn_news_extended_conv_163_turn_6">
+    <text>Even if true, how does that help us?</text>
+</string>
+<string id="st_dyn_news_extended_conv_163_turn_7">
+    <text>Safe paths. Know when and where to move. Could save lives.</text>
+</string>
+
+
+<!-- Extended Conversation 164: Zone Philosophy -->
+<string id="st_dyn_news_extended_conv_164_meta">
+    <text>philosophy,zone,drunk</text>
+</string>
+<string id="st_dyn_news_extended_conv_164_turn_1">
+    <text>You know what? The Zone is like a woman.</text>
+</string>
+<string id="st_dyn_news_extended_conv_164_turn_2">
+    <text>Oh fuck, here we go. How much vodka you had?</text>
+</string>
+<string id="st_dyn_news_extended_conv_164_turn_3">
+    <text>No, listen! She's beautiful, dangerous, and full of secrets.</text>
+</string>
+<string id="st_dyn_news_extended_conv_164_turn_4">
+    <text>And she'll kill you if you don't respect her.</text>
+</string>
+<string id="st_dyn_news_extended_conv_164_turn_5">
+    <text>EXACTLY! This guy gets it!</text>
+</string>
+<string id="st_dyn_news_extended_conv_164_turn_6">
+    <text>Pass the bottle. If we're doing philosophy, I need to be drunk too.</text>
+</string>
+
+
+<!-- Extended Conversation 165: Stalker Veteran -->
+<string id="st_dyn_news_extended_conv_165_meta">
+    <text>veteran,stories,advice</text>
+</string>
+<string id="st_dyn_news_extended_conv_165_turn_1">
+    <text>%other_first_name%, how long you been in the Zone?</text>
+</string>
+<string id="st_dyn_news_extended_conv_165_turn_2">
+    <text>Coming up on seven years. You?</text>
+</string>
+<string id="st_dyn_news_extended_conv_165_turn_3">
+    <text>Just hit my second month. Any advice for surviving?</text>
+</string>
+<string id="st_dyn_news_extended_conv_165_turn_4">
+    <text>Yeah. Trust your gut, not your eyes. Zone likes to play tricks.</text>
+</string>
+<string id="st_dyn_news_extended_conv_165_turn_5">
+    <text>What kind of tricks?</text>
+</string>
+<string id="st_dyn_news_extended_conv_165_turn_6">
+    <text>Phantom sounds, fake artifacts, paths that change. Stay paranoid.</text>
+</string>
+<string id="st_dyn_news_extended_conv_165_turn_7">
+    <text>Fucking hell...yeah i guess i wasn't paranoid enough</text>
+</string>
+<string id="st_dyn_news_extended_conv_165_turn_8">
+    <text>And never, EVER, follow The Lights at night. No matter how friendly they look.</text>
+</string>
+<string id="st_dyn_news_extended_conv_165_turn_9">
+    <text>Why? What are they?</text>
+</string>
+<string id="st_dyn_news_extended_conv_165_turn_10">
+    <text>Nobody who followed them ever came back to tell.</text>
+</string>
+
+
+
+<!-- Extended Conversation 166: Chimera Hunt -->
+<string id="st_dyn_news_extended_conv_166_meta">
+    <text>hunting,chimera,teamwork</text>
+</string>
+<string id="st_dyn_news_extended_conv_166_turn_1">
+    <text>That Chimera is still terrorizing the northern checkpoint.</text>
+</string>
+<string id="st_dyn_news_extended_conv_166_turn_2">
+    <text>How many has it killed now?</text>
+</string>
+<string id="st_dyn_news_extended_conv_166_turn_3">
+    <text>Four stalkers in two weeks. Tears through armor like paper.</text>
+</string>
+<string id="st_dyn_news_extended_conv_166_turn_4">
+    <text>We need a proper hunting party. No solo hero bullshit.</text>
+</string>
+<string id="st_dyn_news_extended_conv_166_turn_5">
+    <text>I'm in. But we need at least five guys.</text>
+</string>
+<string id="st_dyn_news_extended_conv_166_turn_6">
+    <text>And someone who actually knows how to track the bastard.</text>
+</string>
+
+
+<!-- Extended Conversation 167: Mysterious Trader -->
+<string id="st_dyn_news_extended_conv_167_meta">
+    <text>trader,mystery,suspicious</text>
+</string>
+<string id="st_dyn_news_extended_conv_167_turn_1">
+    <text>New trader showed up at %location%. Something's off about him.</text>
+</string>
+<string id="st_dyn_news_extended_conv_167_turn_2">
+    <text>Off how? Bad prices? Fake goods?</text>
+</string>
+<string id="st_dyn_news_extended_conv_167_turn_3">
+    <text>No, opposite. Prices too good. Military-grade stuff dirt cheap.</text>
+</string>
+<string id="st_dyn_news_extended_conv_167_turn_4">
+    <text>Sounds like a setup. Nobody sells that low without a reason.</text>
+</string>
+<string id="st_dyn_news_extended_conv_167_turn_5">
+    <text>That's what I thought. Plus he's asking weird questions about specific stalkers.</text>
+</string>
+<string id="st_dyn_news_extended_conv_167_turn_6">
+    <text>Stay clear. Might be military intelligence or worse.</text>
+</string>
+<string id="st_dyn_news_extended_conv_167_turn_7">
+    <text>Already warned the others. But some idiots are still buying.</text>
+</string>
+
+
+<!-- Extended Conversation 168: Zone Corruption -->
+<string id="st_dyn_news_extended_conv_168_meta">
+    <text>corruption,body_horror,warning</text>
+</string>
+<string id="st_dyn_news_extended_conv_168_turn_1">
+    <text>Don't go near the flesh anomaly at the pig farm.</text>
+</string>
+<string id="st_dyn_news_extended_conv_168_turn_2">
+    <text>Why? Just another gross Zone thing?</text>
+</string>
+<string id="st_dyn_news_extended_conv_168_turn_3">
+    <text>No. Saw a stalker touch it. His arm... it started growing things.</text>
+</string>
+<string id="st_dyn_news_extended_conv_168_turn_4">
+    <text>Growing things? What kind of things?</text>
+</string>
+<string id="st_dyn_news_extended_conv_168_turn_5">
+    <text>Eyes. Teeth. Fingers that weren't his. Had to cut the whole arm off.</text>
+</string>
+<string id="st_dyn_news_extended_conv_168_turn_6">
+    <text>Jesus fucking Christ...</text>
+</string>
+<string id="st_dyn_news_extended_conv_168_turn_7">
+    <text>Zone's getting more creative with how it kills us.</text>
+</string>
+
+
+<!-- Extended Conversation 169: Sniper Warning -->
+<string id="st_dyn_news_extended_conv_169_meta">
+    <text>sniper,danger,warning</text>
+</string>
+<string id="st_dyn_news_extended_conv_169_turn_1">
+    <text>SOLO SNIPER active at the bridge! Stay the fuck down!</text>
+</string>
+<string id="st_dyn_news_extended_conv_169_turn_2">
+    <text>Where's he positioned? Anyone get eyes on him?</text>
+</string>
+<string id="st_dyn_news_extended_conv_169_turn_3">
+    <text>Water tower, north side. Already dropped two of ours.</text>
+</string>
+<string id="st_dyn_news_extended_conv_169_turn_4">
+    <text>Military? Merc? Who?</text>
+</string>
+<string id="st_dyn_news_extended_conv_169_turn_5">
+    <text>Can't tell. But he's good. Real good.</text>
+</string>
+
+
+<!-- Extended Conversation 170: Memory Loss -->
+<string id="st_dyn_news_extended_conv_170_meta">
+    <text>memory,psychological,zone_effect</text>
+</string>
+<string id="st_dyn_news_extended_conv_170_turn_1">
+    <text>Anyone else having trouble remembering things lately?</text>
+</string>
+<string id="st_dyn_news_extended_conv_170_turn_2">
+    <text>What kind of things?</text>
+</string>
+<string id="st_dyn_news_extended_conv_170_turn_3">
+    <text>Like... why I came to the Zone. Can't remember anymore.</text>
+</string>
+<string id="st_dyn_news_extended_conv_170_turn_4">
+    <text>That's the Zone working on you. Happens to most eventually.</text>
+</string>
+<string id="st_dyn_news_extended_conv_170_turn_5">
+    <text>But I had a reason. I KNOW I had a reason. It was important.</text>
+</string>
+<string id="st_dyn_news_extended_conv_170_turn_6">
+    <text>Whatever it was, it doesn't matter now. Only thing that matters is surviving today.</text>
+</string>
+
+
+<!-- Extended Conversation 172: Trading Gone Wrong -->
+<string id="st_dyn_news_extended_conv_171_meta">
+    <text>trading,conflict,violence</text>
+</string>
+<string id="st_dyn_news_extended_conv_171_turn_1">
+    <text>%other_first_name% That trade at midnight? It's a setup. Don't go.</text>
+</string>
+<string id="st_dyn_news_extended_conv_171_turn_2">
+    <text>How do you know?</text>
+</string>
+<string id="st_dyn_news_extended_conv_171_turn_3">
+    <text>Overheard them planning. They want your artifacts AND your head.</text>
+</string>
+<string id="st_dyn_news_extended_conv_171_turn_4">
+    <text>Those fucks... I knew something was off.</text>
+</string>
+<string id="st_dyn_news_extended_conv_171_turn_5">
+    <text>Want to turn the tables? I know where they're setting up.</text>
+</string>
+<string id="st_dyn_news_extended_conv_171_turn_6">
+    <text>I'm listening. Swap channels.</text>
+</string>
+
+
+<!-- Extended Conversation 172: Final Warning -->
+<string id="st_dyn_news_extended_conv_172_meta">
+    <text>warning,danger,faction</text>
+</string>
+<string id="st_dyn_news_extended_conv_172_turn_1">
+    <text>%other_first_name%, this is your last warning. Come out the building or die.</text>
+</string>
+<string id="st_dyn_news_extended_conv_172_turn_2">
+    <text>You're gonna fucking shoot me if I come out.</text>
+</string>
+<string id="st_dyn_news_extended_conv_172_turn_3">
+    <text>We have you surrounded. Ten guns on your position.</text>
+</string>
+<string id="st_dyn_news_extended_conv_172_turn_4">
+    <text>I count six and I'm fully prepared to go down, fuck off or try to rush me .</text>
+</string>
+<string id="st_dyn_news_extended_conv_172_turn_5">
+    <text>Last chance. Walk out.</text>
+</string>
+<string id="st_dyn_news_extended_conv_172_turn_6">
+    <text>You know what?!</text>
+</string>
+<string id="st_dyn_news_extended_conv_172_turn_7">
+    <text>CYKA BLYAT! GRENADE.</text>
+</string>
+<string id="st_dyn_news_extended_conv_172_turn_8">
+    <text>Still "ten" fucks out there?!</text>
+</string>
+<string id="st_dyn_news_extended_conv_172_turn_9">
+    <text>ENGAGE! GO! GO!.</text>
+</string>
+
 </string_table>

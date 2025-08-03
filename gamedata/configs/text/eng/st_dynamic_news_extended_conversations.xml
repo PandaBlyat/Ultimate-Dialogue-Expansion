@@ -192,7 +192,7 @@
     <text>Only thing you've earned is my balls on your chin, sit down.</text>
 </string>
 <string id="st_dyn_news_extended_conv_11_turn_4">
-    <text>xD aight thats pretty funny, you're still a bitch tho.</text>
+    <text>xD A'ight thats pretty funny, you're still a bitch tho.</text>
 </string>
 
 
@@ -3774,7 +3774,7 @@
 </string>
 
 
-<!-- Extended Conversation 172: Trading Gone Wrong -->
+<!-- Extended Conversation 171: Trading Gone Wrong -->
 <string id="st_dyn_news_extended_conv_171_meta">
     <text>trading,conflict,violence</text>
 </string>
@@ -3829,5 +3829,171 @@
 <string id="st_dyn_news_extended_conv_172_turn_9">
     <text>ENGAGE! GO! GO!.</text>
 </string>
+
+
+<!-- Extended Conversation 173: Weird Dreams -->
+<string id="st_dyn_news_extended_conv_173_meta">
+    <text>dreams,zone,psychological</text>
+</string>
+<string id="st_dyn_news_extended_conv_173_turn_1">
+    <text>The dreams are getting worse.</text>
+</string>
+<string id="st_dyn_news_extended_conv_173_turn_2">
+    <text>What dreams? The Zone dreams?</text>
+</string>
+<string id="st_dyn_news_extended_conv_173_turn_3">
+    <text>Yeah. Keep seeing a room full of bodies. But they're all me.</text>
+</string>
+<string id="st_dyn_news_extended_conv_173_turn_4">
+    <text>Shit. That's heavy. How long this been going on?</text>
+</string>
+<string id="st_dyn_news_extended_conv_173_turn_5">
+    <text>Week now. And each night there's one more body.</text>
+</string>
+<string id="st_dyn_news_extended_conv_173_turn_6">
+    <text>Maybe stay away from the psy-fields for a while.</text>
+</string>
+<string id="st_dyn_news_extended_conv_173_turn_7">
+    <text>I haven't been near any. That's what scares me.</text>
+</string>
+
+
+<!-- Extended Conversation 174: Controller Aftermath -->
+<string id="st_dyn_news_extended_conv_174_meta">
+    <text>controller,aftermath,psychological</text>
+</string>
+<string id="st_dyn_news_extended_conv_174_turn_1">
+    <text>%speaker1_first_name%, I made it out. Controller's dead.</text>
+</string>
+<string id="st_dyn_news_extended_conv_174_turn_2">
+    <text>Holy shit, you actually killed it? How?</text>
+</string>
+<string id="st_dyn_news_extended_conv_174_turn_3">
+    <text>Grenades. Lots of them. But... something's wrong with me now.</text>
+</string>
+<string id="st_dyn_news_extended_conv_174_turn_4">
+    <text>Wrong how?</text>
+</string>
+<string id="st_dyn_news_extended_conv_174_turn_5">
+    <text>I can hear everyone's thoughts. Not words, just... feelings. It's loud.</text>
+</string>
+<string id="st_dyn_news_extended_conv_174_turn_6">
+    <text>Cyka. Controller must have done something to your brain.</text>
+</string>
+<string id="st_dyn_news_extended_conv_174_turn_7">
+    <text>I need to get away from people. It's too much. Going dark for a while.</text>
+</string>
+
+
+<!-- Extended Conversation 175: Strange Radio Signal -->
+<string id="st_dyn_news_extended_conv_175_meta">
+    <text>mystery,radio,signal</text>
+</string>
+<string id="st_dyn_news_extended_conv_175_turn_1">
+    <text>Anyone else picking up that weird signal on channel 14.5?</text>
+</string>
+<string id="st_dyn_news_extended_conv_175_turn_2">
+    <text>The numbers station? Yeah, creepy as fuck.</text>
+</string>
+<string id="st_dyn_news_extended_conv_175_turn_3">
+    <text>No, this is different. It's... music? But wrong somehow.</text>
+</string>
+<string id="st_dyn_news_extended_conv_175_turn_4">
+    <text>Don't listen to it. Remember what happened to Pavel.</text>
+</string>
+<string id="st_dyn_news_extended_conv_175_turn_5">
+    <text>What happened to Pavel?</text>
+</string>
+<string id="st_dyn_news_extended_conv_175_turn_6">
+    <text>Listened to a weird signal for an hour. Next day he walked into an anomaly. Smiling.</text>
+</string>
+<string id="st_dyn_news_extended_conv_175_turn_7">
+    <text>...Switching channels now.</text>
+</string>
+
+
+
+<!-- Extended Conversation 176: Nightmare Fuel -->
+<string id="st_dyn_news_extended_conv_176_meta">
+    <text>horror,zone,nightmare</text>
+</string>
+<string id="st_dyn_news_extended_conv_176_turn_1">
+    <text>I can't unsee what I found in that basement.</text>
+</string>
+<string id="st_dyn_news_extended_conv_176_turn_2">
+    <text>Do I even want to know?</text>
+</string>
+<string id="st_dyn_news_extended_conv_176_turn_3">
+    <text>Human spider. I mean it. Human torso, spider legs. Still alive.</text>
+</string>
+<string id="st_dyn_news_extended_conv_176_turn_4">
+    <text>What the fuck... Zone mutation?</text>
+</string>
+<string id="st_dyn_news_extended_conv_176_turn_5">
+    <text>No. Surgical scars. Someone MADE it. It begged me to kill it.</text>
+</string>
+<string id="st_dyn_news_extended_conv_176_turn_6">
+    <text>Jesus Christ. Did you?</text>
+</string>
+<string id="st_dyn_news_extended_conv_176_turn_7">
+    <text>FUCK NO! I ran the fuck out of there! Leave it for someone else to deal with. EUGH.</text>
+</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </string_table>

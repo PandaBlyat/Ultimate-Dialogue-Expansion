@@ -439,8 +439,8 @@ function DynamicNewsManager:LoadExtendedConversations()
 	self.extended_conversations = {}
 	local total_loaded = 0
 	
-	-- Load up to 150 extended conversations
-	for conv_num = 1, 172 do
+	-- Load up to 176 extended conversations
+	for conv_num = 1, 176 do
 		local conv_id = "st_dyn_news_extended_conv_" .. conv_num
 		local conv_data = {
 			id = conv_num,
@@ -805,6 +805,15 @@ end
 function DynamicNewsManager:FindExtendedConversationSpeakers(tension_conversation)
     printf("[U.D.E] Debug: FindExtendedConversationSpeakers called (tension: %s)", tostring(tension_conversation))
     
+    -- Define excluded factions
+    local excluded_factions = {
+        ["monolith"] = true,
+        ["ecolog"] = true,
+        ["csky"] = true,
+        ["killer"] = true,
+        ["army"] = true
+    }
+    
     local speakers_by_faction = {}
     local available_count = 0
     
@@ -817,20 +826,23 @@ function DynamicNewsManager:FindExtendedConversationSpeakers(tension_conversatio
             local npc_id = npc:id()
             local npc_comm = npc:character_community()
             
-            -- Check if NPC is valid for conversation
-            if not get_object_story_id(npc_id) and 
-               not npc:best_enemy() and 
-               not self:IsSpecialNPC(npc) and 
-               not self:IsMonoCommunity(npc) and
-               not self:IsNPCRecentlyUsed(npc_id) and
-               self.channel_status[npc_comm] then
-                
-                if not speakers_by_faction[npc_comm] then
-                    speakers_by_faction[npc_comm] = {}
+            -- Check if faction is excluded
+            if not excluded_factions[npc_comm] then
+                -- Check if NPC is valid for conversation
+                if not get_object_story_id(npc_id) and 
+                   not npc:best_enemy() and 
+                   not self:IsSpecialNPC(npc) and 
+                   not self:IsMonoCommunity(npc) and
+                   not self:IsNPCRecentlyUsed(npc_id) and
+                   self.channel_status[npc_comm] then
+                    
+                    if not speakers_by_faction[npc_comm] then
+                        speakers_by_faction[npc_comm] = {}
+                    end
+                    
+                    table.insert(speakers_by_faction[npc_comm], npc)
+                    available_count = available_count + 1
                 end
-                
-                table.insert(speakers_by_faction[npc_comm], npc)
-                available_count = available_count + 1
             end
         end
     end
@@ -927,6 +939,7 @@ function DynamicNewsManager:FindExtendedConversationSpeakers(tension_conversatio
     
     return nil, nil
 end
+
 
 -- Add the missing SplitName helper function if it doesn't exist
 function DynamicNewsManager:SplitName(full_name)
@@ -1148,62 +1161,72 @@ end
 
 
 function DynamicNewsManager:LoadConversations()
-	printf("[U.D.E] Debug: Loading conversations from XML...")
-	
-	-- Initialize conversations table
-	self.conversations = {}
-	
-	-- Define conversation topics
-	local topics = {"artifacts", "mutants", "trading", "humor", "equipment", "stalker_life", "mysteries", "politics", "survival", "anomaly", "stories", "gear", "medical", "economy", "phenomena", "rookie","angry"  }
-	
-	local total_loaded = 0
-	
-	-- Load each topic
-	for _, topic in ipairs(topics) do
-		self.conversations[topic] = { messages = {} }
-		local msg_count = 0
-		
-		-- Try to load messages for this topic (up to 100 messages per topic)
-		for msg_num = 1, 100 do
-			local msg_id = "st_dyn_news_conversation_" .. topic .. "_msg_" .. msg_num
-			local message_text = game.translate_string(msg_id)
-			
-			-- If translation exists (not same as ID), we found a message
-			if message_text ~= msg_id then
-				local responses = {}
-				
-				-- Load responses for this message (up to 10 responses per message)
-				for resp_num = 1, 10 do
-					local resp_id = "st_dyn_news_conversation_" .. topic .. "_resp_" .. msg_num .. "_" .. resp_num
-					local response_text = game.translate_string(resp_id)
-					
-					if response_text ~= resp_id then
-						table.insert(responses, response_text)
-					end
-				end
-				
-				-- Only add the message if it has responses
-				if #responses > 0 then
-					table.insert(self.conversations[topic].messages, {
-						message = message_text,
-						responses = responses
-					})
-					msg_count = msg_count + 1
-				end
-			end
-		end
-		
-		-- Remove topic if no messages were loaded
-		if msg_count == 0 then
-			self.conversations[topic] = nil
-		else
-			-- Fixed: Use string concatenation instead of printf formatting
-			printf("[U.D.E] Debug: Topic '" .. topic .. "' loaded with " .. tostring(msg_count) .. " messages")
-			total_loaded = total_loaded + msg_count
-		end
-	end
-	
-	printf("[U.D.E] Debug: Successfully loaded " .. tostring(total_loaded) .. " total conversation messages from XML")
+    printf("[U.D.E] Debug: Loading faction-specific conversations from XML...")
+    
+    -- Initialize conversations table by faction
+    self.conversations = {}
+    
+    -- Define factions to load conversations for
+    local factions = {"loner", "dolg", "freedom", "bandit", "army", "killer", "ecolog", "csky", "monolith"}
+    
+    local total_loaded = 0
+    
+    -- Load conversations for each faction
+    for _, faction in ipairs(factions) do
+        self.conversations[faction] = { messages = {} }
+        local msg_count = 0
+        
+        -- Alternative faction names mapping
+        local alt_faction = faction
+        if faction == "loner" then
+            self.conversations["stalker"] = self.conversations[faction]
+        elseif faction == "killer" then
+            self.conversations["mercenary"] = self.conversations[faction]
+        elseif faction == "csky" then
+            self.conversations["clear_sky"] = self.conversations[faction]
+        end
+        
+        -- Try to load messages for this faction (up to 100 messages per faction)
+        for msg_num = 1, 100 do
+            local msg_id = "st_dyn_news_" .. faction .. "_conversation_msg_" .. msg_num
+            local message_text = game.translate_string(msg_id)
+            
+            -- If translation exists (not same as ID), we found a message
+            if message_text ~= msg_id then
+                local responses = {}
+                
+                -- Load responses for this message (up to 10 responses per message)
+                for resp_num = 1, 10 do
+                    local resp_id = "st_dyn_news_" .. faction .. "_conversation_resp_" .. msg_num .. "_" .. resp_num
+                    local response_text = game.translate_string(resp_id)
+                    
+                    if response_text ~= resp_id then
+                        table.insert(responses, response_text)
+                    end
+                end
+                
+                -- Only add the message if it has responses
+                if #responses > 0 then
+                    table.insert(self.conversations[faction].messages, {
+                        message = message_text,
+                        responses = responses,
+                        msg_num = msg_num
+                    })
+                    msg_count = msg_count + 1
+                end
+            end
+        end
+        
+        -- Remove faction if no messages were loaded
+        if msg_count == 0 then
+            self.conversations[faction] = nil
+        else
+            printf("[U.D.E] Debug: Faction '%s' loaded with %d conversation messages", faction, msg_count)
+            total_loaded = total_loaded + msg_count
+        end
+    end
+    
+    printf("[U.D.E] Debug: Successfully loaded %d total faction conversation messages from XML", total_loaded)
 end
 
 
@@ -1571,7 +1594,7 @@ function DynamicNewsManager:TickConversation()
         return false
     end
     
--- Decide between regular, extended, and faction conversations (50%, 25%, 25%)
+-- Decide between regular and faction conversations (50%, 50%)
 local conversation_type = math.random(100)
 local success, result = false, false  -- Capture BOTH return values from pcall
 
@@ -1586,18 +1609,7 @@ if conversation_type <= 50 then  -- 50% chance for faction conversations (1–50
         printf("[U.D.E] Debug: Failed to start Faction conversation")
     end
 
-elseif conversation_type <= 75 then  -- 25% chance for extended conversations (51–75)
-    printf("[U.D.E] Debug: Attempting to start extended conversation")
-    success, result = pcall(function()
-        return self:StartExtendedConversation()
-    end)
-    if success and result then
-        printf("[U.D.E] Debug: Extended conversation started successfully")
-    else
-        printf("[U.D.E] Debug: Failed to start extended conversation")
-    end
-
-else  -- 25% chance for regular conversations (76–100)
+else  -- 50% chance for regular conversations (51–100)
     printf("[U.D.E] Debug: Attempting to start regular conversation")
     success, result = pcall(function()
         return self:StartConversation()
@@ -1781,72 +1793,67 @@ end
 
 function DynamicNewsManager:StartConversation()
     printf(">>> DEBUG: StartConversation called")
+    
     if not self:CanStartNewConversation() then
-    return false
-	end
+        return false
+    end
+    
     -- Safety check: don't start if already active
     if self.regular_conversation_active then
         printf(">>> DEBUG: Regular conversation already active")
         return false
     end
     
-    -- Check if we have conversations loaded
-    if not self.conversations or next(self.conversations) == nil then
-        printf(">>> DEBUG: No conversations loaded")
+    -- Get player's faction
+    local player_faction = get_actor_true_community()
+    if string.find(player_faction, "actor_") then
+        player_faction = string.sub(player_faction, 7)
+    end
+    
+    printf(">>> DEBUG: Player faction: %s", player_faction)
+    
+    -- Check if we have conversations for this faction
+    if not self.conversations or not self.conversations[player_faction] then
+        printf(">>> DEBUG: No conversations loaded for faction: %s", player_faction)
         return false
     end
     
-    -- Get list of topics
-    local topics = {}
-    for topic, _ in pairs(self.conversations) do
-        table.insert(topics, topic)
-    end
-    
-    if #topics == 0 then
-        printf(">>> DEBUG: No topics available")
+    local faction_convs = self.conversations[player_faction]
+    if not faction_convs.messages or #faction_convs.messages == 0 then
+        printf(">>> DEBUG: No messages available for faction: %s", player_faction)
         return false
     end
     
-    -- Pick a random topic
-    local topic = topics[math.random(#topics)]
-    local topic_data = self.conversations[topic]
-    
-    printf(">>> DEBUG: Selected topic: " .. topic)
-    
-    if not topic_data or not topic_data.messages or #topic_data.messages == 0 then
-        printf(">>> DEBUG: No messages in topic")
-        return false
-    end
-    
-    -- Pick a random message from the topic
-    local message_index = math.random(#topic_data.messages)
-    local message_data = topic_data.messages[message_index]
+    -- Pick a random message from the faction's conversations
+    local message_index = math.random(#faction_convs.messages)
+    local message_data = faction_convs.messages[message_index]
     
     if not message_data or not message_data.responses or #message_data.responses == 0 then
         printf(">>> DEBUG: No responses for message")
         return false
     end
     
-    -- Find initial speaker using the correct function
-    local speaker1 = self:FindSpeakerRandom(true) -- true = not in combat
+    -- Find initial speaker from the player's faction
+    local speaker1 = self:FindSpeakerRandom(true, player_faction) -- true = not in combat, player_faction = specific faction
     
     if not speaker1 then
-        printf(">>> DEBUG: No speaker found")
+        printf(">>> DEBUG: No speaker found from faction: %s", player_faction)
         return false
     end
     
-    printf(">>> DEBUG: Found initial speaker: " .. speaker1:character_name())
+    printf(">>> DEBUG: Found initial speaker: %s (%s)", speaker1:character_name(), speaker1:character_community())
     
     -- IMPORTANT: Set the active flag!
     self.regular_conversation_active = true
     
-    -- Store conversation state
+    -- Store conversation state (no more topic!)
     self.conversation_state = {
         active = true,
         initial_speaker = speaker1,
         initial_speaker_id = speaker1:id(),
-        topic = topic,
+        faction = player_faction,
         message_index = message_index,
+        message_data = message_data,
         response_count = math.min(#message_data.responses, math.random(2, 4)), -- 2-4 responses
         responses_sent = 0,
         used_response_indices = {},
@@ -1865,7 +1872,7 @@ function DynamicNewsManager:StartConversation()
         msg = self:ParseConversationMessage(msg, speaker1)
     end
     
-    printf(">>> DEBUG: Sending initial message to channel: " .. speaker1:character_community())
+    printf(">>> DEBUG: Sending initial message to channel: %s", speaker1:character_community())
     
     self:PushToChannel(speaker1:character_community(), {
         Mg = msg,
@@ -1883,7 +1890,7 @@ function DynamicNewsManager:StartConversation()
     printf(">>> DEBUG: Scheduling first response in %d seconds", response_delay)
     
     CreateTimeEvent("DynamicNewsManager", "ConversationResponse_1", response_delay, function()
-        return self:TickMultiConversationResponse(1) -- Pass response number!
+        return self:TickMultiConversationResponse(1)
     end)
     
     return true
@@ -1930,7 +1937,7 @@ function DynamicNewsManager:TickMultiConversationResponse(response_number)
     if not self.conversation_state or not self.conversation_state.active then
         printf(">>> DEBUG: No active conversation state, ending")
         self:EndRegularConversation()
-        return true  -- remove this timer
+        return true
     end
 
     -- Ensure used_speaker_ids table exists
@@ -1938,15 +1945,8 @@ function DynamicNewsManager:TickMultiConversationResponse(response_number)
         self.conversation_state.used_speaker_ids = {}
     end
 
-    -- Fetch topic & message data
-    local topic_data = self.conversations[self.conversation_state.topic]
-    if not topic_data then
-        printf(">>> DEBUG: No topic data found, ending")
-        self:EndRegularConversation()
-        return true
-    end
-
-    local message_data = topic_data.messages[self.conversation_state.message_index]
+    -- Get message data from conversation state
+    local message_data = self.conversation_state.message_data
     if not message_data or not message_data.responses then
         printf(">>> DEBUG: No message or responses found, ending")
         self:EndRegularConversation()
@@ -1975,9 +1975,8 @@ function DynamicNewsManager:TickMultiConversationResponse(response_number)
     self.conversation_state.used_response_indices[response_index] = true
     printf(">>> DEBUG: Selected response #%d: %s", response_index, response_text)
 
-    -- Find who will speak this response
-    local responder = (self.FindMultiConversationResponder and self:FindMultiConversationResponder(response_number))
-                      or self:FindSpeakerRandom(true)
+    -- Find who will speak this response (from same faction as initial speaker)
+    local responder = self:FindMultiConversationResponder(response_number, self.conversation_state.faction)
     if not responder then
         printf(">>> DEBUG: No responder found, ending conversation")
         self:EndRegularConversation()
@@ -2012,7 +2011,7 @@ function DynamicNewsManager:TickMultiConversationResponse(response_number)
 
     -- If we've hit the planned number, end it
     local sent = self.conversation_state.responses_sent
-    local planned = self.conversation_state.response_count or self.conversation_state.num_responses or 0
+    local planned = self.conversation_state.response_count
     printf(">>> DEBUG: Responses sent %d/%d", sent, planned)
 
     if sent >= planned then
@@ -2021,7 +2020,7 @@ function DynamicNewsManager:TickMultiConversationResponse(response_number)
     else
         -- SCHEDULE NEXT RESPONSE
         local next_delay = math.random(10, 20)
-        local next_response_num = sent + 1  -- Next response number
+        local next_response_num = sent + 1
         
         printf(">>> DEBUG: Scheduling response #%d in %d seconds", next_response_num, next_delay)
         
@@ -2031,7 +2030,7 @@ function DynamicNewsManager:TickMultiConversationResponse(response_number)
         end)
     end
 
-    return true  -- remove this timer
+    return true
 end
     
 
@@ -2052,18 +2051,14 @@ function DynamicNewsManager:EndActiveRegularConversation()
     end)
 end
 
-function DynamicNewsManager:FindMultiConversationResponder(response_number)
+function DynamicNewsManager:FindMultiConversationResponder(response_number, faction)
     local initial_speaker = self.conversation_state.initial_speaker
     if not initial_speaker or not initial_speaker:alive() then
-        return self:FindSpeakerRandom(true)
+        return self:FindSpeakerRandom(true, faction)
     end
     
-    local initial_comm = initial_speaker:character_community()
     local initial_id = initial_speaker:id()
-    
-    -- Collect potential responders
-    local same_faction_speakers = {}
-    local other_speakers = {}
+    local faction_speakers = {}
     local used_speaker_ids = self.conversation_state.used_speaker_ids or {}
     
     -- Initialize used speakers list if needed
@@ -2079,57 +2074,33 @@ function DynamicNewsManager:FindMultiConversationResponder(response_number)
             local npc_id = npc:id()
             local comm = npc:character_community()
             
-            -- Skip if used in this conversation, recently used globally, in combat, or special
-            if not used_speaker_ids[npc_id] and 
-               not self:IsRecentlyUsedNPC(npc_id) and  -- ADD THIS CHECK
-               not npc:best_enemy() and 
-               not self:IsSpecialNPC(npc) and 
-               not self:IsMonoCommunity(npc) and
-               self.channel_status[comm] then
-                
-                if comm == initial_comm then
-                    table.insert(same_faction_speakers, npc)
-                else
-                    table.insert(other_speakers, npc)
+            -- Only consider NPCs from the specified faction
+            if comm == faction then
+                -- Skip if used in this conversation, recently used globally, in combat, or special
+                if not used_speaker_ids[npc_id] and 
+                   not self:IsRecentlyUsedNPC(npc_id) and
+                   not npc:best_enemy() and 
+                   not self:IsSpecialNPC(npc) and 
+                   not self:IsMonoCommunity(npc) and
+                   self.channel_status[comm] then
+                    
+                    table.insert(faction_speakers, npc)
                 end
             end
         end
     end
     
-    -- Selection strategy based on response number
-    local selected_speaker = nil
-    
-    if response_number == 1 then
-        -- First response: prefer same faction
-        if #same_faction_speakers > 0 then
-            selected_speaker = same_faction_speakers[math.random(#same_faction_speakers)]
-        elseif #other_speakers > 0 then
-            selected_speaker = other_speakers[math.random(#other_speakers)]
-        end
-    else
-        -- Later responses: mix it up
-        local all_available = {}
-        for _, npc in ipairs(same_faction_speakers) do
-            table.insert(all_available, npc)
-        end
-        for _, npc in ipairs(other_speakers) do
-            table.insert(all_available, npc)
-        end
-        
-        if #all_available > 0 then
-            selected_speaker = all_available[math.random(#all_available)]
-        end
-    end
-    
-    -- Mark speaker as used if found
-    if selected_speaker then
+    -- Select a random speaker from the faction
+    if #faction_speakers > 0 then
+        local selected_speaker = faction_speakers[math.random(#faction_speakers)]
         self.conversation_state.used_speaker_ids[selected_speaker:id()] = true
-        self:AddRecentlyUsedNPC(selected_speaker:id())  -- ADD THIS
+        self:AddRecentlyUsedNPC(selected_speaker:id())
         printf(">>> DEBUG: Response #%d - selected %s (%s), marking as used", 
                response_number, selected_speaker:character_name(), selected_speaker:character_community())
+        return selected_speaker
     end
     
-    return selected_speaker
+    return nil
 end
 
 function DynamicNewsManager:ResetConversationState()
@@ -2161,6 +2132,15 @@ function DynamicNewsManager:CleanupConversationTimers()
 end
 
 function DynamicNewsManager:FindConversationSpeakers()
+    -- Define excluded factions
+    local excluded_factions = {
+        ["monolith"] = true,
+        ["ecolog"] = true,
+        ["csky"] = true,
+        ["killer"] = true,
+        ["army"] = true
+    }
+    
     local speakers_by_faction = {}
     
     for i = 1, #db.OnlineStalkers do
@@ -2172,13 +2152,16 @@ function DynamicNewsManager:FindConversationSpeakers()
                 local comm = npc:character_community()
                 local npc_id = npc:id()
                 
-                -- SKIP RECENTLY USED NPCs
-                if not self:IsRecentlyUsedNPC(npc_id) and 
-                   self.channel_status[comm] and 
-                   not self:IsSpecialNPC(npc) and 
-                   not self:IsMonoCommunity(npc) then
-                    speakers_by_faction[comm] = speakers_by_faction[comm] or {}
-                    table.insert(speakers_by_faction[comm], npc)
+                -- Check if faction is excluded
+                if not excluded_factions[comm] then
+                    -- SKIP RECENTLY USED NPCs
+                    if not self:IsRecentlyUsedNPC(npc_id) and 
+                       self.channel_status[comm] and 
+                       not self:IsSpecialNPC(npc) and 
+                       not self:IsMonoCommunity(npc) then
+                        speakers_by_faction[comm] = speakers_by_faction[comm] or {}
+                        table.insert(speakers_by_faction[comm], npc)
+                    end
                 end
             end
         end
@@ -2753,28 +2736,51 @@ function DynamicNewsManager:FindSpeakerWithEnemy(victim,who,same_as_victim,same_
 	return t[math.random(#t)]
 end
 
-function DynamicNewsManager:FindSpeakerRandom(not_in_combat,speaker_community) -- Find a random speaker ([boolean] if true, speaker must not be in combat | [string] if declared, speaker must belong to this community)
-	local comm_sender
-	local t = {}
-	for i=1, #db.OnlineStalkers do
-		local st = db.storage[db.OnlineStalkers[i]]
-		local npc = st and st.object or level.object_by_id(db.OnlineStalkers[i])
-		if (npc and IsStalker(npc,npc:clsid()) and npc:alive() and not get_object_story_id(db.OnlineStalkers[i])) then
-			if (not_in_combat == nil) or (not_in_combat == true and not npc:best_enemy()) or (not_in_combat ~= true) then
-				if (speaker_community == nil) or (speaker_community and npc:character_community() == speaker_community) then
-					comm_sender = npc:character_community()
-					if (self.channel_status[comm_sender]) or (speaker_community == "zombied") then -- must use channel_status["general"] for intended zombied case
-						t[#t+1] = npc
-					end
-				end
-			end
-		end
-	end
-	--printf("[U.D.E] Dyn News: FindSpeakerRandom pass - valid speakers: " .. #t)
-	if (#t == 0) then
-		return nil
-	end
-	return t[math.random(#t)]
+function DynamicNewsManager:FindSpeakerRandom(not_in_combat, speaker_community)
+    -- Define excluded factions for regular conversations
+    local excluded_factions = {
+        ["monolith"] = true,
+        ["ecolog"] = true,
+        ["csky"] = true,
+        ["killer"] = true,
+        ["army"] = true
+    }
+    
+    local comm_sender
+    local t = {}
+    
+    for i = 1, #db.OnlineStalkers do
+        local st = db.storage[db.OnlineStalkers[i]]
+        local npc = st and st.object or level.object_by_id(db.OnlineStalkers[i])
+        
+        if (npc and IsStalker(npc, npc:clsid()) and npc:alive() and not get_object_story_id(db.OnlineStalkers[i])) then
+            if (not_in_combat == nil) or (not_in_combat == true and not npc:best_enemy()) or (not_in_combat ~= true) then
+                if (speaker_community == nil) or (speaker_community and npc:character_community() == speaker_community) then
+                    comm_sender = npc:character_community()
+                    
+                    -- Apply exclusion filter unless a specific community is requested
+                    local should_include = false
+                    if speaker_community then
+                        -- If specific community requested, include it even if normally excluded
+                        should_include = (self.channel_status[comm_sender] or (speaker_community == "zombied"))
+                    else
+                        -- If no specific community, exclude the banned factions
+                        should_include = (not excluded_factions[comm_sender]) and self.channel_status[comm_sender]
+                    end
+                    
+                    if should_include then
+                        t[#t+1] = npc
+                    end
+                end
+            end
+        end
+    end
+    
+    if (#t == 0) then
+        return nil
+    end
+    
+    return t[math.random(#t)]
 end
 
 function DynamicNewsManager:FindSpeakerAndTarget(not_in_combat,distance,speaker_community) -- Find a random speaker ([boolean] if true, speaker must not be in combat | [string] if declared, speaker must belong to this community)
@@ -4959,8 +4965,10 @@ end
 
 
 
-function DynamicNewsManager:FindFactionConversationSpeakers()
-    local speakers_by_faction = {}
+function DynamicNewsManager:FindFactionConversationSpeakers(target_faction)
+    local faction_speakers = {}
+    
+    printf("[U.D.E] Debug: Looking for speakers from faction: %s", tostring(target_faction))
     
     for i = 1, #db.OnlineStalkers do
         local st = db.storage[db.OnlineStalkers[i]]
@@ -4971,72 +4979,78 @@ function DynamicNewsManager:FindFactionConversationSpeakers()
                 local comm = npc:character_community()
                 local npc_id = npc:id()
                 
-                -- Less restrictive filtering for faction conversations
-                if self.channel_status[comm] and 
-                   not self:IsSpecialNPC(npc) and 
-                   not self:IsMonoCommunity(npc) then
-                    -- Don't check IsRecentlyUsedNPC here - we'll check it when selecting
-                    speakers_by_faction[comm] = speakers_by_faction[comm] or {}
-                    table.insert(speakers_by_faction[comm], npc)
+                -- Check if this NPC is from the target faction (if specified)
+                if target_faction and comm == target_faction then
+                    -- Less restrictive filtering for faction conversations
+                    if self.channel_status[comm] and 
+                       not self:IsSpecialNPC(npc) and 
+                       not self:IsMonoCommunity(npc) then
+                        table.insert(faction_speakers, npc)
+                    end
+                elseif not target_faction then
+                    -- Original behavior when no specific faction requested (no exclusions)
+                    if self.channel_status[comm] and 
+                       not self:IsSpecialNPC(npc) and 
+                       not self:IsMonoCommunity(npc) then
+                        table.insert(faction_speakers, npc)
+                    end
                 end
             end
         end
     end
     
-    -- Try to find a faction with at least 2 speakers
-    for faction, speakers in pairs(speakers_by_faction) do
-        if #speakers >= 2 then
-            -- Now check for recently used when selecting specific speakers
-            local available = {}
-            for _, speaker in ipairs(speakers) do
-                if not self:IsRecentlyUsedNPC(speaker:id()) then
-                    table.insert(available, speaker)
-                end
+    printf("[U.D.E] Debug: Found %d speakers from faction %s", #faction_speakers, tostring(target_faction))
+    
+    -- Try to find 2 speakers from the target faction
+    if #faction_speakers >= 2 then
+        -- Check for recently used when selecting specific speakers
+        local available = {}
+        for _, speaker in ipairs(faction_speakers) do
+            if not self:IsRecentlyUsedNPC(speaker:id()) then
+                table.insert(available, speaker)
+            end
+        end
+        
+        -- If we have at least 2 non-recently-used, use them
+        if #available >= 2 then
+            local idx1 = math.random(#available)
+            local idx2 = idx1
+            while idx2 == idx1 and #available > 1 do
+                idx2 = math.random(#available)
             end
             
-            -- If we have at least 2 non-recently-used, use them
-            if #available >= 2 then
-                local idx1 = math.random(#available)
-                local idx2 = idx1
-                while idx2 == idx1 and #available > 1 do
-                    idx2 = math.random(#available)
-                end
-                
-                self:AddRecentlyUsedNPC(available[idx1]:id())
-                self:AddRecentlyUsedNPC(available[idx2]:id())
-                
-                return available[idx1], available[idx2]
-            -- Otherwise, if recently used cooldown is preventing us, use any 2 speakers
-            elseif #speakers >= 2 then
-                printf("[U.D.E] Debug: Not enough non-recently-used speakers, using any available")
-                local idx1 = math.random(#speakers)
-                local idx2 = idx1
-                while idx2 == idx1 and #speakers > 1 do
-                    idx2 = math.random(#speakers)
-                end
-                
-                self:AddRecentlyUsedNPC(speakers[idx1]:id())
-                self:AddRecentlyUsedNPC(speakers[idx2]:id())
-                
-                return speakers[idx1], speakers[idx2]
+            self:AddRecentlyUsedNPC(available[idx1]:id())
+            self:AddRecentlyUsedNPC(available[idx2]:id())
+            
+            printf("[U.D.E] Debug: Selected faction speakers: %s and %s", 
+                   available[idx1]:character_name(), available[idx2]:character_name())
+            
+            return available[idx1], available[idx2]
+        -- Otherwise, if recently used cooldown is preventing us, use any 2 speakers
+        elseif #faction_speakers >= 2 then
+            printf("[U.D.E] Debug: Not enough non-recently-used speakers, using any available from faction")
+            local idx1 = math.random(#faction_speakers)
+            local idx2 = idx1
+            while idx2 == idx1 and #faction_speakers > 1 do
+                idx2 = math.random(#faction_speakers)
             end
+            
+            self:AddRecentlyUsedNPC(faction_speakers[idx1]:id())
+            self:AddRecentlyUsedNPC(faction_speakers[idx2]:id())
+            
+            return faction_speakers[idx1], faction_speakers[idx2]
         end
     end
     
-    -- Fallback: find any speaker
-    local all_speakers = {}
-    for faction, speakers in pairs(speakers_by_faction) do
-        for _, speaker in ipairs(speakers) do
-            table.insert(all_speakers, speaker)
-        end
-    end
-    
-    if #all_speakers > 0 then
-        local speaker = all_speakers[math.random(#all_speakers)]
+    -- Fallback: find any single speaker from the faction
+    if #faction_speakers > 0 then
+        local speaker = faction_speakers[math.random(#faction_speakers)]
         self:AddRecentlyUsedNPC(speaker:id())
+        printf("[U.D.E] Debug: Only found one speaker from faction: %s", speaker:character_name())
         return speaker, nil
     end
     
+    printf("[U.D.E] Debug: Could not find speakers from faction: %s", tostring(target_faction))
     return nil, nil
 end
 

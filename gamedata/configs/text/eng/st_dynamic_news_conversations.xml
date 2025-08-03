@@ -9,20 +9,20 @@
     <text>They promised twenty thousand for that job. Got back and they gave me six and a pat on the back. Screw every one of those lying parasites.</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_1_1">
-    <text>Should’ve known. If the pay sounds fair, it’s a trap. If it sounds good, it’s a con.</text>
+    <text>Should've known. If the pay sounds fair, it's a trap. If it sounds good, it's a con.</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_1_2">
-    <text>You let them get away with that? You’re part of the problem.</text>
+    <text>You let them get away with that? You're part of the problem.</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_1_3">
-    <text>They feed you shit and you ask for seconds. Don’t expect pity from me.</text>
+    <text>They feed you shit and you ask for seconds. Don't expect pity from me.</text>
 </string>
 
 <string id="st_dyn_news_loner_conversation_msg_1">
     <text>Sidorovich is ripping us off again. His prices are getting ridiculous!</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_1_1">
-    <text>What else is new? That fat fucker’s been fleecing stalkers since day one.</text>
+    <text>What else is new? That fat fucker's been fleecing stalkers since day one.</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_1_2">
     <text>Try the black market runners. They move quiet, and sometimes cheap.</text>
@@ -31,33 +31,33 @@
     <text>Supply and demand, mate. Few brave souls bring goods here.</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_1_4">
-    <text>At least he’s alive and selling. Beats getting shot for scrap.</text>
+    <text>At least he's alive and selling. Beats getting shot for scrap.</text>
 </string>
 
 <string id="st_dyn_news_loner_conversation_msg_2">
     <text>Got a fat stack of ammo but need medkits—anybody keen to swap?</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_2_1">
-    <text>Ammo for medkits? Hell yes, but don’t short me or I’ll unload on you.</text>
+    <text>Ammo for medkits? Hell yes, but don't short me or I'll unload on you.</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_2_2">
-    <text>I’m low on bandages, but I got morphine shots. Fair trade?</text>
+    <text>I'm low on bandages, but I got morphine shots. Fair trade?</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_2_3">
     <text>Supplies are tight—throw in some 5.45s to sweeten the pot.</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_2_4">
-    <text>Interesting proposal. I’ll accept, on one condition—return the favor when I need eyes on patrols.</text>
+    <text>Interesting proposal. I'll accept, on one condition—return the favor when I need eyes on patrols.</text>
 </string>
 
 <string id="st_dyn_news_loner_conversation_msg_3">
-    <text>Heard there’s a buyer for intel on patrol routes—any maps to sell?</text>
+    <text>Heard there's a buyer for intel on patrol routes—any maps to sell?</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_3_1">
     <text>Maps? I might have one. Trade me a scoped rifle and extra mags.</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_3_2">
-    <text>Chat with Sidorovich’s rat by the bar. He deals in whispers, not toys.</text>
+    <text>Chat with Sidorovich's rat by the bar. He deals in whispers, not toys.</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_3_3">
     <text>Maps go stale after emissions. Better scout yourself.</text>
@@ -89,22 +89,22 @@
     <text>Deal. Meet at the dead truck north of Rostok—come alone.</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_5_2">
-    <text>Antirads for bullets? You’ll regret that when your skin peels.</text>
+    <text>Antirads for bullets? You'll regret that when your skin peels.</text>
 </string>
 
 <string id="st_dyn_news_loner_conversation_msg_6">
     <text>Who buys mutant trophies? Got fresh chimera claws.</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_6_1">
-    <text>Sakharov’s been paying for samples. Try him.</text>
+    <text>Sakharov's been paying for samples. Try him.</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_6_2">
-    <text>Duty’s building a 'wall of horrors' at the Barrier.</text>
+    <text>Duty's building a 'wall of horrors' at the Barrier.</text>
 </string>
 
 <!-- Humor Conversations Adapted for Loners -->
 <string id="st_dyn_news_loner_conversation_msg_7">
-    <text>My detector’s non-stop beeping—either I hit the jackpot or I’m about to fry.</text>
+    <text>My detector's non-stop beeping—either I hit the jackpot or I'm about to fry.</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_7_1">
     <text>Both. In this dump you either die rich or broke.</text>
@@ -116,62 +116,62 @@
     <text>Could be craving attention, like the rest of us.</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_7_4">
-    <text>Silence means shit’s incoming—enjoy the racket.</text>
+    <text>Silence means shit's incoming—enjoy the racket.</text>
 </string>
 
 <string id="st_dyn_news_loner_conversation_msg_8">
-    <text>Robbed a bandit earlier—made him walk shoeless. Zone’s best entertainment.</text>
+    <text>Robbed a bandit earlier—made him walk shoeless. Zone's best entertainment.</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_8_1">
-    <text>Should’ve shot off a toe, teach him begging’s pointless.</text>
+    <text>Should've shot off a toe, teach him begging's pointless.</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_8_2">
-    <text>Nice. Maybe next time he won’t point a rusty Makarov.</text>
+    <text>Nice. Maybe next time he won't point a rusty Makarov.</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_8_3">
     <text>Hope he lands on glass. Barefoot justice.</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_8_4">
-    <text>That’s mercy here. Better to leave him breathing than soil him.</text>
+    <text>That's mercy here. Better to leave him breathing than soil him.</text>
 </string>
 
 <string id="st_dyn_news_loner_conversation_msg_9">
     <text>Spilled my vodka in the mud—great start to any day.</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_9_1">
-    <text>Congrats, you just watered the Zone’s only crop.</text>
+    <text>Congrats, you just watered the Zone's only crop.</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_9_2">
     <text>Drink muddy vodka—it builds character.</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_9_3">
-    <text>Well, at least the mud’s sterile.</text>
+    <text>Well, at least the mud's sterile.</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_9_4">
     <text>Better than losing bullets, I guess.</text>
 </string>
 
 <string id="st_dyn_news_loner_conversation_msg_10">
-    <text>My boots just fell apart mid-loot run—this fuckin’ Zone.</text>
+    <text>My boots just fell apart mid-loot run—this fuckin' Zone.</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_10_1">
-    <text>Get duct tape—or you’ll slip on your own blood.</text>
+    <text>Get duct tape—or you'll slip on your own blood.</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_10_2">
-    <text>Boots last longer if you don’t stomp corpses in them.</text>
+    <text>Boots last longer if you don't stomp corpses in them.</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_10_3">
-    <text>Pro tip: wear dead stalker’s boots, never your own stash.</text>
+    <text>Pro tip: wear dead stalker's boots, never your own stash.</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_10_4">
     <text>Congrats—shoeless and clueless. Welcome to the Zone.</text>
 </string>
 
 <string id="st_dyn_news_loner_conversation_msg_11">
-    <text>Ate mystery meat—now my guts feel like they’re doing backflips.</text>
+    <text>Ate mystery meat—now my guts feel like they're doing backflips.</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_11_1">
-    <text>Mystery meat’s secret poison—enjoy the trip.</text>
+    <text>Mystery meat's secret poison—enjoy the trip.</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_11_2">
     <text>Next time cook it twice or make mutant stew.</text>
@@ -180,14 +180,14 @@
     <text>Vodka cures all—unless it kills you first.</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_11_4">
-    <text>At least you’re not starving now.</text>
+    <text>At least you're not starving now.</text>
 </string>
 
 <string id="st_dyn_news_loner_conversation_msg_12">
-    <text>Anyone know how to fix a busted gas mask filter? Duct tape ain’t cutting it.</text>
+    <text>Anyone know how to fix a busted gas mask filter? Duct tape ain't cutting it.</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_12_1">
-    <text>If duct tape fails, you aren’t using enough tape.</text>
+    <text>If duct tape fails, you aren't using enough tape.</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_12_2">
     <text>Hit the mechanics—junk parts become miracles in their hands.</text>
@@ -196,7 +196,7 @@
     <text>Just scavenge a new one. Your lungs will thank you.</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_12_4">
-    <text>Coffee filters work in a pinch—just don’t breathe deep.</text>
+    <text>Coffee filters work in a pinch—just don't breathe deep.</text>
 </string>
 
 <string id="st_dyn_news_loner_conversation_msg_13">
@@ -216,7 +216,7 @@
 </string>
 
 <string id="st_dyn_news_loner_conversation_msg_14">
-    <text>My AK’s barrel is clogged—any quick clean tricks?</text>
+    <text>My AK's barrel is clogged—any quick clean tricks?</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_14_1">
     <text>Use your shirt and petrol—better than nothing.</text>
@@ -225,14 +225,14 @@
     <text>Wire brush and bore solvent from the chem dealer work wonders.</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_14_3">
-    <text>Barrel’s shot—steel wool and elbow grease, no shortcuts.</text>
+    <text>Barrel's shot—steel wool and elbow grease, no shortcuts.</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_14_4">
     <text>Screw cleaning—swap barrels and pray.</text>
 </string>
 
 <string id="st_dyn_news_loner_conversation_msg_15">
-    <text>Scope’s loose—how do I torque the mount?</text>
+    <text>Scope's loose—how do I torque the mount?</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_15_1">
     <text>Grab a wrench—tighten until the rattling stops.</text>
@@ -248,7 +248,7 @@
 </string>
 
 <string id="st_dyn_news_loner_conversation_msg_16">
-    <text>PDA’s PSU fried—maps are useless. Any repair hacks?</text>
+    <text>PDA's PSU fried—maps are useless. Any repair hacks?</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_16_1">
     <text>Swap a fuse if you can scrounge one.</text>
@@ -260,24 +260,24 @@
     <text>Trade it for a working unit or go blind.</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_16_4">
-    <text>Follow landmarks and sun—PDA’s luxury.</text>
+    <text>Follow landmarks and sun—PDA's luxury.</text>
 </string>
 
 <string id="st_dyn_news_loner_conversation_msg_17">
     <text>You guys hear what happened to Yuris squad in the Red Forest?</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_17_1">
-    <text>They were found standing in a perfect circle, like statues. Zone’s mercy doesn’t exist.</text>
+    <text>They were found standing in a perfect circle, like statues. Zone's mercy doesn't exist.</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_17_2">
-    <text>Controller’s handiwork. Poor bastards probably turned on themselves.</text>
+    <text>Controller's handiwork. Poor bastards probably turned on themselves.</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_17_3">
-    <text>Red Forest spares no one. Should’ve stayed away.</text>
+    <text>Red Forest spares no one. Should've stayed away.</text>
 </string>
 
 <string id="st_dyn_news_loner_conversation_msg_18">
-    <text>Whatever happened to that rookie who swore he’d hit the Wish Granter in a week?</text>
+    <text>Whatever happened to that rookie who swore he'd hit the Wish Granter in a week?</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_18_1">
     <text>Found his PDA at the first checkpoint. Guess he ran out of luck.</text>
@@ -303,13 +303,13 @@
 </string>
 
 <string id="st_dyn_news_loner_conversation_msg_20">
-    <text>Detector’s gone nuts near the old factory. Anyone brave enough to check?</text>
+    <text>Detector's gone nuts near the old factory. Anyone brave enough to check?</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_20_1">
     <text>Probably scrap metal. Not worth the radiation.</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_20_2">
-    <text>Could be an artifact. I’ll split it 60-40 if you guide me.</text>
+    <text>Could be an artifact. I'll split it 60-40 if you guide me.</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_20_3">
     <text>Last guy came back speaking in curses. Hard pass.</text>
@@ -319,7 +319,7 @@
     <text>Fleshes raided our stash last night. Took half our gear before we drove them off.</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_21_1">
-    <text>They’re getting bold. Watch your back.</text>
+    <text>They're getting bold. Watch your back.</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_21_2">
     <text>At least you got a stew out of them.</text>
@@ -335,14 +335,14 @@
     <text>Lucky bastard. All I got was moldy MREs.</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_22_2">
-    <text>Share a sip for ammo? I’m running dry.</text>
+    <text>Share a sip for ammo? I'm running dry.</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_22_3">
     <text>Zone poisons the good stuff too. Take a whiff first.</text>
 </string>
 
 <string id="st_dyn_news_loner_conversation_msg_23">
-    <text>Think I’m being followed. Same shadow for three days.</text>
+    <text>Think I'm being followed. Same shadow for three days.</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_23_1">
     <text>Trust your gut. Better safe than dead.</text>
@@ -368,7 +368,7 @@
 </string>
 
 <string id="st_dyn_news_loner_conversation_msg_25">
-    <text>Suit’s spitting radiation warnings but detector’s calm. Gear glitch?</text>
+    <text>Suit's spitting radiation warnings but detector's calm. Gear glitch?</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_25_1">
     <text>Electronics fry near psi fields. Look for Controllers.</text>
@@ -381,7 +381,7 @@
 </string>
 
 <string id="st_dyn_news_loner_conversation_msg_26">
-    <text>Emission’s starting and I’m in the open. Any shelters near Cement Factory?</text>
+    <text>Emission's starting and I'm in the open. Any shelters near Cement Factory?</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_26_1">
     <text>Underground tunnels east side. Watch for snorks.</text>
@@ -400,27 +400,27 @@
     <text>Zone loves jokes on us. Happens.</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_27_2">
-    <text>At least you didn’t die chasing it like Dmitri.</text>
+    <text>At least you didn't die chasing it like Dmitri.</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_27_3">
-    <text>Three days wasted, but you’re alive. Bless up.</text>
+    <text>Three days wasted, but you're alive. Bless up.</text>
 </string>
 
 <string id="st_dyn_news_loner_conversation_msg_28">
-    <text>Anyone know what happened to Scar’s group? They missed a check-in.</text>
+    <text>Anyone know what happened to Scar's group? They missed a check-in.</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_28_1">
-    <text>Radio’s dead. Could be interference.</text>
+    <text>Radio's dead. Could be interference.</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_28_2">
-    <text>Scar doesn’t die easy. Give it time.</text>
+    <text>Scar doesn't die easy. Give it time.</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_28_3">
     <text>Two hours here equals two years. Start worrying.</text>
 </string>
 
 <string id="st_dyn_news_loner_conversation_msg_29">
-    <text>This rookie’s asking about safe paths through anomalies. Tell him?</text>
+    <text>This rookie's asking about safe paths through anomalies. Tell him?</text>
 </string>
 <string id="st_dyn_news_loner_conversation_resp_29_1">
     <text>Kid learns quick. Better from you than from bolts.</text>
@@ -451,23 +451,23 @@
     <text>Intel reports a Freedom cell scouting our routes. They might strike next week.</text>
 </string>
 <string id="st_dyn_news_dolg_conversation_resp_2_1">
-    <text>We’ll reroute convoys through clearing Echo. Less cover for ambushes.</text>
+    <text>We'll reroute convoys through clearing Echo. Less cover for ambushes.</text>
 </string>
 <string id="st_dyn_news_dolg_conversation_resp_2_2">
-    <text>Send in recon drones at 0400 hours. They won’t expect aerial watches.</text>
+    <text>Send in recon drones at 0400 hours. They won't expect aerial watches.</text>
 </string>
 <string id="st_dyn_news_dolg_conversation_resp_2_3">
     <text>Inform command—prepare rapid-response team on standby.</text>
 </string>
 
 <string id="st_dyn_news_dolg_conversation_msg_3">
-    <text>Supply lines to Rostok are delayed—weather’s closing in, risk of capsule jam.</text>
+    <text>Supply lines to Rostok are delayed—weather's closing in, risk of capsule jam.</text>
 </string>
 <string id="st_dyn_news_dolg_conversation_resp_3_1">
     <text>Secure the drop point with sandbags. Keep radios hot for extraction.</text>
 </string>
 <string id="st_dyn_news_dolg_conversation_resp_3_2">
-    <text>I’ll dispatch the engineer team—they’ll clear ice and reset the launcher.</text>
+    <text>I'll dispatch the engineer team—they'll clear ice and reset the launcher.</text>
 </string>
 <string id="st_dyn_news_dolg_conversation_resp_3_3">
     <text>Rotate patrols tighter. No room for error in these conditions.</text>
@@ -535,7 +535,7 @@
     <text>Activate psi-shield arrays. Safety first.</text>
 </string>
 <string id="st_dyn_news_dolg_conversation_resp_8_3">
-    <text>Log coordinates. We’ll analyze for anomaly patterns.</text>
+    <text>Log coordinates. We'll analyze for anomaly patterns.</text>
 </string>
 
 <string id="st_dyn_news_dolg_conversation_msg_9">
@@ -588,7 +588,7 @@
     <text>Seal off approach routes. Force retreat.</text>
 </string>
 <string id="st_dyn_news_dolg_conversation_resp_12_3">
-    <text>Use thermal scopes. Darkness won’t hide them.</text>
+    <text>Use thermal scopes. Darkness won't hide them.</text>
 </string>
 
 <string id="st_dyn_news_dolg_conversation_msg_13">
@@ -697,16 +697,16 @@
 
 <!----------------------------------------------------------- Freedom  Conversations -->
 <string id="st_dyn_news_freedom_conversation_msg_1">
-    <text>The military’s pushing too hard. They’ll turn the Zone into a fortress soon.</text>
+    <text>The military's pushing too hard. They'll turn the Zone into a fortress soon.</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_1_1">
-    <text>Let them try. We’ll show them who really owns these ruins.</text>
+    <text>Let them try. We'll show them who really owns these ruins.</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_1_2">
     <text>More checkpoints only mean more bribes. We can slip through.</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_1_3">
-    <text>I’ve got eyes on their patrol routes. We’ll stay one step ahead.</text>
+    <text>I've got eyes on their patrol routes. We'll stay one step ahead.</text>
 </string>
 
 <string id="st_dyn_news_freedom_conversation_msg_2">
@@ -722,23 +722,23 @@
     <text>Typical Duty dogs. Since when do they care about safety? Remember what they did at the Burner anomaly?</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_2_4">
-    <text>Fuck their barricades. I've got jury-rigged psi-blockers. Who’s crazy enough to run the field with me?</text>
+    <text>Fuck their barricades. I've got jury-rigged psi-blockers. Who's crazy enough to run the field with me?</text>
 </string>
 
 <string id="st_dyn_news_freedom_conversation_msg_3">
     <text>Heads up: Bandits ambushed our medic run near the swamp bridge. Lost antibiotics and blood kits.</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_3_1">
-    <text>Those parasitic fucks! Kostya’s leg wound’s festering—he needs those meds NOW.</text>
+    <text>Those parasitic fucks! Kostya's leg wound's festering—he needs those meds NOW.</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_3_2">
     <text>Check the Freedom cache behind Yanov. Should be emergency stocks.</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_3_3">
-    <text>Already raided. Only empty syringes left. Fucking looters didn’t even reseal the container.</text>
+    <text>Already raided. Only empty syringes left. Fucking looters didn't even reseal the container.</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_3_4">
-    <text>I’ve got two vials of antibiotics. Take them. No payment needed—that’s not how we operate.</text>
+    <text>I've got two vials of antibiotics. Take them. No payment needed—that's not how we operate.</text>
 </string>
 
 <string id="st_dyn_news_freedom_conversation_msg_4">
@@ -751,7 +751,7 @@
     <text>But energy readings are off the charts! We could learn why it bonded permanently.</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_4_3">
-    <text>Learn by desecration? We’re not Duty. Tag the body for Ecologists if you’re curious.</text>
+    <text>Learn by desecration? We're not Duty. Tag the body for Ecologists if you're curious.</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_4_4">
     <text>Compromise: photograph the fusion pattern, bolt-burn the site. Knowledge without theft.</text>
@@ -761,13 +761,13 @@
     <text>Swamp team report: Snorks are hunting in PACKS now. Saw three coordinate an ambush by the church.</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_5_1">
-    <text>Impossible. Snorks are solitary. Sure it wasn’t just a feeding frenzy?</text>
+    <text>Impossible. Snorks are solitary. Sure it wasn't just a feeding frenzy?</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_5_2">
     <text>Positive. One flushed me toward two others hiding underwater—tactical behavior.</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_5_3">
-    <text>Zone’s accelerating mutations. Last week blind dogs started climbing trees in Red Forest.</text>
+    <text>Zone's accelerating mutations. Last week blind dogs started climbing trees in Red Forest.</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_5_4">
     <text>Fuck that. Upload raw vid to our public server. Every stalker deserves the truth.</text>
@@ -777,7 +777,7 @@
     <text>Duty armored column moving toward Yanov checkpoint—six exos, two RPGs.</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_6_1">
-    <text>Over artifacts? Let them come. We’ve got psy-block and height advantage.</text>
+    <text>Over artifacts? Let them come. We've got psy-block and height advantage.</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_6_2">
     <text>Stand down—they think we ambushed their patrol near the train yard.</text>
@@ -786,14 +786,14 @@
     <text>Bullshit. We were mapping anomalies all night. Tell them to check Monolith logs.</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_6_4">
-    <text>Voronin’s transmitting: “Return our men or we burn your outpost.”</text>
+    <text>Voronin's transmitting: “Return our men or we burn your outpost.”</text>
 </string>
 
 <string id="st_dyn_news_freedom_conversation_msg_7">
-    <text>Freedom Radio test broadcast in 10! Who’s got today’s main segment?</text>
+    <text>Freedom Radio test broadcast in 10! Who's got today's main segment?</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_7_1">
-    <text>Me—exposing how Duty’s artifact seizures end up in black markets.</text>
+    <text>Me—exposing how Duty's artifact seizures end up in black markets.</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_7_2">
     <text>Save that for Wednesday. Today: bypass Army checkpoints via sewage tunnels.</text>
@@ -802,30 +802,30 @@
     <text>Add warning—bloodsuckers in Pipe sector drained two loners yesterday.</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_7_4">
-    <text>End with Strelok’s quote: “The Zone belongs to those who walk it, not cage it.”</text>
+    <text>End with Strelok's quote: “The Zone belongs to those who walk it, not cage it.”</text>
 </string>
 
 <string id="st_dyn_news_freedom_conversation_msg_8">
     <text>Confirmed: Mercs stole our prototype emitter from Jupiter lab. Tracking them toward Dead City.</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_8_1">
-    <text>That emitter disrupts Brain Scorcher fields! They’ll sell it to the highest bidder.</text>
+    <text>That emitter disrupts Brain Scorcher fields! They'll sell it to the highest bidder.</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_8_2">
     <text>Assemble intercept team. Priority: recover tech intact. Secondary: leave no witnesses.</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_8_3">
-    <text>Since they murdered three scientists, this isn’t theft—it’s war.</text>
+    <text>Since they murdered three scientists, this isn't theft—it's war.</text>
 </string>
 
 <string id="st_dyn_news_freedom_conversation_msg_9">
     <text>EMERGENCY: Electro-storm forming over Sector 13 from ground zero.</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_9_1">
-    <text>Fuck. That’s where we stored the artifact resonance array. Did someone activate it?</text>
+    <text>Fuck. That's where we stored the artifact resonance array. Did someone activate it?</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_9_2">
-    <text>Worse: Duty tried dismantling it. Now it’s overloading.</text>
+    <text>Worse: Duty tried dismantling it. Now it's overloading.</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_9_3">
     <text>Those fucking idiots! Assemble a squad ASAP.</text>
@@ -839,30 +839,30 @@
     <text>Open the communal kitchen to ALL stalkers. No Freedom ID checks.</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_10_2">
-    <text>That’ll empty stocks in hours! We need to prioritize our own.</text>
+    <text>That'll empty stocks in hours! We need to prioritize our own.</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_10_3">
-    <text>Bullshit hierarchy talk! Share or become Duty. I’ll donate my stash.</text>
+    <text>Bullshit hierarchy talk! Share or become Duty. I'll donate my stash.</text>
 </string>
 
 <string id="st_dyn_news_freedom_conversation_msg_11">
     <text>Intel reports a mole in our ranks feeding information to Duty. We need eyes on everyone at HQ.</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_11_1">
-    <text>Everyone’s a suspect now? We’ll turn our base into a hall of mirrors. Perfect cover for real spies.</text>
+    <text>Everyone's a suspect now? We'll turn our base into a hall of mirrors. Perfect cover for real spies.</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_11_2">
-    <text>Let’s set a trap, leak false coordinates or something.</text>
+    <text>Let's set a trap, leak false coordinates or something.</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_11_3">
-    <text>Paranoia won’t help. We need proof, shadow suspects until they slip, then handle it quietly.</text>
+    <text>Paranoia won't help. We need proof, shadow suspects until they slip, then handle it quietly.</text>
 </string>
 
 <string id="st_dyn_news_freedom_conversation_msg_12">
-    <text>Scouts report that the new Duty blockade north of Rostok is stronger than intel suggested. They’ve got heavy MG nests.</text>
+    <text>Scouts report that the new Duty blockade north of Rostok is stronger than intel suggested. They've got heavy MG nests.</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_12_1">
-    <text>We’ll need a diversion, set off a false anomaly alarm at the old mill to draw them away.</text>
+    <text>We'll need a diversion, set off a false anomaly alarm at the old mill to draw them away.</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_12_2">
     <text>Or sneak through the drainage tunnels beneath the tracks. Minimal guard presence at night.</text>
@@ -878,10 +878,10 @@
     <text>Finally some real treasure. Send a small team with light packs—speed over firepower.</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_13_2">
-    <text>Hold up—those maps could be bait. Duty’s known to plant false leads.</text>
+    <text>Hold up—those maps could be bait. Duty's known to plant false leads.</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_13_3">
-    <text>Cross-reference with Ecologist surveys. If anomalies overlap, it’s legit.</text>
+    <text>Cross-reference with Ecologist surveys. If anomalies overlap, it's legit.</text>
 </string>
 
 <string id="st_dyn_news_freedom_conversation_msg_14">
@@ -891,7 +891,7 @@
     <text>Inhumane. We need that data intact. Observe from a distance, then release it back.</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_14_2">
-    <text>Bait’s ideal, but a live Bloodsucker’s unpredictable. We’ll lose men before we learn anything.</text>
+    <text>Bait's ideal, but a live Bloodsucker's unpredictable. We'll lose men before we learn anything.</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_14_3">
     <text>Compromise: sedate it, then record behavior under controlled psi-field. No casualties.</text>
@@ -904,49 +904,49 @@
     <text>Collect samples immediately. If we can neutralize the rain, we secure safe passage.</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_15_2">
-    <text>Advise everyone to stay under cover. This isn’t worth risking lives for curiosity.</text>
+    <text>Advise everyone to stay under cover. This isn't worth risking lives for curiosity.</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_15_3">
     <text>Patch together old filter masks from the lab. Distribute them before the next shower.</text>
 </string>
 
 <string id="st_dyn_news_freedom_conversation_msg_16">
-    <text>A new faction’s banner spotted near Agroprom. They claim to be artifact salvagers for hire.</text>
+    <text>A new faction's banner spotted near Agroprom. They claim to be artifact salvagers for hire.</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_16_1">
     <text>Hire them against Duty. Two wolves fight, the third takes the spoils.</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_16_2">
-    <text>They’ll turn on us when the price drops. Better keep them at arm’s length.</text>
+    <text>They'll turn on us when the price drops. Better keep them at arm's length.</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_16_3">
-    <text>Scout their base. If they’re desperate, we can outbid them for the big finds.</text>
+    <text>Scout their base. If they're desperate, we can outbid them for the big finds.</text>
 </string>
 
 <string id="st_dyn_news_freedom_conversation_msg_17">
     <text>Chimera tracks found west of Limansk. Two creatures moving in tandem—unprecedented.</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_17_1">
-    <text>That’s bad news. Avoid the area and reroute the supply convoy through the canal road.</text>
+    <text>That's bad news. Avoid the area and reroute the supply convoy through the canal road.</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_17_2">
     <text>Or lure them into the lightning field near the radar station. Might thin their ranks.</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_17_3">
-    <text>Tag the spot with flare rounds. Let Duty’s hunters deal with mutated nightmares.</text>
+    <text>Tag the spot with flare rounds. Let Duty's hunters deal with mutated nightmares.</text>
 </string>
 
 <string id="st_dyn_news_freedom_conversation_msg_18">
     <text>Voice on the open channel claiming to be “Strelok.” They say a massive event is coming at 0400.</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_18_1">
-    <text>If it’s really him, we prepare. Double watch rotations and energize all psi-shields.</text>
+    <text>If it's really him, we prepare. Double watch rotations and energize all psi-shields.</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_18_2">
     <text>Could be a trap. Broadcast false “all clear” and watch who reacts at 0400.</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_18_3">
-    <text>Contact Ecologists for anomaly readings. If the signal’s genuine, we get time to evac.</text>
+    <text>Contact Ecologists for anomaly readings. If the signal's genuine, we get time to evac.</text>
 </string>
 
 <string id="st_dyn_news_freedom_conversation_msg_19">
@@ -963,16 +963,16 @@
 </string>
 
 <string id="st_dyn_news_freedom_conversation_msg_20">
-    <text>Final call: Freedom’s quarterly supply drop hits the Chernaya depot at dawn. Volunteers?</text>
+    <text>Final call: Freedom's quarterly supply drop hits the Chernaya depot at dawn. Volunteers?</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_20_1">
-    <text>I’m in. Send me the coords and rally point. I’ll clear the route.</text>
+    <text>I'm in. Send me the coords and rally point. I'll clear the route.</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_20_2">
     <text>We need more medics on that run. Three got wounded last time.</text>
 </string>
 <string id="st_dyn_news_freedom_conversation_resp_20_3">
-    <text>Better send a stealth team. No need to announce we’re restocking.</text>
+    <text>Better send a stealth team. No need to announce we're restocking.</text>
 </string>
 
 <!--------------------------------------------- Military  Conversations -->
@@ -986,7 +986,7 @@
     <text>Sir, those anomalies could wipe out an entire squad.</text>
 </string>
 <string id="st_dyn_news_army_conversation_resp_1_3">
-    <text>We’ll set up motion sensors and stay out of range.</text>
+    <text>We'll set up motion sensors and stay out of range.</text>
 </string>
 
 <string id="st_dyn_news_army_conversation_msg_2">
@@ -999,7 +999,7 @@
     <text>Requesting ETA update in 30 minutes to synchronize unloading teams.</text>
 </string>
 <string id="st_dyn_news_army_conversation_resp_2_3">
-    <text>Understood. We’ll inspect manifest thoroughly before releasing goods.</text>
+    <text>Understood. We'll inspect manifest thoroughly before releasing goods.</text>
 </string>
 <string id="st_dyn_news_army_conversation_resp_2_4">
     <text>Confirm convoy security detail and convoy route clearance.</text>
@@ -1123,7 +1123,7 @@
 </string>
 
 <string id="st_dyn_news_army_conversation_msg_12">
-    <text>Ammo crate labels don’t match manifest. Suspect misrouting or error.</text>
+    <text>Ammo crate labels don't match manifest. Suspect misrouting or error.</text>
 </string>
 <string id="st_dyn_news_army_conversation_resp_12_1">
     <text>Hold the crate and audit serial numbers against armory logs.</text>
@@ -1228,13 +1228,13 @@
 
 <!-- Clear Sky  Conversations -->
 <string id="st_dyn_news_csky_conversation_msg_1">
-    <text>We’ve calibrated the detector, there’s a hidden lab under the old refinery.</text>
+    <text>We've calibrated the detector, there's a hidden lab under the old refinery.</text>
 </string>
 <string id="st_dyn_news_csky_conversation_resp_1_1">
-    <text>If it’s underground, artifacts’ll be off the charts.</text>
+    <text>If it's underground, artifacts'll be off the charts.</text>
 </string>
 <string id="st_dyn_news_csky_conversation_resp_1_2">
-    <text>I’ll mark it on the map. We go in at dawn.</text>
+    <text>I'll mark it on the map. We go in at dawn.</text>
 </string>
 <string id="st_dyn_news_csky_conversation_resp_1_3">
     <text>Watch for security measures. this place was military grade.</text>
@@ -1247,23 +1247,23 @@
 <text>Deploy mobile dampeners. Last emission scrambled our gear for days.</text>
 </string>
 <string id="st_dyn_news_csky_conversation_resp_2_2">
-<text>I’ll prep the grav scanner. If it’s a Flash, we need containment protocols.</text>
+<text>I'll prep the grav scanner. If it's a Flash, we need containment protocols.</text>
 </string>
 <string id="st_dyn_news_csky_conversation_resp_2_3">
-<text>Remember ’07? Those psi-clusters ate three detectors. Tread carefully.</text>
+<text>Remember '07? Those psi-clusters ate three detectors. Tread carefully.</text>
 </string>
 
 <string id="st_dyn_news_csky_conversation_msg_3">
-<text>Renegade snipers spotted at the drowned church. They’re targeting scavengers.</text>
+<text>Renegade snipers spotted at the drowned church. They're targeting scavengers.</text>
 </string>
 <string id="st_dyn_news_csky_conversation_resp_3_1">
-<text>Kravchenko’s boys. They’ll bleed us dry if we don’t push back.</text>
+<text>Kravchenko's boys. They'll bleed us dry if we don't push back.</text>
 </string>
 <string id="st_dyn_news_csky_conversation_resp_3_2">
 <text>Set up anomaly traps on the north path. Let the Zone deal with them.</text>
 </string>
 <string id="st_dyn_news_csky_conversation_resp_3_3">
-<text>Lebedev won’t like diverting resources... but we’ve lost too many already.</text>
+<text>Lebedev won't like diverting resources... but we've lost too many already.</text>
 </string>
 
 <string id="st_dyn_news_csky_conversation_msg_4">
@@ -1273,7 +1273,7 @@
 <text>Check the south bunker. Saw Petrenko hoarding them for “critical research”.</text>
 </string>
 <string id="st_dyn_news_csky_conversation_resp_4_2">
-<text>I’ll trade artifacts to Sidorovich if we’re desperate. His prices are criminal though.</text>
+<text>I'll trade artifacts to Sidorovich if we're desperate. His prices are criminal though.</text>
 </string>
 <string id="st_dyn_news_csky_conversation_resp_4_3">
 <text>This is why we need that solar array fixed. Relying on generators is suicide.</text>
@@ -1289,7 +1289,7 @@
 <text>Collect tissue samples! Mutagenic properties could be off the scale.</text>
 </string>
 <string id="st_dyn_news_csky_conversation_resp_5_3">
-<text>Seal perimeter gates. If that thing’s hunting near base, we’re sitting ducks.</text>
+<text>Seal perimeter gates. If that thing's hunting near base, we're sitting ducks.</text>
 </string>
 
 <string id="st_dyn_news_csky_conversation_msg_6">
@@ -1299,7 +1299,7 @@
 <text>Stuck near the sulfur springs! Requesting backup extraction.</text>
 </string>
 <string id="st_dyn_news_csky_conversation_resp_6_2">
-<text>Seismic readings match ’12 patterns. This’ll be a category 4 at least.</text>
+<text>Seismic readings match '12 patterns. This'll be a category 4 at least.</text>
 </string>
 <string id="st_dyn_news_csky_conversation_resp_6_3">
 <text>God, not again. Reinforce the bunker doors this time!</text>
@@ -1309,7 +1309,7 @@
 <text>Found a Goldfish cluster in the electric anomaly. Readings show 700% purity.</text>
 </string>
 <string id="st_dyn_news_csky_conversation_resp_7_1">
-<text>Don’t celebrate yet. Last “pure” artifacts melted through lead containers.</text>
+<text>Don't celebrate yet. Last “pure” artifacts melted through lead containers.</text>
 </string>
 <string id="st_dyn_news_csky_conversation_resp_7_2">
 <text>Ecologists will pay a fortune for these. Finally fix the water filters.</text>
@@ -1325,7 +1325,7 @@
 <text>Let them. Better than Renegades scouting our defenses.</text>
 </string>
 <string id="st_dyn_news_csky_conversation_resp_8_2">
-<text>Bullshit. They’re artifact poaching. Set up motion sensors on cache Gamma.</text>
+<text>Bullshit. They're artifact poaching. Set up motion sensors on cache Gamma.</text>
 </string>
 <string id="st_dyn_news_csky_conversation_resp_8_3">
 <text>Remember the truce. But if they touch the research tent... drop them.</text>
@@ -1348,10 +1348,10 @@
 <text>Scout team Alpha overdue from the red forest. Last transmission mentioned... distortions.</text>
 </string>
 <string id="st_dyn_news_csky_conversation_resp_10_1">
-<text>Not distortions. Controller fields. They’re gone.</text>
+<text>Not distortions. Controller fields. They're gone.</text>
 </string>
 <string id="st_dyn_news_csky_conversation_resp_10_2">
-<text>I’ll take a SEVA squad. We owe them a retrieval.</text>
+<text>I'll take a SEVA squad. We owe them a retrieval.</text>
 </string>
 <string id="st_dyn_news_csky_conversation_resp_10_3">
 <text>Lebedev forbade forest excursions after the last incident. Damn the orders.</text>
@@ -1367,43 +1367,43 @@
 <text>Bring extra batteries. Cemetery anomalies drain power like vampires.</text>
 </string>
 <string id="st_dyn_news_csky_conversation_resp_11_3">
-<text>Just don’t wake the poltergeists. Last guy who tried still twitches.</text>
+<text>Just don't wake the poltergeists. Last guy who tried still twitches.</text>
 </string>
 
 <string id="st_dyn_news_csky_conversation_msg_12">
 <text>Convoy to Yantar ambushed. Lost the medicine shipment.</text>
 </string>
 <string id="st_dyn_news_csky_conversation_resp_12_1">
-<text>Bandits or Monolith? Either way, we’re screwed without antibiotics.</text>
+<text>Bandits or Monolith? Either way, we're screwed without antibiotics.</text>
 </string>
 <string id="st_dyn_news_csky_conversation_resp_12_2">
-<text>I’ll ask the Ecologists for help. They owe us for the artifact data.</text>
+<text>I'll ask the Ecologists for help. They owe us for the artifact data.</text>
 </string>
 <string id="st_dyn_news_csky_conversation_resp_12_3">
-<text>Forget diplomacy. Let’s hit their stash at the old factory tonight.</text>
+<text>Forget diplomacy. Let's hit their stash at the old factory tonight.</text>
 </string>
 
 <string id="st_dyn_news_csky_conversation_msg_13">
 <text>Found a pre-Collapse lab journal. Mentions “Noosphere breaches” in sector G7.</text>
 </string>
 <string id="st_dyn_news_csky_conversation_resp_13_1">
-<text>That’s where Strelok disappeared... Coincidence?</text>
+<text>That's where Strelok disappeared... Coincidence?</text>
 </string>
 <string id="st_dyn_news_csky_conversation_resp_13_2">
 <text>Scan for residual psi-waves. If C-Consciousness left echoes...</text>
 </string>
 <string id="st_dyn_news_csky_conversation_resp_13_3">
-<text>Don’t chase ghosts. We barely survived last week’s blowout.</text>
+<text>Don't chase ghosts. We barely survived last week's blowout.</text>
 </string>
 
 <string id="st_dyn_news_csky_conversation_msg_14">
 <text>Renegades breached the southern wire. Need volunteers for repair detail.</text>
 </string>
 <string id="st_dyn_news_csky_conversation_resp_14_1">
-<text>Rig the gap with springboards. They won’t expect active anomalies.</text>
+<text>Rig the gap with springboards. They won't expect active anomalies.</text>
 </string>
 <string id="st_dyn_news_csky_conversation_resp_14_2">
-<text>I’ll cover from the watchtower. Anyone in blue gets a bullet.</text>
+<text>I'll cover from the watchtower. Anyone in blue gets a bullet.</text>
 </string>
 <string id="st_dyn_news_csky_conversation_resp_14_3">
 <text>Make it fast. Bloodsuckers hunt near the breach at dusk.</text>
@@ -1413,10 +1413,10 @@
 <text>Satellite imagery shows an intact X-ray detector in the sunken barge.</text>
 </string>
 <string id="st_dyn_news_csky_conversation_resp_15_1">
-<text>That’s pre-war tech! We could boost our scanning range by 300%.</text>
+<text>That's pre-war tech! We could boost our scanning range by 300%.</text>
 </string>
 <string id="st_dyn_news_csky_conversation_resp_15_2">
-<text>Barge’s flooded with radioactive water. Need sealed suits.</text>
+<text>Barge's flooded with radioactive water. Need sealed suits.</text>
 </string>
 <string id="st_dyn_news_csky_conversation_resp_15_3">
 <text>Watch for snork mutants. They nest in wrecks like that.</text>
@@ -1426,10 +1426,10 @@
 <text>Lebedev canceled the antenna project. Says resources go to defense.</text>
 </string>
 <string id="st_dyn_news_csky_conversation_resp_16_1">
-<text>He’s wrong. Without comms, we’re blind during emissions.</text>
+<text>He's wrong. Without comms, we're blind during emissions.</text>
 </string>
 <string id="st_dyn_news_csky_conversation_resp_16_2">
-<text>Do it quietly. I’ve got spare parts hidden near the generator.</text>
+<text>Do it quietly. I've got spare parts hidden near the generator.</text>
 </string>
 <string id="st_dyn_news_csky_conversation_resp_16_3">
 <text>Remember what happened to Markov when he questioned orders? Drop it.</text>
@@ -1452,7 +1452,7 @@
 <text>New recruit passed out during anomaly drill. Too much vodka last night?</text>
 </string>
 <string id="st_dyn_news_csky_conversation_resp_18_1">
-<text>Make him clean the bio-scanners. That’ll sober him up.</text>
+<text>Make him clean the bio-scanners. That'll sober him up.</text>
 </string>
 <string id="st_dyn_news_csky_conversation_resp_18_2">
 <text>Or send him to collect jellyfish near the renegade camp. Trial by fire.</text>
@@ -1471,7 +1471,7 @@
 <text>Do NOT enter. Remember what happened to the Ecologists in Jupiter?</text>
 </string>
 <string id="st_dyn_news_csky_conversation_resp_19_3">
-<text>Throw a bolt in. If it ages/decays, we’ve got a goldmine of data.</text>
+<text>Throw a bolt in. If it ages/decays, we've got a goldmine of data.</text>
 </string>
 
 <string id="st_dyn_news_csky_conversation_msg_20">
@@ -1484,13 +1484,13 @@
 <text>They died for knowledge. We honor them by surviving.</text>
 </string>
 <string id="st_dyn_news_csky_conversation_resp_20_3">
-<text>...and by making sure that sacrifice wasn’t in vain. *raises canteen*</text>
+<text>... and by making sure that sacrifice wasn't in vain. *raises canteen*</text>
 </string>
 
 
 <!------------------------------------------------------- Bandits  Conversations -->
 <string id="st_dyn_news_bandit_conversation_msg_1">
-<text>Duty convoy wrecked near the checkpoint! Guns ‘n ammo just sittin’ in the mud, suka!</text>
+<text>Duty convoy wrecked near the checkpoint! Guns 'n ammo just sittin' in the mud, suka!</text>
 </string>
 <string id="st_dyn_news_bandit_conversation_resp_1_1">
 <text>Dibs on the PKM! Anyone touches it gets knifed.</text>
@@ -1509,23 +1509,23 @@
 <text>HA! Throw in a “blessed artifact” (rocks) for extra cash.</text>
 </string>
 <string id="st_dyn_news_bandit_conversation_resp_2_2">
-<text>If they complain, shoot ‘em. Free gear too.</text>
+<text>If they complain, shoot 'em. Free gear too.</text>
 </string>
 <string id="st_dyn_news_bandit_conversation_resp_2_3">
-<text>Just don’t scam Sid’s customers. He’ll skin us alive.</text>
+<text>Just don't scam Sid's customers. He'll skin us alive.</text>
 </string>
 
 <string id="st_dyn_news_bandit_conversation_msg_3">
-<text>Mercs sniffin’ around Dark Valley. Who left the damn gate open again?</text>
+<text>Mercs sniffin' around Dark Valley. Who left the damn gate open again?</text>
 </string>
 <string id="st_dyn_news_bandit_conversation_resp_3_1">
 <text>Not my shift. Ask Boris. He was vodka-drunk on watch.</text>
 </string>
 <string id="st_dyn_news_bandit_conversation_resp_3_2">
-<text>Ambush ‘em at the tunnel. Steal their fancy NATO toys.</text>
+<text>Ambush 'em at the tunnel. Steal their fancy NATO toys.</text>
 </string>
 <string id="st_dyn_news_bandit_conversation_resp_3_3">
-<text>Nah, hide the good loot. They’ll leave when they see our “hospitality”.</text>
+<text>Nah, hide the good loot. They'll leave when they see our “hospitality”.</text>
 </string>
 
 <string id="st_dyn_news_bandit_conversation_msg_4">
@@ -1545,13 +1545,13 @@
 <text>Vasily sold our stash to Freedom! Find that traitorous sukablyad!</text>
 </string>
 <string id="st_dyn_news_bandit_conversation_resp_5_1">
-<text>Leave his body in the swamps. Snorks’ll recycle him.</text>
+<text>Leave his body in the swamps. Snorks'll recycle him.</text>
 </string>
 <string id="st_dyn_news_bandit_conversation_resp_5_2">
-<text>I know his girlfriend’s hideout. She’ll talk… or pay.</text>
+<text>I know his girlfriend's hideout. She'll talk… or pay.</text>
 </string>
 <string id="st_dyn_news_bandit_conversation_resp_5_3">
-<text>Forget revenge. Steal Freedom’s shit back. Double profit!</text>
+<text>Forget revenge. Steal Freedom's shit back. Double profit!</text>
 </string>
 
 <string id="st_dyn_news_bandit_conversation_msg_6">
@@ -1561,7 +1561,7 @@
 <text>Raid the Duty outpost. They confiscated our last shipment.</text>
 </string>
 <string id="st_dyn_news_bandit_conversation_resp_6_2">
-<text>Drink antifreeze like ’08. Tastes worse but gets you deader faster!</text>
+<text>Drink antifreeze like '08. Tastes worse but gets you deader faster!</text>
 </string>
 <string id="st_dyn_news_bandit_conversation_resp_6_3">
 <text>Trade artifacts to Sid. His stash is endless… for the right price.</text>
@@ -1569,39 +1569,39 @@
 
 
 <string id="st_dyn_news_bandit_conversation_msg_7">
-<text>Loner with a Gauss rifle limpin’ through Agroprom. Weak as a kitten.</text>
+<text>Loner with a Gauss rifle limpin' through Agroprom. Weak as a kitten.</text>
 </string>
 <string id="st_dyn_news_bandit_conversation_resp_7_1">
 <text>Gauss rifle? Mine now. Meet you at the construction site.</text>
 </string>
 <string id="st_dyn_news_bandit_conversation_resp_7_2">
-<text>Could be bait. Snipers on the roof in case it’s a trap.</text>
+<text>Could be bait. Snipers on the roof in case it's a trap.</text>
 </string>
 <string id="st_dyn_news_bandit_conversation_resp_7_3">
 <text>Shoot his legs first. More fun when they crawl.</text>
 </string>
 
 <string id="st_dyn_news_bandit_conversation_msg_8">
-<text>Ghosts in the factory again. Heard whisperin’ near the furnace.</text>
+<text>Ghosts in the factory again. Heard whisperin' near the furnace.</text>
 </string>
 <string id="st_dyn_news_bandit_conversation_resp_8_1">
 <text>Pour vodka on the floor. Spirits love free drinks.</text>
 </string>
 <string id="st_dyn_news_bandit_conversation_resp_8_2">
-<text>It’s just Snorks in the vents. Again. Ignore ‘em.</text>
+<text>It's just Snorks in the vents. Again. Ignore 'em.</text>
 </string>
 <string id="st_dyn_news_bandit_conversation_resp_8_3">
-<text>Bet 500R it’s Freedom spies. Let’s smoke ‘em out!</text>
+<text>Bet 500R it's Freedom spies. Let's smoke 'em out!</text>
 </string>
 
 <string id="st_dyn_news_bandit_conversation_msg_9">
 <text>Boss got eaten by pseudodogs. Who wants his fancy coat?</text>
 </string>
 <string id="st_dyn_news_bandit_conversation_resp_9_1">
-<text>ME! I’ll pay… in promises I won’t keep.</text>
+<text>ME! I'll pay… in promises I won't keep.</text>
 </string>
 <string id="st_dyn_news_bandit_conversation_resp_9_2">
-<text>Draw straws. Short straw gets the coat… and Duty’s bullet list.</text>
+<text>Draw straws. Short straw gets the coat… and Duty's bullet list.</text>
 </string>
 <string id="st_dyn_news_bandit_conversation_resp_9_3">
 <text>Sell the coat to Sid. Split the cash and stay leaderless. Less work.</text>
@@ -1617,14 +1617,14 @@
 <text>Wait for them to carry loot back. Double harvest!</text>
 </string>
 <string id="st_dyn_news_bandit_conversation_resp_10_3">
-<text>Don’t forget to loot fingers for their faction rings. Good trophies.</text>
+<text>Don't forget to loot fingers for their faction rings. Good trophies.</text>
 </string>
 
 <string id="st_dyn_news_bandit_conversation_msg_11">
-<text>Caught a Merc scout. He’s got a map to their stash. Interrogate?</text>
+<text>Caught a Merc scout. He's got a map to their stash. Interrogate?</text>
 </string>
 <string id="st_dyn_news_bandit_conversation_resp_11_1">
-<text>Cut off toes ‘til he talks. One per minute.</text>
+<text>Cut off toes 'til he talks. One per minute.</text>
 </string>
 <string id="st_dyn_news_bandit_conversation_resp_11_2">
 <text>Sell him back to his group. Mercs pay well for their own.</text>
@@ -1647,20 +1647,20 @@
 </string>
 
 <string id="st_dyn_news_bandit_conversation_msg_13">
-<text>Heist at Sid’s warehouse went FUBAR. Three dead. Run.</text>
+<text>Heist at Sid's warehouse went FUBAR. Three dead. Run.</text>
 </string>
 <string id="st_dyn_news_bandit_conversation_resp_13_1">
-<text>Told you not to touch his stuff! Now we’re all dead men.</text>
+<text>Told you not to touch his stuff! Now we're all dead men.</text>
 </string>
 <string id="st_dyn_news_bandit_conversation_resp_13_2">
-<text>Blame it on Duty. Sid’ll believe it.</text>
+<text>Blame it on Duty. Sid'll believe it.</text>
 </string>
 <string id="st_dyn_news_bandit_conversation_resp_13_3">
-<text>Time to hide in the swamps. Clear Sky’s too dumb to find us.</text>
+<text>Time to hide in the swamps. Clear Sky's too dumb to find us.</text>
 </string>
 
 <string id="st_dyn_news_bandit_conversation_msg_14">
-<text>Chained a flesh near the rookie camp. Pays to watch ‘em scream.</text>
+<text>Chained a flesh near the rookie camp. Pays to watch 'em scream.</text>
 </string>
 <string id="st_dyn_news_bandit_conversation_resp_14_1">
 <text>Charge 5 bullets per viewing. Profit!</text>
@@ -1669,7 +1669,7 @@
 <text>Better: Bet on how long they survive. I say 20 seconds.</text>
 </string>
 <string id="st_dyn_news_bandit_conversation_resp_14_3">
-<text>If it breaks loose, YOU’RE feeding it, genius.</text>
+<text>If it breaks loose, YOU'RE feeding it, genius.</text>
 </string>
 
 <string id="st_dyn_news_bandit_conversation_msg_15">
@@ -1686,7 +1686,7 @@
 </string>
 
 <string id="st_dyn_news_bandit_conversation_msg_16">
-<text>Oleg owes me 10,000R from dice. He’s “forgetting”.</text>
+<text>Oleg owes me 10,000R from dice. He's “forgetting”.</text>
 </string>
 <string id="st_dyn_news_bandit_conversation_resp_16_1">
 <text>Break his kneecaps. Standard interest rate.</text>
@@ -1699,13 +1699,13 @@
 </string>
 
 <string id="st_dyn_news_bandit_conversation_msg_17">
-<text>Pushed a rookie into a vortex. He’s spinning like a top! HA!</text>
+<text>Pushed a rookie into a vortex. He's spinning like a top! HA!</text>
 </string>
 <string id="st_dyn_news_bandit_conversation_resp_17_1">
 <text>Throw bolts at him. Extra points for headshots!</text>
 </string>
 <string id="st_dyn_news_bandit_conversation_resp_17_2">
-<text>Record it! We’ll sell the footage to Loners.</text>
+<text>Record it! We'll sell the footage to Loners.</text>
 </string>
 <string id="st_dyn_news_bandit_conversation_resp_17_3">
 <text>When he pukes, bet on the color. I say green.</text>
@@ -1718,36 +1718,36 @@
 <text>Not my problem. I sleep in the stolen APC.</text>
 </string>
 <string id="st_dyn_news_bandit_conversation_resp_18_2">
-<text>Good! More “ventilation”. Zone’s finest architecture.</text>
+<text>Good! More “ventilation”. Zone's finest architecture.</text>
 </string>
 <string id="st_dyn_news_bandit_conversation_resp_18_3">
 <text>Blame Freedom. Then steal THEIR base.</text>
 </string>
 
 <string id="st_dyn_news_bandit_conversation_msg_19">
-<text>Saw a black chimera near camp. Zone’s pissed at us… again.</text>
+<text>Saw a black chimera near camp. Zone's pissed at us… again.</text>
 </string>
 <string id="st_dyn_news_bandit_conversation_resp_19_1">
-<text>Sacrifice Boris. He’s useless anyway.</text>
+<text>Sacrifice Boris. He's useless anyway.</text>
 </string>
 <string id="st_dyn_news_bandit_conversation_resp_19_2">
-<text>Nah, it’s just hungry. Toss it some Loner leftovers.</text>
+<text>Nah, it's just hungry. Toss it some Loner leftovers.</text>
 </string>
 <string id="st_dyn_news_bandit_conversation_resp_19_3">
-<text>If it’s black, it’s radioactive! Shoot it and sell the meat to Sid!</text>
+<text>If it's black, it's radioactive! Shoot it and sell the meat to Sid!</text>
 </string>
 
 <string id="st_dyn_news_bandit_conversation_msg_20">
 <text>Found a guitar with one string. Who knows “Black Eyes”?!</text>
 </string>
 <string id="st_dyn_news_bandit_conversation_resp_20_1">
-<text>I’ll bang the wall! DRINKING SONG TIME!</text>
+<text>I'll bang the wall! DRINKING SONG TIME!</text>
 </string>
 <string id="st_dyn_news_bandit_conversation_resp_20_2">
 <text>Play it loud! Scare off the blue nerds in the swamps!</text>
 </string>
 <string id="st_dyn_news_bandit_conversation_resp_20_3">
-<text>If you play off-key, you’re chimera bait.</text>
+<text>If you play off-key, you're chimera bait.</text>
 </string>
 
 <!----------------------------------------------Renegades  Conversations -->
@@ -2485,7 +2485,7 @@
 </string>
 
 <string id="st_dyn_news_mono_conversation_msg_17">
-<text>Brother Gregor’s form changes. The Zone embraces him.</text>
+<text>Brother Gregor's form changes. The Zone embraces him.</text>
 </string>
 <string id="st_dyn_news_mono_conversation_resp_17_1">
 <text>His flesh becomes armor. His pain, strength.</text>

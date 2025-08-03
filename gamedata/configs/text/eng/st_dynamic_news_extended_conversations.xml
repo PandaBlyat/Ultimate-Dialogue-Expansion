@@ -87,7 +87,7 @@
         <text>Alright listen I'm not gonna have a logical debate with you about the philosophies of trap disarment and survivorship bias.</text>
     </string>
     <string id="st_dyn_news_extended_conv_5_turn_4">
-        <text>Hope your gear’s as good as your words.</text>
+        <text>Hope your gear's as good as your words.</text>
     </string>
 	
 	<!-- Extended Conversation 6: Faction Tension (5 turns) -->
@@ -98,13 +98,13 @@
     <text>We saw you %other_faction% boys skulking %location%. Looking for another beating?</text>
 	</string>
 	<string id="st_dyn_news_extended_conv_6_turn_2">
-    <text>We go where we want. You don’t own shit but a pile of corpses.</text>
+    <text>We go where we want. You don't own shit but a pile of corpses.</text>
 	</string>
 	<string id="st_dyn_news_extended_conv_6_turn_3">
     <text>Say that again when you're not hiding behind anomaly fog.</text>
 	</string>
 	<string id="st_dyn_news_extended_conv_6_turn_4">
-    <text>You're welcome to step into the fog, we’ll light it up for you.</text>
+    <text>You're welcome to step into the fog, we'll light it up for you.</text>
 	</string>
 	<string id="st_dyn_news_extended_conv_6_turn_5">
     <text> More empty threats by %other_faction% punks.</text>
@@ -330,7 +330,7 @@
     <text>Since we're all losing good men to the recent large mutant migration in the area.</text>
 </string>
 <string id="st_dyn_news_extended_conv_18_turn_4">
-    <text>...I'll run it by command. No promises.</text>
+    <text>... I'll run it by command. No promises.</text>
 </string>
 
 <!-- Extended Conversation 19: Medical Emergency -->
@@ -460,7 +460,7 @@
     <text>humor,drunk,friendly</text>
 </string>
 <string id="st_dyn_news_extended_conv_25_turn_1">
-    <text> %other_first_name%! My bset friend! Hve I told you...youre my fucking brat!?</text>
+    <text> %other_first_name%! My bset friend! Hve I told you... youre my fucking brat!?</text>
 </string>
 <string id="st_dyn_news_extended_conv_25_turn_2">
     <text>Cyka, how much vodka did you drink?</text>
@@ -509,7 +509,7 @@
     <text>They're paying 120k for it. Still sound crazy?</text>
 </string>
 <string id="st_dyn_news_extended_conv_27_turn_4">
-    <text>...Shit. How the hell would we even do that?</text>
+    <text>... Shit. How the hell would we even do that?</text>
 </string>
 <string id="st_dyn_news_extended_conv_27_turn_5">
     <text>I got some ideas. You in or out?</text>
@@ -572,7 +572,7 @@
     <text>Backing away slowly...</text>
 </string>
 <string id="st_dyn_news_extended_conv_30_turn_5">
-    <text>You don't want to know what i saw through the scope. Regroup.</text>
+    <text>You don't want to know what I saw through the scope. Regroup.</text>
 </string>
 
 <!-- Extended Conversation 31: Campfire Story -->
@@ -589,7 +589,7 @@
     <text>No man, I met him. Guy aged 10 years in what felt like a day to us. Eyes were all fucked up, kept muttering about "the loop closing"</text>
 </string>
 <string id="st_dyn_news_extended_conv_31_turn_4">
-    <text>...shit. Maybe I'll avoid Yantar for a while.</text>
+    <text>... shit. Maybe I'll avoid Yantar for a while.</text>
 </string>
 
 <!-- Extended Conversation 32: Old Timer's Wisdom -->
@@ -649,7 +649,7 @@
     <text>Shit, they get you?</text>
 </string>
 <string id="st_dyn_news_extended_conv_34_turn_5">
-    <text>Nah, but i had to leave my detector and most of my ammo behind...fuck, living off tourist's delight for a week now.</text>
+    <text>Nah, but I had to leave my detector and most of my ammo behind... fuck, living off tourist's delight for a week now.</text>
 </string>
 
 <!-- Extended Conversation 35: Weird Zone Phenomenon -->
@@ -913,7 +913,7 @@
     <text>paranormal,mystery,fear</text>
 </string>
 <string id="st_dyn_news_extended_conv_47_turn_1">
-    <text>During my last trip to Red Forest i saw trees bleeding.</text>
+    <text>During my last trip to Red Forest I saw trees bleeding.</text>
 </string>
 <string id="st_dyn_news_extended_conv_47_turn_2">
     <text>What do you mean bleeding?</text>
@@ -963,13 +963,13 @@
     <text>The ones where the Zone is calling you deeper. Showing you things.</text>
 </string>
 <string id="st_dyn_news_extended_conv_49_turn_4">
-    <text>Shit... What kind of things? I've...been having similar dreams.</text>
+    <text>Shit... What kind of things? I've... been having similar dreams.</text>
 </string>
 <string id="st_dyn_news_extended_conv_49_turn_5">
     <text>A golden rusty door... And a voice saying "come home"</text>
 </string>
 <string id="st_dyn_news_extended_conv_49_turn_6">
-    <text>What the fuck...This can't be coincidence. Something's happening.</text>
+    <text>What the fuck... This can't be coincidence. Something's happening.</text>
 </string>
 <string id="st_dyn_news_extended_conv_49_turn_7">
     <text>What do you mean?</text>
@@ -978,7 +978,7 @@
     <text>Rusty golden door?! Were you able to open it?? I couldn't.</text>
 </string>
 <string id="st_dyn_news_extended_conv_49_turn_9">
-    <text>The harder i tried to open it the quieter the voice` got.</text>
+    <text>The harder I tried to open it the quieter the voice` got.</text>
 </string>
 <string id="st_dyn_news_extended_conv_49_turn_10">
     <text>Maybe it's time to think of an exit plan off the zone. It has to be a sign.</text>
@@ -1124,7 +1124,7 @@
     <text>Maybe. But tell me I'm wrong.</text>
 </string>
 <string id="st_dyn_news_extended_conv_56_turn_6">
-    <text>...Can't. Place is fucked.</text>
+    <text>... Can't. Place is fucked.</text>
 </string>
 
 <!-- Extended Conversation 57: Supply Run Gone Bad -->
@@ -1221,7 +1221,7 @@
     <text>drunk,philosophy,humor</text>
 </string>
 <string id="st_dyn_news_extended_conv_61_turn_1">
-    <text>bros.... what if.. what if anomalies are just the zone's farts?</text>
+    <text>bros... what if... what if anomalies are just the zone's farts?</text>
 </string>
 <string id="st_dyn_news_extended_conv_61_turn_2">
     <text>How fucking drunk are you right now?</text>
@@ -1284,13 +1284,13 @@
     <text>Anyone else barely sleep out here? Feels like the Zone hums at night.</text>
 </string>
 <string id="st_dyn_news_extended_conv_64_turn_2">
-    <text>Yeah. It's like something's always watching. Even when it’s dead quiet.</text>
+    <text>Yeah. It's like something's always watching. Even when it's dead quiet.</text>
 </string>
 <string id="st_dyn_news_extended_conv_64_turn_3">
     <text>I hear footsteps sometimes. No one there when I check.</text>
 </string>
 <string id="st_dyn_news_extended_conv_64_turn_5">
-    <text>Maybe the Zone doesn’t sleep. And it doesn’t like it when you do either.</text>
+    <text>Maybe the Zone doesn't sleep. And it doesn't like it when you do either.</text>
 </string>
 <string id="st_dyn_news_extended_conv_64_turn_5">
     <text> * passes blunt *</text>
@@ -1309,28 +1309,28 @@
     <text>How do we know you're not still brainwashed?</text>
 </string>
 <string id="st_dyn_news_extended_conv_65_turn_3">
-    <text>Because I remember my name... i think. My real name! And what I did... God, what I did...</text>
+    <text>Because I remember my name... I think. My real name! And what I did... God, what I did...</text>
 </string>
 <string id="st_dyn_news_extended_conv_65_turn_4">
 <text>What did you do? Talk.</text>
 </string>
 <string id="st_dyn_news_extended_conv_65_turn_5">
-<text>I don't even know where to...We rounded up stalkers... for "cleansing." The Monolith made us do things to them while still alive. Their screams... fed the device. Amplified the Zone’s whispers.</text>
+<text>I don't even know where to... We rounded up stalkers... for "cleansing." The Monolith made us do things to them while still alive. Their screams... fed the device. Amplified the Zone's whispers.</text>
 </string>
 <string id="st_dyn_news_extended_conv_65_turn_6">
 <text>Bullshit. But continue...</text> 
 </string>
 <string id="st_dyn_news_extended_conv_65_turn_7">
-<text>Living batteries. The Scorcher fries minds, but bodies... they twitch for days. We wired them into the machine. The agony... it powers the Monolith’s signal. Turns pain into control.</text>
+<text>Living batteries. The Scorcher fries minds, but bodies... they twitch for days. We wired them into the machine. The agony... it powers the Monolith's signal. Turns pain into control.</text>
 </string>
 <string id="st_dyn_news_extended_conv_65_turn_8">
-<text>Christ... And the voices? How’d you break free?</text>
+<text>Christ... And the voices? How'd you break free?</text>
 </string>
 <string id="st_dyn_news_extended_conv_65_turn_9">
-<text>I...don't remember...I did something but i don't remember what, my mind's foggy</text>
+<text>I... don't remember... I did something but I don't remember what, my mind's foggy</text>
 </string>
 <string id="st_dyn_news_extended_conv_65_turn_10">
-<text>No one can help you, all you can do is create a new identity like you have. Start fresh...Welcome Back STALKER</text>
+<text>No one can help you, all you can do is create a new identity like you have. Start fresh... Welcome Back STALKER</text>
 </string>
 
 <!-- Extended Conversation 66: Scammer Alert -->
@@ -1359,7 +1359,7 @@
     <text>weather,anomaly,strange</text>
 </string>
 <string id="st_dyn_news_extended_conv_67_turn_1">
-    <text>It was raining upwards last time i was in Red Forest. UPWARDS.</text>
+    <text>It was raining upwards last time I was in Red Forest. UPWARDS.</text>
 </string>
 <string id="st_dyn_news_extended_conv_67_turn_2">
     <text>What the fuck do you mean upwards?</text>
@@ -1440,7 +1440,7 @@
     <text>CNPP. Need to grab something.</text>
 </string>
 <string id="st_dyn_news_extended_conv_70_turn_6">
-    <text>...Fuck no. Ask the next guy.</text>
+    <text>... Fuck no. Ask the next guy.</text>
 </string>
 
 
@@ -1629,7 +1629,7 @@
     <text>If I see %other_first_name% again, he's dead. DEAD.</text>
 </string>
 <string id="st_dyn_news_extended_conv_79_turn_2">
-    <text>Whoa you're alive?? what did i do?</text>
+    <text>Whoa you're alive?? what did I do?</text>
 </string>
 <string id="st_dyn_news_extended_conv_79_turn_3">
     <text> YOU LEFT ME FOR DEAD. Took my artifacts and ran when the bloodsuckers came.</text>
@@ -1874,7 +1874,7 @@
     <text>Been here 8 years. Lost everything outside. This is all I have left.</text>
 </string>
 <string id="st_dyn_news_extended_conv_90_turn_4">
-    <text>Fuck...What will you wish for?</text>
+    <text>Fuck... What will you wish for?</text>
 </string>
 <string id="st_dyn_news_extended_conv_90_turn_5">
     <text>To forget. To forget all of this. To forget her. See you on the other side, stalkers.</text>
@@ -1883,7 +1883,7 @@
     <text>Don't do it %other_first_name%.</text>
 </string>
 <string id="st_dyn_news_extended_conv_90_turn_7">
-    <text>I...have to. I can't anymore. About to lose connection. Good bye Stalkers.</text>
+    <text>I... have to. I can't anymore. About to lose connection. Good bye Stalkers.</text>
 </string>
 <string id="st_dyn_news_extended_conv_90_turn_8">
     <text>Crazy fucker...</text>
@@ -2084,10 +2084,10 @@
     <text>The rookie? Hope he doesn't freeze up if things get weird.</text>
 </string>
 <string id="st_dyn_news_extended_conv_96_turn_5">
-    <text>He’ll be fine. It’s just a parts run. Some busted terminals and maybe a few old batteries.</text>
+    <text>He'll be fine. It's just a parts run. Some busted terminals and maybe a few old batteries.</text>
 </string>
 <string id="st_dyn_news_extended_conv_96_turn_6">
-    <text>Alright. Long as we don’t run into anything with more teeth than sense.</text>
+    <text>Alright. Long as we don't run into anything with more teeth than sense.</text>
 </string>
 <string id="st_dyn_news_extended_conv_96_turn_7">
     <text>Few blind dogs, maybe a spark or two. Nothing major. We'll steer clear of the deeper wing.</text>
@@ -2096,10 +2096,10 @@
     <text>You thinking early morning, or wait 'til the fog burns off?</text>
 </string>
 <string id="st_dyn_news_extended_conv_96_turn_9">
-    <text>Let’s move after breakfast. Should be back at the camp before dusk if all goes smooth.</text>
+    <text>Let's move after breakfast. Should be back at the camp before dusk if all goes smooth.</text>
 </string>
 <string id="st_dyn_news_extended_conv_96_turn_10">
-    <text>Cool. I’ll sort my pack tonight, make sure the rookie ain’t bringing junk gear.</text>
+    <text>Cool. I'll sort my pack tonight, make sure the rookie ain't bringing junk gear.</text>
 </string>
 
 
@@ -2209,7 +2209,7 @@
     <text>Think it's just stress? Or is it something else... like it's showing us things?</text>
 </string>
 <string id="st_dyn_news_extended_conv_100_turn_6">
-    <text>I don’t know. But I’ve heard guys say they dream about places they’ve never seen—then find them later.</text>
+    <text>I don't know. But I've heard guys say they dream about places they've never seen—then find them later.</text>
 </string>
 <string id="st_dyn_news_extended_conv_100_turn_7">
     <text>That happen to you?</text>
@@ -2218,10 +2218,10 @@
     <text>Once. Had a dream about a flooded tunnel with glowing moss. Found it last week west of Agroprom. But who the fuck knows, could be just Deja vu.</text>
 </string>
 <string id="st_dyn_news_extended_conv_100_turn_9">
-    <text>That’s messed up. Maybe the Zone’s not just mutating us—it’s rewiring us too.</text>
+    <text>That's messed up. Maybe the Zone's not just mutating us—it's rewiring us too.</text>
 </string>
 <string id="st_dyn_news_extended_conv_100_turn_10">
-    <text>Heh. Wouldn’t be the weirdest thing it’s done. Just wish the dreams didn’t feel so damn real.</text>
+    <text>Heh. Wouldn't be the weirdest thing it's done. Just wish the dreams didn't feel so damn real.</text>
 </string>
 
 
@@ -2231,7 +2231,7 @@
     <text>rumor,stranger,zone</text>
 </string>
 <string id="st_dyn_news_extended_conv_101_turn_1">
-    <text>Did you see that guy that came through camp last week? Long coat, didn’t say a word?</text>
+    <text>Did you see that guy that came through camp last week? Long coat, didn't say a word?</text>
 </string>
 <string id="st_dyn_news_extended_conv_101_turn_2">
     <text>Yeah. Looked like he walked straight out of a storm. Gear was soaked, eyes hollow.</text>
@@ -2246,10 +2246,10 @@
     <text>That's what I thought. But he had no burns, no rads. Like the Zone just let him pass.</text>
 </string>
 <string id="st_dyn_news_extended_conv_101_turn_6">
-    <text>He didn’t even trade. Just sat by the fire, stared into it like it was showing him something.</text>
+    <text>He didn't even trade. Just sat by the fire, stared into it like it was showing him something.</text>
 </string>
 <string id="st_dyn_news_extended_conv_101_turn_7">
-    <text>Did you notice the dogs wouldn’t go near him?</text>
+    <text>Did you notice the dogs wouldn't go near him?</text>
 </string>
 <string id="st_dyn_news_extended_conv_101_turn_8">
     <text>I did. Even Vaska's mutt, and that thing barks at anomalies.</text>
@@ -2306,25 +2306,25 @@
     <text>Yesterday. Wild dogs rushed me near the embankment — damn bolt got stuck halfway.</text>
 </string>
 <string id="st_dyn_news_extended_conv_103_turn_3">
-    <text>What’d you do?</text>
+    <text>What'd you do?</text>
 </string>
 <string id="st_dyn_news_extended_conv_103_turn_4">
     <text>Switched to the pistol. Emptied the whole mag just to get breathing room.</text>
 </string>
 <string id="st_dyn_news_extended_conv_103_turn_5">
-    <text>I keep telling you — stop using that rusted-out AK from the flea market. It’s held together with tape and prayers.</text>
+    <text>I keep telling you — stop using that rusted-out AK from the flea market. It's held together with tape and prayers.</text>
 </string>
 <string id="st_dyn_news_extended_conv_103_turn_6">
     <text>Hey, it was cheap. And it *usually* works.</text>
 </string>
 <string id="st_dyn_news_extended_conv_103_turn_7">
-    <text>“Usually” doesn’t cut it out here. Get yourself a backup that doesn’t jam when you sneeze.</text>
+    <text>“Usually” doesn't cut it out here. Get yourself a backup that doesn't jam when you sneeze.</text>
 </string>
 <string id="st_dyn_news_extended_conv_103_turn_8">
-    <text>Yeah, yeah. Soon as I sell this artifact I’ve been hauling around.</text>
+    <text>Yeah, yeah. Soon as I sell this artifact I've been hauling around.</text>
 </string>
 <string id="st_dyn_news_extended_conv_103_turn_9">
-    <text>Just don’t die holding junk. Ain’t worth the rubles.</text>
+    <text>Just don't die holding junk. Ain't worth the rubles.</text>
 </string>
 
 
@@ -2340,16 +2340,16 @@
     <text>Yeah. Word is he found a military stash north of the swamp checkpoint. Then vanished.</text>
 </string>
 <string id="st_dyn_news_extended_conv_104_turn_3">
-    <text>Typical. Gets lucky once and suddenly he’s too good to share it with the rest of us.</text>
+    <text>Typical. Gets lucky once and suddenly he's too good to share it with the rest of us.</text>
 </string>
 <string id="st_dyn_news_extended_conv_104_turn_4">
-    <text>Or someone followed him. Could’ve been bandits — stash like that doesn’t stay quiet long.</text>
+    <text>Or someone followed him. Could've been bandits — stash like that doesn't stay quiet long.</text>
 </string>
 <string id="st_dyn_news_extended_conv_104_turn_5">
-    <text>He should’ve kept his mouth shut. Was bragging about it over vodka like a rookie.</text>
+    <text>He should've kept his mouth shut. Was bragging about it over vodka like a rookie.</text>
 </string>
 <string id="st_dyn_news_extended_conv_104_turn_6">
-    <text>Now his radio's dead and no one's seen him for two days. Either he bailed... or he’s dead in a ditch.</text>
+    <text>Now his radio's dead and no one's seen him for two days. Either he bailed... or he's dead in a ditch.</text>
 </string>
 <string id="st_dyn_news_extended_conv_104_turn_7">
     <text>Another zone mystery. </text>
@@ -2364,16 +2364,16 @@
     <text>Heard you got your hands on some ex-military ammo. True?</text>
 </string>
 <string id="st_dyn_news_extended_conv_105_turn_2">
-    <text>Depends who’s asking—and what you’re offering.</text>
+    <text>Depends who's asking—and what you're offering.</text>
 </string>
 <string id="st_dyn_news_extended_conv_105_turn_3">
-    <text>Name your price. I’ve got two cases of vodka and a couple of geiger counters.</text>
+    <text>Name your price. I've got two cases of vodka and a couple of geiger counters.</text>
 </string>
 <string id="st_dyn_news_extended_conv_105_turn_4">
-    <text>Vodka alone won’t cut it. How about one case and your old SEVA suit?</text>
+    <text>Vodka alone won't cut it. How about one case and your old SEVA suit?</text>
 </string>
 <string id="st_dyn_news_extended_conv_105_turn_5">
-    <text>My SEVA’s barely holding together—you’re flirting with death here.</text>
+    <text>My SEVA's barely holding together—you're flirting with death here.</text>
 </string>
 <string id="st_dyn_news_extended_conv_105_turn_6">
     <text>Then consider it a lifetime warranty. I stand by my goods.</text>
@@ -2392,7 +2392,7 @@
     <text>My rifle jammed mid-fight yesterday. Thought that was the end of me.</text>
 </string>
 <string id="st_dyn_news_extended_conv_106_turn_2">
-    <text>Bet you’re still using that filthy AK, huh?</text>
+    <text>Bet you're still using that filthy AK, huh?</text>
 </string>
 <string id="st_dyn_news_extended_conv_106_turn_3">
     <text>Does the job when it wants to. I clean it, but it keeps misfiring.</text>
@@ -2401,13 +2401,13 @@
     <text>Oil it less. Too much gunk turns it into a dust magnet.</text>
 </string>
 <string id="st_dyn_news_extended_conv_106_turn_5">
-    <text>Easy for you to say. You’ve got that Western piece from the convoy raid.</text>
+    <text>Easy for you to say. You've got that Western piece from the convoy raid.</text>
 </string>
 <string id="st_dyn_news_extended_conv_106_turn_6">
     <text>Yeah, and I strip it every night like a ritual. Only thing I trust out here is my gun.</text>
 </string>
 <string id="st_dyn_news_extended_conv_106_turn_7">
-    <text>Guess I’ll have to trade up soon.</text>
+    <text>Guess I'll have to trade up soon.</text>
 </string>
 
 
@@ -2423,16 +2423,16 @@
     <text>Yeah. They've rigged them to nailboxes and pressure flares. Nasty work.</text>
 </string>
 <string id="st_dyn_news_extended_conv_107_turn_3">
-    <text>I’ve been carrying wire cutters and a tent peg. Works for most disarms.</text>
+    <text>I've been carrying wire cutters and a tent peg. Works for most disarms.</text>
 </string>
 <string id="st_dyn_news_extended_conv_107_turn_4">
-    <text>Until you hit one wired to a deadman switch. Then it’s all reflex.</text>
+    <text>Until you hit one wired to a deadman switch. Then it's all reflex.</text>
 </string>
 <string id="st_dyn_news_extended_conv_107_turn_5">
     <text>Started using mirrors to check angles before stepping in. Saved me twice now.</text>
 </string>
 <string id="st_dyn_news_extended_conv_107_turn_6">
-    <text>Smart. Next haul, I’m picking up a fiber scope. This DIY crap’s gonna get me killed.</text>
+    <text>Smart. Next haul, I'm picking up a fiber scope. This DIY crap's gonna get me killed.</text>
 </string>
 
 <!-- Extended Conversation 108: Old Friend Reunion -->
@@ -2466,18 +2466,18 @@
     <text>Yeah, but the moles dig. No line of sight, just sudden gouges and screeches.</text>
 </string>
 <string id="st_dyn_news_extended_conv_109_turn_4">
-    <text>How’d you even fight back?</text>
+    <text>How'd you even fight back?</text>
 </string>
 <string id="st_dyn_news_extended_conv_109_turn_5">
     <text>Grenade. Blew half the tunnel, lost two good men...</text>
 </string>
 <string id="st_dyn_news_extended_conv_109_turn_6">
-    <text>Cyka...I'm sorry brat.</text>
+    <text>Cyka... I'm sorry brat.</text>
 </string>
 
 
 
-<!-- Extended Conversation 110: Smuggler’s Code -->
+<!-- Extended Conversation 110: Smuggler's Code -->
 <string id="st_dyn_news_extended_conv_110_meta">
     <text>smuggling,negotiation,danger</text>
 </string>
@@ -2530,16 +2530,16 @@
     <text>Nah I'm talking about looting. I mean taking gear off someone still warm. Feels different.</text>
 </string>
 <string id="st_dyn_news_extended_conv_112_turn_4">
-    <text>Cold’s colder. You want to die over feelings or survive off someone else’s shit?</text>
+    <text>Cold's colder. You want to die over feelings or survive off someone else's shit?</text>
 </string>
 <string id="st_dyn_news_extended_conv_112_turn_5">
-    <text>It’s not guilt...it’s the idea that one day, someone’ll be stripping me too.</text>
+    <text>It's not guilt... it's the idea that one day, someone'll be stripping me too.</text>
 </string>
 <string id="st_dyn_news_extended_conv_112_turn_6">
-    <text>That’s the deal out here. Leave nothing behind, take what you can.</text>
+    <text>That's the deal out here. Leave nothing behind, take what you can.</text>
 </string>
 <string id="st_dyn_news_extended_conv_112_turn_7">
-    <text>Still feels like we’re eating each other one pocket at a time.</text>
+    <text>Still feels like we're eating each other one pocket at a time.</text>
 </string>
 
 
@@ -2563,7 +2563,7 @@
     <text>Half a tin. Got dizzy and threw up for an hour. Not recommended.</text>
 </string>
 <string id="st_dyn_news_extended_conv_113_turn_6">
-    <text>You’re an idiot.</text>
+    <text>You're an idiot.</text>
 </string>
 
 
@@ -2600,7 +2600,7 @@
     <text>black_market,organ_trade,shady</text>
 </string>
 <string id="st_dyn_news_extended_conv_115_turn_1">
-    <text>Heard there’s a doc in Dead City selling organs off the books.</text>
+    <text>Heard there's a doc in Dead City selling organs off the books.</text>
 </string>
 <string id="st_dyn_news_extended_conv_115_turn_2">
     <text>Yeah, 'doc' is a stretch. More like butcher with a scalpel. Prices high, risk higher.</text>
@@ -2612,7 +2612,7 @@
     <text>Desperation breeds weird trades out here. Heard some of those organs end up in bio-experiments.</text>
 </string>
 <string id="st_dyn_news_extended_conv_115_turn_5">
-    <text>Best stay clear. Don’t want to end up as one of those stories.</text>
+    <text>Best stay clear. Don't want to end up as one of those stories.</text>
 </string>
 
 <!-- Extended Conversation 116: Arms Deal Gone Wrong -->
@@ -2623,7 +2623,7 @@
     <text>You catch wind of the arms deal at the old factory last night?</text>
 </string>
 <string id="st_dyn_news_extended_conv_116_turn_2">
-    <text>Yeah. Word is some rookie tried to muscle the seller. Didn’t end well.</text>
+    <text>Yeah. Word is some rookie tried to muscle the seller. Didn't end well.</text>
 </string>
 <string id="st_dyn_news_extended_conv_116_turn_3">
     <text>Let me guess, gunfire and a pile of bodies?</text>
@@ -2632,7 +2632,7 @@
     <text>Exactly. The buyer took off with half the shipment, the rest burned in the fire.</text>
 </string>
 <string id="st_dyn_news_extended_conv_116_turn_5">
-    <text>Black market’s no place for amateurs.</text>
+    <text>Black market's no place for amateurs.</text>
 </string>
 
 <!-- Extended Conversation 117: Rare Artifact Hunt -->
@@ -2649,13 +2649,13 @@
     <text>Because it fetches top rubles on the black market. Supposedly some old Soviet tech fused with anomaly energy.</text>
 </string>
 <string id="st_dyn_news_extended_conv_117_turn_4">
-    <text>Sounds like a myth. But if true, worth more than a small army’s ammo stockpile.</text>
+    <text>Sounds like a myth. But if true, worth more than a small army's ammo stockpile.</text>
 </string>
 <string id="st_dyn_news_extended_conv_117_turn_5">
-    <text>I’m sending a team out next week. Interested?</text>
+    <text>I'm sending a team out next week. Interested?</text>
 </string>
 <string id="st_dyn_news_extended_conv_117_turn_6">
-    <text>Count me in. Just make sure the payout’s real this time.</text>
+    <text>Count me in. Just make sure the payout's real this time.</text>
 </string>
 
 <!-- Extended Conversation 118: Organ Harvest Rumors -->
@@ -2675,7 +2675,7 @@
     <text>Blyat... Makes you wonder what's worse mutants or humans.</text>
 </string>
 <string id="st_dyn_news_extended_conv_118_turn_5">
-    <text>Humans, every time. Zone’s deadly, but at least it doesn’t stab you in the back.</text>
+    <text>Humans, every time. Zone's deadly, but at least it doesn't stab you in the back.</text>
 </string>
 
 <!-- Extended Conversation 119: Backroom Artifact Trade -->
@@ -2689,16 +2689,16 @@
     <text>Whispering Stone? Those things bring bad luck. Why risk it?</text>
 </string>
 <string id="st_dyn_news_extended_conv_119_turn_3">
-    <text>Because it’s worth a damn fortune to the right buyer. High risk, high reward.</text>
+    <text>Because it's worth a damn fortune to the right buyer. High risk, high reward.</text>
 </string>
 <string id="st_dyn_news_extended_conv_119_turn_4">
-    <text>Where’s the meet?</text>
+    <text>Where's the meet?</text>
 </string>
 <string id="st_dyn_news_extended_conv_119_turn_5">
     <text>Sending you the details.</text>
 </string>
 <string id="st_dyn_news_extended_conv_119_turn_6">
-    <text>Got it. Hope the buyer’s as real as the risks.</text>
+    <text>Got it. Hope the buyer's as real as the risks.</text>
 </string>
 
 
@@ -2717,10 +2717,10 @@
     <text>Mostly paranoid ramblings, notes about a “shadow watching him” and some coordinates.</text>
 </string>
 <string id="st_dyn_news_extended_conv_120_turn_4">
-    <text>Shadow watching? That’s just zone madness creeping in.</text>
+    <text>Shadow watching? That's just zone madness creeping in.</text>
 </string>
 <string id="st_dyn_news_extended_conv_120_turn_5">
-    <text>Maybe. But one entry ends with "They’re closer than I thought... can’t run anymore."</text>
+    <text>Maybe. But one entry ends with "They're closer than I thought... can't run anymore."</text>
 </string>
 <string id="st_dyn_news_extended_conv_120_turn_6">
     <text>Fuck, makes you wonder what really got him.</text>
@@ -2754,7 +2754,7 @@
     <text>radio_logs,lost_messages,mystery</text>
 </string>
 <string id="st_dyn_news_extended_conv_122_turn_1">
-    <text>Scavenged some old radio logs off a dead stalker’s PDA.</text>
+    <text>Scavenged some old radio logs off a dead stalker's PDA.</text>
 </string>
 <string id="st_dyn_news_extended_conv_122_turn_2">
     <text>Like what? Chatter about mutants or secret labs?</text>
@@ -2766,7 +2766,7 @@
     <text>Sounds like zone bullshit. Or a warning from someone gone mad.</text>
 </string>
 <string id="st_dyn_news_extended_conv_122_turn_5">
-    <text>Maybe both. I’m starting to think the Zone isn’t just physical anymore.</text>
+    <text>Maybe both. I'm starting to think the Zone isn't just physical anymore.</text>
 </string>
 
 <!-- Extended Conversation 123: Coordinates Without Return -->
@@ -2777,7 +2777,7 @@
     <text>Found a PDA with coordinates scribbled all over it, none matching any known spots.</text>
 </string>
 <string id="st_dyn_news_extended_conv_123_turn_2">
-    <text>Could be secret stash locations or traps. Or someone’s madness.</text>
+    <text>Could be secret stash locations or traps. Or someone's madness.</text>
 </string>
 <string id="st_dyn_news_extended_conv_123_turn_3">
     <text>One of the notes said “Meet me here if you want to live.” No name, no date.</text>
@@ -2786,7 +2786,7 @@
     <text>And no one showed up, apparently.</text>
 </string>
 <string id="st_dyn_news_extended_conv_123_turn_5">
-    <text>Yeah. Just silence and a dead stalker’s last hope.</text>
+    <text>Yeah. Just silence and a dead stalker's last hope.</text>
 </string>
 
 
@@ -2801,7 +2801,7 @@
     <text>What did it say?</text>
 </string>
 <string id="st_dyn_news_extended_conv_124_turn_3">
-    <text>“If you find this, I’m gone for good. The Zone’s not forgiving, and neither are people out here.”</text>
+    <text>“If you find this, I'm gone for good. The Zone's not forgiving, and neither are people out here.”</text>
 </string>
 <string id="st_dyn_news_extended_conv_124_turn_4">
     <text>Harsh truth. Nobody gets out unscarred.</text>
@@ -2820,16 +2820,16 @@
     <text>Found a journal of some poor guy losing track of time and places.</text>
 </string>
 <string id="st_dyn_news_extended_conv_125_turn_2">
-    <text>Zone’s brutal. Long days without rest mess with your head.</text>
+    <text>Zone's brutal. Long days without rest mess with your head.</text>
 </string>
 <string id="st_dyn_news_extended_conv_125_turn_3">
     <text>He wrote about forgetting where he was, who he was with—getting paranoid.</text>
 </string>
 <string id="st_dyn_news_extended_conv_125_turn_4">
-    <text>Isolation will do that. The Zone doesn’t just kill you fast, it wears you down slow.</text>
+    <text>Isolation will do that. The Zone doesn't just kill you fast, it wears you down slow.</text>
 </string>
 <string id="st_dyn_news_extended_conv_125_turn_5">
-    <text>Last note said: “If I lose myself completely, who’s left to survive?”</text>
+    <text>Last note said: “If I lose myself completely, who's left to survive?”</text>
 </string>
 
 <!-- Extended Conversation 126: Betrayal Log -->
@@ -2843,13 +2843,13 @@
     <text>Does the PDA say who?</text>
 </string>
 <string id="st_dyn_news_extended_conv_126_turn_3">
-    <text>Only initials, but the tone’s deadly serious—threats included.</text>
+    <text>Only initials, but the tone's deadly serious—threats included.</text>
 </string>
 <string id="st_dyn_news_extended_conv_126_turn_4">
     <text>Trust is thin in the Zone, and even thinner between stalkers.</text>
 </string>
 <string id="st_dyn_news_extended_conv_126_turn_5">
-    <text>Sometimes you’re better off watching your back than your front.</text>
+    <text>Sometimes you're better off watching your back than your front.</text>
 </string>
 
 <!-- Extended Conversation 127: The Lost Coordinates -->
@@ -2880,7 +2880,7 @@
     <text>What was it?</text>
 </string>
 <string id="st_dyn_news_extended_conv_128_turn_3">
-    <text>“If you find this, I’m dead. Zone’s taken too many. Trust no one.”</text>
+    <text>“If you find this, I'm dead. Zone's taken too many. Trust no one.”</text>
 </string>
 <string id="st_dyn_news_extended_conv_128_turn_4">
     <text>Cold words, but true out here.</text>
@@ -2897,14 +2897,14 @@
     <text>What did it say?</text>
 </string>
 <string id="st_dyn_news_extended_conv_129_turn_3">
-    <text>“Can’t hold much longer. If anyone hears this, stay clear of Sector 9. Bandits moving in hard.”</text>
+    <text>“Can't hold much longer. If anyone hears this, stay clear of Sector 9. Bandits moving in hard.”</text>
 </string>
 <string id="st_dyn_news_extended_conv_129_turn_4">
-    <text>Sector 9’s known for trouble. No surprise there.</text>
+    <text>Sector 9's known for trouble. No surprise there.</text>
 </string>
 
 
-<!-- Extended Conversation 130: Smuggler’s Run -->
+<!-- Extended Conversation 130: Smuggler's Run -->
 <string id="st_dyn_news_extended_conv_130_meta">
     <text>smuggling,gear,risk</text>
 </string>
@@ -2918,7 +2918,7 @@
     <text>That was supposed to be the big shipment, no room for mistakes.</text>
 </string>
 <string id="st_dyn_news_extended_conv_130_turn_4">
-    <text>Smuggling in the Zone ain’t a game. One slip and you’re dead or worse—no questions asked.</text>
+    <text>Smuggling in the Zone ain't a game. One slip and you're dead or worse—no questions asked.</text>
 </string>
 
 <!-- Extended Conversation 131: Quiet Brokers -->
@@ -2929,13 +2929,13 @@
     <text>Know anyone moving goods through the Black Road these days?</text>
 </string>
 <string id="st_dyn_news_extended_conv_131_turn_2">
-    <text>Eh I might know one guy. Quiet type. Doesn’t share details unless you bring serious cash.</text>
+    <text>Eh I might know one guy. Quiet type. Doesn't share details unless you bring serious cash.</text>
 </string>
 <string id="st_dyn_news_extended_conv_131_turn_3">
-    <text>That’s the way it goes. Loose lips don’t last long out here.</text>
+    <text>That's the way it goes. Loose lips don't last long out here.</text>
 </string>
 <string id="st_dyn_news_extended_conv_131_turn_4">
-    <text>Word is he’s got contacts on both sides of the border, real tight operation.</text>
+    <text>Word is he's got contacts on both sides of the border, real tight operation.</text>
 </string>
 <string id="st_dyn_news_extended_conv_131_turn_5">
     <text>Fuck yeah! hook me up, send me the details.</text>
@@ -2946,7 +2946,7 @@
     <text>smuggling,people,risk</text>
 </string>
 <string id="st_dyn_news_extended_conv_132_turn_1">
-    <text>Heard they’re moving some strange people into the Zone now, all kinds of shit.</text>
+    <text>Heard they're moving some strange people into the Zone now, all kinds of shit.</text>
 </string>
 <string id="st_dyn_news_extended_conv_132_turn_2">
     <text>Like what?</text>
@@ -3025,7 +3025,7 @@
     <text>First time you shot a man? Not mutants, not bandits—a real person.</text>
 </string>
 <string id="st_dyn_news_extended_conv_145_turn_2">
-    <text>...some patrol guy. He was checking IDs at a bridge. I had contraband. Long time ago.</text>
+    <text>... Some patrol guy. He was checking IDs at a bridge. I had contraband. Long time ago.</text>
 </string>
 <string id="st_dyn_news_extended_conv_145_turn_3">
     <text>Still see his face?</text>
@@ -3042,19 +3042,19 @@
     <text>madness,psychosis,paranoia</text>
 </string>
 <string id="st_dyn_news_extended_conv_146_turn_1">
-    <text>You hear it too, don’t you? That... humming. Like a broken radio.</text>
+    <text>You hear it too, don't you? That... humming. Like a broken radio.</text>
 </string>
 <string id="st_dyn_news_extended_conv_146_turn_2">
-    <text>It’s not real. Your brain’s cooking from the anomalies.</text>
+    <text>It's not real. Your brain's cooking from the anomalies.</text>
 </string>
 <string id="st_dyn_news_extended_conv_146_turn_3">
-    <text>It’s real. It calls to me. Says things—my name, places, dates...</text>
+    <text>It's real. It calls to me. Says things—my name, places, dates...</text>
 </string>
 <string id="st_dyn_news_extended_conv_146_turn_4">
     <text>Get to the Ecologists. Now. Before you end up like the Monolith.</text>
 </string>
 <string id="st_dyn_news_extended_conv_146_turn_5">
-    <text>...What if they’re right? What if it *is* speaking?</text>
+    <text>... What if they're right? What if it *is* speaking?</text>
 </string>
 
 
@@ -3066,7 +3066,7 @@
     <text>Buried another one today. Stalker named Vikhr. Good man.</text>
 </string>
 <string id="st_dyn_news_extended_conv_147_turn_2">
-    <text>How’d it happen?</text>
+    <text>How'd it happen?</text>
 </string>
 <string id="st_dyn_news_extended_conv_147_turn_3">
     <text>Electro anomaly near Jupiter. Mistook it for an artifact glow.</text>
@@ -3075,7 +3075,7 @@
     <text>He deserved better than a shallow grave and a rusted tag.</text>
 </string>
 <string id="st_dyn_news_extended_conv_147_turn_5">
-    <text>We all do. But the Zone doesn’t give what we deserve.</text>
+    <text>We all do. But the Zone doesn't give what we deserve.</text>
 </string>
 
 
@@ -3093,10 +3093,10 @@
     <text>No. Let him go. Figured the bullets would teach him better than I could.</text>
 </string>
 <string id="st_dyn_news_extended_conv_148_turn_4">
-    <text>Christ. That’s cold.</text>
+    <text>Christ. That's cold.</text>
 </string>
 <string id="st_dyn_news_extended_conv_148_turn_5">
-    <text>No. Cold would’ve been putting him down myself to spare the suffering.</text>
+    <text>No. Cold would've been putting him down myself to spare the suffering.</text>
 </string>
 
 
@@ -3111,7 +3111,7 @@
     <text>Ecologists confirmed it this morning. The Zone's finally claiming me.</text>
 </string>
 <string id="st_dyn_news_extended_conv_149_turn_3">
-    <text>Cyka...How long?</text>
+    <text>Cyka... How long?</text>
 </string>
 <string id="st_dyn_news_extended_conv_149_turn_4">
     <text>Long enough to settle accounts. Short enough that it hurts to breathe.</text>
@@ -3246,7 +3246,7 @@
     <text>Everything rots here. Still matters to leave a mark.</text>
 </string>
 <string id="st_dyn_news_extended_conv_155_turn_5">
-    <text>...Got a spare casing?</text>
+    <text>... Got a spare casing?</text>
 </string>
 
 
@@ -3637,7 +3637,7 @@
     <text>Phantom sounds, fake artifacts, paths that change. Stay paranoid.</text>
 </string>
 <string id="st_dyn_news_extended_conv_165_turn_7">
-    <text>Fucking hell...yeah i guess i wasn't paranoid enough</text>
+    <text>Fucking hell... yeah I guess I wasn't paranoid enough</text>
 </string>
 <string id="st_dyn_news_extended_conv_165_turn_8">
     <text>And never, EVER, follow The Lights at night. No matter how friendly they look.</text>
@@ -3908,7 +3908,7 @@
     <text>Listened to a weird signal for an hour. Next day he walked into an anomaly. Smiling.</text>
 </string>
 <string id="st_dyn_news_extended_conv_175_turn_7">
-    <text>...Switching channels now.</text>
+    <text>... Switching channels now.</text>
 </string>
 
 

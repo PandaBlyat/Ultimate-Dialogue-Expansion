@@ -2276,263 +2276,263 @@
 
 <!-- Monolith  Conversations -->
 
-<string id="st_dyn_news_mono_conversation_msg_1">
+<string id="st_dyn_news_monolith_conversation_msg_1">
 <text>The Unclean approach the Holy City. Prepare the Northern Barrier. Glory to Monolith.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_1_1">
+<string id="st_dyn_news_monolith_conversation_resp_1_1">
 <text>Mines blessed. They will find purity in fire.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_1_2">
+<string id="st_dyn_news_monolith_conversation_resp_1_2">
 <text>Sniper teams ascend the Tower. Their eyes serve the Rock.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_1_3">
+<string id="st_dyn_news_monolith_conversation_resp_1_3">
 <text>We hear the Whisper. Their path ends at the bridge.</text>
 </string>
 
-<string id="st_dyn_news_mono_conversation_msg_2">
+<string id="st_dyn_news_monolith_conversation_msg_2">
 <text>A Sparkle shines in the Dead City. Bring it to the Altar.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_2_1">
+<string id="st_dyn_news_monolith_conversation_resp_2_1">
 <text>Cleansing unbelievers en route. Their blood pleases the Whole.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_2_2">
+<string id="st_dyn_news_monolith_conversation_resp_2_2">
 <text>Psi-guardians stir. The Artifact sings to them.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_2_3">
+<string id="st_dyn_news_monolith_conversation_resp_2_3">
 <text>It will strengthen the Barrier. The Whisper commands it.</text>
 </string>
 
-<string id="st_dyn_news_mono_conversation_msg_3">
+<string id="st_dyn_news_monolith_conversation_msg_3">
 <text>The Great Cleansing approaches. Stand in the Light. Rejoice.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_3_1">
+<string id="st_dyn_news_monolith_conversation_resp_3_1">
 <text>We are chosen. Our minds will shine brighter.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_3_2">
+<string id="st_dyn_news_monolith_conversation_resp_3_2">
 <text>Let the weak burn. Only the faithful remain.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_3_3">
+<string id="st_dyn_news_monolith_conversation_resp_3_3">
 <text>The Rock shelters us. We feel its pulse.</text>
 </string>
 
-<string id="st_dyn_news_mono_conversation_msg_4">
+<string id="st_dyn_news_monolith_conversation_msg_4">
 <text>Defilers in the Cathedral. Silence their blasphemous guns.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_4_1">
+<string id="st_dyn_news_monolith_conversation_resp_4_1">
 <text>Duty filth cornered. Offering their souls to the Void.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_4_2">
+<string id="st_dyn_news_monolith_conversation_resp_4_2">
 <text>Their screams are hymns. The Whisper approves.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_4_3">
+<string id="st_dyn_news_monolith_conversation_resp_4_3">
 <text>No prisoners. Only sacrifices.</text>
 </string>
 
-<string id="st_dyn_news_mono_conversation_msg_5">
+<string id="st_dyn_news_monolith_conversation_msg_5">
 <text>A stalker with the Mark approaches. He must not reach the Nucleus.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_5_1">
+<string id="st_dyn_news_monolith_conversation_resp_5_1">
 <text>Seen near Limansk. His mind... resists the Whisper.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_5_2">
+<string id="st_dyn_news_monolith_conversation_resp_5_2">
 <text>Send the Blessed Ones. Their psy-lances will shatter him.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_5_3">
+<string id="st_dyn_news_monolith_conversation_resp_5_3">
 <text>Kill his companions. Let despair guide him to us.</text>
 </string>
 
-<string id="st_dyn_news_mono_conversation_msg_6">
+<string id="st_dyn_news_monolith_conversation_msg_6">
 <text>Anomalies weaken at Sector 7. Consecrate the ground with blood.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_6_1">
+<string id="st_dyn_news_monolith_conversation_resp_6_1">
 <text>Captured Bandits ready. Their fear feeds the Barrier.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_6_2">
+<string id="st_dyn_news_monolith_conversation_resp_6_2">
 <text>Bury their bodies facing the West. The Void hungers.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_6_3">
+<string id="st_dyn_news_monolith_conversation_resp_6_3">
 <text>The Rock trembles. Our offering is accepted.</text>
 </string>
 
-<string id="st_dyn_news_mono_conversation_msg_7">
+<string id="st_dyn_news_monolith_conversation_msg_7">
 <text>Controllers report unbelievers near the Brain Scorcher. Redirect the horde.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_7_1">
+<string id="st_dyn_news_monolith_conversation_resp_7_1">
 <text>Pseudogiants awakened. They serve the Purpose.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_7_2">
+<string id="st_dyn_news_monolith_conversation_resp_7_2">
 <text>Bloodsuckers hunt in the fog. The Unclean will know terror.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_7_3">
+<string id="st_dyn_news_monolith_conversation_resp_7_3">
 <text>No survivors. Let mutants feast on their doubt.</text>
 </string>
 
-<string id="st_dyn_news_mono_conversation_msg_8">
+<string id="st_dyn_news_monolith_conversation_msg_8">
 <text>Guardian Boris fell to Mercenary heretics. Retrieve his skull.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_8_1">
+<string id="st_dyn_news_monolith_conversation_resp_8_1">
 <text>It rests on their campfire. A desecration.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_8_2">
+<string id="st_dyn_news_monolith_conversation_resp_8_2">
 <text>Burn their bodies. Scatter ashes to the anomalies.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_8_3">
+<string id="st_dyn_news_monolith_conversation_resp_8_3">
 <text>His soul returns to the Whole. Glory his name.</text>
 </string>
 
-<string id="st_dyn_news_mono_conversation_msg_9">
+<string id="st_dyn_news_monolith_conversation_msg_9">
 <text>Abandon Red Forest outpost. The Cleansing purifies it tomorrow.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_9_1">
+<string id="st_dyn_news_monolith_conversation_resp_9_1">
 <text>Rig reactors to overload. A beacon for the Blowout.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_9_2">
+<string id="st_dyn_news_monolith_conversation_resp_9_2">
 <text>Leave relics for the unbelievers. Their corruption deepens.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_9_3">
+<string id="st_dyn_news_monolith_conversation_resp_9_3">
 <text>We withdraw. The Void claims what is owed.</text>
 </string>
 
-<string id="st_dyn_news_mono_conversation_msg_10">
+<string id="st_dyn_news_monolith_conversation_msg_10">
 <text>New acolytes arrive at the Barrier. Prepare the Initiation.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_10_1">
+<string id="st_dyn_news_monolith_conversation_resp_10_1">
 <text>Their minds are weak. The Scorcher will make them strong.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_10_2">
+<string id="st_dyn_news_monolith_conversation_resp_10_2">
 <text>Those who resist become mutants. A noble service.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_10_3">
+<string id="st_dyn_news_monolith_conversation_resp_10_3">
 <text>The Whisper welcomes all. Willing or unwilling.</text>
 </string>
 
-<string id="st_dyn_news_mono_conversation_msg_11">
+<string id="st_dyn_news_monolith_conversation_msg_11">
 <text>Gauss rifles blessed at the Sarcophagus. Deploy to the Southern Eye.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_11_1">
+<string id="st_dyn_news_monolith_conversation_resp_11_1">
 <text>Their light pierces heresy. A gift from the Rock.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_11_2">
+<string id="st_dyn_news_monolith_conversation_resp_11_2">
 <text>Target the armored ones. Let faith shatter steel.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_11_3">
+<string id="st_dyn_news_monolith_conversation_resp_11_3">
 <text>Waste no ammunition. Each shot serves the Whole.</text>
 </string>
 
-<string id="st_dyn_news_mono_conversation_msg_12">
+<string id="st_dyn_news_monolith_conversation_msg_12">
 <text>Doubt echoes in Pavel's mind. Guide him to the Scorcher.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_12_1">
+<string id="st_dyn_news_monolith_conversation_resp_12_1">
 <text>He questions the Barrier. Heresy must burn.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_12_2">
+<string id="st_dyn_news_monolith_conversation_resp_12_2">
 <text>His pain will be ecstasy. The Whisper cleanses.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_12_3">
+<string id="st_dyn_news_monolith_conversation_resp_12_3">
 <text>If he resists... feed him to the poltergeists.</text>
 </string>
 
-<string id="st_dyn_news_mono_conversation_msg_13">
+<string id="st_dyn_news_monolith_conversation_msg_13">
 <text>Freedom defilers destroyed our shrine. Retribution is demanded.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_13_1">
+<string id="st_dyn_news_monolith_conversation_resp_13_1">
 <text>Trace their camp. Poison their water with radionuclides.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_13_2">
+<string id="st_dyn_news_monolith_conversation_resp_13_2">
 <text>Leave their leader alive. Let him carry the Zone's curse.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_13_3">
+<string id="st_dyn_news_monolith_conversation_resp_13_3">
 <text>Their screams will echo to the Brain. The Whisper hears.</text>
 </string>
 
-<string id="st_dyn_news_mono_conversation_msg_14">
+<string id="st_dyn_news_monolith_conversation_msg_14">
 <text>Patrols report silence in the Dead City. Too silent.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_14_1">
+<string id="st_dyn_news_monolith_conversation_resp_14_1">
 <text>Mercenary assassins. They hide from the Light.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_14_2">
+<string id="st_dyn_news_monolith_conversation_resp_14_2">
 <text>Flush them with fire. Burn the shadows.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_14_3">
+<string id="st_dyn_news_monolith_conversation_resp_14_3">
 <text>Their technology fails here. The Rock protects.</text>
 </string>
 
-<string id="st_dyn_news_mono_conversation_msg_15">
+<string id="st_dyn_news_monolith_conversation_msg_15">
 <text>The Vortex anomaly hungers. Feed it the captured unbeliever.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_15_1">
+<string id="st_dyn_news_monolith_conversation_resp_15_1">
 <text>His terror sustains the Barrier. A worthy end.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_15_2">
+<string id="st_dyn_news_monolith_conversation_resp_15_2">
 <text>Bind him with blessed wires. Let the Vortex taste his soul.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_15_3">
+<string id="st_dyn_news_monolith_conversation_resp_15_3">
 <text>When it screams, the path to the Nucleus strengthens. Glory.</text>
 </string>
 
-<string id="st_dyn_news_mono_conversation_msg_16">
+<string id="st_dyn_news_monolith_conversation_msg_16">
 <text>Their artillery shakes the earth. Stand firm in faith.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_16_1">
+<string id="st_dyn_news_monolith_conversation_resp_16_1">
 <text>Concrete cracks. Faith does not. We endure.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_16_2">
+<string id="st_dyn_news_monolith_conversation_resp_16_2">
 <text>Let them waste shells. The Void consumes their greed.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_16_3">
+<string id="st_dyn_news_monolith_conversation_resp_16_3">
 <text>Their noise is silence to the Whisper. We hear only purpose.</text>
 </string>
 
-<string id="st_dyn_news_mono_conversation_msg_17">
+<string id="st_dyn_news_monolith_conversation_msg_17">
 <text>Brother Gregor’s form changes. The Zone embraces him.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_17_1">
+<string id="st_dyn_news_monolith_conversation_resp_17_1">
 <text>His flesh becomes armor. His pain, strength.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_17_2">
+<string id="st_dyn_news_monolith_conversation_resp_17_2">
 <text>Station him at the Tunnel. Let heretics see divine evolution.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_17_3">
+<string id="st_dyn_news_monolith_conversation_resp_17_3">
 <text>His mind remains pure. The Whisper guides his claws.</text>
 </string>
 
-<string id="st_dyn_news_mono_conversation_msg_18">
+<string id="st_dyn_news_monolith_conversation_msg_18">
 <text>The Great Door weakens. Soon, the Nucleus will awaken.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_18_1">
+<string id="st_dyn_news_monolith_conversation_resp_18_1">
 <text>Let the Unclean come. Their bodies fertilize sacred ground.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_18_2">
+<string id="st_dyn_news_monolith_conversation_resp_18_2">
 <text>The final Cleansing nears. All will be One.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_18_3">
+<string id="st_dyn_news_monolith_conversation_resp_18_3">
 <text>Glory to Monolith. Forever.</text>
 </string>
 
-<string id="st_dyn_news_mono_conversation_msg_19">
+<string id="st_dyn_news_monolith_conversation_msg_19">
 <text>Move through the Pripyat sewers. The Whisper hides us.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_19_1">
+<string id="st_dyn_news_monolith_conversation_resp_19_1">
 <text>Drown the rats. Their squeals betray faith.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_19_2">
+<string id="st_dyn_news_monolith_conversation_resp_19_2">
 <text>Emerging at Hospital. Strike their medics first.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_19_3">
+<string id="st_dyn_news_monolith_conversation_resp_19_3">
 <text>No radio. Only the Rock guides.</text>
 </string>
 
-<string id="st_dyn_news_mono_conversation_msg_20">
+<string id="st_dyn_news_monolith_conversation_msg_20">
 <text>Brothers fallen at Limansk return to the Whole. Rejoice.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_20_1">
+<string id="st_dyn_news_monolith_conversation_resp_20_1">
 <text>Their sacrifice fuels the Barrier. Glory their names.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_20_2">
+<string id="st_dyn_news_monolith_conversation_resp_20_2">
 <text>No graves. Their bodies serve the anomalies now.</text>
 </string>
-<string id="st_dyn_news_mono_conversation_resp_20_3">
+<string id="st_dyn_news_monolith_conversation_resp_20_3">
 <text>We hear their whispers in the Void. They are with us.</text>
 </string>
 

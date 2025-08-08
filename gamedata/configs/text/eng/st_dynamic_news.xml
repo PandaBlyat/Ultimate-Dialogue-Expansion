@@ -2580,43 +2580,8 @@
 	</string>
 	<string id="st_dyn_news_builder_attacked_5">
     <text>Enemy fire coming from</text>
-</string>
-<string id="st_dyn_news_builder_attacked_6">
-    <text>Shots fired! They're from</text>
-</string>
-<string id="st_dyn_news_builder_attacked_7">
-    <text>Taking hits from</text>
-</string>
-<string id="st_dyn_news_builder_attacked_8">
-    <text>We've been ambushed by</text>
-</string>
-<string id="st_dyn_news_builder_attacked_9">
-    <text>Contact! Engaging</text>
-</string>
-<string id="st_dyn_news_builder_attacked_10">
-    <text>Hostiles spotted! They're</text>
-</string>
-<string id="st_dyn_news_builder_attacked_11">
-    <text>They're on us! Coming from</text>
-</string>
-<string id="st_dyn_news_builder_attacked_12">
-    <text>Under heavy fire from</text>
-</string>
-<string id="st_dyn_news_builder_attacked_13">
-    <text>We're being attacked by</text>
-</string>
-<string id="st_dyn_news_builder_attacked_14">
-    <text>Incoming fire! Enemy spotted by</text>
-</string>
-<string id="st_dyn_news_builder_attacked_15">
-    <text>They've got us pinned down from</text>
-</string>
-<string id="st_dyn_news_builder_attacked_16">
-    <text>Alert! We're under siege from</text>
-</string>
-<string id="st_dyn_news_builder_attacked_17">
-    <text>TAKING HITS by</text>
-</string>
+	</string>
+
 
 
 
@@ -2649,142 +2614,8 @@
 	</string>
 	<string id="st_dyn_news_builder_hear_10">
     <text>Just got word that</text>
-</string>
-<string id="st_dyn_news_builder_hear_11">
-    <text>There's chatter about</text>
-</string>
-<string id="st_dyn_news_builder_hear_12">
-    <text>Reports are coming in that</text>
-</string>
-<string id="st_dyn_news_builder_hear_13">
-    <text>Have you guys heard? Apparently</text>
-</string>
-<string id="st_dyn_news_builder_hear_14">
-    <text>Rumors say that</text>
-</string>
-<string id="st_dyn_news_builder_hear_15">
-    <text>Some say that</text>
-</string>
-<string id="st_dyn_news_builder_hear_16">
-    <text>The word is</text>
-</string>
-<string id="st_dyn_news_builder_hear_17">
-    <text>Did you catch that? Sounded like</text>
-</string>
-<string id="st_dyn_news_builder_hear_18">
-    <text>There's talk that</text>
-</string>
-<string id="st_dyn_news_builder_hear_19">
-    <text>rumours around camp are about</text>
-</string>
-<string id="st_dyn_news_builder_hear_20">
-    <text>Word on the street is</text>
-</string>
-<string id="st_dyn_news_builder_hear_21">
-    <text>I overheard someone mentioning</text>
-</string>
-<string id="st_dyn_news_builder_hear_22">
-    <text>Just caught wind of</text>
-</string>
-<string id="st_dyn_news_builder_hear_23">
-    <text>I've been hearing rumours about</text>
-</string>
-<string id="st_dyn_news_builder_hear_24">
-    <text>Rumor has it that</text>
-</string>
-<string id="st_dyn_news_builder_hear_25">
-    <text>Keep your ears open, I heard something about</text>
-</string>
-<string id="st_dyn_news_builder_hear_26">
-    <text>Seems like everyone's talking about</text>
-</string>
-<string id="st_dyn_news_builder_hear_27">
-    <text>Just heard a murmur about</text>
-</string>
-<string id="st_dyn_news_builder_hear_28">
-    <text>Someone just mentioned</text>
-</string>
-<string id="st_dyn_news_builder_hear_29">
-    <text>I'm picking up on rumors of</text>
-</string>
-<string id="st_dyn_news_builder_hear_30">
-    <text>People are buzzing about</text>
-</string>
-<string id="st_dyn_news_builder_hear_31">
-    <text>News is spreading about</text>
-</string>
-<string id="st_dyn_news_builder_hear_32">
-    <text>Just heard through the grapevine about</text>
-</string>
-<string id="st_dyn_news_builder_hear_33">
-    <text>There's a murmur in the air about</text>
-</string>
-<string id="st_dyn_news_builder_hear_34">
-    <text>Rumor mill is churning out talk of</text>
-</string>
-<string id="st_dyn_news_builder_hear_35">
-    <text>I caught a snippet of conversation about</text>
-</string>
-<string id="st_dyn_news_builder_hear_36">
-    <text>There's some gossip circulating regarding</text>
-</string>
-<string id="st_dyn_news_builder_hear_37">
-    <text>Rumours in the zone mention</text>
-</string>
-<string id="st_dyn_news_builder_hear_38">
-    <text>Just heard a tidbit about</text>
-</string>
-<string id="st_dyn_news_builder_hear_39">
-    <text>Someone's been spreading word about</text>
-</string>
-<string id="st_dyn_news_builder_hear_40">
-    <text>Anyone see</text>
-</string>
-<string id="st_dyn_news_builder_hear_41">
-    <text>Pretty sure i just saw</text>
-</string>
-<string id="st_dyn_news_builder_hear_42">
-    <text>sounds like</text>
-</string>
-<string id="st_dyn_news_builder_hear_43">
-    <text>Heads up! I caught a whiff of gossip that</text>
-</string>
-<string id="st_dyn_news_builder_hear_44">
-    <text>Heard </text>
-</string>
-<string id="st_dyn_news_builder_hear_45">
-    <text>Keep your ears peeled; just picked up chatter that</text>
-</string>
-<string id="st_dyn_news_builder_hear_46">
-    <text>Bloody hell, did anyone else hear about</text>
-</string>
-<string id="st_dyn_news_builder_hear_47">
-    <text>There's word of</text>
-</string>
-<string id="st_dyn_news_builder_hear_48">
-    <text>News of</text>
-</string>
-<string id="st_dyn_news_builder_hear_49">
-    <text>I’ve just been tipped off about</text>
-</string>
-<string id="st_dyn_news_builder_hear_50">
-    <text>My bullshit detector’s off the charts with this rumour about</text>
-</string>
-<string id="st_dyn_news_builder_hear_51">
-    <text>I heard a nasty rumor about</text>
-</string>
-<string id="st_dyn_news_builder_hear_52">
-    <text>I heard something fucked up about</text>
-</string>
-<string id="st_dyn_news_builder_hear_53">
-    <text>I overheard some shit about</text>
-</string>
-<string id="st_dyn_news_builder_hear_54">
-    <text>I’ve caught word of</text>
-</string>
-<string id="st_dyn_news_builder_hear_55">
-    <text>I just got the lowdown on</text>
-</string>
+	</string>
+
 
 
 
@@ -2819,163 +2650,7 @@
 	</string>
 	<string id="st_dyn_news_builder_sight_10">
     <text>Did anyone else see</text>
-</string>
-<string id="st_dyn_news_builder_sight_11">
-    <text>Not sure, but I might have seen</text>
-</string>
-<string id="st_dyn_news_builder_sight_12">
-    <text>Could have sworn I saw</text>
-</string>
-<string id="st_dyn_news_builder_sight_13">
-    <text>From the corner of my eye, I caught a glimpse of</text>
-</string>
-<string id="st_dyn_news_builder_sight_14">
-    <text>There! Did you see that? That was definitely</text>
-</string>
-<string id="st_dyn_news_builder_sight_15">
-    <text>I spotted</text>
-</string>
-<string id="st_dyn_news_builder_sight_16">
-    <text>I must be seeing things, but that looked like</text>
-</string>
-<string id="st_dyn_news_builder_sight_17">
-    <text>Everyone, stay alert; I just spotted</text>
-</string>
-<string id="st_dyn_news_builder_sight_18">
-    <text>It's hard to believe, but I'm sure I saw</text>
-</string>
-<string id="st_dyn_news_builder_sight_19">
-    <text>Look over there! That's</text>
-</string>
-<string id="st_dyn_news_builder_sight_20">
-    <text>Just had a visual on</text>
-</string>
-<string id="st_dyn_news_builder_sight_21">
-    <text>Confirming sighting of</text>
-</string>
-<string id="st_dyn_news_builder_sight_22">
-    <text>I've got eyes on</text>
-</string>
-<string id="st_dyn_news_builder_sight_23">
-    <text>That wasn't a trick of the light; I saw</text>
-</string>
-<string id="st_dyn_news_builder_sight_24">
-    <text>Visual contact with</text>
-</string>
-<string id="st_dyn_news_builder_sight_25">
-    <text>Caught sight of</text>
-</string>
-<string id="st_dyn_news_builder_sight_26">
-    <text>I'm certain I just saw</text>
-</string>
-<string id="st_dyn_news_builder_sight_27">
-    <text>Confirmed visual on</text>
-</string>
-<string id="st_dyn_news_builder_sight_28">
-    <text>Just witnessed</text>
-</string>
-<string id="st_dyn_news_builder_sight_29">
-    <text>It's no mistake, I saw</text>
-</string>
-<string id="st_dyn_news_builder_sight_30">
-    <text>That wasn't a hallucination; I saw</text>
-</string>
-<string id="st_dyn_news_builder_sight_31">
-    <text>Positive identification of</text>
-</string>
-<string id="st_dyn_news_builder_sight_32">
-    <text>I caught sight of</text>
-</string>
-<string id="st_dyn_news_builder_sight_33">
-    <text>Confirmed sighting of</text>
-</string>
-<string id="st_dyn_news_builder_sight_34">
-    <text>Eyes on target; I just saw</text>
-</string>
-<string id="st_dyn_news_builder_sight_35">
-    <text>Not a doubt in my mind; I saw</text>
-</string>
-<string id="st_dyn_news_builder_sight_36">
-    <text>Confirmed visual confirmation of</text>
-</string>
-<string id="st_dyn_news_builder_sight_37">
-    <text>I'm not mistaken; I saw</text>
-</string>
-<string id="st_dyn_news_builder_sight_38">
-    <text>Can't mistake it; I saw</text>
-</string>
-<string id="st_dyn_news_builder_sight_39">
-    <text>Definitely not imagining things; I saw</text>
-</string>
-<string id="st_dyn_news_builder_sight_40">
-    <text>That wasn't a mirage; I saw</text>
-</string>
-<string id="st_dyn_news_builder_sight_41">
-    <text>Fucking hell, did you see that? It was</text>
-</string>
-<string id="st_dyn_news_builder_sight_42">
-    <text>Shit, my eyes can't be lying. That was definitely</text>
-</string>
-<string id="st_dyn_news_builder_sight_43">
-    <text>You won't fucking believe what I just saw</text>
-</string>
-<string id="st_dyn_news_builder_sight_44">
-    <text>Hey fuckers, anyone else see that</text>
-</string>
-<string id="st_dyn_news_builder_sight_45">
-    <text>Look sharp! Just spotted the bastard</text>
-</string>
-<string id="st_dyn_news_builder_sight_46">
-    <text>Damn it, that was for sure</text>
-</string>
-<string id="st_dyn_news_builder_sight_47">
-    <text>No fucking way, was that</text>
-</string>
-<string id="st_dyn_news_builder_sight_48">
-    <text>What the fuck was that? Anyone got that</text>
-</string>
-<string id="st_dyn_news_builder_sight_49">
-    <text>Holy shit! Did you all catch</text>
-</string>
-<string id="st_dyn_news_builder_sight_50">
-    <text>Watch out, fuckheads, you might run into</text>
-</string>
-<string id="st_dyn_news_builder_sight_51">
-    <text>Bloody hell, was that a</text>
-</string>
-<string id="st_dyn_news_builder_sight_52">
-    <text>Keep your eyes peeled for</text>
-</string>
-<string id="st_dyn_news_builder_sight_53">
-    <text>Hm I think i just saw </text>
-</string>
-<string id="st_dyn_news_builder_sight_54">
-    <text>Fuck me, if that wasn’t </text>
-</string>
-<string id="st_dyn_news_builder_sight_55">
-    <text>I must be hearing shit or was that</text>
-</string>
-<string id="st_dyn_news_builder_sight_56">
-    <text>Everyone, stay the fuck alert; I just saw</text>
-</string>
-<string id="st_dyn_news_builder_sight_57">
-    <text>I'm not shitting you, there was </text>
-</string>
-<string id="st_dyn_news_builder_sight_58">
-    <text>Was that a fucking</text>
-</string>
-<string id="st_dyn_news_builder_sight_59">
-    <text>Eyes wide, fuckers! Just saw </text>
-</string>
-<string id="st_dyn_news_builder_sight_60">
-    <text>Can’t be mistaken, that was definitely a</text>
-</string>
-<string id="st_dyn_news_builder_sight_61">
-    <text>That shadow was no other than a fucking</text>
-</string>
-<string id="st_dyn_news_builder_sight_62">
-    <text>Alert the squad, we've got a bloody</text>
-</string>
+	</string>
 
 
 	
@@ -2998,48 +2673,6 @@
 	<string id="st_dyn_news_builder_middle_6">
 		<text>screeches and growls</text>
 	</string>
-<string id="st_dyn_news_builder_middle_7">
-    <text>explosions in the distance</text>
-</string>
-<string id="st_dyn_news_builder_middle_8">
-    <text>gunfire echoing nearby</text>
-</string>
-<string id="st_dyn_news_builder_middle_9">
-  <text>metallic clangs and thuds</text>
-</string>
-<string id="st_dyn_news_builder_middle_10">
-  <text>panicked footsteps running past</text>
-</string>
-<string id="st_dyn_news_builder_middle_11">
-  <text>a distant howl of agony</text>
-</string>
-<string id="st_dyn_news_builder_middle_12">
-  <text>crackling radio static</text>
-</string>
-<string id="st_dyn_news_builder_middle_13">
-  <text>muffled shouting in another language</text>
-</string>
-<string id="st_dyn_news_builder_middle_14">
-  <text>the roar of an engine starting up</text>
-</string>
-<string id="st_dyn_news_builder_middle_15">
-  <text>clang of falling debris</text>
-</string>
-<string id="st_dyn_news_builder_middle_16">
-  <text>ragged breathing nearby</text>
-</string>
-<string id="st_dyn_news_builder_middle_17">
-  <text>the crack of something breaking</text>
-</string>
-<string id="st_dyn_news_builder_middle_18">
-  <text>a distant alarm blaring</text>
-</string>
-<string id="st_dyn_news_builder_middle_19">
-  <text>dripping water in the dark</text>
-</string>
-<string id="st_dyn_news_builder_middle_20">
-  <text>echo of a collapsing wall</text>
-</string>
 
 
 <!-- Sentence Builders for Ending Descriptions -->
@@ -3076,106 +2709,6 @@
 	<string id="st_dyn_news_builder_ending_11">
 		<text>Be careful.</text>
 	</string>
-	<string id="st_dyn_news_builder_ending_12">
-		<text>I'd stay away if I were you.</text>
-	</string>
-	<string id="st_dyn_news_builder_ending_13">
-		<text>Anybody wanna check it out?</text>
-	</string>
-	<string id="st_dyn_news_builder_ending_14">
-		<text>Shit, we should get out of this place.</text>
-	</string>
-	<string id="st_dyn_news_builder_ending_15">
-		<text>Not sure what the hell is going on over there.</text>
-	</string>
-<string id="st_dyn_news_builder_ending_16">
-    <text>Keep your heads down.</text>
-</string>
-<string id="st_dyn_news_builder_ending_17">
-    <text>Something's not right.</text>
-</string>
-<string id="st_dyn_news_builder_ending_18">
-    <text>Better check your ammo.</text>
-</string>
-<string id="st_dyn_news_builder_ending_19">
-    <text>Stay alert, everyone.</text>
-</string>
-<string id="st_dyn_news_builder_ending_20">
-    <text>Could use some backup here.</text>
-</string>
-<string id="st_dyn_news_builder_ending_21">
-    <text>And keep those guns ready.</text>
-</string>
-<string id="st_dyn_news_builder_ending_22">
-    <text>Time to move, now!</text>
-</string>
-<string id="st_dyn_news_builder_ending_23">
-    <text>This doesn't feel right.</text>
-</string>
-<string id="st_dyn_news_builder_ending_24">
-    <text>Let's not stick around to find out.</text>
-</string>
-<string id="st_dyn_news_builder_ending_25">
-    <text>Get ready for anything.</text>
-</string>
-<string id="st_dyn_news_builder_ending_26">
-    <text>That sounds like trouble.</text>
-</string>
-<string id="st_dyn_news_builder_ending_27">
-    <text>Are we really going to ignore that?</text>
-</string>
-<string id="st_dyn_news_builder_ending_28">
-    <text>Hope it's not coming this way.</text>
-</string>
-<string id="st_dyn_news_builder_ending_29">
-    <text>We might want to avoid that area.</text>
-</string>
-<string id="st_dyn_news_builder_ending_30">
-    <text>Guess it's time to find a new spot.</text>
-</string>
-<string id="st_dyn_news_builder_ending_31">
-    <text>Looks like it’s gonna be a long night.</text>
-</string>
-<string id="st_dyn_news_builder_ending_32">
-    <text>Everyone, ready up.</text>
-</string>
-<string id="st_dyn_news_builder_ending_33">
-    <text>Cyka Blyat.</text>
-</string>
-<string id="st_dyn_news_builder_ending_34">
-    <text>Fuck this place, seriously.</text>
-</string>
-<string id="st_dyn_news_builder_ending_35">
-    <text>This is why we can't have nice things.</text>
-</string>
-<string id="st_dyn_news_builder_ending_36">
-    <text>Keep an eye out.</text>
-</string>
-<string id="st_dyn_news_builder_ending_37">
-    <text>Just when you thought it was safe to go back outside...</text>
-</string>
-<string id="st_dyn_news_builder_ending_38">
-    <text>No one’s sleeping tonight, are they?</text>
-</string>
-<string id="st_dyn_news_builder_ending_39">
-    <text>This shit is why I hate the Zone.</text>
-</string>
-<string id="st_dyn_news_builder_ending_40">
-    <text>Well, that’s another fine mess.</text>
-</string>
-<string id="st_dyn_news_builder_ending_41">
-    <text>Heads up, there’s more where that came from.</text>
-</string>
-<string id="st_dyn_news_builder_ending_42">
-    <text>Time to gear up, things are getting spicy.</text>
-</string>
-<string id="st_dyn_news_builder_ending_43">
-    <text>What the hell are we still doing here?</text>
-</string>
-<string id="st_dyn_news_builder_ending_44">
-    <text>So much for a quiet day in the Zone.</text>
-</string>
-
 
 
 
@@ -5566,7 +5099,7 @@
     <text>Fuck, not another one! These surges are cooking us faster than we can > run!</text>
 </string>
 <string id="st_dyn_news_res_fake_death_surge_56">
-    <text>Goddamn surge roasted him like a pig. What a > waste.</text>
+    <text>Goddamn surge roasted him like a pig. What a waste.</text>
 </string>
 <string id="st_dyn_news_res_fake_death_surge_57">
     <text>Another fucker fried crispy. Should've paid attention to the warnings.</text>
@@ -14681,156 +14214,87 @@
     <string id="st_dyn_news_spam_faction_csky_100">
         <text>I heard that Clear Sky's base used to be an old research facility. Explains why we have so much high-tech gear lying around!</text>
     </string>
-<string id="st_dyn_news_spam_faction_csky_101">
-    <text>Enough with the gossip, people! We have serious work to do here. Focus on the mission and save the chit-chat for later!</text>
-</string>
-<string id="st_dyn_news_spam_faction_csky_102">
-    <text>Listen up, Clear Sky members! This channel is for operational communications only. Keep the chatter relevant or face disciplinary action!</text>
-</string>
-<string id="st_dyn_news_spam_faction_csky_103">
-    <text>I don't want to hear any more rumors or idle speculation. Stick to the facts and stay focused on our objectives, understood?</text>
-</string>
-<string id="st_dyn_news_spam_faction_csky_104">
-    <text>Attention all Clear Sky personnel: Loose lips sink ships. Keep sensitive information off the airwaves and maintain operational security!</text>
-</string>
-<string id="st_dyn_news_spam_faction_csky_105">
-    <text>Enough with the distractions, people! We're here to do a job, not engage in idle banter. Get back to work or face consequences!</text>
-</string>
-<string id="st_dyn_news_spam_faction_csky_106">
-    <text>This is not a social club, Clear Sky! Keep the communication channels clear for important updates and mission-critical information!</text>
-</string>
-<string id="st_dyn_news_spam_faction_csky_107">
-    <text>Let's keep it professional, folks. Save the jokes and personal conversations for off-duty hours. We have a reputation to uphold!</text>
-</string>
-<string id="st_dyn_news_spam_faction_csky_108">
-    <text>Remember your training, Clear Sky members. Discipline and focus are key to survival in the Zone. Cut out the nonsense and stay sharp!</text>
-</string>
-<string id="st_dyn_news_spam_faction_csky_109">
-    <text>I'm hearing too much chatter and not enough action, people! Get your heads in the game and stay on task. We have a mission to complete!</text>
-</string>
-<string id="st_dyn_news_spam_faction_csky_110">
-    <text>If I hear one more bit of irrelevant chatter on this channel, heads will roll. Clear Sky operates with precision and efficiency, not idle chatter!</text>
-</string>
-<string id="st_dyn_news_spam_faction_csky_111">
-    <text>Enough with the distractions, Clear Sky! We have a duty to fulfill and every moment wasted on idle chatter is a moment lost in the fight against the Zone!</text>
-</string>
-<string id="st_dyn_news_spam_faction_csky_112">
-    <text>Stay focused, people! The Zone doesn't wait for idle chatter. Keep your eyes on the mission and your mouths shut unless it's mission-critical!</text>
-</string>
-<string id="st_dyn_news_spam_faction_csky_113">
-    <text>I expect better from Clear Sky members. Cut out the nonsense and stick to the task at hand. We're professionals, not gossipmongers!</text>
-</string>
-<string id="st_dyn_news_spam_faction_csky_114">
-    <text>Let's maintain radio discipline, Clear Sky. Idle chatter only serves to distract us from our objectives. Keep the airwaves clear for important updates!</text>
-</string>
-<string id="st_dyn_news_spam_faction_csky_115">
-    <text>This is your final warning, Clear Sky members. Get back to work and cut out the chatter, or there will be consequences!</text>
-</string>
-<string id="st_dyn_news_spam_faction_csky_116">
-    <text>We're not here to socialize, people! Clear Sky operates with professionalism and focus. Cut out the distractions and stay on mission!</text>
-</string>
-<string id="st_dyn_news_spam_faction_csky_117">
-    <text>Enough with the backtalk, Clear Sky! We have a job to do and every moment wasted on idle chatter is a moment we lose in the fight against the Zone!</text>
-</string>
-<string id="st_dyn_news_spam_faction_csky_118">
-    <text>Keep it professional, people! We are known for our discipline and focus. Let's not tarnish that reputation with idle gossip and chatter!</text>
-</string>
-<string id="st_dyn_news_spam_faction_csky_119">
-    <text>I don't want to hear any more excuses. Cut out the chatter and get back to work! We have a mission to complete!</text>
-</string>
-<string id="st_dyn_news_spam_faction_csky_120">
-    <text>Attention all Clear Sky members: We have strict protocols in place for a reason. Disregard them at your own peril. Get back on task and stay focused!</text>
-</string>
-<string id="st_dyn_news_spam_faction_csky_121">
-    <text>Clear Sky members, remember to document any new anomaly types you encounter. Knowledge is our greatest weapon against the Zone.</text>
-</string>
-<string id="st_dyn_news_spam_faction_csky_122">
-    <text>We're low on technical supplies. If you come across any electronic components, bring them to the tech wing immediately.</text>
-</string>
-<string id="st_dyn_news_spam_faction_csky_123">
-    <text>Field teams, report any sightings of unusual mutant behavior. The Zone is unpredictable, and we need to stay ahead of it.</text>
-</string>
-<string id="st_dyn_news_spam_faction_csky_124">
-    <text>Attention all personnel: Any unauthorized use of equipment will result in disciplinary action. Maintain protocol at all times.</text>
-</string>
-<string id="st_dyn_news_spam_faction_csky_125">
-    <text>Clear Sky HQ to all units: Expect increased military presence near the outskirts. Proceed with caution and avoid confrontation.</text>
-</string>
-<string id="st_dyn_news_spam_faction_csky_126">
-    <text>Reminder: All Clear Sky members are to undergo weekly radiation checks. Report to the med bay for your scheduled appointment.</text>
-</string>
-<string id="st_dyn_news_spam_faction_csky_127">
-    <text>We've received intel about a potential artifact field in the southern swamps. Scouting teams, prepare for deployment at dawn.</text>
-</string>
-<string id="st_dyn_news_spam_faction_csky_128">
-    <text>Maintenance crews, prioritize repairs on the northern perimeter defenses. We've had reports of increased mutant activity in the area.</text>
-</string>
-<string id="st_dyn_news_spam_faction_csky_129">
-    <text>Attention all stalkers: The Zone's weather patterns are shifting rapidly. Stay alert and be prepared for sudden changes.</text>
-</string>
-<string id="st_dyn_news_spam_faction_csky_130">
-    <text>HQ to all Clear Sky personnel: Ensure all data on anomalies is backed up regularly. We can't afford to lose any research.</text>
-</string>
-<string id="st_dyn_news_spam_faction_csky_131">
-    <text>Attention all field operatives: Carry additional supplies of anti-radiation drugs and first aid kits. The Zone's dangers are ever-present.</text>
-</string>
-<string id="st_dyn_news_spam_faction_csky_132">
-    <text>We've detected a significant energy surge in the eastern sectors. Investigate the source but proceed with extreme caution.</text>
-</string>
-<string id="st_dyn_news_spam_faction_csky_133">
-    <text>To all units: Report any anomalies that exhibit unusual electromagnetic properties. This could be crucial to our research.</text>
-</string>
-<string id="st_dyn_news_spam_faction_csky_134">
-    <text>Field teams, we've lost contact with a squad near the abandoned factory. Initiate search and rescue protocols immediately.</text>
-</string>
-<string id="st_dyn_news_spam_faction_csky_135">
-    <text>Clear Sky medics, prepare for an influx of patients. A recent skirmish has resulted in multiple injuries.</text>
-</string>
-<string id="st_dyn_news_spam_faction_csky_136">
-    <text>Reminder to all Clear Sky members: The use of personal devices on missions is prohibited. Maintain focus and discipline.</text>
-</string>
-<string id="st_dyn_news_spam_faction_csky_137">
-    <text>Attention all personnel: Ensure that all protective gear is in optimal condition before heading out. Safety is our top priority.</text>
-</string>
-<string id="st_dyn_news_spam_faction_csky_138">
-    <text>We've received reports of new anomaly clusters forming near the railway tracks. Exercise caution and document all findings.</text>
-</string>
-<string id="st_dyn_news_spam_faction_csky_139">
-    <text>To all scouting teams: Any encounters with Monolith should be reported immediately. Avoid engagement if possible.</text>
-</string>
-<string id="st_dyn_news_spam_faction_csky_140">
-    <text>Attention researchers: A new shipment of lab equipment has arrived. Collect your requisitions from the supply depot.</text>
-</string>
-<string id="st_dyn_news_spam_faction_csky_141">
-    <text>All Clear Sky personnel, prepare for a base-wide drill tomorrow at 0600 hours. This is not a test. Your participation is mandatory.</text>
-</string>
-<string id="st_dyn_news_spam_faction_csky_142">
-    <text>We've intercepted encrypted communications suggesting a bandit raid. Strengthen perimeter defenses and stay alert.</text>
-</string>
-<string id="st_dyn_news_spam_faction_csky_143">
-    <text>Attention all squads: Report any sightings of new artifact types. Immediate analysis and collection are required.</text>
-</string>
-<string id="st_dyn_news_spam_faction_csky_144">
-    <text>Reminder: All Clear Sky members must log their mission details upon return. Accurate records are vital for our research.</text>
-</string>
-<string id="st_dyn_news_spam_faction_csky_145">
-    <text>To all Clear Sky personnel: Refrain from unnecessary chatter on the public channels. Operational security is critical.</text>
-</string>
-<string id="st_dyn_news_spam_faction_csky_146">
-    <text>Attention all units: There's been an uptick in mutant sightings in the northern territories. Proceed with caution and in groups.</text>
-</string>
-<string id="st_dyn_news_spam_faction_csky_147">
-    <text>Field operatives, ensure all collected samples are properly labeled and stored. Contamination can compromise our research.</text>
-</string>
-<string id="st_dyn_news_spam_faction_csky_148">
-    <text>Clear Sky command to all members: Prioritize the retrieval of any advanced technological devices found in the Zone.</text>
-</string>
-<string id="st_dyn_news_spam_faction_csky_149">
-    <text>Attention, all field teams: Be aware of the increasing number of anomalies in previously safe zones. Stay vigilant.</text>
-</string>
-<string id="st_dyn_news_spam_faction_csky_150">
-    <text>All personnel, be prepared for a scheduled power shutdown at 1800 hours for maintenance. Ensure all critical systems are backed up.</text>
-</string>
+	<string id="st_dyn_news_spam_faction_csky_101">
+		<text>Enough with the gossip, people! We have serious work to do here. Focus on the mission and save the chit-chat for later!</text>
+	</string>
+	<string id="st_dyn_news_spam_faction_csky_102">
+		<text>Listen up, Clear Sky members! This channel is for operational communications only. Keep the chatter relevant or face disciplinary action!</text>
+	</string>
+	<string id="st_dyn_news_spam_faction_csky_103">
+		<text>I don't want to hear any more rumors or idle speculation. Stick to the facts and stay focused on our objectives, understood?</text>
+	</string>
+	<string id="st_dyn_news_spam_faction_csky_104">
+		<text>Attention all Clear Sky personnel: Loose lips sink ships. Keep sensitive information off the airwaves and maintain operational security!</text>
+	</string>
+	<string id="st_dyn_news_spam_faction_csky_105">
+		<text>Enough with the distractions, people! We're here to do a job, not engage in idle banter. Get back to work or face consequences!</text>
+	</string>
+	<string id="st_dyn_news_spam_faction_csky_106">
+		<text>This is not a social club, Clear Sky! Keep the communication channels clear for important updates and mission-critical information!</text>
+	</string>
+	<string id="st_dyn_news_spam_faction_csky_107">
+		<text>Let's keep it professional, folks. Save the jokes and personal conversations for off-duty hours. We have a reputation to uphold!</text>
+	</string>
+	<string id="st_dyn_news_spam_faction_csky_108">
+		<text>Remember your training, Clear Sky members. Discipline and focus are key to survival in the Zone. Cut out the nonsense and stay sharp!</text>
+	</string>
+	<string id="st_dyn_news_spam_faction_csky_109">
+		<text>I'm hearing too much chatter and not enough action, people! Get your heads in the game and stay on task. We have a mission to complete!</text>
+	</string>
+	<string id="st_dyn_news_spam_faction_csky_110">
+		<text>If I hear one more bit of irrelevant chatter on this channel, heads will roll. Clear Sky operates with precision and efficiency, not idle chatter!</text>
+	</string>
+	<string id="st_dyn_news_spam_faction_csky_111">
+		<text>Enough with the distractions, Clear Sky! We have a duty to fulfill and every moment wasted on idle chatter is a moment lost in the fight against the Zone!</text>
+	</string>
+	<string id="st_dyn_news_spam_faction_csky_112">
+		<text>Stay focused, people! The Zone doesn't wait for idle chatter. Keep your eyes on the mission and your mouths shut unless it's mission-critical!</text>
+	</string>
+	<string id="st_dyn_news_spam_faction_csky_113">
+		<text>I expect better from Clear Sky members. Cut out the nonsense and stick to the task at hand. We're professionals, not gossipmongers!</text>
+	</string>
+	<string id="st_dyn_news_spam_faction_csky_114">
+		<text>Let's maintain radio discipline, Clear Sky. Idle chatter only serves to distract us from our objectives. Keep the airwaves clear for important updates!</text>
+	</string>
+	<string id="st_dyn_news_spam_faction_csky_115">
+		<text>This is your final warning, Clear Sky members. Get back to work and cut out the chatter, or there will be consequences!</text>
+	</string>
+	<string id="st_dyn_news_spam_faction_csky_116">
+		<text>We're not here to socialize, people! Clear Sky operates with professionalism and focus. Cut out the distractions and stay on mission!</text>
+	</string>
+	<string id="st_dyn_news_spam_faction_csky_117">
+		<text>Enough with the backtalk, Clear Sky! We have a job to do and every moment wasted on idle chatter is a moment we lose in the fight against the Zone!</text>
+	</string>
+	<string id="st_dyn_news_spam_faction_csky_118">
+		<text>Keep it professional, people! We are known for our discipline and focus. Let's not tarnish that reputation with idle gossip and chatter!</text>
+	</string>
+	<string id="st_dyn_news_spam_faction_csky_119">
+		<text>I don't want to hear any more excuses. Cut out the chatter and get back to work! We have a mission to complete!</text>
+	</string>
+	<string id="st_dyn_news_spam_faction_csky_120">
+		<text>Attention all Clear Sky members: We have strict protocols in place for a reason. Disregard them at your own peril. Get back on task and stay focused!</text>
+	</string>
+	<string id="st_dyn_news_spam_faction_csky_121">
+		<text>Clear Sky members, remember to document any new anomaly types you encounter. Knowledge is our greatest weapon against the Zone.</text>
+	</string>
+	<string id="st_dyn_news_spam_faction_csky_122">
+		<text>We're low on technical supplies. If you come across any electronic components, bring them to the tech wing immediately.</text>
+	</string>
+	<string id="st_dyn_news_spam_faction_csky_123">
+		<text>Field teams, report any sightings of unusual mutant behavior. The Zone is unpredictable, and we need to stay ahead of it.</text>
+	</string>
+	<string id="st_dyn_news_spam_faction_csky_124">
+		<text>Attention all personnel: Any unauthorized use of equipment will result in disciplinary action. Maintain protocol at all times.</text>
+	</string>
+	<string id="st_dyn_news_spam_faction_csky_125">
+		<text>Clear Sky HQ to all units: Expect increased military presence near the outskirts. Proceed with caution and avoid confrontation.</text>
+	</string>
+	<string id="st_dyn_news_spam_faction_csky_126">
+		<text>Reminder: All Clear Sky members are to undergo weekly radiation checks. Report to the med bay for your scheduled appointment.</text>
+	</string>
+	<string id="st_dyn_news_spam_faction_csky_127">
+		<text>We've received intel about a potential artifact field in the southern swamps. Scouting teams, prepare for deployment at dawn.</text>
+	</string>
 
 
 
@@ -20849,7 +20313,7 @@
     <text>Found him half inside a rock. Fucking Teleport anomaly played ping-pong with him.</text>
 </string>
 <string id="st_dyn_news_death_reason_175">
-    <text>Died drinking. Not alcohol, but a toxic sludge from a chemical pit. Fucking idiot.</text>
+    <text>Died drinking. Not alcohol, but a toxic sludge from a chemical pit.</text>
 </string>
 <string id="st_dyn_news_death_reason_176">
     <text>Torn apart by a Pseudogiant. Got stomped into the mud like a cigarette butt.</text>

@@ -4,6 +4,7 @@
 > Re-vamped by First_Lieutenant_Skelja, senyaGTA, Letozz, Skeli, VanoSanturi, SashaRad, RadioactiveToilet for MLR 8.3
 > Re-vamped by Tronex for Call of Chernobyl, Call of Misery, Last Day, Anomaly, Dead Air. Last edit (2018/8/3)
 > Re-vamped by PandaBlyat. TESTED ONLY WITH Stalker Anomaly. Last edit (28/7/2025)
+
 --]]
 
 -- NEW: Added a safe_call wrapper for better error handling.
@@ -176,6 +177,9 @@ function DynamicNewsManager:__init()
         self.conversations = {}
         self.faction_conversations = {}
         self.conversations_loaded = false
+        
+        -- --- NEW --- Event-to-Conversation mapping
+        self.event_conversations = {}
 
         -- Spam prevention
         self.spammer = {
@@ -218,7 +222,7 @@ function DynamicNewsManager:__init()
             printf("[U.D.E] Debug: Loading conversation data...")
             safe_call(function()
                 self:LoadConversations()
-                self:LoadExtendedConversations()
+                self:LoadExtendedConversations() -- This will now also populate event_conversations
                 self:LoadFactionConversations()
                 self.conversations_loaded = true
                 printf("[U.D.E] Debug: All conversation data loaded.")
@@ -267,67 +271,123 @@ function DynamicNewsManager:destroy()
     end)
 end
 
+-- --- MODIFIED ---
+-- This function is now responsible for populating the new event-to-conversation map.
 function DynamicNewsManager:LoadExtendedConversations()
-	printf("[U.D.E] Debug: Loading extended conversations from XML...")
-	
-	self.extended_conversations = {}
-	local total_loaded = 0
-	
-	-- Load up to 176 extended conversations
-	for conv_num = 1, 176 do
-		local conv_id = "st_dyn_news_extended_conv_" .. conv_num
-		local conv_data = {
-			id = conv_num,
-			messages = {},
-			tags = {},
-			min_turns = 2,
-			max_turns = 15
-		}
-		
-		-- Check for conversation metadata (optional)
-		local meta_id = conv_id .. "_meta"
-		local meta_text = game.translate_string(meta_id)
-		if meta_text ~= meta_id then
-			-- Parse metadata if exists (e.g., "artifacts,trading,friendly")
-			for tag in string.gmatch(meta_text, "([^,]+)") do
-				table.insert(conv_data.tags, trim(tag))
-			end
-			printf("[U.D.E] Debug: Conv #" .. conv_num .. " metadata: " .. meta_text)
-		end
-		
-		-- Load conversation turns
-		local turn_count = 0
-		for turn_num = 1, 10 do
-			local turn_id = conv_id .. "_turn_" .. turn_num
-			local turn_text = game.translate_string(turn_id)
-			
-			if turn_text ~= turn_id then
-				-- SAFETY: Ensure text is not empty after translation
-				if turn_text and turn_text:len() > 0 then
-					table.insert(conv_data.messages, turn_text)
-					turn_count = turn_count + 1
-					printf("[U.D.E] Debug: Conv #" .. conv_num .. " Turn " .. turn_num .. ": " .. turn_text)
-				end
-			else
-				break  -- No more turns
-			end
-		end
-		
-		-- Only add if we have at least 2 messages
-		if turn_count >= 2 then
-			conv_data.turn_count = turn_count
-			self.extended_conversations[conv_num] = conv_data
-			total_loaded = total_loaded + 1
-			printf("[U.D.E] Debug: Extended conversation #" .. conv_num .. " loaded with " .. turn_count .. " turns")
-		else
-			if turn_count > 0 then
-				printf("[U.D.E] Debug: Conv #" .. conv_num .. " only has " .. turn_count .. " turns, skipping")
-			end
-		end
-	end
-	
-	printf("[U.D.E] Debug: Successfully loaded " .. total_loaded .. " extended conversations")
-	return total_loaded > 0
+    printf("[U.D.E] Debug: Loading all extended conversations from XML...")
+
+    -- Clear existing data
+    self.extended_conversations = {}
+    self.event_conversations = {}
+    local total_loaded = 0
+
+    -- 1. Load GENERIC (randomly-triggered) conversations (Original Method)
+    printf("[U.D.E] Debug: Loading generic conversations...")
+    for conv_num = 1, 200 do -- Increased limit just in case
+        local conv_id_base = "st_dyn_news_extended_conv_" .. conv_num
+        local first_turn_id = conv_id_base .. "_turn_1"
+
+        if game.translate_string(first_turn_id) ~= first_turn_id then
+            local conv_data = { id = conv_num, messages = {}, tags = {} }
+            
+            -- Check for metadata (for tags like 'tension', etc.)
+            local meta_id = conv_id_base .. "_meta"
+            local meta_text = game.translate_string(meta_id)
+            if meta_text ~= meta_id then
+                for tag in string.gmatch(meta_text, "([^,]+)") do
+                    table.insert(conv_data.tags, trim(tag))
+                end
+            end
+            
+            -- Load conversation turns
+            for turn_num = 1, 15 do
+                local turn_id = conv_id_base .. "_turn_" .. turn_num
+                local turn_text = game.translate_string(turn_id)
+                if turn_text ~= turn_id and turn_text:len() > 0 then
+                    table.insert(conv_data.messages, turn_text)
+                else
+                    break
+                end
+            end
+            
+            if #conv_data.messages >= 2 then
+                conv_data.turn_count = #conv_data.messages
+                self.extended_conversations[conv_num] = conv_data -- Store by number
+                total_loaded = total_loaded + 1
+            end
+        end
+    end
+    printf("[U.D.E] Debug: Loaded %d generic conversations.", total_loaded)
+
+    -- 2. Load EVENT-SPECIFIC conversations (New Method)
+    printf("[U.D.E] Debug: Loading event-specific conversations...")
+			local event_types = {
+				-- Existing Events
+				"artifact_found", "stalker_death_witness", "nearby_activity", "mutant_kill_witness", 
+				"stalker_death_by_mutant_witness", "heli_call", "zombie_babble", "wounded_killed",
+				"heard_stalker_fight", "sos_stalker_fight", "heard_mutant_fight", "sos_mutant_fight",
+				"item_bought", "item_upgraded", "time_gossip", "weather_gossip",
+
+				-- FINAL Events
+				"loot_gossip",
+				"bounty_gossip",
+				"alpha_squad_gossip"
+			}
+    local event_loaded_count = 0
+
+    for _, event_name in ipairs(event_types) do
+        for conv_num = 1, 50 do -- Allow up to 50 conversations per event type
+            local conv_id_base = "st_dyn_news_extended_" .. event_name .. "_conv_" .. conv_num
+            local first_turn_id = conv_id_base .. "_turn_1"
+
+            -- Check if the first turn exists to confirm the conversation's presence
+            if game.translate_string(first_turn_id) ~= first_turn_id then
+                local conv_data = {
+                    id = conv_id_base, -- The full string ID is its unique identifier
+                    event = event_name,
+                    messages = {},
+                    tags = {}
+                }
+
+                -- Load metadata (for optional tags like 'tension')
+                local meta_id = conv_id_base .. "_meta"
+                local meta_text = game.translate_string(meta_id)
+                if meta_text ~= meta_id then
+                    for tag in string.gmatch(meta_text, "([^,]+)") do
+                        table.insert(conv_data.tags, trim(tag))
+                    end
+                end
+
+                -- Load all turns for this conversation
+                for turn_num = 1, 15 do
+                    local turn_id = conv_id_base .. "_turn_" .. turn_num
+                    local turn_text = game.translate_string(turn_id)
+                    if turn_text ~= turn_id and turn_text:len() > 0 then
+                        table.insert(conv_data.messages, turn_text)
+                    else
+                        break
+                    end
+                end
+
+                -- If valid, add it to the main conversation list and the event map
+                if #conv_data.messages >= 2 then
+                    conv_data.turn_count = #conv_data.messages
+                    self.extended_conversations[conv_id_base] = conv_data
+                    
+                    self.event_conversations[event_name] = self.event_conversations[event_name] or {}
+                    table.insert(self.event_conversations[event_name], conv_id_base)
+                    event_loaded_count = event_loaded_count + 1
+                end
+            else
+                -- No more conversations for this event type, so break to the next event type
+                break
+            end
+        end
+    end
+    
+    printf("[U.D.E] Debug: Loaded %d event-specific conversations.", event_loaded_count)
+    printf("[U.D.E] Debug: Total extended conversations loaded: %d", self:TableSize(self.extended_conversations))
+    return true
 end
 
 
@@ -345,12 +405,6 @@ function DynamicNewsManager:TickExtendedConversation()
     ResetTimeEvent("DynamicNewsManager","TickExtendedConversation", 30)
     return false
 end
-
-
-
-
-
-
 
 
 function DynamicNewsManager:GetExtendedSpeaker(n)
@@ -390,85 +444,38 @@ function DynamicNewsManager:GetExtendedSpeaker(n)
 end
 
 
-
+-- --- MODIFIED ---
+-- Enhanced to parse new contextual placeholders.
 function DynamicNewsManager:ParseExtendedMessage(msg, cur, oth)
-    if not msg then 
-        printf("[U.D.E] Debug: ParseExtendedMessage - No message!")
-        return "" 
-    end
-    
+    if not msg then return "" end
     local st = self.extended_conversation_state
-    if not st then 
-        printf("[U.D.E] Debug: ParseExtendedMessage - No state!")
-        return msg 
-    end
+    if not st then return msg end
 
-    printf("[U.D.E] Debug: ParseExtendedMessage - Starting parse")
-    
-    -- Replace speaker-specific tokens with safety checks
+    -- Existing replacements
     if cur and cur.character_name then
         local cur_full = cur:character_name()
         local cur_first, cur_last = self:SplitName(cur_full)
-        
-        msg = string.gsub(msg, "%%speaker_name%%", cur_full)
-        msg = string.gsub(msg, "%%speaker_first_name%%", cur_first)
-        msg = string.gsub(msg, "%%speaker_last_name%%", cur_last)
         msg = string.gsub(msg, "%%my_name%%", cur_full)
-        msg = string.gsub(msg, "%%my_first_name%%", cur_first)
-        msg = string.gsub(msg, "%%my_last_name%%", cur_last)
-        
-        if cur.character_community then
-            msg = string.gsub(msg, "%%speaker_faction%%", game.translate_string("st_faction_"..cur:character_community()))
-            msg = string.gsub(msg, "%%my_faction%%", game.translate_string("st_faction_"..cur:character_community()))
-        end
-        
-        if cur.position then
-            msg = string.gsub(msg, "%%location%%", dynamic_news_helper.GetPointDescription(cur))
-        end
     end
 
     if oth and oth.character_name then
         local oth_full = oth:character_name()
-        local oth_first, oth_last = self:SplitName(oth_full)
-        
         msg = string.gsub(msg, "%%other_name%%", oth_full)
-        msg = string.gsub(msg, "%%other_first_name%%", oth_first)
-        msg = string.gsub(msg, "%%other_last_name%%", oth_last)
-        msg = string.gsub(msg, "%%your_name%%", oth_full)
-        msg = string.gsub(msg, "%%your_first_name%%", oth_first)
-        msg = string.gsub(msg, "%%your_last_name%%", oth_last)
-        
-        if oth.character_community then
-            msg = string.gsub(msg, "%%other_faction%%", game.translate_string("st_faction_"..oth:character_community()))
-            msg = string.gsub(msg, "%%your_faction%%", game.translate_string("st_faction_"..oth:character_community()))
+    end
+    
+    -- --- NEW --- Contextual replacements from the event
+    if st.context then
+        for key, value in pairs(st.context) do
+            -- Only replace string values to avoid errors
+            if type(value) == "string" then
+                msg = string.gsub(msg, "%%context."..key.."%%", value)
+            end
         end
     end
 
-    -- Use stored names with nil checks - now with first/last name support
-    if st.speaker1_name then
-        local s1_first, s1_last = self:SplitName(st.speaker1_name)
-        msg = string.gsub(msg, "%%speaker1_name%%", st.speaker1_name or "Unknown")
-        msg = string.gsub(msg, "%%speaker1_first_name%%", s1_first)
-        msg = string.gsub(msg, "%%speaker1_last_name%%", s1_last)
-    end
-    
-    if st.speaker2_name then
-        local s2_first, s2_last = self:SplitName(st.speaker2_name)
-        msg = string.gsub(msg, "%%speaker2_name%%", st.speaker2_name or "Unknown")
-        msg = string.gsub(msg, "%%speaker2_first_name%%", s2_first)
-        msg = string.gsub(msg, "%%speaker2_last_name%%", s2_last)
-    end
-    
-    if st.speaker1_comm then
-        msg = string.gsub(msg, "%%speaker1_faction%%", game.translate_string("st_faction_"..st.speaker1_comm))
-    end
-    if st.speaker2_comm then
-        msg = string.gsub(msg, "%%speaker2_faction%%", game.translate_string("st_faction_"..st.speaker2_comm))
-    end
+    -- --- NEW --- Replace leftover context placeholders with generic terms to prevent ugly output
+    msg = string.gsub(msg, "%%context%.[%w_]+%%", "something")
 
-    msg = string.gsub(msg, "%%time%%", game.translate_string("st_dyn_news_time_"..dynamic_news_helper.GetTimePharseAsString()))
-
-    printf("[U.D.E] Debug: ParseExtendedMessage - Parse complete")
     return msg
 end
 
@@ -1058,6 +1065,74 @@ function DynamicNewsManager:LoadConversations()
 end
 
 
+-- --- NEW --- The Conversation Broker
+-- This is the central function that attempts to turn an event into a conversation.
+function DynamicNewsManager:TryStartEventConversation(event_type, context)
+    printf("[U.D.E] Event Broker: Received event '%s'", event_type)
+
+    -- 1. Check if a conversation can be started
+    if not self:CanStartNewConversation() then
+        printf("[U.D.E] Event Broker: Cannot start, another conversation is active.")
+        return false
+    end
+
+    -- 2. Find a suitable conversation template for this event
+    local event_conv_ids = self.event_conversations[event_type]
+    if not event_conv_ids or #event_conv_ids == 0 then
+        printf("[U.D.E] Event Broker: No conversations mapped to event '%s'.", event_type)
+        return false
+    end
+    
+    local conv_id = event_conv_ids[math.random(#event_conv_ids)]
+    local selected = self.extended_conversations[conv_id]
+    if not selected then
+        printf("[U.D.E] Event Broker: Mapped conversation ID %d not found.", conv_id)
+        return false
+    end
+    printf("[U.D.E] Event Broker: Selected conversation template #%d for event '%s'", conv_id, event_type)
+
+    -- 3. Find Speakers based on context
+    local speaker1 = context.speaker1 or context.finder or context.witness or context.reporter
+    if not speaker1 or not speaker1:alive() then
+        printf("[U.D.E] Event Broker: Primary speaker in context is invalid or dead.")
+        return false
+    end
+
+    -- Find a second speaker nearby, preferably from the same faction
+    local speaker2 = self:FindConversationResponder(speaker1)
+    if not speaker2 or not speaker2:alive() then
+        printf("[U.D.E] Event Broker: Could not find a second speaker to react.")
+        return false
+    end
+    
+    -- Ensure speakers are not the same NPC
+    if speaker1:id() == speaker2:id() then
+        printf("[U.D.E] Event Broker: Found the same NPC twice. Aborting.")
+        return false
+    end
+
+    printf("[U.D.E] Event Broker: Starting event conversation between %s and %s", speaker1:character_name(), speaker2:character_name())
+
+    -- 4. Launch the conversation
+    self:AddRecentlyUsedNPC(speaker1:id())
+    self:AddRecentlyUsedNPC(speaker2:id())
+    
+    self.extended_conversation_state = {
+        active = true,
+        speaker1_id = speaker1:id(), speaker1_name = speaker1:character_name(), speaker1_comm = speaker1:character_community(),
+        speaker2_id = speaker2:id(), speaker2_name = speaker2:character_name(), speaker2_comm = speaker2:character_community(),
+        conversation_id = selected.id,
+        total_turns = selected.turn_count or #selected.messages,
+        messages = selected.messages,
+        current_turn = 1,
+        min_delay = 8, max_delay = 15,
+        start_time = time_global(),
+        context = context -- --- NEW --- Store context for parsing
+    }
+
+    CreateTimeEvent("DynamicNewsManager", "ExtendedConversationMaster", 3, self.TickExtendedConversationMaster, self)
+    return true -- Success!
+end
 
 
 function DynamicNewsManager:TickQuick()
@@ -1281,7 +1356,12 @@ function DynamicNewsManager:StartExtendedConversation()
 
     -- Select a conversation
     local available_convs = {}
-    for k, v in pairs(self.extended_conversations) do table.insert(available_convs, v) end
+    for k, v in pairs(self.extended_conversations) do 
+        -- Only pick conversations that are NOT event-driven
+        if not v.event then
+            table.insert(available_convs, v) 
+        end
+    end
     if #available_convs == 0 then return false end
     local selected = available_convs[math.random(#available_convs)]
 
@@ -1625,10 +1705,10 @@ function DynamicNewsManager:FindConversationResponder(initial_speaker)
 	end
 	
 	local initial_comm = initial_speaker:character_community()
+    local initial_pos = initial_speaker:position()
 	
-	-- Try to find someone from the same faction first
+	-- Try to find someone from the same faction first, within 50 meters
 	local same_faction_speakers = {}
-	local other_speakers = {}
 	
 	for i = 1, #db.OnlineStalkers do
 		local st = db.storage[db.OnlineStalkers[i]]
@@ -1638,26 +1718,21 @@ function DynamicNewsManager:FindConversationResponder(initial_speaker)
 			if npc:id() ~= initial_speaker:id() and not npc:best_enemy() then -- Not the initial speaker and not in combat
 				local comm = npc:character_community()
 				
-				-- Skip special NPCs and serious factions
 				if self.channel_status[comm] and not self:IsSpecialNPC(npc) then
-					if comm == initial_comm then
+					if comm == initial_comm and initial_pos:distance_to_sqr(npc:position()) < 2500 then -- 50m check
 						table.insert(same_faction_speakers, npc)
-					else
-						table.insert(other_speakers, npc)
 					end
 				end
 			end
 		end
 	end
 	
-	-- Prefer same faction
+	-- Prefer same faction nearby
 	if #same_faction_speakers > 0 then
 		return same_faction_speakers[math.random(#same_faction_speakers)]
-	elseif #other_speakers > 0 then
-		return other_speakers[math.random(#other_speakers)]
 	end
 	
-	return nil
+	return nil -- Return nil if no suitable responder is found
 end
 
 function DynamicNewsManager:ParseConversationMessage(msg, speaker, other)
@@ -2562,89 +2637,89 @@ function DynamicNewsManager:ReportDeathByMutant(victim,who) -- Death Report by m
 	return true
 end
 
-function DynamicNewsManager:GossipDeathByStalker(sender,victim,who) -- hearing stalker killing a stalker
-	--printf("[U.D.E] Dyn News: GossipDeathByStalker - call")
-	local cls = dynamic_news_helper.GetWeaponClass(who)
-	if (cls == 1 or cls == 9) then 
-		return false
-	end
+-- --- MODIFIED ---
+function DynamicNewsManager:GossipDeathByStalker(sender, victim, who)
+	if self:IsCommunitySame(victim, who) then return false end
+	sender = sender or self:FindSpeaker(victim, who, false, nil, true)
+	if not sender or self:IsSpecialNPC(sender) then return false end
+
+    -- --- NEW ---
+    local context = {
+        speaker1 = sender,
+        weapon_sound = dynamic_news_helper.GetWeaponDescription(who, 2),
+        location = dynamic_news_helper.GetPointDescription(victim)
+    }
+    if self:TryStartEventConversation("heard_stalker_fight", context) then return true end
+    -- --- END NEW ---
 	
-	if self:IsCommunitySame(victim,who) then
-		return false
-	end
+	-- Fallback
+	local tbl1 = utils_data.collect_translations("st_dyn_news_builder_hear_", true)
+	local tbl2 = utils_data.collect_translations("st_dyn_news_builder_ending_", true)
+	if not (tbl1 and tbl2) then return false end
 	
-	local sender = sender or self:FindSpeaker(victim,who,false,nil,true)
-	if self:IsSpecialNPC(sender) then
-		return false
-	end
-	
-	local tbl_1 = utils_data.collect_translations("st_dyn_news_builder_hear_",true)
-	local tbl_2 = utils_data.collect_translations("st_dyn_news_builder_ending_",true)
-	if (not tbl_1) or (not tbl_2) then
-		return false
-	end
-	
-	local a = tbl_1[math.random(#tbl_1)]
-	local b = dynamic_news_helper.GetWeaponDescription(who,2)
+	local a = tbl1[math.random(#tbl1)]
+	local b = dynamic_news_helper.GetWeaponDescription(who, 2)
 	local c = dynamic_news_helper.GetPointDescription(victim)
-	local d = tbl_2[math.random(#tbl_2)]
-
-	local Se = strformat("%s, %s",sender:character_name(),dynamic_news_helper.GetCommunityDescription(sender,6))
-	local msg = strformat("%s %s %s. %s",a,b,c,d)
+	local d = tbl2[math.random(#tbl2)]
+	local Se = strformat("%s, %s", sender:character_name(), dynamic_news_helper.GetCommunityDescription(sender, 6))
+	local msg = strformat("%s %s %s. %s", a, b, c, d)
 	
-	self:PushToChannel(sender:character_community(),{Mg=msg,Ic=sender:character_icon(),Snd="news",Se=Se,It="npc"})
-	
+	self:PushToChannel(sender:character_community(), {Mg = msg, Ic = sender:character_icon(), Snd = "news", Se = Se, It = "npc"})
 	return true
 end
 
-function DynamicNewsManager:SOSDeathByStalker(victim,who,comm) -- stalker under stalkers attack
-	--printf("[U.D.E] Dyn News: SOSDeathByStalker - call")
-	local cls = dynamic_news_helper.GetWeaponClass(who)
-	if (cls == 1 or cls == 9) then 
-		return false
-	end
-	
-	if self:IsCommunitySame(victim,who) then
-		return false
-	end
-	
-	local sender = self:FindSpeakerWithEnemy(victim,who,true,false)
-	if self:IsSpecialNPC(sender) then
-		return false
-	end
-	
-	local a = dynamic_news_helper.GetCommunityDescription(sender,math.random(11,14))
-	local b,c = self:BuildSentenceStalkerEnemy(victim,who,0,30)
-	local d = dynamic_news_helper.GetPointDescription(victim)
+-- --- MODIFIED ---
+function DynamicNewsManager:SOSDeathByStalker(victim, who, comm)
+	if self:IsCommunitySame(victim, who) then return false end
+	local sender = self:FindSpeakerWithEnemy(victim, who, true, false)
+	if not sender or self:IsSpecialNPC(sender) then return false end
 
-	local Se = strformat("%s, %s",sender:character_name(),dynamic_news_helper.GetCommunityDescription(sender,6))
-	local msg = strformat("%s %s %s %s!",a,b,c,d)
+    -- --- NEW ---
+    local b1, b2 = self:BuildSentenceStalkerEnemy(victim, who, 0, 30)
+    local context = {
+        speaker1 = sender,
+        enemy_desc = b2,
+        location = dynamic_news_helper.GetPointDescription(victim)
+    }
+    if self:TryStartEventConversation("sos_stalker_fight", context) then return true end
+    -- --- END NEW ---
 	
-	self:PushToChannel(sender:character_community(),{Mg=msg,Ic=sender:character_icon(),Snd="danger",Se=Se,It="npc"})
+	-- Fallback
+	local a = dynamic_news_helper.GetCommunityDescription(sender, math.random(11, 14))
+	local Se = strformat("%s, %s", sender:character_name(), dynamic_news_helper.GetCommunityDescription(sender, 6))
+	local msg = strformat("%s %s %s %s!", a, b1, b2, dynamic_news_helper.GetPointDescription(victim))
 	
+	self:PushToChannel(sender:character_community(), {Mg = msg, Ic = sender:character_icon(), Snd = "danger", Se = Se, It = "npc"})
 	return true
 end
 
-function DynamicNewsManager:SeenDeathOfStalker(sender,victim,who,comm) -- seeing stalker killing a stalker
-	--printf("[U.D.E] Dyn News: SeenDeathOfStalker - call")
+-- --- MODIFIED --- This function now attempts to start a conversation first.
+function DynamicNewsManager:SeenDeathOfStalker(sender,victim,who,comm)
+	if self:IsCommunitySame(victim, who) then return false end
+	
+    -- --- NEW --- Event Broker Integration
+    local context = {
+        witness = sender,
+        victim = victim,
+        killer = who,
+        victim_name = victim:character_name(),
+        killer_name = who:character_name()
+    }
+    local conversation_started = self:TryStartEventConversation("stalker_death_witness", context)
+    if conversation_started then
+        return true -- Conversation started, so we skip the old logic
+    end
+    -- --- END NEW ---
+
+	-- Fallback to original logic if conversation fails to start
 	local cls = dynamic_news_helper.GetWeaponClass(who)
-	if (cls == 1 or cls == 9) then 
-		return false
-	end
+	if (cls == 1 or cls == 9) then return false end
 	
-	if self:IsCommunitySame(victim,who) then
-		return false
-	end
-	
-	local sender = sender or self:FindSpeaker(victim,who,false,false,true)
-	if self:IsSpecialNPC(sender) then
-		return false
-	end
+	sender = sender or self:FindSpeaker(victim,who,false,false,true)
+	if self:IsSpecialNPC(sender) then return false end
 	
 	local tbl = utils_data.collect_translations("st_dyn_news_builder_sight_",true)
-	if (not tbl) then
-		return false
-	end
+	if (not tbl) then return false end
 	
 	local a = tbl[math.random(#tbl)]
 	local b = dynamic_news_helper.GetCommunityDescription(who,math.random(1,2))
@@ -2656,115 +2731,135 @@ function DynamicNewsManager:SeenDeathOfStalker(sender,victim,who,comm) -- seeing
 	local msg = strformat("%s %s %s %s %s.",a,b,c,d,e)
 	
 	self:PushToChannel("general",{Mg=msg,Ic=sender:character_icon(),Snd="danger",Se=Se,It="npc"})
-	
 	return true
 end
 
-function DynamicNewsManager:SeenDeathOfMutant(victim,who) -- seeing stalker killing a mutant
-	--printf("[U.D.E] Dyn News: SeenDeathOfMutant - call")
+-- --- MODIFIED --- This function now attempts to start a conversation first.
+function DynamicNewsManager:SeenDeathOfMutant(victim, who) -- seeing stalker killing a mutant
 	local cls = dynamic_news_helper.GetWeaponClass(who)
-	if (cls == 1 or cls == 9) then 
-		return false
-	end
+	if (cls == 1 or cls == 9) then return false end
 	
-	local sender = self:FindSpeaker(victim,who,nil,false,true)
-	if self:IsSpecialNPC(sender) then
-		return false
-	end
+	local sender = self:FindSpeaker(victim, who, nil, false, true)
+	if not sender or self:IsSpecialNPC(sender) then return false end
+
+    -- --- NEW --- Event Broker Integration
+    local context = {
+        witness = sender,
+        killer = who,
+        killer_name = who:character_name(),
+        mutant_name = dynamic_news_helper.GetMonsterDescription(victim, 1)
+    }
+    local conversation_started = self:TryStartEventConversation("mutant_kill_witness", context)
+    if conversation_started then
+        return true -- Conversation started, skip old logic
+    end
+    -- --- END NEW ---
 	
-	local tbl = utils_data.collect_translations("st_dyn_news_builder_sight_",true)
-	if (not tbl) then
-		return false
-	end
+	-- Fallback to original logic
+	local tbl = utils_data.collect_translations("st_dyn_news_builder_sight_", true)
+	if not tbl then return false end
 	
 	local a = tbl[math.random(#tbl)]
-	local b = dynamic_news_helper.GetCommunityDescription(who,math.random(1,2))
-	local c = dynamic_news_helper.GetWeaponDescription(who,math.random(4,6))
-	local d = dynamic_news_helper.GetMonsterDescription(victim,1)
+	local b = dynamic_news_helper.GetCommunityDescription(who, math.random(1, 2))
+	local c = dynamic_news_helper.GetWeaponDescription(who, math.random(4, 6))
+	local d = dynamic_news_helper.GetMonsterDescription(victim, 1)
 	local e = dynamic_news_helper.GetPointDescription(victim)
 	
-	local Se = strformat("%s, %s",sender:character_name(),dynamic_news_helper.GetCommunityDescription(sender,6))
-	local msg = strformat("%s %s %s %s %s.",a,b,c,d,e)	-- example "I just saw" "a loner" "shots" "a bloodsucker" "north east of road to rostok"
+	local Se = strformat("%s, %s", sender:character_name(), dynamic_news_helper.GetCommunityDescription(sender, 6))
+	local msg = strformat("%s %s %s %s %s.", a, b, c, d, e)
 	
-	self:PushToChannel(sender:character_community(),{Mg=msg,Ic=sender:character_icon(),Snd="danger",Se=Se,It="npc"})
-	
+	self:PushToChannel(sender:character_community(), {Mg = msg, Ic = sender:character_icon(), Snd = "danger", Se = Se, It = "npc"})
 	return true
 end
 
-function DynamicNewsManager:SeenDeathByMutant(sender,victim,who,comm) -- seeing stalker killed by a mutant
-	--printf("[U.D.E] Dyn News: SeenDeathByMutant - call")
-	local sender = sender or self:FindSpeaker(victim,who,false,nil,true)
-	if self:IsSpecialNPC(sender) then
-		return false
-	end
-	
-	local tbl_1 = utils_data.collect_translations("st_dyn_news_builder_hear_",true) -- was sight
-	local tbl_2 = utils_data.collect_translations("st_dyn_news_builder_middle_",true)
-	local tbl_3 = utils_data.collect_translations("st_dyn_news_builder_ending_",true)
-	if (not tbl_1) or (not tbl_2) or (not tbl_3) then
-		return false
-	end
+-- --- MODIFIED --- This function now attempts to start a conversation first.
+function DynamicNewsManager:SeenDeathByMutant(sender, victim, who, comm) -- seeing stalker killed by a mutant
+	sender = sender or self:FindSpeaker(victim, who, false, nil, true)
+	if not sender or self:IsSpecialNPC(sender) then return false end
+
+    -- --- NEW --- Event Broker Integration
+    local context = {
+        witness = sender,
+        victim = victim,
+        victim_name = victim:character_name(),
+        mutant_name = dynamic_news_helper.GetMonsterDescription(who, 1)
+    }
+    local conversation_started = self:TryStartEventConversation("stalker_death_by_mutant_witness", context)
+    if conversation_started then
+        return true -- Conversation started, skip old logic
+    end
+    -- --- END NEW ---
+
+	-- Fallback to original logic
+	local tbl_1 = utils_data.collect_translations("st_dyn_news_builder_hear_", true)
+	local tbl_2 = utils_data.collect_translations("st_dyn_news_builder_middle_", true)
+	local tbl_3 = utils_data.collect_translations("st_dyn_news_builder_ending_", true)
+	if not (tbl_1 and tbl_2 and tbl_3) then return false end
 
 	local a = tbl_1[math.random(#tbl_1)]
 	local b = tbl_2[math.random(#tbl_2)]
 	local c = dynamic_news_helper.GetPointDescription(victim)
 	local d = tbl_3[math.random(#tbl_3)]
 	
-	local Se = strformat("%s, %s",sender:character_name(),dynamic_news_helper.GetCommunityDescription(sender,6))
-	local msg = strformat("%s %s %s.\\n%s",a,b,c,d)
+	local Se = strformat("%s, %s", sender:character_name(), dynamic_news_helper.GetCommunityDescription(sender, 6))
+	local msg = strformat("%s %s %s.\\n%s", a, b, c, d)
 	
-	self:PushToChannel(sender:character_community(),{Mg=msg,Ic=sender:character_icon(),Snd="danger",Se=Se,It="npc"})
-	
+	self:PushToChannel(sender:character_community(), {Mg = msg, Ic = sender:character_icon(), Snd = "danger", Se = Se, It = "npc"})
 	return true
-end 
+end
 
-function DynamicNewsManager:GossipDeathOfMutant(victim,who,comm) -- hearing stalker killing a mutant
-	--printf("[U.D.E] Dyn News: GossipDeathOfMutant - call")
-	local cls = dynamic_news_helper.GetWeaponClass(who)
-	if (cls == 1 or cls == 9) then 
-		return false
-	end
+-- --- MODIFIED ---
+function DynamicNewsManager:GossipDeathOfMutant(victim, who, comm)
+	local sender = self:FindSpeaker(victim, who, nil, false, true)
+	if not sender or self:IsSpecialNPC(sender) then return false end
+
+    -- --- NEW ---
+    local context = {
+        speaker1 = sender,
+        weapon_sound = dynamic_news_helper.GetWeaponDescription(who, 2),
+        location = dynamic_news_helper.GetPointDescription(victim)
+    }
+    if self:TryStartEventConversation("heard_mutant_fight", context) then return true end
+    -- --- END NEW ---
 	
-	local sender = self:FindSpeaker(victim,who,nil,false,true)
-	if self:IsSpecialNPC(sender) then
-		return false
-	end
+	-- Fallback
+	local tbl1 = utils_data.collect_translations("st_dyn_news_builder_hear_", true)
+	local tbl2 = utils_data.collect_translations("st_dyn_news_builder_ending_", true)
+	if not (tbl1 and tbl2) then return false end
 	
-	local tbl_1 = utils_data.collect_translations("st_dyn_news_builder_hear_",true)
-	local tbl_2 = utils_data.collect_translations("st_dyn_news_builder_ending_",true)
-	if (not tbl_1) or (not tbl_2) then
-		return false
-	end
-	
-	local a = tbl_1[math.random(#tbl_1)]
-	local b = dynamic_news_helper.GetWeaponDescription(who,2)
+	local a = tbl1[math.random(#tbl1)]
+	local b = dynamic_news_helper.GetWeaponDescription(who, 2)
 	local c = dynamic_news_helper.GetPointDescription(victim)
-	local d = tbl_2[math.random(#tbl_2)]
+	local d = tbl2[math.random(#tbl2)]
+	local Se = strformat("%s, %s", sender:character_name(), dynamic_news_helper.GetCommunityDescription(sender, 6))
+	local msg = strformat("%s %s %s. %s", a, b, c, d)
 	
-	local Se = strformat("%s, %s",sender:character_name(),dynamic_news_helper.GetCommunityDescription(sender,6))
-	local msg = strformat("%s %s %s. %s",a,b,c,d)
-	
-	self:PushToChannel(sender:character_community(),{Mg=msg,Ic=sender:character_icon(),Snd="news",Se=Se,It="npc"})
-	
+	self:PushToChannel(sender:character_community(), {Mg = msg, Ic = sender:character_icon(), Snd = "news", Se = Se, It = "npc"})
 	return true
-end 
+end
 
-function DynamicNewsManager:SOSDeathByMutant(victim,who) -- stalker under mutants attack
-	--printf("[U.D.E] Dyn News: SOSDeathByMutant - call")
-	local sender = self:FindSpeakerWithEnemy(victim,who,true,nil)
-	if self:IsSpecialNPC(sender) then
-		return false
-	end
+-- --- MODIFIED ---
+function DynamicNewsManager:SOSDeathByMutant(victim, who)
+	local sender = self:FindSpeakerWithEnemy(victim, who, true, nil)
+	if not sender or self:IsSpecialNPC(sender) then return false end
+
+    -- --- NEW ---
+    local context = {
+        speaker1 = sender,
+        mutant_desc = dynamic_news_helper.GetMonsterDescription(who, math.random(2, 5)),
+        location = dynamic_news_helper.GetPointDescription(victim)
+    }
+    if self:TryStartEventConversation("sos_mutant_fight", context) then return true end
+    -- --- END NEW ---
 	
-	local a = dynamic_news_helper.GetCommunityDescription(sender,math.random(11,14))
-	local b = dynamic_news_helper.GetMonsterDescription(who,math.random(2,5))
+	-- Fallback
+	local a = dynamic_news_helper.GetCommunityDescription(sender, math.random(11, 14))
+	local b = dynamic_news_helper.GetMonsterDescription(who, math.random(2, 5))
 	local c = dynamic_news_helper.GetPointDescription(victim)
-
-	local Se = strformat("%s, %s",sender:character_name(),dynamic_news_helper.GetCommunityDescription(sender,6))
-	local msg = strformat("%s %s %s!",a,b,c)
+	local Se = strformat("%s, %s", sender:character_name(), dynamic_news_helper.GetCommunityDescription(sender, 6))
+	local msg = strformat("%s %s %s!", a, b, c)
 	
-	self:PushToChannel(sender:character_community(),{Mg=msg,Ic=sender:character_icon(),Snd="danger",Se=Se,It="npc"})
-	
+	self:PushToChannel(sender:character_community(), {Mg = msg, Ic = sender:character_icon(), Snd = "danger", Se = Se, It = "npc"})
 	return true
 end
 
@@ -2921,52 +3016,61 @@ function DynamicNewsManager:KillWounded(sender,victim,is_hostage) -- killing a w
 	end
 end 
 
-function DynamicNewsManager:RadioInHeli(sender,who)	-- requesting chopper assistance
-	--printf("[U.D.E] Dyn News: RadioInHeli - call")
-	if (not shw_heli_call) then
-		return false
-	end
-	
-	if self:IsSpecialNPC(sender) then
-		return false
-	end
-	
-	local a = dynamic_news_helper.GetPointDescription(who) 
-	local b = IsStalker(who) and dynamic_news_helper.GetCommunityDescription(who,math.random(1,2)) or dynamic_news_helper.GetMonsterDescription(who,6)
-	local tbl = utils_data.collect_translations("st_dyn_news_gossip_heli_",true)
-	if (not tbl) then
-		return false
-	end
-	
-	local Se = strformat("%s, %s",sender:character_name(),dynamic_news_helper.GetCommunityDescription(sender,6))
-	local msg = utils_data.parse_string_keys( tbl[math.random(#tbl)] , { ["where"]=a , ["what"]=b } )
+-- --- MODIFIED --- This function now attempts to start a conversation first.
+function DynamicNewsManager:RadioInHeli(sender, who)	-- requesting chopper assistance
+	if not shw_heli_call or self:IsSpecialNPC(sender) then return false end
 
-	self:PushToChannel(sender:character_community(),{Mg=msg,Ic=sender:character_icon(),Snd="news",Se=Se,It="npc"})
+    -- --- NEW --- Event Broker Integration
+    local context = {
+        caller = sender,
+        caller_name = sender:character_name(),
+        target_name = IsStalker(who) and dynamic_news_helper.GetCommunityDescription(who,1) or dynamic_news_helper.GetMonsterDescription(who,6)
+    }
+    local conversation_started = self:TryStartEventConversation("heli_call", context)
+    if conversation_started then
+        return true -- Conversation started, skip old logic
+    end
+    -- --- END NEW ---
+
+	-- Fallback to original logic
+	local a = dynamic_news_helper.GetPointDescription(who) 
+	local b = IsStalker(who) and dynamic_news_helper.GetCommunityDescription(who, math.random(1, 2)) or dynamic_news_helper.GetMonsterDescription(who, 6)
+	local tbl = utils_data.collect_translations("st_dyn_news_gossip_heli_", true)
+	if not tbl then return false end
 	
+	local Se = strformat("%s, %s", sender:character_name(), dynamic_news_helper.GetCommunityDescription(sender, 6))
+	local msg = utils_data.parse_string_keys(tbl[math.random(#tbl)], {["where"] = a, ["what"] = b})
+
+	self:PushToChannel(sender:character_community(), {Mg = msg, Ic = sender:character_icon(), Snd = "news", Se = Se, It = "npc"})
 	return true
 end
 
-function DynamicNewsManager:FoundArtefact(sender,itm) -- stalker found an artifact
-	--printf("[U.D.E] Dyn News: FoundArtefact - call")
-	if (not shw_found_artifact) then
+-- --- MODIFIED --- This function now attempts to start a conversation first.
+function DynamicNewsManager:FoundArtefact(sender,itm)
+	if not shw_found_artifact or self:IsSpecialNPC(sender) or self:IsMonoCommunity(sender) then
 		return false
 	end
-	
-	if self:IsSpecialNPC(sender) or self:IsMonoCommunity(sender) then
-		return false
-	end
-	
+
+    -- --- NEW --- Event Broker Integration
+    local context = {
+        finder = sender,
+        artifact_name = ui_item.get_sec_name(itm:section())
+    }
+    local conversation_started = self:TryStartEventConversation("artifact_found", context)
+    if conversation_started then
+        return true -- Conversation started, skip the old logic
+    end
+    -- --- END NEW ---
+
+	-- Fallback to original logic if conversation fails
 	local inv_name = ui_item.get_sec_name(itm:section())
 	local tbl = utils_data.collect_translations("st_dyn_news_gossip_arte_",true)
-	if (not tbl) then
-		return false
-	end
+	if not tbl then return false end
 	
 	local Se = strformat("%s, %s",sender:character_name(),dynamic_news_helper.GetCommunityDescription(sender,6))	
 	local msg = utils_data.parse_string_keys( tbl[math.random(#tbl)] , { ["what"]=inv_name } )
 
 	self:PushToChannel(sender:character_community(),{Mg=msg,Ic=sender:character_icon(),Snd="news",Se=Se,It="npc",Ty="artifact", Id=sender})
-	
 	return true
 end
 
@@ -2992,92 +3096,87 @@ function DynamicNewsManager:FoundStash() -- reaction of angry stash owners
 	return true
 end
 
-function DynamicNewsManager:BoughtItems(sender,who,list) -- trading
-	--printf("[U.D.E] Dyn News: BoughtItems - call")
-	local sec = list[math.random(#list)]
-	local inv_name = ui_item.get_sec_name(sec)
-	local tbl = utils_data.collect_translations("st_dyn_news_gossip_buy_",true)
-	if (not tbl) then
-		return false
-	end
-	inv_name = ui_item.get_plural_name(inv_name) 
-	local Se = strformat("%s, %s",sender:character_name(),dynamic_news_helper.GetCommunityDescription(sender,6))
-	local msg = utils_data.parse_string_keys( tbl[math.random(#tbl)] , { ["who"]=who:character_name() , ["what"]=inv_name } )
+-- --- MODIFIED ---
+function DynamicNewsManager:BoughtItems(sender, who, list)
+    if self:IsSpecialNPC(sender) then return false end
 
-	self:PushToChannel(sender:character_community(),{Mg=msg,Ic=sender:character_icon(),Snd="news",Se=Se,It="npc",Ty="trade", Id=sender})
-	
+    -- --- NEW ---
+    local item_name = ui_item.get_sec_name(list[math.random(#list)])
+    local context = {
+        speaker1 = sender,
+        trader_name = who:character_name(),
+        item_name = ui_item.get_plural_name(item_name)
+    }
+    if self:TryStartEventConversation("item_bought", context) then return true end
+    -- --- END NEW ---
+
+	-- Fallback
+	local tbl = utils_data.collect_translations("st_dyn_news_gossip_buy_", true)
+	if not tbl then return false end
+	local Se = strformat("%s, %s", sender:character_name(), dynamic_news_helper.GetCommunityDescription(sender, 6))
+	local msg = utils_data.parse_string_keys(tbl[math.random(#tbl)], {["who"] = who:character_name(), ["what"] = context.item_name})
+	self:PushToChannel(sender:character_community(), {Mg = msg, Ic = sender:character_icon(), Snd = "news", Se = Se, It = "npc", Ty = "trade", Id = sender})
 	return true
 end
 
-function DynamicNewsManager:UpgradedItems(sender,who,wpn_sec,list) -- upgrading
-	--printf("[U.D.E] Dyn News: UpgradedItems - call")
-	local upgrade = list[math.random(#list)]
-	local upg_str = upgrade and ini_sys:r_string_ex(upgrade,"name")
-	local upg_name = upg_str and game.translate_string(upg_str)
-	local inv_name = wpn_sec and ui_item.get_sec_name(wpn_sec)
-	if not (upg_name and inv_name) then
-		return false
-	end
+-- --- MODIFIED ---
+function DynamicNewsManager:UpgradedItems(sender, who, wpn_sec, list)
+    if self:IsSpecialNPC(sender) then return false end
 	
-	local tbl = utils_data.collect_translations("st_dyn_news_gossip_upgrade_",true)
-	if (not tbl) then
-		return false
-	end
-	
-	local Se = strformat("%s, %s",sender:character_name(),dynamic_news_helper.GetCommunityDescription(sender,6))
-	local msg = utils_data.parse_string_keys( tbl[math.random(#tbl)] , { ["who"]=who:character_name() , ["what"]=inv_name , ["upgrade"]=upg_name } )
+    -- --- NEW ---
+    local upgrade = list[math.random(#list)]
+    local upg_name = game.translate_string(ini_sys:r_string_ex(upgrade, "name"))
+    local wpn_name = ui_item.get_sec_name(wpn_sec)
+    
+    local context = {
+        speaker1 = sender,
+        mechanic_name = who:character_name(),
+        weapon_name = wpn_name,
+        upgrade_name = upg_name
+    }
+    if self:TryStartEventConversation("item_upgraded", context) then return true end
+    -- --- END NEW ---
 
-	self:PushToChannel(sender:character_community(),{Mg=msg,Ic=sender:character_icon(),Snd="news",Se=Se,It="npc",Ty="upgrade", Id=sender})
-	
+	-- Fallback
+	local tbl = utils_data.collect_translations("st_dyn_news_gossip_upgrade_", true)
+	if not tbl then return false end
+	local Se = strformat("%s, %s", sender:character_name(), dynamic_news_helper.GetCommunityDescription(sender, 6))
+	local msg = utils_data.parse_string_keys(tbl[math.random(#tbl)], {["who"] = who:character_name(), ["what"] = wpn_name, ["upgrade"] = upg_name})
+	self:PushToChannel(sender:character_community(), {Mg = msg, Ic = sender:character_icon(), Snd = "news", Se = Se, It = "npc", Ty = "upgrade", Id = sender})
 	return true
 end
 
-function DynamicNewsManager:GossipLoot(sender,best_item,all_value) -- talk about the loot
-	--printf("[U.D.E] Dyn News: GossipLoot - call")
-	if not (sender and best_item and all_value) then
+
+-- --- MODIFIED ---
+function DynamicNewsManager:GossipLoot(sender, best_item, all_value)
+	if not (sender and best_item and all_value) or (sender:character_community() == "monolith") then
 		return false
 	end
-	
-	if (sender:character_community() == "monolith") then
-		return false
-	end
-	
-	-- limit the spam
-	self.spammer.show_about_loot = self.spammer.show_about_loot + 1
-	if (self.spammer.show_about_loot > 1) then
-		self.spammer.show_about_loot = 0
-	end
-	if (self.spammer.show_about_loot == 0) then
-		return false
-	end
-	
-	local tbl,msg
+
+    -- --- NEW ---
+    local item_name = ui_item.get_sec_name(best_item:section())
+    local context = {
+        speaker1 = sender,
+        item_name = ui_item.get_article_name(item_name),
+        loot_value = all_value
+    }
+    if self:TryStartEventConversation("loot_gossip", context) then return true end
+    -- --- END NEW ---
+
+	-- Fallback to original logic, but simplified as it's now just a message container
+	local tbl, msg
 	if (math.random(2) == 1) then
-		if all_value >= 1200 then
-			tbl = utils_data.collect_translations("st_dyn_news_loot_good_",true)
-		else
-			tbl = utils_data.collect_translations("st_dyn_news_loot_bad_",true)
-		end
-		if (not tbl) then 
-			return false 
-		end
+		tbl = (all_value >= 1200) and utils_data.collect_translations("st_dyn_news_loot_good_", true) or utils_data.collect_translations("st_dyn_news_loot_bad_", true)
+		if not tbl then return false end
 		msg = tbl[math.random(#tbl)]
-		
-	elseif best_item then
-		local item_name = ui_item.get_sec_name(best_item:section())
-		local tbl = utils_data.collect_translations("st_dyn_news_loot_item_",true)
-		if (not tbl) then
-			return false
-		end
-		
-		item_name = ui_item.get_article_name(item_name)
-	msg	= utils_data.parse_string_keys( tbl[math.random(#tbl)] , { ["what"] = item_name } )
+	else
+		tbl = utils_data.collect_translations("st_dyn_news_loot_item_", true)
+		if not tbl then return false end
+		msg	= utils_data.parse_string_keys(tbl[math.random(#tbl)], { ["what"] = context.item_name })
 	end
 	
-	local Se = strformat("%s, %s",sender:character_name(),dynamic_news_helper.GetCommunityDescription(sender,6))
-	
-	self.response["message"] = {Mg=msg,Ic=sender:character_icon(),Snd="beep_1",Se=Se,It="npc",To=false,St=msg_duration}
-	
+	local Se = strformat("%s, %s", sender:character_name(), dynamic_news_helper.GetCommunityDescription(sender, 6))
+	self.response["message"] = {Mg = msg, Ic = sender:character_icon(), Snd = "beep_1", Se = Se, It = "npc", To = false, St = msg_duration}
 	return true
 end
 
@@ -3362,126 +3461,97 @@ function DynamicNewsManager:FoundDead() -- report dead body findings
 end
 
 --< Special News >--
-function DynamicNewsManager:GossipTime() -- talk about time of day
-	--printf("[U.D.E] Dyn News: GossipTime - call")
-	if (not shw_time) then
-		return false
-	end
-	
+-- --- MODIFIED ---
+function DynamicNewsManager:GossipTime()
+	if not shw_time then return false end
 	local sender = self:FindSpeakerRandom()
-	if self:IsSpecialNPC(sender) or self:IsMonoCommunity(sender) then
-		return false
-	end
-	
-	local TimeStringPharse = dynamic_news_helper.GetTimePharseAsString()
-	
-	local tbl = utils_data.collect_translations("st_dyn_news_time_" .. TimeStringPharse .. "_",true)
-	if (not tbl) then
-		return false
-	end
-	
-	local Se = strformat("%s, %s",sender:character_name(),dynamic_news_helper.GetCommunityDescription(sender,6))
-	
-	self:PushToChannel(sender:character_community(),{Mg=tbl[math.random(#tbl)],Ic=sender:character_icon(),Snd="beep_1",Se=Se,It="npc"})
-	
+	if not sender or self:IsSpecialNPC(sender) or self:IsMonoCommunity(sender) then return false end
+
+    -- --- NEW ---
+    local time_phrase = dynamic_news_helper.GetTimePharseAsString()
+    local context = { speaker1 = sender, time_of_day = time_phrase }
+    if self:TryStartEventConversation("time_gossip", context) then return true end
+    -- --- END NEW ---
+
+	-- Fallback
+	local tbl = utils_data.collect_translations("st_dyn_news_time_" .. time_phrase .. "_", true)
+	if not tbl then return false end
+	local Se = strformat("%s, %s", sender:character_name(), dynamic_news_helper.GetCommunityDescription(sender, 6))
+	self:PushToChannel(sender:character_community(), {Mg = tbl[math.random(#tbl)], Ic = sender:character_icon(), Snd = "beep_1", Se = Se, It = "npc"})
 	return true
 end
 
-function DynamicNewsManager:GossipWeather() -- talk about the weather
-	--printf("[U.D.E] Dyn News: GossipWeather - call")
-	
-	-- no weather news in night
+-- --- MODIFIED ---
+function DynamicNewsManager:GossipWeather()
 	local hrs = level.get_time_hours()
-	if (hrs >= 21) or (hrs < 5) then 
-		return false
-	end
-	
+	if (hrs >= 21) or (hrs < 5) then return false end
 	local sender = self:FindSpeakerRandom()
-	if self:IsSpecialNPC(sender) or self:IsMonoCommunity(sender) then
-		return false
-	end
-	
-	--type of weather: {"clear","partly","cloudy","foggy","rain","storm"}
+	if not sender or self:IsSpecialNPC(sender) or self:IsMonoCommunity(sender) then return false end
+    
+    -- Weather logic from original function...
 	local WeatherNews
 	local _WM = level_weathers.get_weather_manager()
 	local WeatherType = _WM:get_curr_weather()
-	
-	if not (WeatherType) then
-		return false
-	end
-	
-	-- weather accurate check
+	if not WeatherType then return false end
 	if (WeatherType == "rain") or (WeatherType == "storm") then
 		local RainFactor = level.rain_factor()
-		if (RainFactor >= 0.5) then
-			WeatherNews = "storm"
-		elseif (RainFactor > 0) and (RainFactor < 0.5) then
-			WeatherNews = "rain"
-		else -- if rainy weather but there's no actual rain
-			return false
-		end
+		if (RainFactor >= 0.5) then WeatherNews = "storm"
+		elseif (RainFactor > 0) and (RainFactor < 0.5) then WeatherNews = "rain"
+		else return false end
 	elseif (WeatherType == "foggy") then
 		local FarDistance = weather.get_value_numric("fog_distance")
-		if FarDistance and (FarDistance < 200) then
-			WeatherNews = "foggy"
-		else -- if foggy weather but there's no actual fog
-			return false
-		end
-	elseif (level.rain_factor() <= 0) then
-		WeatherNews = WeatherType
-	else
-		return false
-	end
-		
-	local tbl = utils_data.collect_translations("st_dyn_news_weather_" .. WeatherNews .. "_",true)
-	if (not tbl) then
-		return false
-	end
-	
-	
-	local Se = strformat("%s, %s",sender:character_name(),dynamic_news_helper.GetCommunityDescription(sender,6))
-	
-	self:PushToChannel(sender:character_community(),{Mg=tbl[math.random(#tbl)],Ic=sender:character_icon(),Snd="beep_1",Se=Se,It="npc"})
-	
+		if FarDistance and (FarDistance < 200) then WeatherNews = "foggy"
+		else return false end
+	elseif (level.rain_factor() <= 0) then WeatherNews = WeatherType
+	else return false end
+
+    -- --- NEW ---
+    local context = { speaker1 = sender, weather_type = WeatherNews }
+    if self:TryStartEventConversation("weather_gossip", context) then return true end
+    -- --- END NEW ---
+
+	-- Fallback
+	local tbl = utils_data.collect_translations("st_dyn_news_weather_" .. WeatherNews .. "_", true)
+	if not tbl then return false end
+	local Se = strformat("%s, %s", sender:character_name(), dynamic_news_helper.GetCommunityDescription(sender, 6))
+	self:PushToChannel(sender:character_community(), {Mg = tbl[math.random(#tbl)], Ic = sender:character_icon(), Snd = "beep_1", Se = Se, It = "npc"})
 	return true
 end
 
-function DynamicNewsManager:GossipNearbyActivity() -- talk about movement of nearby enemy
-	-- 50% chance to skip
-	if math.random() < 0.5 then
-		return false
-	end
+-- --- MODIFIED --- This function now attempts to start a conversation first.
+function DynamicNewsManager:GossipNearbyActivity()
+	if math.random() < 0.5 then return false end
 
-	--printf("[U.D.E] Dyn News: GossipNearbyActivity - call")
-
+    -- --- NEW --- Event Broker Integration
 	local sender,target = self:FindSpeakerAndTarget(true,250)
-	if (not sender) or (not target) then
-		return false
-	end
+	if not (sender and target) then return false end
+    if self:IsSpecialNPC(sender) or self:IsMonoCommunity(sender) then return false end
 
-	if self:IsSpecialNPC(sender) or self:IsMonoCommunity(sender) then
-		return false
-	end
-
+    local target_name = IsStalker(target) and target:character_name() or dynamic_news_helper.GetMonsterDescription(target,1)
+    local context = {
+        reporter = sender,
+        target = target,
+        target_name = target_name
+    }
+    local conversation_started = self:TryStartEventConversation("nearby_activity", context)
+    if conversation_started then
+        return true -- Conversation started, skip old logic
+    end
+    -- --- END NEW ---
+    
+	-- Fallback to original logic if conversation fails
 	local who
 	local activity = "enemy_activity_"
 	if IsStalker(target,target:clsid()) then
 		local target_comm = target:character_community()
-
-		if self.unknown[target_comm] then
-			return false
-		end
-		if target_comm == "zombied" then
-			activity = activity .. "zombied"
-		else
-			activity = activity .. "stalker"
-		end
+		if self.unknown[target_comm] then return false end
+		if target_comm == "zombied" then activity = activity .. "zombied"
+		else activity = activity .. "stalker" end
 		if (ini_sys:r_string_ex("string_table","language") == "rus") then
 			who = dynamic_news_helper.GetCommunityDescription(target,math.random(3,4))
 		else
 			who = dynamic_news_helper.GetCommunityDescription(target,math.random(1,4))
 		end
-
 	elseif IsMonster(target,target:clsid()) then
 		local cls = dynamic_news_helper.GetMonsterDescription(target)
 		local tier = dynamic_news_helper.GetMutant(cls,"tier")
@@ -3490,43 +3560,46 @@ function DynamicNewsManager:GossipNearbyActivity() -- talk about movement of nea
 	end
 
 	local tbl = utils_data.collect_translations("st_dyn_news_" .. activity .. "_",true)
-	if (not tbl) or (not who) then
-		return false
-	end
+	if (not tbl) or (not who) then return false end
 
 	local msg = utils_data.parse_string_keys(tbl[math.random(#tbl)], {["who"]=who})
 	local Se = strformat("%s, %s",sender:character_name(),dynamic_news_helper.GetCommunityDescription(sender,6))
 
 	self:PushToChannel(sender:character_community(), {
-		Mg=msg,
-		Ic=sender:character_icon(),
-		Snd="beep_2",
-		Se=Se,
-		It="npc",
-		Ty=activity,
-		Id=sender
+		Mg=msg, Ic=sender:character_icon(), Snd="beep_2", Se=Se, It="npc",
+		Ty=activity, Id=sender
 	})
 
 	return true
 end
 
+-- --- MODIFIED --- This function now attempts to start a conversation first.
 function DynamicNewsManager:DumbZombie() -- zombies trying to talk over the radio
-	--printf("[U.D.E] Dyn News: DumbZombie - call")
+	local zombie = self:FindSpeakerRandom(true, "zombied")
+	if not zombie or self:IsSpecialNPC(zombie) then return false end
 	
-	local sender = self:FindSpeakerRandom(true,"zombied") -- must use channel_status["general"] for intended zombied case
-	if self:IsSpecialNPC(sender) or self:IsMonoCommunity(sender) then
-		return false
-	end
-	
-	local tbl = utils_data.collect_translations("st_dyn_news_dumb_zombie_",true)
-	if (not tbl) then
-		return false
-	end
-	
-	local Se = strformat("%s, %s",sender:character_name(),dynamic_news_helper.GetCommunityDescription(sender,6))
-	
-	self:PushToChannel(sender:character_community(),{Mg=tbl[math.random(#tbl)],Ic=sender:character_icon(),Snd="beep_2",Se=Se,It="npc",Ty="dumb_zombie"})
-	
+	local tbl = utils_data.collect_translations("st_dyn_news_dumb_zombie_", true)
+	if not tbl then return false end
+    local zombie_message = tbl[math.random(#tbl)]
+
+    -- --- NEW --- Event Broker Integration
+    local listener = self:FindSpeakerRandom(true) -- Find a random non-zombie stalker to react
+    if not listener then return false end -- Can't have a conversation with no one to listen
+
+    local context = {
+        speaker1 = listener, -- The listener starts the conversation
+        zombie = zombie,
+        zombie_babble = zombie_message
+    }
+    local conversation_started = self:TryStartEventConversation("zombie_babble", context)
+    if conversation_started then
+        return true -- Conversation started, skip old logic
+    end
+    -- --- END NEW ---
+
+	-- Fallback to original logic (the zombie just sends its message)
+	local Se = strformat("%s, %s", zombie:character_name(), dynamic_news_helper.GetCommunityDescription(zombie, 6))
+	self:PushToChannel(zombie:character_community(), {Mg = zombie_message, Ic = zombie:character_icon(), Snd = "beep_2", Se = Se, It = "npc", Ty = "dumb_zombie"})
 	return true
 end
 
@@ -3535,87 +3608,67 @@ function DynamicNewsManager:monster_on_respawn(npc,near) -- report mutant activi
 end
 
 --< Task News >--
-function DynamicNewsManager:GossipBounty() -- talk about the player's bounty
-	--printf("[U.D.E] Dyn News: GossipBounty - call")
-
+-- --- MODIFIED ---
+function DynamicNewsManager:GossipBounty()
 	local bounty
-	for task_id,npc_id in pairs(axr_task_manager.bounties_by_id) do	-- loop across npcs on task list
+	for task_id, npc_id in pairs(axr_task_manager.bounties_by_id) do
 		bounty = db.storage[npc_id] and db.storage[npc_id].object
-		if (bounty and bounty:alive()) then 
-			break 
-		end
+		if (bounty and bounty:alive()) then break end
 	end
-	
-	if not (bounty and bounty:alive()) then	-- if the bounty npc is dead, return
-		return false
-	end
+	if not (bounty and bounty:alive()) then return false end
 
-	local sender = self:FindSpeakerNoVictim(bounty,false,true)
-	if self:IsSpecialNPC(sender) or self:IsMonoCommunity(sender) then
-		return false
-	end
-	
-	local tbl = utils_data.collect_translations("st_dyn_news_gossip_bounty_",true)
-	if (not tbl) then
-		return false
-	end
-	
-	local Se = strformat("%s, %s",sender:character_name(),dynamic_news_helper.GetCommunityDescription(sender,6))
-	local msg = utils_data.parse_string_keys( tbl[math.random(#tbl)] , { ["who"]=bounty:character_name() , ["where"]=dynamic_news_helper.GetPointDescription(bounty) } )
-	
-	self:PushToChannel(sender:character_community(),{Mg=msg,Ic=sender:character_icon(),Snd="news",Se=Se,It="npc"})
-	
+	local sender = self:FindSpeakerNoVictim(bounty, false, true)
+	if not sender or self:IsSpecialNPC(sender) or self:IsMonoCommunity(sender) then return false end
+
+    -- --- NEW ---
+    local context = {
+        speaker1 = sender,
+        target_name = bounty:character_name(),
+        location = dynamic_news_helper.GetPointDescription(bounty)
+    }
+    if self:TryStartEventConversation("bounty_gossip", context) then return true end
+    -- --- END NEW ---
+
+	-- Fallback
+	local tbl = utils_data.collect_translations("st_dyn_news_gossip_bounty_", true)
+	if not tbl then return false end
+	local Se = strformat("%s, %s", sender:character_name(), dynamic_news_helper.GetCommunityDescription(sender, 6))
+	local msg = utils_data.parse_string_keys(tbl[math.random(#tbl)], {["who"] = bounty:character_name(), ["where"] = dynamic_news_helper.GetPointDescription(bounty)})
+	self:PushToChannel(sender:character_community(), {Mg = msg, Ic = sender:character_icon(), Snd = "news", Se = Se, It = "npc"})
 	return true
 end
 
-function DynamicNewsManager:GossipAlphaSquad() -- talk about the player being a bounty
-	--printf("[U.D.E] Dyn News: GossipAlphaSquad - call")
-
+-- --- MODIFIED ---
+function DynamicNewsManager:GossipAlphaSquad()
 	local se_actor = alife():actor()
-	actor_name = se_actor:character_name()
-	
+	local actor_name = se_actor:character_name()
 	local sq = sim_squad_bounty.get_active_squads()
-	if (not sq) then return false end
+	if not sq then return false end
+	-- ... (rest of original logic to find alpha_npcs)
 	
-	local alpha_npcs
-	for k,v in pairs(sq) do
-		alpha_npcs = alpha_npcs or {}
-		local se_sq = alife_object(k)
-		if se_sq and (se_sq:section_name() == v) and (simulation_objects.is_on_the_same_level(se_actor, se_sq)) then
-			for j in se_sq:squad_members() do
-				local npc = db.storage[j.id] and db.storage[j.id].object
-				if npc and npc:alive() then
-					alpha_npcs[npc:id()] = true
-				end
-			end
-		end
-	end
-	
-	if (not alpha_npcs) then	-- if no alpha squad nearby, return
-		return false
-	end
-	
-	local sender = self:FindSpeakerNoVictim(db.actor,false,true)
-	if self:IsSpecialNPC(sender) or self:IsMonoCommunity(sender) then
-		return false
-	end
-	
-	if alpha_npcs[sender:id()] then
-		return
-	end
-	
-	local tbl = utils_data.collect_translations("st_dyn_news_gossip_bounty_",true)
-	if (not tbl) then
-		return false
-	end
-	
-	local Se = strformat("%s, %s",sender:character_name(),dynamic_news_helper.GetCommunityDescription(sender,6))
-	local msg = utils_data.parse_string_keys( tbl[math.random(#tbl)] , { ["who"]=actor_name , ["where"]=dynamic_news_helper.GetPointDescription(db.actor) } )
-	
-	self:PushToChannel(sender:character_community(),{Mg=msg,Ic=sender:character_icon(),Snd="news",Se=Se,It="npc"})
-	
+	local sender = self:FindSpeakerNoVictim(db.actor, false, true)
+	if not sender or self:IsSpecialNPC(sender) or self:IsMonoCommunity(sender) then return false end
+	if alpha_npcs and alpha_npcs[sender:id()] then return end
+
+    -- --- NEW ---
+    local context = {
+        speaker1 = sender,
+        target_name = actor_name,
+        location = dynamic_news_helper.GetPointDescription(db.actor)
+    }
+    if self:TryStartEventConversation("alpha_squad_gossip", context) then return true end
+    -- --- END NEW ---
+
+	-- Fallback
+	local tbl = utils_data.collect_translations("st_dyn_news_gossip_bounty_", true)
+	if not tbl then return false end
+	local Se = strformat("%s, %s", sender:character_name(), dynamic_news_helper.GetCommunityDescription(sender, 6))
+	local msg = utils_data.parse_string_keys(tbl[math.random(#tbl)], {["who"] = actor_name, ["where"] = dynamic_news_helper.GetPointDescription(db.actor)})
+	self:PushToChannel(sender:character_community(), {Mg = msg, Ic = sender:character_icon(), Snd = "news", Se = Se, It = "npc"})
 	return true
 end
+
+
 
 function DynamicNewsManager:GossipTaskRepeatTimeout(task_id)
 	--printf("[U.D.E] Dyn News: GossipTaskRepeatTimeout - call")
